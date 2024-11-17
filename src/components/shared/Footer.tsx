@@ -21,7 +21,7 @@ const Footer = () => {
   return (
     <div className="py-12 container mx-auto">
       <PageHeaderText
-        className="text-center max-w-lg mx-auto"
+        className="text-center max-w-3xl mx-auto"
         label="A software development company specializing in scalable AI and data solutions that drive lasting impact."
       />
       <div className="flex items-center gap-4">

@@ -7,7 +7,7 @@ const PageHeaderText = ({
   label: string;
   className?: string;
 }) => {
-  return <p className={`text-3xl font-semibold pb-6 ${className}`}>{label}</p>;
+  return <p className={`text-5xl font-semibold pb-6 ${className}`}>{label}</p>;
 };
 
 export default PageHeaderText;
