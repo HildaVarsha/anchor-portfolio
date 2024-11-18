@@ -20,14 +20,14 @@ const TopNavbar = () => {
   const pathname = usePathname(); // Get the current path
 
   useEffect(() => {
-    if (pathname !== "/") return; // Only add the scroll listener for the home page
+    if (pathname === "/about-company") return; // Only add the scroll listener for the home page
     const handleScroll = () => setIsScrolled(window.scrollY > 0);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, [pathname]);
 
   const navbarBackground =
-    pathname === "/"
+    pathname !== "/about-company"
       ? isScrolled
         ? "bg-black text-white shadow-lg"
         : "bg-transparent"
@@ -70,7 +70,7 @@ const TopNavbar = () => {
           <Link href="/about-company" className="hover:text-amber-400">
             Company
           </Link>
-          <Link href="/" className="hover:text-amber-400">
+          <Link href="/career" className="hover:text-amber-400">
             Career
           </Link>
           <Button variant={"outline"}>Contact Us</Button>

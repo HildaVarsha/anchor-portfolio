@@ -1,0 +1,33 @@
+import Image from "next/image";
+import React from "react";
+import { PageHeaderText } from "../shared";
+
+const CareerJoinOurTeam = () => {
+  return (
+    <div className="bg-white">
+      <div className="container mx-auto py-16 flex items-center gap-12 w-full text-slate-800">
+        <div className="w-full">
+          <PageHeaderText label="Join our team" className="text-slate-800" />
+          <p className="py-6">
+            Look for open positions that suit your interest and skills. We are
+            looking for team members who are passionate, curious, imaginative
+            and concentrated on solutions.
+          </p>
+          <p className="">
+            If you hide behind policies and processes because, secretly, you’re
+            terrified of owning ideas or decisions, you too will think it sucks.
+          </p>
+        </div>
+        <Image
+          src={"/join-team.png"}
+          alt="Join Ou Team"
+          width={400}
+          height={400}
+          className="w-full h-[400px]"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default CareerJoinOurTeam;
