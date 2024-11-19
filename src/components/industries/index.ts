@@ -1,0 +1,9 @@
+export { default as IndustriesBanner } from "./IndustriesBanner";
+export { default as IndustriesWeServe } from "./IndustriesWeServe";
+export { default as IndustrialRetail } from "./IndustrialRetail";
+export { default as IndustriesDrivingDigital } from "./IndustriesDrivingDigital";
+export { default as IndustriesLifeScience } from "./IndustriesLifeScience";
+export { default as IndustriesConsumer } from "./IndustriesConsumer";
+export { default as IndustriesTechnology } from "./IndustriesTechnology";
+export { default as IndustriesUtilityEnergy } from "./IndustriesUtilityEnergy";
+export { default as IndustriesFuture } from "./IndustriesFuture";

@@ -64,7 +64,7 @@ const TopNavbar = () => {
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
-          <Link href="/" className="hover:text-amber-400">
+          <Link href="/industries" className="hover:text-amber-400">
             Industries
           </Link>
           <Link href="/about-company" className="hover:text-amber-400">
