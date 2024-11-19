@@ -57,9 +57,24 @@ const TopNavbar = () => {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger>Services</NavigationMenuTrigger>
-                <NavigationMenuContent className="p-4 w-full">
-                  <NavigationMenuLink>Link</NavigationMenuLink>
+                <NavigationMenuTrigger className="text-white">
+                  Services
+                </NavigationMenuTrigger>
+                <NavigationMenuContent className="w-full rounded-none p-4 flex flex-col">
+                  <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer ">
+                    <Link href={"/services/graphic-design"}>
+                      Graphic Design
+                    </Link>
+                  </NavigationMenuLink>
+                  <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer boder-b border-slate-700">
+                    <Link href={"/"}>Software Development</Link>
+                  </NavigationMenuLink>
+                  <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer boder-b border-slate-700">
+                    <Link href={"/"}>Hosting Service</Link>
+                  </NavigationMenuLink>
+                  <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer boder-b border-slate-700">
+                    <Link href={"/"}>Digital Marketting</Link>
+                  </NavigationMenuLink>
                 </NavigationMenuContent>
               </NavigationMenuItem>
             </NavigationMenuList>
