@@ -1,0 +1,28 @@
+import React from "react";
+import Image from "next/image";
+
+const IndustriesDrivingDigital = () => {
+  return (
+    <div className="py-12 bg-white">
+      <Image
+        src={"/driving-digital.png"}
+        alt="Retail Information"
+        width={500}
+        height={500}
+        className="w-full"
+      />
+      <div className="bg-amber-400 text-slate-800">
+        <div className="max-w-2xl mx-auto py-12">
+          Navigating today&apos;s fast-paced digital era requires reimagining
+          consumer interactions, modernizing processes, and exploring new
+          business models. Anchor Informatics specializes in leveraging digital
+          advancements, smart tech, and AI-driven solutions to drive
+          transformation. We help companies evolve in this digital-first world,
+          paving the way for dynamic “as-a-service” models and future growth.
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default IndustriesDrivingDigital;
