@@ -58,7 +58,7 @@ const services = [
 const HomeHowCanHelp = () => {
   return (
     <div className="bg-amber-400 py-12">
-      <div className="container mx-auto text-slate-900">
+      <div className="px-4 md:px-0 md:container mx-auto text-slate-900">
         <PageHeaderText
           label="How we can help you"
           className="text-slate-800"
@@ -68,9 +68,9 @@ const HomeHowCanHelp = () => {
             key={service.id}
             className={`${
               index === 0 ? "border-y" : "border-b"
-            } border-[#00000026] flex justify-between w-full py-4`}
+            } border-[#00000026] flex flex-col md:flex-row justify-between w-full py-4`}
           >
-            <div className="w-full">
+            <div className="w-full mb-4 md:mb-0">
               <Image
                 src={service.imageSrc}
                 alt={service.title}

@@ -13,19 +13,15 @@ import { PageHeaderText } from "../shared";
 
 const HomeClientSays = () => {
   return (
-    <div className="container mx-auto py-12">
+    <div className="px-8 md:px-0 md:container mx-auto py-12">
       <Carousel className="w-full">
         <div className="flex items-center justify-between gap-4">
           <PageHeaderText label={"What clients say about us"} />
-          <div className="flex items-center gap-4">
-            <CarouselPrevious />
-            <CarouselNext />
-          </div>
         </div>
         <CarouselContent className="pt-4">
           {Array.from({ length: 5 }).map((_, index) => (
             <CarouselItem key={index}>
-              <div className="p-4 flex items-center justify-between gap-12">
+              <div className="p-4 flex  flex-col md:flex-row items-center justify-between gap-12">
                 <div className="flex items-center gap-6 w-full">
                   <Avatar>
                     <AvatarImage src="https://github.com/shadcn.png" />
@@ -53,6 +49,8 @@ const HomeClientSays = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
       </Carousel>
     </div>
   );
