@@ -19,9 +19,9 @@ const Footer = () => {
     },
   ];
   return (
-    <div className="py-12 container mx-auto">
+    <div className="py-12 px-4 md:px-0 md:container mx-auto">
       <PageHeaderText
-        className="text-center max-w-3xl mx-auto"
+        className="text-center text-xl md:text-5xl  md:max-w-3xl mx-auto"
         label="A software development company specializing in scalable AI and data solutions that drive lasting impact."
       />
       <div className="flex items-center gap-4">

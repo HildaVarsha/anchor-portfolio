@@ -40,7 +40,7 @@ const HomeLatestTechnology = () => {
 
   return (
     <div className="bg-white py-12">
-      <div className="container mx-auto text-slate-800">
+      <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
         <PageHeaderText
           label={"Latest Technologies"}
           className="text-slate-800"

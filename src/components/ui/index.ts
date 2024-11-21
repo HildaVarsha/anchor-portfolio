@@ -6,3 +6,4 @@ export * from "./accordion";
 export * from "./input";
 export * from "./checkbox";
 export * from "./form";
+export * from "./sheet";

@@ -17,7 +17,7 @@ const HomeBanner = () => {
         />
       </video>
 
-      <div className="relative container mx-auto text-white px-4 md:px-0 z-10">
+      <div className="relative  md:container mx-auto text-white px-4 md:px-0 z-10">
         <p className="text-3xl md:text-5xl font-bold text-amber-400">
           We Drive Digital
         </p>

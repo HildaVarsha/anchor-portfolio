@@ -54,12 +54,12 @@ const ContactUs = () => {
       }}
       className="py-12"
     >
-      <div className="container mx-auto">
+      <div className="px-4 md:px-0 md:container mx-auto">
         <h1 className="text-4xl font-bold text-white mb-8">Contact Us</h1>
         {/* Wrap the form with FormProvider to provide context */}
         <FormProvider {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-            <div className="flex gap-16">
+            <div className="flex flex-col md:flex-row gap-4 md:gap-16">
               <FormField
                 control={form.control}
                 name="name"
@@ -88,7 +88,7 @@ const ContactUs = () => {
               />
             </div>
 
-            <div className="flex  gap-16 mt-8">
+            <div className="flex  flex-col md:flex-row gap-4 md:gap-16 mt-8">
               <FormField
                 control={form.control}
                 name="email"
@@ -117,7 +117,7 @@ const ContactUs = () => {
               />
             </div>
 
-            <div className="flex items-center gap-16 mt-8">
+            <div className="flex flex-col md:flex-row items-center gap-4 md:gap-16 mt-8">
               <div className="flex gap-4 w-full">
                 <Paperclip className="text-amber-500 w-6 h-6" />
                 <div>
