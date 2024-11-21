@@ -49,8 +49,8 @@ const HomeClientSays = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className=" -left-1 md:-left-12" />
+        <CarouselNext className="right-1 md:-right-12" />
       </Carousel>
     </div>
   );
