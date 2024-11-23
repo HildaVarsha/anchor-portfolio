@@ -19,11 +19,11 @@ const MarkettingExperts = () => {
       <div className="py-12 bg-amber-400">
         <p className="max-w-4xl mx-auto text-slate-800">
           &quot;With our full-service digital marketing solutions, we handle
-          everything from crafting your brand's messaging to implementing
+          everything from crafting your brand&apos;s messaging to implementing
           targeted strategies across multiple channels. As your trusted
-          marketing partner, we’re here to address any challenges and deliver a
-          seamless, high-performance marketing campaign tailored to your
-          business goals.&quot;
+          marketing partner, we&apos;re here to address any challenges and
+          deliver a seamless, high-performance marketing campaign tailored to
+          your business goals.&quot;
         </p>
       </div>
     </div>
