@@ -62,10 +62,14 @@ const TopNavbar = () => {
                   </Link>
                 </NavigationMenuLink>
                 <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer boder-b border-slate-700">
-                  <Link href={"/"}>Hosting Service</Link>
+                  <Link href={"/services/hosting-service"}>
+                    Hosting Service
+                  </Link>
                 </NavigationMenuLink>
                 <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer boder-b border-slate-700">
-                  <Link href={"/"}>Digital Marketting</Link>
+                  <Link href={"/services/digital-marketting"}>
+                    Digital Marketting
+                  </Link>
                 </NavigationMenuLink>
               </NavigationMenuContent>
             </NavigationMenuItem>

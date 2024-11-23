@@ -1,7 +1,24 @@
+import {
+  HostingAbout,
+  HostingBanner,
+  HostingExperts,
+  HostingServices,
+  HostingStayAhead,
+  HostingTechnology,
+} from "@/components/hostingService";
 import React from "react";
 
 const HostingService = () => {
-  return <div>HostingService</div>;
+  return (
+    <div>
+      <HostingBanner />
+      <HostingAbout />
+      <HostingServices />
+      <HostingExperts />
+      <HostingStayAhead />
+      <HostingTechnology />
+    </div>
+  );
 };
 
 export default HostingService;
