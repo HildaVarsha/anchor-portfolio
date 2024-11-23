@@ -19,7 +19,7 @@ const HostingServices = () => {
       </div>
       <div className="py-12 bg-amber-400">
         <p className="max-w-4xl mx-auto text-slate-800">
-          AAs a leading provider of hosting solutions for enterprises, Anchor
+          As a leading provider of hosting solutions for enterprises, Anchor
           Informatics can meet any hosting need, regardless of industry. Build a
           high-performance, secure online presence with the ideal infrastructure
           and tools for fast, reliable results. Our hosting services are
