@@ -4,18 +4,18 @@ import { PageHeaderText } from "../shared";
 import { Button } from "../ui";
 import { ArrowRight } from "lucide-react";
 
-const HostingBanner = () => {
+const MarkettingBanner = () => {
   return (
     <div className="h-screen bg-[#02132B] relative">
       <div className="container mx-auto flex flex-col justify-center h-full">
         <PageHeaderText
-          label="Hosting solutions tailored to elevate your online presence and meet your business needs."
+          label="Personalized digital marketing services tailored to your business needs."
           className="max-w-2xl"
         />
         <p className="max-w-2xl py-4">
           &quot;Build a unique online presence and accelerate business growth
-          with comprehensive hosting Service Solution marketing services from
-          Anchor Informatics.&quot;
+          with comprehensive digital marketing services from Anchor
+          Informatics.&quot;
         </p>
         <Button className="w-fit">
           Get In Touch
@@ -33,4 +33,4 @@ const HostingBanner = () => {
   );
 };
 
-export default HostingBanner;
+export default MarkettingBanner;
