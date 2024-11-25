@@ -40,9 +40,9 @@ const MobileAppAbout = () => {
           &quot;With over a decade of experience building successful Mobile
           Apps, we have the expertise to create something remarkable for you. No
           matter the challenge, there are few aspects of App development we
-          haven't encountered. Leverage our App development services to craft
-          seamless, captivating web experiences. The Anchor development team
-          provides:&quot;
+          haven&apos;t encountered. Leverage our App development services to
+          craft seamless, captivating web experiences. The Anchor development
+          team provides:&quot;
         </p>
         <div className="pt-4 grid grid-cols-3 gap-12">
           {mobileAppServices.map((service, index) => (
