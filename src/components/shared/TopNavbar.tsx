@@ -71,6 +71,16 @@ const TopNavbar = () => {
                     Digital Marketting
                   </Link>
                 </NavigationMenuLink>
+                <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer boder-b border-slate-700">
+                  <Link href={"/services/mobile-applications"}>
+                    Mobile Applications
+                  </Link>
+                </NavigationMenuLink>
+                <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer boder-b border-slate-700">
+                  <Link href={"/services/web-applications"}>
+                    Web Applications
+                  </Link>
+                </NavigationMenuLink>
               </NavigationMenuContent>
             </NavigationMenuItem>
           </NavigationMenuList>
