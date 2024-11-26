@@ -11,7 +11,7 @@ const WebAppStayAhead = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="text-5xl mx-auto font-bold max-w-4xl">
+        <p className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold max-w-4xl">
           Stay Ahead of the Curve with Our
           <span className="text-amber-400">
             {" "}
@@ -21,7 +21,7 @@ const WebAppStayAhead = () => {
         </p>
       </div>
       <div className="py-12  bg-white">
-        <p className="max-w-4xl mx-auto text-slate-800">
+        <p className="px-4 md:px-0 md:max-w-4xl mx-auto text-slate-800">
           Our mission is to elevate businesses like yours to new heights. At
           Anchor Informatics, we&apos;re more than just experts in custom web
           development; we&apos;re innovators committed to turning the latest

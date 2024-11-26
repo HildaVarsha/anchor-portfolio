@@ -5,7 +5,7 @@ import { PageHeaderText } from "../shared";
 const CareerLifeAtAnchor = () => {
   return (
     <div className="bg-white py-16 ">
-      <div className="container mx-auto flex items-center justify-between text-slate-800 gap-12">
+      <div className="px-4 md:px-0 md:container mx-auto flex flex-col md:flex-row items-center justify-between text-slate-800 gap-12">
         <Image
           src={"/your-life-at.png"}
           alt="Anchor Informatics Life"

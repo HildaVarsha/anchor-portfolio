@@ -26,10 +26,10 @@ const workProgressData = [
 const AboutOurWorkProgress = () => {
   return (
     <div className="bg-amber-400 py-12">
-      <div className="container mx-auto">
+      <div className="px-4 md:px-0 md:container mx-auto">
         <PageHeaderText label="Our Work Process" className="text-slate-800" />
-        <div className="flex items-center justify-between pt-8 gap-16">
-          {workProgressData.map(({ imgSrc, title, description }, index) => (
+        <div className="flex flex-col md:flex-row items-center justify-between pt-8 gap-16">
+          {workProgressData?.map(({ imgSrc, title, description }, index) => (
             <div key={index} className="flex flex-col items-center">
               <Image src={imgSrc} alt={title} width={100} height={100} />
               <p className="text-slate-800 font-semibold text-xl py-4">

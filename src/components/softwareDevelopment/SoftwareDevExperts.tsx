@@ -11,14 +11,14 @@ const SoftwareDevExperts = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="text-5xl mx-auto font-bold max-w-4xl">
+        <p className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold max-w-4xl">
           &quot;<span className="text-amber-400">Experts guiding</span>
           you through every step of your software development and redevelopment
           journey.&quot;
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="max-w-4xl mx-auto text-slate-800">
+        <p className="px-4 md:px-0 md:max-w-4xl mx-auto text-slate-800">
           &quot;With our full-service software development solutions, we handle
           everything from building your application architecture to ensuring
           seamless, high-performance functionality. As your trusted development

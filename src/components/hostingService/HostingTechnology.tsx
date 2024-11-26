@@ -33,7 +33,7 @@ const HostingTechnology = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="container mx-auto">
+        <div className="px-4 md:px-0 md:container mx-auto">
           <p className="text-5xl mx-auto font-bold max-w-4xl">Technologies</p>
           <p className="text-amber-400 text-5xl mx-auto font-bold max-w-4xl">
             we work with
@@ -41,7 +41,7 @@ const HostingTechnology = () => {
         </div>
       </div>
       <div className="py-12 bg-white">
-        <div className="container mx-auto grid grid-cols-4 gap-12 text-slate-800">
+        <div className="px-4 md:px-0 md:container mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-slate-800">
           {technologies?.map((tech, index) => (
             <div key={index}>
               <p className="text-2xl font-semibold">{tech.title}</p>

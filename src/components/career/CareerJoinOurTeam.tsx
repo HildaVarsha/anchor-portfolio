@@ -5,7 +5,7 @@ import { PageHeaderText } from "../shared";
 const CareerJoinOurTeam = () => {
   return (
     <div className="bg-white">
-      <div className="container mx-auto py-16 flex items-center gap-12 w-full text-slate-800">
+      <div className="px-4 md:px-0 md:container mx-auto py-16 flex flex-col md:flex-row items-center gap-12 w-full text-slate-800">
         <div className="w-full">
           <PageHeaderText label="Join our team" className="text-slate-800" />
           <p className="py-6">

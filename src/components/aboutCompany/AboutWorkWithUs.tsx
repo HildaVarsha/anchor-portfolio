@@ -38,7 +38,7 @@ const accordionItems = [
 const AboutWorkWithUs = () => {
   return (
     <div className="bg-amber-300 py-12 text-slate-800">
-      <div className="container mx-auto">
+      <div className="px-4 md:px-0 md:container mx-auto">
         <PageHeaderText label="Why work with us" className="text-slate-800" />
         <Accordion type="single" collapsible className="w-full ">
           {accordionItems.map(({ title, content }, index) => (

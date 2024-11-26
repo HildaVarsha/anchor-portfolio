@@ -2,11 +2,11 @@ import React from "react";
 
 const AboutCompanyFacts = () => {
   return (
-    <div className="max-w-lg mx-auto py-24">
-      <p className="text-5xl font-semibold pb-6 text-center">
+    <div className="px-4 md:px-0 md:max-w-lg mx-auto py-24">
+      <p className="text-2xl md:text-5xl font-semibold pb-6 text-center">
         <span className="text-amber-400">Key facts</span> about us
       </p>
-      <div className="flex items-center justify-between pt-8">
+      <div className="flex  items-center justify-between pt-8">
         <div>
           <p className="text-5xl font-semibold text-amber-400">560</p>
           <p>Projects Done</p>
