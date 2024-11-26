@@ -7,7 +7,7 @@ import Link from "next/link";
 const AboutCompanyBanner = () => {
   return (
     <div className="bg-amber-300 h-[600px] pt-24 relative">
-      <div className="container mx-auto text-slate-800 flex flex-col justify-center h-full">
+      <div className="px-4 md:px-0 md:container mx-auto text-slate-800 flex flex-col justify-center h-full">
         <div>
           <p className="text-3xl md:text-5xl font-bold ">We&apos;re leading</p>
           <p className="text-3xl md:text-5xl font-bold py-2 text-slate-800">
@@ -30,7 +30,7 @@ const AboutCompanyBanner = () => {
         alt="About Anchor Informatics"
         height={800}
         width={800}
-        className="absolute top-0 right-8"
+        className="absolute top-4 md:top-0 right-8"
       />
     </div>
   );

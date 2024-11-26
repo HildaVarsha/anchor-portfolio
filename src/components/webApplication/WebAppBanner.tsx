@@ -7,12 +7,12 @@ import { ArrowRight } from "lucide-react";
 const WebAppBanner = () => {
   return (
     <div className="h-screen bg-[#02132B] relative">
-      <div className="container mx-auto flex flex-col justify-center h-full">
+      <div className="px-4 md:px-0 md:container mx-auto flex flex-col justify-center h-full">
         <PageHeaderText
           label="Personalized web development services"
-          className="max-w-2xl"
+          className="w-full md:max-w-2xl"
         />
-        <p className="max-w-2xl py-4">
+        <p className="md:max-w-2xl py-4">
           &quot;Create a distinctive online presence and drive business growth
           with comprehensive custom web development services from Anchor
           Informatics.&quot;
@@ -27,7 +27,7 @@ const WebAppBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute top-24 right-32"
+        className="absolute hidden md:flex top-24 right-32"
       />
     </div>
   );

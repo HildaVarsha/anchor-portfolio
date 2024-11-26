@@ -12,12 +12,12 @@ const AboutSuccessbanner = () => {
       }}
       className="py-12 h-[400px]"
     >
-      <div className="container mx-auto flex flex-col items-center justify-center h-full">
+      <div className="px-4 md:px-0 md:container mx-auto flex flex-col items-center justify-center h-full">
         <PageHeaderText
           label="We are hungrrrrry
 "
         />
-        <p className="text-5xl font-semibold text-amber-400">
+        <p className="text-2xl md:text-5xl font-semibold text-amber-400">
           for your success
         </p>
       </div>

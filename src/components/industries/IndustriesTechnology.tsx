@@ -64,7 +64,7 @@ const industries = [
 const IndustriesTechnology = () => {
   return (
     <div className="bg-white">
-      <div className="container mx-auto py-16 text-slate-800 grid grid-cols-3 gap-12">
+      <div className="px-4 md:px-0 md:container mx-auto py-16 text-slate-800 grid grid-cols-1 md:grid-cols-3 gap-12">
         {industries.map((industry, index) => (
           <div key={index}>
             <p className="font-semibold text-3xl pb-4">{industry.title}</p>

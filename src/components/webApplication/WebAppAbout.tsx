@@ -34,7 +34,7 @@ const webServices = [
 const WebAppAbout = () => {
   return (
     <div className="bg-white text-slate-800">
-      <div className="container py-16 mx-auto">
+      <div className="px-4 md:px-0 md:container py-16 mx-auto">
         <PageHeaderText label="Our custom web development services empower you to stand out from the crowd" />
         <p className="py-4 text-lg">
           &quot;With over a decade of experience building successful web
@@ -44,7 +44,7 @@ const WebAppAbout = () => {
           services to craft seamless, captivating web experiences. The Anchor
           Informatics team provides:&quot;
         </p>
-        <div className="pt-4 grid grid-cols-3 gap-12 mb-4">
+        <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-12 mb-4">
           {webServices?.map((service, index) => (
             <div key={index}>
               <h3 className="font-semibold text-xl pb-4">{service.title}</h3>
@@ -53,7 +53,7 @@ const WebAppAbout = () => {
           ))}
         </div>
         <Button>
-          Request our custom web development services <ArrowRight />
+          Request our custom web services <ArrowRight />
         </Button>
       </div>
     </div>

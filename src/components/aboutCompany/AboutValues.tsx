@@ -34,7 +34,7 @@ const values = [
 
 const AboutValues = () => {
   return (
-    <div className="max-w-xl mx-auto py-12">
+    <div className="px-4 md:px-0 md:max-w-xl mx-auto py-12">
       <PageHeaderText
         label="We live by powerful values:"
         className="text-amber-400"

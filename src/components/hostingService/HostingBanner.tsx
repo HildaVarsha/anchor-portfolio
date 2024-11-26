@@ -7,10 +7,10 @@ import { ArrowRight } from "lucide-react";
 const HostingBanner = () => {
   return (
     <div className="h-screen bg-[#02132B] relative">
-      <div className="container mx-auto flex flex-col justify-center h-full">
+      <div className="px-4 md:px-0 md:container mx-auto flex flex-col justify-center h-full">
         <PageHeaderText
           label="Hosting solutions tailored to elevate your online presence and meet your business needs."
-          className="max-w-2xl"
+          className="w-full md:max-w-2xl"
         />
         <p className="max-w-2xl py-4">
           &quot;Build a unique online presence and accelerate business growth
@@ -27,7 +27,7 @@ const HostingBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute top-24 right-32"
+        className="absolute hidden md:flex top-24 right-32"
       />
     </div>
   );

@@ -4,7 +4,7 @@ import { PageHeaderText } from "../shared";
 const IndustriesLifeScience = () => {
   return (
     <div className="bg-white py-16 ">
-      <div className="container mx-auto text-slate-800">
+      <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
         <PageHeaderText label="Life Sciences Consulting" className="" />
         <p className="text-lg pt-4">
           At Anchor Informatics, we partner with life sciences companies to

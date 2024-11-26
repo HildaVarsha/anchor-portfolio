@@ -11,13 +11,13 @@ const HostingExperts = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="text-5xl mx-auto font-bold max-w-4xl">
+        <p className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold max-w-4xl">
           &quot;<span className="text-amber-400">Experts guiding</span>
           you through every step of your Hosting Service journey.&quot;
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="max-w-4xl mx-auto text-slate-800">
+        <p className="px-4 md:px-0 md:max-w-4xl mx-auto text-slate-800">
           &quot;With our full-service hosting solutions, we handle everything
           from setting up your website infrastructure to ensuring reliable,
           high-speed performance. As your trusted hosting partner, we’re here to

@@ -12,7 +12,7 @@ const IndustriesDrivingDigital = () => {
         className="w-full"
       />
       <div className="bg-amber-400 text-slate-800">
-        <div className="max-w-2xl mx-auto py-12">
+        <div className="px-4 md:px-0 md:max-w-2xl mx-auto py-12">
           Navigating today&apos;s fast-paced digital era requires reimagining
           consumer interactions, modernizing processes, and exploring new
           business models. Anchor Informatics specializes in leveraging digital

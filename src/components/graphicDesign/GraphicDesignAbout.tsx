@@ -33,7 +33,7 @@ const designServices = [
 
 const GraphicDesignAbout = () => (
   <div className="bg-white text-slate-800">
-    <div className="container py-16 mx-auto">
+    <div className="px-4 md:px-0 md:container py-16 mx-auto">
       <PageHeaderText label="Our design services help your brand make a lasting impression and stand out." />
       <p className="py-4 text-lg">
         &quot;With over a decade of experience in delivering impactful graphic
@@ -43,7 +43,7 @@ const GraphicDesignAbout = () => (
         memorable visuals tailored to your needs. The Anchor Design team
         provides:&quot;
       </p>
-      <div className="pt-4 grid grid-cols-3 gap-12">
+      <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-12">
         {designServices.map((service, index) => (
           <div key={index}>
             <h3 className="font-semibold text-xl pb-4">{service.title}</h3>
