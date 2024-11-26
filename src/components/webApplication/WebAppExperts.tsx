@@ -1,0 +1,32 @@
+import React from "react";
+
+const WebAppExperts = () => {
+  return (
+    <div>
+      <div
+        className="bg-white py-16 h-[400px] flex items-center"
+        style={{
+          backgroundImage: "url('/graphic-experts.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <p className="text-5xl mx-auto font-bold max-w-4xl">
+          &quot;<span className="text-amber-400">Experts supporting</span>
+          every step of your web development journey.&quot;
+        </p>
+      </div>
+      <div className="py-12 bg-amber-400">
+        <p className="max-w-4xl mx-auto text-slate-800">
+          &quot;With our full-stack custom web development services, we handle
+          everything from crafting the UI of your web solution to developing the
+          algorithms and databases behind it. As your trusted software
+          development partner, we’re here to solve any tech challenges you
+          face.&quot;
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default WebAppExperts;
