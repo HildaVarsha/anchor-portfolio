@@ -2,27 +2,27 @@ import React from "react";
 
 const technologies = [
   {
-    title: "Load Balancing",
-    description: "Distributes incoming traffic across multiple servers",
+    title: "Data Science",
+    description:
+      "Data Collection,Data Cleaning,Exploratory Data Analysis,Feature Engineering",
   },
   {
-    title: "Content Delivery Network",
+    title: "Cloud computing",
     description:
-      "Uses a network of servers across locations to deliver content faster to users.",
+      "Hosting websites and applications,Data backup and disaster recovery,Big data analytics and AI/ML workloads.",
   },
   {
-    title: "Database Optimization",
+    title: "Machine learning",
     description:
-      "Regularly maintains and cleans up the database to reduce load time.",
+      "Recommendation Systems,Chatbots and Virtual Assistants,Predictive Analytics",
   },
   {
-    title: "Automatic Scaling",
+    title: "Block Chain",
     description:
-      "Adjusts server resources automatically in response to real-time traffic demands.",
+      "Cryptocurrency Payments,Decentralized Applications ,Data Integrity",
   },
 ];
-
-const HostingTechnology = () => {
+const WebAppTechnology = () => {
   return (
     <div>
       <div
@@ -42,7 +42,7 @@ const HostingTechnology = () => {
       </div>
       <div className="py-12 bg-white">
         <div className="container mx-auto grid grid-cols-4 gap-12 text-slate-800">
-          {technologies?.map((tech, index) => (
+          {technologies.map((tech, index) => (
             <div key={index}>
               <p className="text-2xl font-semibold">{tech.title}</p>
               <p className="py-4">{tech.description}</p>
@@ -54,4 +54,4 @@ const HostingTechnology = () => {
   );
 };
 
-export default HostingTechnology;
+export default WebAppTechnology;
