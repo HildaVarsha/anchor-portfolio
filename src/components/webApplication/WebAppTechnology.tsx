@@ -2,24 +2,20 @@ import React from "react";
 
 const technologies = [
   {
-    title: "Data Science",
-    description:
-      "Data Collection,Data Cleaning,Exploratory Data Analysis,Feature Engineering",
+    title: "Front-End",
+    description: "React js,Next js,Vue js,Angular js,etc.",
   },
   {
-    title: "Cloud computing",
-    description:
-      "Hosting websites and applications,Data backup and disaster recovery,Big data analytics and AI/ML workloads.",
+    title: "Backend",
+    description: ".NET,Node js,Python,etc.",
   },
   {
-    title: "Machine learning",
-    description:
-      "Recommendation Systems,Chatbots and Virtual Assistants,Predictive Analytics",
+    title: "Databases",
+    description: "MS SQL,PostgresSQL,MySQL,MongoDB,etc.",
   },
   {
-    title: "Block Chain",
-    description:
-      "Cryptocurrency Payments,Decentralized Applications ,Data Integrity",
+    title: "Cloud",
+    description: "Amazon Web Services,Google cloud Platform,Microsoft Azure.",
   },
 ];
 const WebAppTechnology = () => {
