@@ -1,0 +1,9 @@
+export { default as DotNetBanner } from "./DotNetBanner";
+export { default as DotNetServices } from "./DotNetServices";
+export { default as DotNetEnterprise } from "./DotNetEnterprise";
+export { default as DotNetProcess } from "./DotNetProcess";
+export { default as DotNetTechnology } from "./DotNetTechnology";
+export { default as DotNetEngagement } from "./DotNetEngagement";
+export { default as DotNetWhyChoose } from "./DotNetWhyChoose";
+export { default as DotNetWhyChooseAnchor } from "./DotNetWhyChooseAnchor";
+export { default as DotNetClients } from "./DotNetClients";
