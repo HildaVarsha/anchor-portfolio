@@ -1,29 +1,25 @@
 import React from "react";
 import Image from "next/image";
 import { PageHeaderText } from "../shared";
-import { Button } from "../ui";
-import { ArrowRight } from "lucide-react";
+import HireJavaDeveloperButton from "./HireJavaDeveloperButton";
 
-const DotNetBanner = () => {
+const JavaBanner = () => {
   return (
     <div className="h-screen bg-[#0E0B0A] relative">
       <div className="px-4 md:px-0 md:container mx-auto flex flex-col justify-center h-full">
         <PageHeaderText
-          label="Top-tier .NET development services by skilled professionals."
+          label="A leading Java development company with top-tier talent"
           className="w-full md:max-w-2xl"
         />
         <p className="md:max-w-2xl py-4">
-          Partner with Anchor Informatics, a leading .NET development company
-          and a trusted Microsoft Gold Partner, to elevate your enterprise with
-          a tailor-made .NET solution that is robust, scalable, and secure.
+          At Anchor Informatics, our Java community offers a comprehensive suite
+          of Java development services designed to deliver lasting value and
+          drive business transformation.
         </p>
-        <Button className="w-fit">
-          Hire .NET developers
-          <ArrowRight />
-        </Button>
+        <HireJavaDeveloperButton />
       </div>
       <Image
-        src="/dot-net.png"
+        src="/java-banner.png"
         alt="About Anchor Informatics"
         height={500}
         width={500}
@@ -33,4 +29,4 @@ const DotNetBanner = () => {
   );
 };
 
-export default DotNetBanner;
+export default JavaBanner;
