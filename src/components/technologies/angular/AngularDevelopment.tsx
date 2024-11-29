@@ -34,9 +34,9 @@ const AngularDevelopment = () => {
       <div className="py-12 bg-amber-400">
         <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
           For an Angular application built with best coding practices, you need
-          the right development partner—and you've found it. Anchor Informatics
-          highly skilled Angular development team is equipped to meet any of
-          your requirements, no matter how complex.
+          the right development partner—and you`&apos;`ve found it. Anchor
+          Informatics highly skilled Angular development team is equipped to
+          meet any of your requirements, no matter how complex.
         </p>
       </div>
       <div className="py-12 bg-white">
