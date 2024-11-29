@@ -43,7 +43,7 @@ const AngularServices = () => {
         <PageHeaderText label="Our Angular development services — What we can do" />
         <p className="py-4 text-lg">
           With an agile mindset and a business-driven approach, our skilled
-          Angular developers can bring your ideas to life using Angular`&apos;`s
+          Angular developers can bring your ideas to life using Angular&apos;s
           robust ecosystem of libraries and tools. Elevate your business with a
           high-performance Angular application optimized for speed and
           scalability. We offer end-to-end Angular development services for both
