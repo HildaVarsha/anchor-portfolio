@@ -8,7 +8,7 @@ import {
   DotNetTechnology,
   DotNetWhyChoose,
   DotNetWhyChooseAnchor,
-} from "@/components/dotNet";
+} from "@/components/technologies/dotNet";
 import React from "react";
 
 const DotNet = () => {

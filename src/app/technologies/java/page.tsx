@@ -6,7 +6,7 @@ import {
   JavaIdealPartner,
   JavaTechnologies,
   JavaTopWays,
-} from "@/components/java";
+} from "@/components/technologies/java";
 import React from "react";
 
 const Java = () => {

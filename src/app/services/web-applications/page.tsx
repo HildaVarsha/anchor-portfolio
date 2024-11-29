@@ -1,4 +1,4 @@
-import { MobileAppProcess } from "@/components/mobileApplication";
+import { MobileAppProcess } from "@/components/services/mobileApplication";
 import {
   WebAppAbout,
   WebAppBanner,
@@ -6,7 +6,7 @@ import {
   WebAppServices,
   WebAppStayAhead,
   WebAppTechnology,
-} from "@/components/webApplication";
+} from "@/components/services/webApplication";
 import React from "react";
 
 const WebApp = () => {
