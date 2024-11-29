@@ -5,7 +5,7 @@ import {
   MarkettingService,
   MarkettingStayAhead,
   MarkettingTechnology,
-} from "@/components/digitalMarketting";
+} from "@/components/services/digitalMarketting";
 import React from "react";
 
 const DigitalMarketting = () => {

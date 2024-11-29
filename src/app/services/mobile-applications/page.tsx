@@ -6,7 +6,7 @@ import {
   MobileAppServices,
   MobileAppStayAhead,
   MobileAppTechnology,
-} from "@/components/mobileApplication";
+} from "@/components/services/mobileApplication";
 import React from "react";
 
 const page = () => {

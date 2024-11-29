@@ -5,7 +5,7 @@ import {
   GraphicDesignServices,
   GraphicDesignStayAhead,
   GraphicDesignTechnologies,
-} from "@/components/graphicDesign";
+} from "@/components/services/graphicDesign";
 import React from "react";
 
 const GraphicDesign = () => {

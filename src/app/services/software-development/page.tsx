@@ -5,7 +5,7 @@ import {
   SoftwareDevServices,
   SoftwareDevStayAhead,
   SoftwareDevTechnologies,
-} from "@/components/softwareDevelopment";
+} from "@/components/services/softwareDevelopment";
 import React from "react";
 
 const SoftwareDevelopment = () => {

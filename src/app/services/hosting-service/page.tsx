@@ -5,7 +5,7 @@ import {
   HostingServices,
   HostingStayAhead,
   HostingTechnology,
-} from "@/components/hostingService";
+} from "@/components/services/hostingService";
 import React from "react";
 
 const HostingService = () => {

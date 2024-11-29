@@ -8,7 +8,7 @@ import {
   IndustriesTechnology,
   IndustriesUtilityEnergy,
   IndustriesWeServe,
-} from "@/components/industries";
+} from "@/components/services/industries";
 import React from "react";
 
 const Industries = () => {
