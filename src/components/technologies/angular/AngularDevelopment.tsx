@@ -1,11 +1,9 @@
 import React from "react";
-import HireButton from "./HireButton";
+interface RoleColumnProps {
+  roles: string[];
+}
 
 const AngularDevelopment = () => {
-  interface RoleColumnProps {
-    roles: string[];
-  }
-
   const RoleColumn: React.FC<RoleColumnProps> = ({ roles }) => (
     <div className="w-full">
       {roles?.map((role, index) => (
@@ -34,7 +32,7 @@ const AngularDevelopment = () => {
       <div className="py-12 bg-amber-400">
         <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
           For an Angular application built with best coding practices, you need
-          the right development partner—and you`&apos;`ve found it. Anchor
+          the right development partner—and you&apos;ve found it. Anchor
           Informatics highly skilled Angular development team is equipped to
           meet any of your requirements, no matter how complex.
         </p>
