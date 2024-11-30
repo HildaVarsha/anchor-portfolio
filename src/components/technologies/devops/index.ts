@@ -1,0 +1,9 @@
+export { default as DevopsBanner } from "./DevopsBanner";
+export { default as DevopsAbout } from "./DevopsAbout";
+export { default as DevopsServices } from "./DevopsServices";
+export { default as DevopsProcess } from "./DevopsProcess";
+export { default as DevopsConsulting } from "./DevopsConsulting";
+export { default as DevopsBenefits } from "./DevopsBenefits";
+export { default as DevopsAtAnchor } from "./DevopsAtAnchor";
+export { default as DevopsTechnology } from "./DevopsTechnology";
+export { default as DevopsOurClients } from "./DevopsOurClients";
