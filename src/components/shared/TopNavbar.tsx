@@ -20,7 +20,15 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "../ui";
-import { MenuIcon, MenuSquare } from "lucide-react";
+import {
+  ArrowRight,
+  ChevronDown,
+  ChevronsRight,
+  MenuIcon,
+  MenuSquare,
+  SendHorizontal,
+} from "lucide-react";
+import { Icon } from "@iconify/react/dist/iconify.js";
 
 const TopNavbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -39,6 +47,59 @@ const TopNavbar = () => {
         ? "bg-black text-white shadow-lg"
         : "bg-transparent"
       : "bg-black text-white";
+  const menus = [
+    {
+      title: "Services",
+      links: [
+        { href: "/services/graphic-design", label: "Graphic Design" },
+        {
+          href: "/services/software-development",
+          label: "Software Development",
+        },
+        { href: "/services/hosting-service", label: "Hosting Service" },
+        {
+          href: "/services/digital-marketting",
+          label: "Digital Marketing",
+        },
+        {
+          href: "/services/mobile-applications",
+          label: "Mobile Applications",
+        },
+        {
+          href: "/services/web-applications",
+          label: "Web Applications",
+        },
+      ],
+    },
+    {
+      title: "Industries",
+      links: [
+        { href: "/technologies/dot-net", label: ".Net Development" },
+        { href: "/technologies/java", label: "Java Development" },
+        { href: "/technologies/angular", label: "Angular Development" },
+        { href: "/technologies/cto-service", label: "CTO Services" },
+        {
+          href: "/technologies/software-engineer",
+          label: "Software Engineering",
+        },
+        { href: "/technologies/devops", label: "DevOps Solutions" },
+        { href: "/industries", label: "About Industries" },
+      ],
+    },
+    {
+      title: "Company",
+      links: [
+        { href: "/about-company", label: "About Company" },
+        { href: "/about-company/how-we-work", label: "How We Work" },
+        { href: "/about-company/careers", label: "Careers" },
+        { href: "/about-company/blogs", label: "Blogs" },
+        {
+          href: "/about-company/sustainable-software",
+          label: "Sustainable Software",
+        },
+      ],
+    },
+  ];
 
   const NavigationLinks = () => {
     return (
@@ -46,56 +107,91 @@ const TopNavbar = () => {
         <Link href="/" className="hover:text-amber-400">
           Home
         </Link>
-        <NavigationMenu>
-          <NavigationMenuList>
-            <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-white">
-                Services
-              </NavigationMenuTrigger>
-              <NavigationMenuContent className="w-full rounded-none p-4 flex flex-col">
-                <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer ">
-                  <Link href={"/services/graphic-design"}>Graphic Design</Link>
-                </NavigationMenuLink>
-                <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer boder-b border-slate-700">
-                  <Link href={"/services/software-development"}>
-                    Software Development
-                  </Link>
-                </NavigationMenuLink>
-                <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer boder-b border-slate-700">
-                  <Link href={"/services/hosting-service"}>
-                    Hosting Service
-                  </Link>
-                </NavigationMenuLink>
-                <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer boder-b border-slate-700">
-                  <Link href={"/services/digital-marketting"}>
-                    Digital Marketting
-                  </Link>
-                </NavigationMenuLink>
-                <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer boder-b border-slate-700">
-                  <Link href={"/services/mobile-applications"}>
-                    Mobile Applications
-                  </Link>
-                </NavigationMenuLink>
-                <NavigationMenuLink className="p-2 hover:text-amber-400 w-full cursor-pointer boder-b border-slate-700">
-                  <Link href={"/services/web-applications"}>
-                    Web Applications
-                  </Link>
-                </NavigationMenuLink>
-              </NavigationMenuContent>
-            </NavigationMenuItem>
-          </NavigationMenuList>
-        </NavigationMenu>
-        <Link href="/industries" className="hover:text-amber-400">
-          Industries
-        </Link>
-        <Link href="/about-company" className="hover:text-amber-400">
-          Company
-        </Link>
+
+        {menus?.map((menu) => (
+          <NavigationMenu key={menu.title}>
+            <NavigationMenuList>
+              <NavigationMenuItem>
+                <NavigationMenuTrigger className="text-white">
+                  {menu.title}
+                </NavigationMenuTrigger>
+                <NavigationMenuContent className="rounded-none p-4 flex flex-col">
+                  {menu.links.map((link) => (
+                    <NavigationMenuLink
+                      key={link.href}
+                      className="p-2 hover:text-amber-400 w-full cursor-pointer"
+                    >
+                      <Link href={link.href}>{link.label}</Link>
+                    </NavigationMenuLink>
+                  ))}
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
+        ))}
+
         <Link href="/career" className="hover:text-amber-400">
           Career
         </Link>
-        <Button variant={"outline"}>Contact Us</Button>
+        <Button variant="outline">Contact Us</Button>
       </ul>
+    );
+  };
+  const MobileMenu = () => {
+    return (
+      <div className="flex flex-col gap-4 py-4  text-white">
+        {/* Logo */}
+
+        {/* Navigation */}
+        <div className="space-y-4">
+          {/* Static Links */}
+
+          <Link
+            href="/"
+            className="block py-2 hover:text-amber-500 font-semibold"
+          >
+            Home
+          </Link>
+
+          {/* Dynamic Sections */}
+          {menus?.map((section) => (
+            <details className="group">
+              <summary className="py-2 hover:text-amber-500 cursor-pointer font-semibold flex items-center gap-2">
+                <p className="w-20">{section.title}</p>
+
+                <Icon
+                  icon="icon-park-solid:down-one"
+                  className="relative top-[1px] ml-1 h-4 w-6 transition duration-300 group-data-[state=open]:rotate-180"
+                  aria-hidden="true"
+                />
+              </summary>
+
+              <div className="pl-8 mt-2 space-y-6 text-sm">
+                {section.links.map((link) => (
+                  <div
+                    key={link.href}
+                    className="flex items-center gap-2 hover:text-amber-500"
+                  >
+                    <SendHorizontal className="w-4 h-4" />
+                    <Link href={link.href} className="block text-sm">
+                      {link.label}
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </details>
+          ))}
+          <Link
+            href="/career"
+            className="block py-2 hover:text-amber-500 font-semibold"
+          >
+            Career
+          </Link>
+          <Button variant="outline" className="font-semibold">
+            Contact Us
+          </Button>
+        </div>
+      </div>
     );
   };
   return (
@@ -111,14 +207,14 @@ const TopNavbar = () => {
             <SheetTrigger>
               <MenuIcon />
             </SheetTrigger>
-            <SheetContent side={"left"} className="bg-black">
+            <SheetContent side={"left"} className="bg-black overflow-auto">
               <Image
                 src="/logo.png"
                 alt="Anchor Informatics Pvt Ltd"
                 width={200}
                 height={100}
               />
-              <NavigationLinks />
+              <MobileMenu />
             </SheetContent>
           </Sheet>
         </div>
