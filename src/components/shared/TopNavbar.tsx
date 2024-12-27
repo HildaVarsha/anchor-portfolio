@@ -15,19 +15,9 @@ import {
   NavigationMenuTrigger,
   Sheet,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "../ui";
-import {
-  ArrowRight,
-  ChevronDown,
-  ChevronsRight,
-  MenuIcon,
-  MenuSquare,
-  SendHorizontal,
-} from "lucide-react";
+import { MenuIcon, SendHorizontal } from "lucide-react";
 import { Icon } from "@iconify/react/dist/iconify.js";
 
 const TopNavbar = () => {
@@ -155,7 +145,7 @@ const TopNavbar = () => {
 
           {/* Dynamic Sections */}
           {menus?.map((section) => (
-            <details className="group">
+            <details className="group" key={section?.title}>
               <summary className="py-2 hover:text-amber-500 cursor-pointer font-semibold flex items-center gap-2">
                 <p className="w-20">{section.title}</p>
 
