@@ -72,8 +72,8 @@ methodologies"
                     well-defined and unlikely to change.
                   </li>
                   <li>
-                    There is a clear understanding of the project's goals, and
-                    the sequence of tasks can be laid out in advance.
+                    There is a clear understanding of the project&apos;s goals,
+                    and the sequence of tasks can be laid out in advance.
                   </li>
                   <li className="pt-4">
                     The project involves critical, high-stakes deliverables
