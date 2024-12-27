@@ -4,7 +4,7 @@ const CareerBanner = () => {
   return (
     <div
       style={{
-        backgroundImage: "url('career-background.png')",
+        backgroundImage: "url('/career-background.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
