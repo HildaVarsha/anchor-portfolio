@@ -24,7 +24,7 @@ const CareerBuildNewLife = () => {
               alt="Build new Life"
               width={300}
               height={300}
-              className="w-full h-full"
+              className="w-full"
             />
           ))}
         </div>
