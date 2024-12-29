@@ -64,12 +64,17 @@ const TopNavbar = () => {
           href: "/services/web-applications",
           label: "Web Applications",
         },
+      ],
+    },
+    {
+      title: "AI Data",
+      links: [
         {
           href: "/services/ai-app-development",
           label: "AI App Development",
         },
         {
-          href: "/services/ai-development",
+          href: "/services/ai-dev",
           label: "AI Development",
         },
         {
