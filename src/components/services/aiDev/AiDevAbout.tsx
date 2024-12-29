@@ -55,9 +55,9 @@ const AiDevAbout = () => {
         <p>
           At Anchor, we provide a full range of AI development services designed
           to empower your business with the capabilities of artificial
-          intelligence. Whether you're beginning your AI journey or aiming to
-          enhance and streamline existing solutions, our team of experts is here
-          to support you every step of the way.
+          intelligence. Whether you&apos;re beginning your AI journey or aiming
+          to enhance and streamline existing solutions, our team of experts is
+          here to support you every step of the way.
         </p>
         <div className="py-6 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
           {services.map((service, index) => (
