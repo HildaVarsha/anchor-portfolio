@@ -3,7 +3,7 @@ import React from "react";
 
 const SustainableMission = () => {
   return (
-    <div className="bg-white md:py-16 text-slate-800">
+    <div className="bg-white pt-4 md:py-16 text-slate-800">
       <div className="md:container px-4 mx-auto">
         <PageHeaderText label="Mission Statement" />
         <p className="py-6 ">

@@ -1,7 +1,9 @@
+"use client";
+import React, { useState } from "react";
 import Link from "next/link";
-import React from "react";
 import Image from "next/image";
-const categories = ["Strategy", "Trending", "Development"];
+
+const categories = ["All", "Strategy", "Trending", "Development"];
 const titles = [
   "Artificial Intelligence / Gen AI / Healthcare",
   "Data Management / Product Development",
@@ -88,7 +90,7 @@ const descriptions = [
   "What Businesses Need to Know About Large Language Models (LLMs)",
   "Calculating Machine Learning Costs Price Factors",
   "What Is the Cost of an MVP in 2024?",
-  " 5 Ways to Utilize Generative AI in Healthcare",
+  "5 Ways to Utilize Generative AI in Healthcare",
   "From Idea to Reality The Essential Steps in Software Development",
   "Adobe Commerce Pricing How Much Does It Cost to Create",
   "Top 5 Industrial IoT (IIoT) Security Challenges and How to Overcome Them",
@@ -112,32 +114,49 @@ const blogs = Array.from({ length: 50 }, (_, i) => ({
   image: `/blog-${i + 1}.png`,
   title: titles[i % titles.length], // Repeats if less than 50
   description: descriptions[i % descriptions.length], // Repeats if less than 50
-  category: categories[i % categories.length], // Cycles through categories
+  category: categories[(i % (categories.length - 1)) + 1], // Cycles through "Strategy", "Trending", "Development"
 }));
 
 const BlogsListing = () => {
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
+  // Filter blogs based on the selected category
+  const filteredBlogs =
+    selectedCategory === "All"
+      ? blogs
+      : blogs.filter((blog) => blog.category === selectedCategory);
+
   return (
     <div className="bg-white py-16 text-slate-800">
       <div className="md:container mx-auto px-4">
+        {/* Category Links */}
         <div className="flex flex-wrap gap-4 font-semibold">
-          <Link href={"#"}>All</Link>
-          <Link href={"#"}>Strategy</Link>
-          <Link href={"#"}>Trending</Link>
-          <Link href={"#"}>Development</Link>
+          {categories.map((category) => (
+            <button
+              key={category}
+              onClick={() => setSelectedCategory(category)}
+              className={`${
+                selectedCategory === category ? "text-blue-600" : ""
+              } hover:text-blue-600`}
+            >
+              {category}
+            </button>
+          ))}
         </div>
+
+        {/* Blogs Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 pt-8">
-          {blogs?.map((item, index) => (
+          {filteredBlogs.map((item, index) => (
             <div key={index}>
               <Image
-                key={index}
-                src={item?.image}
-                alt="Build new Life"
+                src={item.image}
+                alt={item.title}
                 width={300}
                 height={300}
                 className="w-full rounded-md"
               />
-              <p className="py-4 font-semibold">{item?.title}</p>
-              <p className="font-bold text-2xl">{item?.description}</p>
+              <p className="py-4 font-semibold">{item.title}</p>
+              <p className="font-bold text-2xl">{item.description}</p>
             </div>
           ))}
         </div>

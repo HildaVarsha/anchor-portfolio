@@ -7,7 +7,7 @@ import ConsultationButton from "./ConsultationButton";
 const HowWeDoCollaboration = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="container mx-auto">
+      <div className="px-4 md:container mx-auto">
         <PageHeaderText label="Our Collaboration Models" />
         <p>
           When choosing the ideal engagement model for our clients, we consider

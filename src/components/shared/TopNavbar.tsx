@@ -17,7 +17,12 @@ import {
   SheetContent,
   SheetTrigger,
 } from "../ui";
-import { MenuIcon, SendHorizontal } from "lucide-react";
+import {
+  ChevronsRight,
+  MenuIcon,
+  SendHorizontal,
+  StepForward,
+} from "lucide-react";
 import { Icon } from "@iconify/react/dist/iconify.js";
 
 const TopNavbar = () => {
@@ -58,6 +63,38 @@ const TopNavbar = () => {
         {
           href: "/services/web-applications",
           label: "Web Applications",
+        },
+        {
+          href: "/services/ai-app-development",
+          label: "AI App Development",
+        },
+        {
+          href: "/services/ai-development",
+          label: "AI Development",
+        },
+        {
+          href: "/services/ai-proof",
+          label: "AI Proof Concept",
+        },
+        {
+          href: "/services/custom-computer",
+          label: "Custom Computer Version",
+        },
+        {
+          href: "/services/facial-recognition",
+          label: "Facial Recognition",
+        },
+        {
+          href: "/services/nlp",
+          label: "NLP",
+        },
+        {
+          href: "/services/anomaly-detection",
+          label: "Anomaly Detection",
+        },
+        {
+          href: "/services/machine-learning",
+          label: "Machine Learning",
         },
       ],
     },
@@ -109,8 +146,9 @@ const TopNavbar = () => {
                   {menu.links.map((link) => (
                     <NavigationMenuLink
                       key={link.href}
-                      className="p-2 hover:text-amber-400 w-full cursor-pointer"
+                      className="p-2 hover:text-amber-400 w-full cursor-pointer flex items-center gap-2"
                     >
+                      <ChevronsRight className="w-4 h-4" />
                       <Link href={link.href}>{link.label}</Link>
                     </NavigationMenuLink>
                   ))}
