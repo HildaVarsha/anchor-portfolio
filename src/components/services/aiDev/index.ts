@@ -1,3 +1,9 @@
 export { default as AiDevBanner } from "./AiDevBanner";
 export { default as AiDevAbout } from "./AiDevAbout";
 export { default as AiDevAtAnchor } from "./AiDevAtAnchor";
+export { default as AiDevSolutions } from "./AiDevSolutions";
+export { default as AiDevIndustry } from "./AiDevIndustry";
+export { default as AiDevApproach } from "./AiDevApproach";
+export { default as AiDevServices } from "./AiDevServices";
+export { default as AiDevTechnology } from "./AiDevTechnology";
+export { default as AiDevPartner } from "./AiDevPartner";
