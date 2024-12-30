@@ -1,6 +1,5 @@
-import Image from "next/image";
 import React from "react";
-
+import Image from "next/image";
 const technologies = [
   "/devops-aws.png",
   "/devops-azure.png",
@@ -22,26 +21,28 @@ const technologies = [
   "/devops-cucumber.png",
 ];
 
-const TechnologyCard = ({ src }: { src: string }) => (
-  <div className="p-8 border border-gray-400 flex items-center justify-center">
-    <Image src={src} alt="Technology" width={110} height={50} />
-  </div>
-);
-
-const DevopsTechnology = () => {
+const AiDevTechnology = () => {
+  const TechnologyCard = ({ src }: { src: string }) => (
+    <div className="p-8 border border-gray-400 flex items-center justify-center">
+      <Image src={src} alt="Technology" width={110} height={50} />
+    </div>
+  );
   return (
     <div className="bg-white">
       <div
         className="bg-white py-16 h-[400px] flex items-center"
         style={{
-          backgroundImage: "url('/devops-tech.png')",
+          backgroundImage: "url('/technology-with.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
         <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container">
-          <p>The Technology Stack Behind</p>
-          <p className="text-amber-400">Our DevOps Solutions</p>
+          Our
+          <span className="text-amber-400">
+            {""} AI Development Technology {""}
+          </span>
+          Portfolio
         </div>
       </div>
       <div className="py-12">
@@ -55,4 +56,4 @@ const DevopsTechnology = () => {
   );
 };
 
-export default DevopsTechnology;
+export default AiDevTechnology;
