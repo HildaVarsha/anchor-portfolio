@@ -13,7 +13,7 @@ const FacialRecognitionBanner = () => {
           className="w-full md:max-w-2xl"
         />
         <p className="w-full md:max-w-2xl py-4">
-          Utilize Anchor's advanced facial recognition software development
+          Utilize Anchor&apos;s advanced facial recognition software development
           services to build next-generation solutions for security, compliance
           monitoring, and behavior analytics.
         </p>
