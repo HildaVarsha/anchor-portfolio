@@ -1,0 +1,10 @@
+export { default as NlpBanner } from "./NlpBanner";
+export { default as NlpAbout } from "./NlpAbout";
+export { default as NlpOverview } from "./NlpOverview";
+export { default as NlpSolutions } from "./NlpSolutions";
+export { default as NlpIndustry } from "./NlpIndustry";
+export { default as NlpTechnology } from "./NlpTechnology";
+export { default as Nlpprocess } from "./Nlpprocess";
+export { default as NlpAtAnchor } from "./NlpAtAnchor";
+export { default as NlpFaq } from "./NlpFaq";
+export { default as NlpGlance } from "./NlpGlance";
