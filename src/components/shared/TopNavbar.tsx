@@ -91,7 +91,7 @@ const TopNavbar = () => {
         },
         {
           href: "/services/nlp",
-          label: "NLP",
+          label: "NLP Services",
         },
         {
           href: "/services/anomaly-detection",
