@@ -4,20 +4,19 @@ import Link from "next/link";
 const HomeBanner = () => {
   return (
     <div className="relative flex flex-col justify-center h-screen overflow-hidden">
+      {/* Fullscreen Video */}
       <video
         autoPlay
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-screen h-screen object-cover"
       >
-        <source
-          src="https://videos.pexels.com/video-files/29306492/12637575_1920_1080_30fps.mp4"
-          type="video/mp4"
-        />
+        <source src="/anchor-london.mp4" type="video/mp4" />
       </video>
 
-      <div className="relative  md:container mx-auto text-white px-4 md:px-0 z-10">
+      {/* Content */}
+      <div className="relative md:container mx-auto text-white px-4 md:px-0 z-10 text-center">
         <p className="text-3xl md:text-5xl font-bold text-amber-400">
           We Drive Digital
         </p>
@@ -25,7 +24,7 @@ const HomeBanner = () => {
           Transformation, Globally.
         </p>
         <Link href={"/contact-us"} className="mt-4">
-          <Button className="w-64">Lets Talk</Button>
+          <Button className="w-64">Let&apos;s Talk</Button>
         </Link>
       </div>
     </div>
