@@ -12,7 +12,10 @@ const HomeBanner = () => {
         playsInline
         className="absolute inset-0 w-screen h-screen object-cover"
       >
-        <source src="/anchor-london.mp4" type="video/mp4" />
+        <source
+          src="https://videos.pexels.com/video-files/29993046/12869542_2560_1440_120fps.mp4"
+          type="video/mp4"
+        />
       </video>
 
       {/* Content */}
