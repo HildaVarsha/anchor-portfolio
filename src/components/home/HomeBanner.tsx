@@ -24,7 +24,7 @@ const HomeBanner = () => {
           Transformation, Globally.
         </p>
         <Link href={"/contact-us"} className="mt-4">
-          <Button className="w-64">Let's Talk</Button>
+          <Button className="w-64">Let&apos;s Talk</Button>
         </Link>
       </div>
     </div>
