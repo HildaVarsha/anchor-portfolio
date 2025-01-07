@@ -2,7 +2,7 @@ import { PageHeaderText } from "@/components/shared";
 import React from "react";
 
 const stats = [
-  { value: "13 +", label: "years of hands-on experience" },
+  { value: "13+", label: "years of hands-on experience" },
   { value: "230+", label: "top-tier experts" },
   { value: "200+", label: "clients around the globe" },
   { value: "3+", label: "years' client engagement" },

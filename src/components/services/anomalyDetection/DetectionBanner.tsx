@@ -12,12 +12,12 @@ const DetectionBanner = () => {
           label="Anomaly Detection Services and Solutions"
           className="w-full md:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl pt-4 pb-6">
+        <p className="w-full md:max-w-2xl pt-4 pb-6 z-10">
           Our anomaly detection development services help you detect and address
           issues before they affect your processes, customers, revenue, or brand
           reputation.
         </p>
-        <Button className="w-fit">
+        <Button className="w-fit z-10">
           Partner with our anomaly detection company
           <ArrowRight />
         </Button>
@@ -27,7 +27,7 @@ const DetectionBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute hidden md:flex top-24 right-32"
+        className="absolute md:flex top-24 right-32"
       />
     </div>
   );

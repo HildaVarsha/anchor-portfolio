@@ -11,7 +11,7 @@ const AngularBanner = () => {
           label="Expert Angular development services for dynamic web applications."
           className="w-full md:max-w-2xl"
         />
-        <p className="md:max-w-2xl py-4">
+        <p className="md:max-w-2xl py-4 z-10">
           Hire dedicated Angular developers from Anchor Information, offering a
           comprehensive range of Angular development services. We specialize in
           building rich, dynamic, and complex applications tailored to meet your
@@ -24,7 +24,7 @@ const AngularBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={600}
-        className="absolute hidden md:flex top-24 right-32"
+        className="absolute  md:flex top-24 right-32"
       />
     </div>
   );

@@ -12,12 +12,12 @@ const SoftwareDevBanner = () => {
           label="Custom software solutions designed to enhance your business functionality and achieve your goals."
           className="w-full md:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4">
+        <p className="w-full md:max-w-2xl py-4 z-10">
           &quot;Build a robust software solution and accelerate business growth
           with comprehensive development and redevelopment services from Anchor
           Informatics.&quot;
         </p>
-        <Button className="w-fit">
+        <Button className="w-fit z-10">
           Get In Touch
           <ArrowRight />
         </Button>

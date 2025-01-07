@@ -11,7 +11,7 @@ const JavaBanner = () => {
           label="A leading Java development company with top-tier talent"
           className="w-full md:max-w-2xl"
         />
-        <p className="md:max-w-2xl py-4">
+        <p className="md:max-w-2xl py-4 z-10">
           At Anchor Informatics, our Java community offers a comprehensive suite
           of Java development services designed to deliver lasting value and
           drive business transformation.
@@ -23,7 +23,7 @@ const JavaBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute hidden md:flex top-24 right-32"
+        className="absolute  md:flex top-24 right-32"
       />
     </div>
   );

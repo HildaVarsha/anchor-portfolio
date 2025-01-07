@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 const HireButton = ({ label }: { label?: string }) => {
   return (
     <div>
-      <Button className="w-fit mt-4">
+      <Button className="w-fit mt-4 z-10">
         {label ? label : "Hire a virtual CTO"}
         <ArrowRight />
       </Button>

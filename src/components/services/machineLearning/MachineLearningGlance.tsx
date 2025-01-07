@@ -1,5 +1,6 @@
 import { PageHeaderText } from "@/components/shared";
 import React from "react";
+
 const stats = [
   { value: "13+", label: "years of hands-on experience" },
   { value: "230+", label: "top-tier experts" },
@@ -15,11 +16,12 @@ const StatCard = ({ value, label }: { value: string; label: string }) => (
     <p>{label}</p>
   </div>
 );
-const CustomComputerAtAnchor = () => {
+
+const MachineLearningGlance = () => {
   return (
-    <div className="py-16 bg-white">
+    <div className="pb-16 bg-white">
       <div className="container mx-auto p-6 md:p-16 bg-black">
-        <PageHeaderText label="Anchor’s Informativein numbers" />
+        <PageHeaderText label="What makes  Anchor’s Informative stand out" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-16">
           {stats.map((stat, index) => (
             <StatCard key={index} value={stat.value} label={stat.label} />
@@ -30,4 +32,4 @@ const CustomComputerAtAnchor = () => {
   );
 };
 
-export default CustomComputerAtAnchor;
+export default MachineLearningGlance;

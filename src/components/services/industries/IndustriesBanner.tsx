@@ -12,7 +12,7 @@ const IndustriesBanner = () => {
           label="Empowering Industries with Innovation"
           className="w-full md:max-w-2xl"
         />
-        <Button className="w-fit">
+        <Button className="w-fit z-10">
           Tap in digital finance <ArrowRight />
         </Button>
       </div>
@@ -21,7 +21,7 @@ const IndustriesBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute  hidden md:flex top-24 right-32"
+        className="absolute  md:flex top-24 right-32"
       />
     </div>
   );
