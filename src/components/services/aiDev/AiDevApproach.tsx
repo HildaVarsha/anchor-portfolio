@@ -2,10 +2,69 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui";
 import React from "react";
 
 const AiDevApproach = () => {
+  const tabData = [
+    {
+      value: "Discovery",
+      title: "Discovery",
+      content: {
+        description:
+          "In the Discovery phase, we focus on understanding your business needs, identifying potential use cases, and defining the project scope. This step ensures alignment between stakeholders and project goals.",
+        points: [
+          "Analyzing business challenges and opportunities",
+          "Defining project objectives and success metrics",
+          "Identifying data sources and assessing data quality",
+          "Developing a high-level project roadmap",
+        ],
+      },
+    },
+    {
+      value: "Design",
+      title: "Design",
+      content: {
+        description:
+          "During the Design phase, we create detailed plans for the machine learning solution, including architectural design, data pipelines, and user interfaces. This ensures a structured and effective development process.",
+        points: [
+          "Solution architecture design",
+          "Data pipeline schematics",
+          "Model selection strategy",
+          "Prototypes and wireframes for user interfaces",
+        ],
+      },
+    },
+    {
+      value: "Proof",
+      title: "Proof of Concept",
+      content: {
+        description:
+          "The Proof of Concept (PoC) phase validates the feasibility and effectiveness of the proposed solution. We develop a small-scale version to demonstrate its potential.",
+        points: [
+          "Building and testing a prototype",
+          "Evaluating model accuracy and performance",
+          "Incorporating stakeholder feedback",
+          "Identifying potential challenges and solutions",
+        ],
+      },
+    },
+    {
+      value: "Implementation",
+      title: "Implementation",
+      content: {
+        description:
+          "The Implementation phase focuses on deploying the machine learning solution into production environments. This includes setting up infrastructure, integrating the solution, and ensuring scalability.",
+        points: [
+          "Deploying models to production",
+          "Integrating the solution with existing systems",
+          "Monitoring performance and reliability",
+          "Scaling for real-world use cases",
+        ],
+      },
+    },
+  ];
+
   return (
     <div className="bg-white pb-16">
       <div
-        className=" h-[400px] flex items-center"
+        className="h-[400px] flex items-center"
         style={{
           backgroundImage: "url('/ai-approach.png')",
           backgroundSize: "cover",
@@ -14,7 +73,7 @@ const AiDevApproach = () => {
       >
         <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
           Our Approach for
-          <span className="text-amber-400"> {""} AI Software Development</span>
+          <span className="text-amber-400"> AI Software Development</span>
         </p>
       </div>
       <div className="py-12 bg-amber-400">
@@ -27,71 +86,31 @@ const AiDevApproach = () => {
         </p>
       </div>
       <div className="text-slate-800 md:container px-4 md:px-0 mx-auto pt-6">
-        <Tabs defaultValue="Discovery" className="">
+        <Tabs defaultValue="Discovery">
           <TabsList className="flex gap-8 w-72 md:w-full overflow-auto overflow-y-hidden">
-            <TabsTrigger value="Discovery">Discovery</TabsTrigger>
-            <TabsTrigger value="Design">Design</TabsTrigger>
-            <TabsTrigger value="Proof">Proof of concept</TabsTrigger>
-            <TabsTrigger value="Implementation">Implementation</TabsTrigger>
+            {tabData.map((tab) => (
+              <TabsTrigger key={tab.value} value={tab.value}>
+                {tab.title}
+              </TabsTrigger>
+            ))}
           </TabsList>
-          <TabsContent value="Discovery">
-            <div className="py-8 flex flex-col md:flex-row justify-between gap-4 md:gap-12">
-              <div className="w-full">
-                We thoroughly analyze your data, challenges, and IT
-                infrastructure to uncover new business opportunities, define use
-                cases, and outline the AI development process.
+          {tabData.map((tab) => (
+            <TabsContent key={tab.value} value={tab.value}>
+              <div className="py-8 flex flex-col md:flex-row justify-between gap-4 md:gap-12">
+                <div className="w-full">{tab.content.description}</div>
+                <div className="w-full">
+                  <p className="font-semibold">Key Points:</p>
+                  <ul>
+                    {tab.content.points.map((point, index) => (
+                      <li key={index} className="py-2">
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-              <div className="w-full">
-                <p className="font-semibold">
-                  Agile is your go-to methodology when:
-                </p>
-                <li className="py-4">
-                  Your vision for the end product is likely to evolve throughout
-                  the development process.
-                </li>
-                <li>
-                  It’s difficult to detail all the requirements at the project
-                  onset, for instance, because of its complexity
-                </li>
-                <li className="pt-4">
-                  It can be challenging to outline all the requirements at the
-                  start of the project, especially due to its complexity.
-                </li>
-              </div>
-            </div>
-          </TabsContent>
-          <TabsContent value="Design">
-            <div className="py-8 flex flex-col md:flex-row justify-between gap-4 md:gap-12">
-              <div className="w-full">
-                The Design approach follows a linear and sequential design
-                process, where each phase must be completed before the next
-                phase begins. This method is highly structured and works best
-                when project requirements are clearly defined and unlikely to
-                change.
-              </div>
-              <div className="w-full">
-                <p className="font-semibold">
-                  Waterfall is your go-to methodology when:
-                </p>
-                <li className="py-4">
-                  The project scope, requirements, and deliverables are
-                  well-defined and unlikely to change.
-                </li>
-                <li>
-                  There is a clear understanding of the project&apos;s goals,
-                  and the sequence of tasks can be laid out in advance.
-                </li>
-                <li className="pt-4">
-                  The project involves critical, high-stakes deliverables where
-                  thorough documentation and formal processes are necessary.
-                </li>
-                <li className="pt-4">
-                  Stakeholders require a predictable timeline with specific
-                  milestones.
-                </li>
-              </div>
-            </div>
-          </TabsContent>
+            </TabsContent>
+          ))}
         </Tabs>
       </div>
     </div>

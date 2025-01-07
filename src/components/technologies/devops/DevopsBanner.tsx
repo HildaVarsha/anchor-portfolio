@@ -11,7 +11,7 @@ const DeveopsBanner = () => {
           label="DevOps Consulting Services & Solutions"
           className="w-full md:max-w-2xl"
         />
-        <p className="md:max-w-2xl py-4">
+        <p className="md:max-w-2xl py-4 z-10">
           Accelerate software development and transform into a top-tier delivery
           organization with the help of our experienced DevOps consultants and
           engineers.
@@ -23,7 +23,7 @@ const DeveopsBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute hidden md:flex top-24 right-32"
+        className="absolute  md:flex top-24 right-32"
       />
     </div>
   );

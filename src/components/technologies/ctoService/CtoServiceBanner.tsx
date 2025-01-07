@@ -11,7 +11,7 @@ const CtoServiceBanner = () => {
           label="CTO as a Service"
           className="w-full md:max-w-2xl"
         />
-        <p className="md:max-w-2xl py-4">
+        <p className="md:max-w-2xl py-4 z-10">
           Leverage our technical leadership through CTO-as-a-Service to turn
           your bold business ideas into reality, while minimizing risks and
           optimizing costs.
@@ -23,7 +23,7 @@ const CtoServiceBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute hidden md:flex top-24 right-32"
+        className="absolute md:flex top-24 right-32"
       />
     </div>
   );

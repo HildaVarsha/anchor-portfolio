@@ -12,12 +12,12 @@ const DotNetBanner = () => {
           label="Top-tier .NET development services by skilled professionals."
           className="w-full md:max-w-2xl"
         />
-        <p className="md:max-w-2xl py-4">
+        <p className="md:max-w-2xl py-4 z-10">
           Partner with Anchor Informatics, a leading .NET development company
           and a trusted Microsoft Gold Partner, to elevate your enterprise with
           a tailor-made .NET solution that is robust, scalable, and secure.
         </p>
-        <Button className="w-fit">
+        <Button className="w-fit z-10">
           Hire .NET developers
           <ArrowRight />
         </Button>
@@ -27,7 +27,7 @@ const DotNetBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute hidden md:flex top-24 right-32"
+        className="absolute md:flex top-24 right-32"
       />
     </div>
   );

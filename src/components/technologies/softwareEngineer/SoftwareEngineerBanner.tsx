@@ -12,7 +12,7 @@ const SoftwareEngineerBanner = () => {
           label="Software Engineering Solutions"
           className="w-full md:max-w-2xl"
         />
-        <p className="md:max-w-2xl py-4">
+        <p className="md:max-w-2xl py-4 z-10">
           Transform your business processes, upgrade existing technology
           systems, and launch innovative products with Anchor Informatics—a
           software engineering company that truly cares.
@@ -24,7 +24,7 @@ const SoftwareEngineerBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute hidden md:flex top-24 right-32"
+        className="absolute md:flex top-24 right-32"
       />
     </div>
   );
