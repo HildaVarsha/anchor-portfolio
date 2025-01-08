@@ -64,6 +64,10 @@ const TopNavbar = () => {
           href: "/services/web-applications",
           label: "Web Applications",
         },
+        {
+          href: "/services/low-code-dev",
+          label: "Low Code Development",
+        },
       ],
     },
     {
