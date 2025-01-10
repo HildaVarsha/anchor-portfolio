@@ -9,6 +9,7 @@ import {
 } from "../ui";
 import Image from "next/image";
 import Link from "next/link";
+import { MoveRight } from "lucide-react";
 
 const services = [
   {
@@ -65,6 +66,8 @@ const HomeHowCanHelp = () => {
         />
         {services.map((service, index) => (
           <div
+            data-aos="fade-up"
+            data-aos-delay={(index + 1) * 200}
             key={service.id}
             className={`${
               index === 0 ? "border-y" : "border-b"
@@ -76,10 +79,11 @@ const HomeHowCanHelp = () => {
                 alt={service.title}
                 width={50}
                 height={38}
+                data-aos="fade-left"
                 className=""
               />
             </div>
-            <div className="w-full flex gap-8">
+            <div data-aos="fade-right" className="w-full flex gap-8">
               <p>{service.id < 10 ? `0${service.id}.` : `${service.id}.`}</p>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value={`item-${service.id}`}>
@@ -94,9 +98,12 @@ const HomeHowCanHelp = () => {
             </div>
           </div>
         ))}
-        <div className="mt-8">
+        <div data-aos="flip-down" data-aos-delay="400" className="mt-8">
           <Link href={"/contact-us"}>
-            <Button>Discuss my project</Button>
+            <Button>
+              Discuss my project
+              <MoveRight data-aos="fade-right" data-aos-delay="400" />
+            </Button>
           </Link>
         </div>
       </div>

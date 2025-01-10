@@ -24,6 +24,7 @@ const Footer = () => {
         className="text-center text-xl md:text-5xl  md:max-w-3xl mx-auto"
         label="A software development company specializing in scalable AI and data solutions that drive lasting impact."
       />
+
       <div className="flex items-center gap-4">
         <Image src={"/footer-phone.png"} alt="Phone" width={40} height={40} />
         <div className="flex flex-col gap-2">
