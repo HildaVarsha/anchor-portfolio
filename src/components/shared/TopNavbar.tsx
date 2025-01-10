@@ -44,37 +44,6 @@ const TopNavbar = () => {
       : "bg-black text-white";
   const menus = [
     {
-      title: "Services",
-      links: [
-        { href: "/services/graphic-design", label: "Graphic Design" },
-        {
-          href: "/services/software-development",
-          label: "Software Development",
-        },
-        { href: "/services/hosting-service", label: "Hosting Service" },
-        {
-          href: "/services/digital-marketting",
-          label: "Digital Marketing",
-        },
-        {
-          href: "/services/mobile-applications",
-          label: "Mobile Applications",
-        },
-        {
-          href: "/services/web-applications",
-          label: "Web Applications",
-        },
-        {
-          href: "/services/low-code-dev",
-          label: "Low Code Development",
-        },
-        {
-          href: "/services/ui-ux",
-          label: "UI/UX Development",
-        },
-      ],
-    },
-    {
       title: "AI Data",
       links: [
         {
@@ -112,8 +81,54 @@ const TopNavbar = () => {
       ],
     },
     {
+      title: "Services",
+      links: [
+        { href: "/services/graphic-design", label: "Graphic Design" },
+        {
+          href: "/services/software-development",
+          label: "Software Development",
+        },
+        { href: "/services/hosting-service", label: "Hosting Service" },
+        {
+          href: "/services/digital-marketting",
+          label: "Digital Marketing",
+        },
+        {
+          href: "/services/mobile-applications",
+          label: "Mobile Applications",
+        },
+        {
+          href: "/services/web-applications",
+          label: "Web Applications",
+        },
+        {
+          href: "/services/low-code-dev",
+          label: "Low Code Development",
+        },
+        {
+          href: "/services/ui-ux",
+          label: "UI/UX Development",
+        },
+      ],
+    },
+
+    {
       title: "Industries",
       links: [
+        {
+          href: "Healthcare & Biotech",
+          label: "Healthcare & Biotech",
+        },
+        { href: "/technologies/dot-net", label: "Logistics & Transportation" },
+        {
+          href: "/technologies/dot-net",
+          label: "Manufacturing & Supply Chain",
+        },
+        { href: "/technologies/dot-net", label: "Media & Entertainment" },
+        { href: "/technologies/dot-net", label: "Retail" },
+        { href: "/technologies/dot-net", label: "ELearning" },
+        { href: "/technologies/dot-net", label: "FinTech" },
+        { href: "/technologies/dot-net", label: "Ecommerce" },
         { href: "/technologies/dot-net", label: ".Net Development" },
         { href: "/technologies/java", label: "Java Development" },
         { href: "/technologies/angular", label: "Angular Development" },
