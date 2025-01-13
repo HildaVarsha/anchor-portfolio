@@ -2,6 +2,12 @@ import React from "react";
 import PageHeaderText from "./PageHeaderText";
 import Image from "next/image";
 import Link from "next/link";
+import {
+  FacebookIcon,
+  Instagram,
+  LinkedinIcon,
+  TwitterIcon,
+} from "lucide-react";
 
 const Footer = () => {
   const phoneNumbers = [
@@ -65,15 +71,18 @@ const Footer = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
         >
-          <Image src={"/facebook.png"} alt="Face book" height={20} width={10} />
-          <Image
-            src={"/instagram.png"}
-            alt="Instagram"
-            height={20}
-            width={20}
-          />
-          <Image src={"/linkedin.png"} alt="Linked In" height={20} width={20} />
-          <Image src={"/twitter.png"} alt="Twitter" height={20} width={20} />
+          <Link href={"/"}>
+            <FacebookIcon className="w-8 h-8" />
+          </Link>
+          <Link href={"/"}>
+            <Instagram className="w-8 h-8" />
+          </Link>
+          <Link href={"/"}>
+            <LinkedinIcon className="w-8 h-8" />
+          </Link>
+          <Link href={"/"}>
+            <TwitterIcon className="w-8 h-8" />
+          </Link>
         </div>
       </div>
     </div>
