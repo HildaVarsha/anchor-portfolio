@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 import { Button } from "../ui";
+import { MoveRight } from "lucide-react";
 
 const HomeLatestTechnology = () => {
   const technologies = [
@@ -39,12 +40,19 @@ const HomeLatestTechnology = () => {
   ];
 
   return (
-    <div className="bg-white py-12">
+    <div
+      className="bg-white py-12"
+      data-aos="fade-left"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+    >
       <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
-        <PageHeaderText
-          label={"Latest Technologies"}
-          className="text-slate-800"
-        />
+        <div data-aos="fade-up-left">
+          <PageHeaderText
+            label={"Latest Technologies"}
+            className="text-slate-800"
+          />
+        </div>
         <Carousel
           opts={{
             align: "start",
@@ -54,26 +62,53 @@ const HomeLatestTechnology = () => {
           <CarouselContent>
             {technologies?.map((tech, index) => (
               <CarouselItem key={index} className="md:basis-1/1 lg:basis-1/3">
-                <div className="p-1 w-full">
+                <div
+                  data-aos-delay={(index + 1) * 200}
+                  data-aos="zoom-in"
+                  className="p-1 w-full"
+                >
                   <Image
                     src={tech.src}
                     alt={tech.title}
                     width={400}
                     height={400}
                   />
-                  <p className="py-3 font-semibold text-gray-700">
+                  <p
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                    className="py-3 font-semibold text-gray-700"
+                  >
                     {tech.title}
                   </p>
-                  <p className="text-gray-500">{tech.description}</p>
+                  <p
+                    data-aos="fade-up"
+                    data-aos-delay="600"
+                    className="text-gray-500"
+                  >
+                    {tech.description}
+                  </p>
                 </div>
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="bg-blue-600 w-12 h-12 text-white top-32 left-4" />
-          <CarouselNext className="bg-blue-600  w-12 h-12 text-white top-32 right-4" />
+          <CarouselPrevious
+            data-aos="fade-left"
+            className="bg-blue-600 w-12 h-12 text-white top-32 left-4"
+          />
+          <CarouselNext
+            data-aos="fade-right"
+            className="bg-blue-600  w-12 h-12 text-white top-32 right-4"
+          />
         </Carousel>
-        <div className="flex items-center justify-center mt-4">
-          <Button>Start your innovation journey</Button>
+        <div
+          data-aos="flip-down"
+          data-aos-delay="800"
+          className="flex items-center justify-center mt-4"
+        >
+          <Button>
+            Start your innovation journey{" "}
+            <MoveRight data-aos="fade-right" data-aos-delay="500" />
+          </Button>
         </div>
       </div>
     </div>

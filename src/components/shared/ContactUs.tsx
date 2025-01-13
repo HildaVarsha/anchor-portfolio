@@ -55,70 +55,101 @@ const ContactUs = () => {
       className="py-12"
     >
       <div className="px-4 md:px-0 md:container mx-auto">
-        <h1 className="text-4xl font-bold text-white mb-8">Contact Us</h1>
+        <h1 data-aos="zoom-in" className="text-4xl font-bold text-white mb-8">
+          Contact Us
+        </h1>
         {/* Wrap the form with FormProvider to provide context */}
         <FormProvider {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
             <div className="flex flex-col md:flex-row gap-4 md:gap-16">
-              <FormField
-                control={form.control}
-                name="name"
-                render={({ field }) => (
-                  <FormItem className="w-full">
-                    <FormLabel>Name*</FormLabel>
-                    <FormControl>
-                      <Input placeholder="Your Name" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              <FormField
-                control={form.control}
-                name="phone"
-                render={({ field }) => (
-                  <FormItem className="w-full">
-                    <FormLabel>Phone*</FormLabel>
-                    <FormControl>
-                      <Input placeholder="Your Phone" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
+              <div
+                className="w-full"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                <FormField
+                  control={form.control}
+                  name="name"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>Name*</FormLabel>
+                      <FormControl>
+                        <Input placeholder="Your Name" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />{" "}
+              </div>
+              <div
+                className="w-full"
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                <FormField
+                  control={form.control}
+                  name="phone"
+                  render={({ field }) => (
+                    <FormItem className="w-full">
+                      <FormLabel>Phone*</FormLabel>
+                      <FormControl>
+                        <Input placeholder="Your Phone" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+              </div>
             </div>
 
-            <div className="flex  flex-col md:flex-row gap-4 md:gap-16 mt-8">
-              <FormField
-                control={form.control}
-                name="email"
-                render={({ field }) => (
-                  <FormItem className="w-full">
-                    <FormLabel>Email*</FormLabel>
-                    <FormControl>
-                      <Input placeholder="Your Email" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              <FormField
-                control={form.control}
-                name="projectInfo"
-                render={({ field }) => (
-                  <FormItem className="w-full">
-                    <FormLabel>Project Info (Budget if avail.)*</FormLabel>
-                    <FormControl>
-                      <Input placeholder="Project Info" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
+            <div
+              className="flex  flex-col md:flex-row gap-4 md:gap-16 mt-8"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <div className="w-full" data-aos="flip-down">
+                <FormField
+                  control={form.control}
+                  name="email"
+                  render={({ field }) => (
+                    <FormItem className="w-full">
+                      <FormLabel>Email*</FormLabel>
+                      <FormControl>
+                        <Input placeholder="Your Email" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+              </div>
+
+              <div className="w-full" data-aos="flip-down">
+                <FormField
+                  control={form.control}
+                  name="projectInfo"
+                  render={({ field }) => (
+                    <FormItem className="w-full">
+                      <FormLabel>Project Info (Budget if avail.)*</FormLabel>
+                      <FormControl>
+                        <Input placeholder="Project Info" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+              </div>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center gap-4 md:gap-16 mt-8">
-              <div className="flex gap-4 w-full">
+            <div
+              className="flex flex-col md:flex-row items-center gap-4 md:gap-16 mt-8"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <div data-aos="flip-down" className="flex gap-4 w-full">
                 <Paperclip className="text-amber-500 w-6 h-6" />
                 <div>
                   <p className="text-sm">Attach your file</p>
@@ -152,7 +183,7 @@ const ContactUs = () => {
               </div>
             </div>
 
-            <div className="w-full mt-8">
+            <div data-aos="zoom-in" className="w-full mt-8">
               <Button type="submit" className="bg-zinc-700 w-full">
                 Send Message
               </Button>
