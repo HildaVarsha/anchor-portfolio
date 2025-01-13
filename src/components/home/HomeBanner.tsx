@@ -10,7 +10,7 @@ const HomeBanner = () => {
   useEffect(() => {
     // Initialize AOS when the component mounts
     AOS.init({
-      duration: 1000, // Set default animation duration
+      duration: 500, // Set default animation duration
       easing: "ease-in-out", // Set easing function
       once: false, // Ensures animation happens only once
     });
