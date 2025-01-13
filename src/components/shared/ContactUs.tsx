@@ -62,7 +62,12 @@ const ContactUs = () => {
         <FormProvider {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
             <div className="flex flex-col md:flex-row gap-4 md:gap-16">
-              <div className="w-full" data-aos="flip-down">
+              <div
+                className="w-full"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 <FormField
                   control={form.control}
                   name="name"
@@ -77,7 +82,12 @@ const ContactUs = () => {
                   )}
                 />{" "}
               </div>
-              <div className="w-full" data-aos="flip-down">
+              <div
+                className="w-full"
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 <FormField
                   control={form.control}
                   name="phone"
@@ -94,7 +104,12 @@ const ContactUs = () => {
               </div>
             </div>
 
-            <div className="flex  flex-col md:flex-row gap-4 md:gap-16 mt-8">
+            <div
+              className="flex  flex-col md:flex-row gap-4 md:gap-16 mt-8"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="w-full" data-aos="flip-down">
                 <FormField
                   control={form.control}
@@ -128,7 +143,12 @@ const ContactUs = () => {
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center gap-4 md:gap-16 mt-8">
+            <div
+              className="flex flex-col md:flex-row items-center gap-4 md:gap-16 mt-8"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <div data-aos="flip-down" className="flex gap-4 w-full">
                 <Paperclip className="text-amber-500 w-6 h-6" />
                 <div>

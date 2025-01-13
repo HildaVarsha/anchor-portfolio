@@ -40,7 +40,12 @@ const HomeLatestTechnology = () => {
   ];
 
   return (
-    <div className="bg-white py-12">
+    <div
+      className="bg-white py-12"
+      data-aos="fade-left"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+    >
       <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
         <div data-aos="fade-up-left">
           <PageHeaderText

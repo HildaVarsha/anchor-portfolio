@@ -42,7 +42,12 @@ const HomeLatestThinkings = () => {
   ];
 
   return (
-    <div className="bg-white py-12">
+    <div
+      className="bg-white py-12"
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+    >
       <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
         <div data-aos="flip-down">
           <PageHeaderText
@@ -60,7 +65,7 @@ const HomeLatestThinkings = () => {
             {technologies?.map((tech, index) => (
               <CarouselItem key={index} className="md:basis-1/1 lg:basis-1/3">
                 <div
-                  data-aos-delay={(index + 1) * 200}
+                  // data-aos-delay={(index + 1) * 200}
                   data-aos="zoom-out"
                   className="p-1 w-full"
                 >

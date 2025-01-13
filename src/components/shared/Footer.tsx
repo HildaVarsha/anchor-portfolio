@@ -25,7 +25,7 @@ const Footer = () => {
         label="A software development company specializing in scalable AI and data solutions that drive lasting impact."
       />
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4" data-aos="fade-right">
         <Image src={"/footer-phone.png"} alt="Phone" width={40} height={40} />
         <div className="flex flex-col gap-2">
           {phoneNumbers.map(({ label, href }) => (
@@ -39,7 +39,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="flex items-center gap-4 mt-8">
+      <div className="flex items-center gap-4 mt-8" data-aos="fade-left">
         <Image src={"/footer-email.png"} alt="Phone" width={40} height={40} />
         <div className="flex flex-col gap-2">
           {emails?.map(({ label, href }) => (
@@ -60,7 +60,11 @@ const Footer = () => {
           </Link>
           <p className="text-sm text-gray-500 pt-1">©2026 Anchor Infromatics</p>
         </div>
-        <div className="flex items-center gap-4">
+        <div
+          className="flex items-center gap-4"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
           <Image src={"/facebook.png"} alt="Face book" height={20} width={10} />
           <Image
             src={"/instagram.png"}

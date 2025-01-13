@@ -13,7 +13,7 @@ import { PageHeaderText } from "../shared";
 
 const HomeClientSays = () => {
   return (
-    <div className="px-8 md:px-0 md:container mx-auto py-12">
+    <div className="px-8 md:px-0 md:container mx-auto py-12" data-aos="fade-up">
       <Carousel className="w-full">
         <div
           data-aos="fade-up-left"
