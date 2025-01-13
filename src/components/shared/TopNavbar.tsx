@@ -260,8 +260,14 @@ const TopNavbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="md:hidden">
           <Sheet>
-            <SheetTrigger>
+            <SheetTrigger className="flex items-center gap-4">
               <MenuIcon />
+              <Image
+                src="/logo.png"
+                alt="Anchor Informatics Pvt Ltd"
+                width={200}
+                height={100}
+              />
             </SheetTrigger>
             <SheetContent side={"left"} className="bg-black overflow-auto">
               <Image
@@ -275,12 +281,6 @@ const TopNavbar = () => {
           </Sheet>
         </div>
         {/* Logo */}
-        <Image
-          src="/logo.png"
-          alt="Anchor Informatics Pvt Ltd"
-          width={200}
-          height={100}
-        />
 
         {/* Navigation Links */}
         <div className="hidden md:flex">
