@@ -258,16 +258,10 @@ const TopNavbar = () => {
       className={`fixed top-0 left-0 w-full z-50 p-4 transition-colors  ${navbarBackground}`}
     >
       <div className="container mx-auto flex justify-between items-center">
-        <div className="md:hidden">
+        <div className="md:hidden flex items-center gap-4">
           <Sheet>
-            <SheetTrigger className="flex items-center gap-4">
+            <SheetTrigger>
               <MenuIcon />
-              <Image
-                src="/logo.png"
-                alt="Anchor Informatics Pvt Ltd"
-                width={200}
-                height={100}
-              />
             </SheetTrigger>
             <SheetContent side={"left"} className="bg-black overflow-auto">
               <Image
@@ -279,6 +273,12 @@ const TopNavbar = () => {
               <MobileMenu />
             </SheetContent>
           </Sheet>
+          <Image
+            src="/logo.png"
+            alt="Anchor Informatics Pvt Ltd"
+            width={200}
+            height={100}
+          />
         </div>
         {/* Logo */}
 

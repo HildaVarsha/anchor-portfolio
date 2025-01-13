@@ -72,16 +72,16 @@ const Footer = () => {
           data-aos-anchor-placement="center-bottom"
         >
           <Link href={"/"}>
-            <FacebookIcon className="w-8 h-8" />
+            <FacebookIcon className="w-6 h-6" />
           </Link>
           <Link href={"/"}>
-            <Instagram className="w-8 h-8" />
+            <Instagram className="w-6 h-6" />
           </Link>
           <Link href={"/"}>
-            <LinkedinIcon className="w-8 h-8" />
+            <LinkedinIcon className="w-6 h-6" />
           </Link>
           <Link href={"/"}>
-            <TwitterIcon className="w-8 h-8" />
+            <TwitterIcon className="w-6 h-6" />
           </Link>
         </div>
       </div>
