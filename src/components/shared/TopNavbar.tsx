@@ -127,8 +127,13 @@ const TopNavbar = () => {
         { href: "/industries/media", label: "Media & Entertainment" },
         { href: "/industries/retail", label: "Retail" },
         { href: "/industries/e-learning", label: "ELearning" },
-        { href: "/technologies/fin-tech", label: "FinTech" },
-        { href: "/technologies/e-commerce", label: "Ecommerce" },
+        { href: "/industries/fin-tech", label: "FinTech" },
+        { href: "/industries/e-commerce", label: "Ecommerce" },
+      ],
+    },
+    {
+      title: "Technology",
+      links: [
         { href: "/technologies/dot-net", label: ".Net Development" },
         { href: "/technologies/java", label: "Java Development" },
         { href: "/technologies/angular", label: "Angular Development" },
