@@ -116,7 +116,7 @@ const TopNavbar = () => {
       title: "Industries",
       links: [
         {
-          href: "Healthcare & Biotech",
+          href: "/industries/health-care",
           label: "Healthcare & Biotech",
         },
         { href: "/technologies/dot-net", label: "Logistics & Transportation" },
@@ -281,7 +281,13 @@ const TopNavbar = () => {
           />
         </div>
         {/* Logo */}
-
+        <Image
+          src="/logo.png"
+          alt="Anchor Informatics Pvt Ltd"
+          width={200}
+          height={100}
+          className="hidden md:flex"
+        />
         {/* Navigation Links */}
         <div className="hidden md:flex">
           <NavigationLinks />
