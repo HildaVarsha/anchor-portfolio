@@ -125,7 +125,7 @@ const TopNavbar = () => {
           label: "Manufacturing & Supply Chain",
         },
         { href: "/industries/media", label: "Media & Entertainment" },
-        { href: "/industries/retail", label: "Retail" },
+        { href: "/industries/retail-industry", label: "Retail" },
         { href: "/industries/e-learning", label: "ELearning" },
         { href: "/industries/fin-tech", label: "FinTech" },
         { href: "/industries/e-commerce", label: "Ecommerce" },
