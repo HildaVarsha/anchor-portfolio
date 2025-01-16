@@ -1,7 +1,20 @@
+import {
+  SupplyChainAbout,
+  SupplyChainBanner,
+  SupplyChainManufacture,
+  SupplyChainTransformation,
+} from "@/components/industries/supplyChain";
 import React from "react";
 
 const Supply = () => {
-  return <div>Supply</div>;
+  return (
+    <div>
+      <SupplyChainBanner />
+      <SupplyChainAbout />
+      <SupplyChainManufacture />
+      <SupplyChainTransformation />
+    </div>
+  );
 };
 
 export default Supply;
