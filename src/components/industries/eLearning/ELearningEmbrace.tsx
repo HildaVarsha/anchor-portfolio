@@ -1,11 +1,11 @@
-import React from "react";
-import { PageHeaderText } from "../shared";
+import { ServicesCard } from "@/components/componentShared";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../ui";
+} from "@/components/ui";
+import React from "react";
 
 const accordionItems = [
   {
@@ -34,12 +34,34 @@ const accordionItems = [
     content: "We offer flexible approaches tailored to your specific needs.",
   },
 ];
-
-const AboutWorkWithUs = () => {
+const ELearningEmbrace = () => {
   return (
-    <div className="bg-amber-300 py-12 text-slate-800">
-      <div className="px-4 md:px-0 md:container mx-auto">
-        <PageHeaderText label="Why work with us" className="text-slate-800" />
+    <div className="bg-white ">
+      <div
+        className="py-16 h-[400px] flex items-center"
+        style={{
+          backgroundImage: "url('/e-learning-embrace.webp')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+          Embracing the possibilities
+          <span className="text-amber-400 pl-2">
+            of educational technology to the fullest
+          </span>
+        </p>
+      </div>
+      <div className="py-12 bg-amber-400">
+        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+          We design feature-rich educational software solutions that help
+          learners hone essential skills faster, bring a human touch to online
+          learning, boost educational content delivery, and enhance the learner
+          experience.
+        </p>
+      </div>
+      <div className="px-4 md:px-0 md:container mx-auto text-slate-800 py-12">
         <Accordion type="single" collapsible className="w-full">
           {accordionItems.map(({ title, content }, index) => (
             <AccordionItem
@@ -59,4 +81,4 @@ const AboutWorkWithUs = () => {
   );
 };
 
-export default AboutWorkWithUs;
+export default ELearningEmbrace;
