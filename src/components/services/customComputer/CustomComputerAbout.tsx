@@ -1,3 +1,4 @@
+import { ServicesCard } from "@/components/componentShared";
 import { PageHeaderText } from "@/components/shared";
 import React from "react";
 const services = [
@@ -49,23 +50,11 @@ const services = [
 ];
 
 const CustomComputerAbout = () => {
-  const ServiceCard = ({
-    title,
-    description,
-  }: {
-    title: string;
-    description: string;
-  }) => (
-    <div>
-      <p className="font-semibold text-blue-600">{title}</p>
-      <p className="pt-6">{description}</p>
-    </div>
-  );
   return (
     <div className="bg-white py-16 text-slate-800">
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="Our computer vision services" />
-        <p>
+        <p data-aos="fade-up">
           Whatever computer vision challenge you encounter, we&apos;re likely
           already well-versed in it. We have the technical expertise, but
           there&apos;s more to it. As your partner, we are committed to your
@@ -74,7 +63,7 @@ const CustomComputerAbout = () => {
         </p>
         <div className="py-6 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
           {services.map((service, index) => (
-            <ServiceCard
+            <ServicesCard
               key={index}
               title={service.title}
               description={service.description}

@@ -34,7 +34,7 @@ const MarkettingAbout = () => {
     <div className="bg-white text-slate-800">
       <div className="px-4 md:px-0 md:container py-16 mx-auto">
         <PageHeaderText label="Our digital marketing services empower you to stand out from the competition." />
-        <p className="py-4 text-lg">
+        <p className="py-4 text-lg" data-aos="fade-up">
           &quot;With over a decade of experience driving successful digital
           marketing campaigns, we have the expertise to deliver exceptional
           results for you. No matter the challenge, there are few aspects of
@@ -44,13 +44,13 @@ const MarkettingAbout = () => {
         </p>
         <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-12 mb-4">
           {markettingServices?.map((service, index) => (
-            <div key={index}>
+            <div key={index} data-aos="fade-up">
               <h3 className="font-semibold text-xl pb-4">{service.title}</h3>
               <p>{service.description}</p>
             </div>
           ))}
         </div>
-        <Button className="mt-4">
+        <Button className="mt-4" data-aos="fade-up">
           Request our custom web services <ArrowRight />
         </Button>
       </div>

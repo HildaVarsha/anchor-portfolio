@@ -71,7 +71,10 @@ const MachineLearningAdvance = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Our Strategy for Advancing Future-Ready
           <span className="text-amber-400 px-2">ML Development</span>
         </p>
@@ -80,13 +83,13 @@ const MachineLearningAdvance = () => {
         <Tabs defaultValue="Discovery">
           <TabsList className="flex gap-8 w-72 md:w-full overflow-auto overflow-y-hidden">
             {tabsData.map((tab) => (
-              <TabsTrigger key={tab.value} value={tab.value}>
+              <TabsTrigger key={tab.value} value={tab.value} data-aos="fade-up">
                 {tab.title}
               </TabsTrigger>
             ))}
           </TabsList>
           {tabsData.map((tab) => (
-            <TabsContent key={tab.value} value={tab.value}>
+            <TabsContent key={tab.value} value={tab.value} data-aos="fade-up">
               <div className="py-8 flex flex-col md:flex-row justify-between gap-4 md:gap-12">
                 <div className="w-full">{tab.content.description}</div>
                 <div className="w-full">

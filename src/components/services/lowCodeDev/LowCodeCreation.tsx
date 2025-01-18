@@ -33,7 +33,9 @@ const services = [
   },
 ];
 const LowCodeCreation = () => {
-  const ServiceCard = ({ title }: { title: string }) => <li>{title}</li>;
+  const ServiceCard = ({ title }: { title: string }) => (
+    <li data-aos="fade-up">{title}</li>
+  );
   return (
     <div className="bg-white py-16">
       <div
@@ -44,7 +46,10 @@ const LowCodeCreation = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           How we create
           <span className="text-amber-400 px-2">
             {" "}
@@ -54,7 +59,7 @@ const LowCodeCreation = () => {
       </div>
       <div className="bg-white py-16 text-slate-800">
         <div className="md:container mx-auto px-4">
-          <p>
+          <p data-aos="fade-up">
             The Anchor Informatics team leverages our deep expertise in business
             analysis and software engineering to provide exceptional low-code
             development services to both innovative startups and established

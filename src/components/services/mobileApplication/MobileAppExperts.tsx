@@ -11,13 +11,19 @@ const MobileAppExperts = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold max-w-4xl">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold max-w-4xl"
+          data-aos="fade-up"
+        >
           &quot;<span className="text-amber-400 pr-2 ">Experts supporting</span>
           every step of your App development journey.&quot;
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:max-w-4xl mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:max-w-4xl mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           &quot;With our full-stack custom app development services, we manage
           everything from designing the user interface to developing the
           underlying algorithms and databases. As your trusted development

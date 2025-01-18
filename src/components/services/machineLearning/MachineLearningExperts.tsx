@@ -38,13 +38,19 @@ const MachineLearningExperts = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Our Expertise in
           <span className="text-amber-400"> Machine Learning</span>
         </p>
       </div>
       <div className="py-12 bg-amber-400 ">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           Leverage our specialized expertise in creating cutting-edge AI
           solutions powered by machine learning and deep learning. Transform
           your vision into success stories in automation, business forecasting,
@@ -55,6 +61,7 @@ const MachineLearningExperts = () => {
         {sections.map((section, index) => (
           <div
             key={index}
+            data-aos="fade-up"
             className="flex flex-col md:flex-row gap-4 md:gap-16 md:justify-between"
           >
             <p className="font-semibold w-full">{section.title}</p>

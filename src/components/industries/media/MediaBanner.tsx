@@ -26,7 +26,7 @@ software solutions"
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute md:flex top-24 right-32"
+        className="absolute md:flex top-24 right-32 animate-rotate"
       />
     </div>
   );

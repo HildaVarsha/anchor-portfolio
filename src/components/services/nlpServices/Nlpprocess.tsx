@@ -69,6 +69,7 @@ const Nlpprocess = () => {
           {Object.keys(industryContent).map((industry) => (
             <button
               key={industry}
+              data-aos="fade-up"
               onClick={() => setSelectedIndustry(industry)}
               className={`font-semibold text-2xl ${
                 selectedIndustry === industry ? "text-blue-600" : ""
@@ -79,12 +80,16 @@ const Nlpprocess = () => {
           ))}
         </div>
         <div>
-          <p className="text-lg font-medium">
+          <p className="text-lg font-medium" data-aos="fade-up">
             {industryContent[selectedIndustry]?.description}
           </p>
-          <ul className="py-4 list-disc list-inside">
+          <ul className="py-4 list-disc list-inside" data-aos="fade-up">
             {industryContent[selectedIndustry]?.points.map((point, index) => (
-              <li key={index} className={index % 2 === 0 ? "py-2" : ""}>
+              <li
+                key={index}
+                data-aos="fade-up"
+                className={index % 2 === 0 ? "py-2" : ""}
+              >
                 {point}
               </li>
             ))}

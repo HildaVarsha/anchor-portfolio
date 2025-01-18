@@ -12,12 +12,12 @@ const AiAppBanner = () => {
           label="AI Application Development Services"
           className="w-full md:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4 z-10">
+        <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
           Transform your business with Anchor Informatics&apos; AI app
           development services. We create smart, cutting-edge AI-powered
           applications that help you achieve the extraordinary.
         </p>
-        <Button className="w-fit z-10">
+        <Button className="w-fit z-10" data-aos="fade-up">
           Get In Touch
           <ArrowRight />
         </Button>
@@ -27,7 +27,7 @@ const AiAppBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute  md:flex top-24 right-32"
+        className="absolute  md:flex top-20 right-32 animate-rotate"
       />
     </div>
   );

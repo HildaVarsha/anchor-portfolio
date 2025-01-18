@@ -11,7 +11,7 @@ const CtoServiceBanner = () => {
           label="CTO as a Service"
           className="w-full md:max-w-2xl"
         />
-        <p className="md:max-w-2xl py-4 z-10">
+        <p className="md:max-w-2xl py-4 z-10" data-aos="fade-up">
           Leverage our technical leadership through CTO-as-a-Service to turn
           your bold business ideas into reality, while minimizing risks and
           optimizing costs.

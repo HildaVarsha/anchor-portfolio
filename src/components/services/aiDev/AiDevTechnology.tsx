@@ -23,7 +23,10 @@ const technologies = [
 
 const AiDevTechnology = () => {
   const TechnologyCard = ({ src }: { src: string }) => (
-    <div className="p-8 border border-gray-400 flex items-center justify-center">
+    <div
+      className="p-8 border border-gray-400 flex items-center justify-center"
+      data-aos="fade-up"
+    >
       <Image src={src} alt="Technology" width={110} height={50} />
     </div>
   );
@@ -37,7 +40,10 @@ const AiDevTechnology = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container">
+        <div
+          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container"
+          data-aos="fade-up"
+        >
           Our
           <span className="text-amber-400">
             {""} AI Development Technology {""}

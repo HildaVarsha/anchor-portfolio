@@ -7,12 +7,18 @@ const SoftwareEngineerDedication = () => {
       <div className="px-4 md:px-0 md:container py-16 mx-auto">
         <Tabs defaultValue="projects" className="">
           <TabsList className="flex gap-8 w-72 md:w-full overflow-auto overflow-y-hidden">
-            <TabsTrigger value="projects">Turnkey Projects</TabsTrigger>
-            <TabsTrigger value="teams">Dedicated Teams</TabsTrigger>
-            <TabsTrigger value="staff">IT staff Augmentation</TabsTrigger>
+            <TabsTrigger value="projects" data-aos="fade-up">
+              Turnkey Projects
+            </TabsTrigger>
+            <TabsTrigger value="teams" data-aos="fade-up">
+              Dedicated Teams
+            </TabsTrigger>
+            <TabsTrigger value="staff" data-aos="fade-up">
+              IT staff Augmentation
+            </TabsTrigger>
           </TabsList>
           <TabsContent value="projects">
-            <div className="py-8">
+            <div className="py-8" data-aos="fade-up">
               Our turnkey product development model, based on the time and
               materials (T&M) approach, offers a seamless way to utilize our
               software engineering services. We manage the entire development
@@ -23,10 +29,10 @@ const SoftwareEngineerDedication = () => {
               experience.
             </div>
           </TabsContent>
-          <TabsContent value="teams">
+          <TabsContent value="teams" data-aos="fade-up">
             <div></div>
           </TabsContent>
-          <TabsContent value="staff">
+          <TabsContent value="staff" data-aos="fade-up">
             <div></div>
           </TabsContent>
         </Tabs>

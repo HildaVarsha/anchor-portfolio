@@ -41,7 +41,7 @@ const DotNetServices = () => {
     <div className="bg-white text-slate-800">
       <div className="px-4 md:px-0 md:container py-16 mx-auto">
         <PageHeaderText label="Our .NET development services" />
-        <p className="py-4 text-lg">
+        <p className="py-4 text-lg" data-aos="fade-up">
           &quot;As a .NET development company with ten years of expertise, we
           excel at delivering enterprise-grade applications that meet the unique
           needs of any industry. Our focus is on creating custom .NET solutions,
@@ -49,9 +49,11 @@ const DotNetServices = () => {
         </p>
         <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-12 mb-4">
           {dotnetServices?.map((service, index) => (
-            <div key={index}>
-              <h3 className="font-semibold text-xl pb-4">{service.title}</h3>
-              <p>{service.description}</p>
+            <div key={index} data-aos="fade-up">
+              <h3 className="font-semibold text-xl pb-4" data-aos="fade-up">
+                {service.title}
+              </h3>
+              <p data-aos="fade-up">{service.description}</p>
             </div>
           ))}
         </div>

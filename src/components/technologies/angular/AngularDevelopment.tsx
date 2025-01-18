@@ -5,9 +5,13 @@ interface RoleColumnProps {
 
 const AngularDevelopment = () => {
   const RoleColumn: React.FC<RoleColumnProps> = ({ roles }) => (
-    <div className="w-full">
+    <div className="w-full" data-aos="fade-up">
       {roles?.map((role, index) => (
-        <li key={index} className={index % 2 !== 0 ? "py-8" : ""}>
+        <li
+          key={index}
+          className={index % 2 !== 0 ? "py-8" : ""}
+          data-aos="fade-up"
+        >
           {role}
         </li>
       ))}
@@ -24,13 +28,19 @@ const AngularDevelopment = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container"
+          data-aos="fade-up"
+        >
           Our proven Angular development workflow –{" "}
           <span className="text-amber-400">A closer look.</span>
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           For an Angular application built with best coding practices, you need
           the right development partner—and you&apos;ve found it. Anchor
           Informatics highly skilled Angular development team is equipped to

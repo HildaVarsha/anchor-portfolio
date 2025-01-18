@@ -9,8 +9,10 @@ interface SectionProps {
 }
 
 const Section: React.FC<SectionProps> = ({ children, className, style }) => (
-  <div className={`py-12 ${className || ""}`} style={style}>
-    <div className="px-4 md:px-0 md:container mx-auto">{children}</div>
+  <div className={`py-12 ${className || ""}`} style={style} data-aos="fade-up">
+    <div className="px-4 md:px-0 md:container mx-auto" data-aos="fade-up">
+      {children}
+    </div>
   </div>
 );
 
@@ -26,7 +28,10 @@ const JavaEndToEndSolutions: React.FC = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="text-2xl md:text-5xl mx-auto font-bold">
+        <p
+          className="text-2xl md:text-5xl mx-auto font-bold"
+          data-aos="fade-up"
+        >
           End-to-end Java solutions to{" "}
           <span className="text-amber-400 font-bold">
             transform your business.
@@ -35,8 +40,8 @@ const JavaEndToEndSolutions: React.FC = () => {
       </Section>
 
       {/* Expertise Section */}
-      <Section className="bg-amber-400 text-slate-800">
-        <p>
+      <Section className="bg-amber-400 text-slate-800" data-aos="fade-up">
+        <p data-aos="fade-up">
           With extensive experience delivering both simple and highly complex
           Java projects across various industries, the Anchor Informatics Java
           community offers unmatched expertise. Here are some examples of
@@ -81,7 +86,11 @@ interface SolutionListProps {
 const SolutionList: React.FC<SolutionListProps> = ({ items }) => (
   <div className="w-full">
     {items.map((item, index) => (
-      <li key={index} className={index % 2 !== 0 ? "py-8" : ""}>
+      <li
+        key={index}
+        className={index % 2 !== 0 ? "py-8" : ""}
+        data-aos="fade-up"
+      >
         {item}
       </li>
     ))}

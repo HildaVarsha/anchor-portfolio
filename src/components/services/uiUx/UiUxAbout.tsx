@@ -1,3 +1,4 @@
+import { ServicesCard } from "@/components/componentShared";
 import { PageHeaderText } from "@/components/shared";
 import { title } from "process";
 import React from "react";
@@ -35,23 +36,11 @@ const services = [
 ];
 
 const UiUxAbout = () => {
-  const ServiceCard = ({
-    title,
-    description,
-  }: {
-    title: string;
-    description: string;
-  }) => (
-    <div>
-      <p className="font-semibold text-blue-600">{title}</p>
-      <p className="pt-6">{description}</p>
-    </div>
-  );
   return (
     <div className="bg-white py-16 text-slate-800">
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="Next-Level UI/UX Design Services That Drive Success" />
-        <p>
+        <p data-aos="fade-up">
           If you’re a startup gearing up to launch a new product, collaborating
           with our UI/UX design company is a strategic choice. Here’s how we can
           help craft your brand’s story, set it apart from the competition, and
@@ -59,7 +48,7 @@ const UiUxAbout = () => {
         </p>
         <div className="py-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
           {services.map((service, index) => (
-            <ServiceCard
+            <ServicesCard
               key={index}
               title={service.title}
               description={service.description}

@@ -14,7 +14,10 @@ const DotNetTechnology = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl  font-bold container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl  font-bold container mx-auto"
+          data-aos="fade-up"
+        >
           Our .NET
           <p className="text-amber-400 pr-2 px-4 md:px-0 text-2xl md:text-5xl  font-bold container">
             technology stack
@@ -24,45 +27,45 @@ const DotNetTechnology = () => {
       <div className="bg-white mt-16 text-slate-800">
         <div className="bg-amber-50 p-16 container mx-auto flex flex-col md:flex-row gap-12">
           <div>
-            <li>
+            <li data-aos="fade-up">
               <strong>Platforms:</strong> .NET Framework | .NET Core
             </li>
-            <li className="py-4">
+            <li className="py-4" data-aos="fade-up">
               <strong>Desktop:</strong> WPF | Windows Forms | UWP
             </li>
-            <li>
+            <li data-aos="fade-up">
               <strong>Cloud:</strong> Microsoft Azure | AWS | Google Cloud |
               Cloud Foundry | Rackspace Technology | OpenStack
             </li>
-            <li className="py-4">
+            <li className="py-4" data-aos="fade-up">
               <strong>ML:</strong> Azure Machine Learning | Azure Cognitive
               Services
             </li>
-            <li>
+            <li data-aos="fade-up">
               <strong> UI: </strong> .NET MAUI
             </li>
           </div>
           <div>
-            <li>
+            <li data-aos="fade-up">
               <strong>Programming languages:</strong> C# | Visual Basic
             </li>
-            <li className="py-4">
+            <li className="py-4" data-aos="fade-up">
               <strong>Web:</strong> ASP.NET MVC | ASP.NET Web API | Asp.NET Core
             </li>
-            <li>
+            <li data-aos="fade-up">
               <strong>Mobile:</strong> Xamarin/Mono
             </li>
-            <li className="py-4">
+            <li className="py-4" data-aos="fade-up">
               <strong>DevOps:</strong> Ansible | Terraform | Puppet | SaltStack
               | Chef | Kubernetes | Docker
             </li>
-            <li>
+            <li data-aos="fade-up">
               <strong> CMS: </strong> Umbraco
             </li>
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <Button className="mt-4">
+          <Button className="mt-4" data-aos="fade-up">
             Hire .NET developers <ArrowRight />
           </Button>
         </div>

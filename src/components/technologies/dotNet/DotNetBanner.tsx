@@ -6,18 +6,18 @@ import { ArrowRight } from "lucide-react";
 
 const DotNetBanner = () => {
   return (
-    <div className="h-screen bg-[#0E0B0A] relative">
+    <div className="h-screen bg-black relative">
       <div className="px-4 md:px-0 md:container mx-auto flex flex-col justify-center h-full">
         <PageHeaderText
           label="Top-tier .NET development services by skilled professionals."
           className="w-full md:max-w-2xl"
         />
-        <p className="md:max-w-2xl py-4 z-10">
+        <p className="md:max-w-2xl py-4 z-10" data-aos="fade-up">
           Partner with Anchor Informatics, a leading .NET development company
           and a trusted Microsoft Gold Partner, to elevate your enterprise with
           a tailor-made .NET solution that is robust, scalable, and secure.
         </p>
-        <Button className="w-fit z-10">
+        <Button className="w-fit z-10" data-aos="fade-up">
           Hire .NET developers
           <ArrowRight />
         </Button>

@@ -49,7 +49,7 @@ const SoftwareEngineerAbout = () => {
     <div className="bg-white text-slate-800">
       <div className="px-4 md:px-0 md:container py-16 mx-auto">
         <PageHeaderText label="Custom software engineering services designed to deliver value from day one." />
-        <p className="py-4 text-lg">
+        <p className="py-4 text-lg" data-aos="fade-up">
           We provide a comprehensive range of software engineering and
           consulting services to help our clients build technology systems for
           enterprise resource planning, collaboration, customer management, data
@@ -58,9 +58,11 @@ const SoftwareEngineerAbout = () => {
         </p>
         <div className="pt-4 grid grid-cols-1 md:grid-cols-4 gap-12 mb-4">
           {softwareServices?.map((service, index) => (
-            <div key={index}>
-              <h3 className="font-semibold text-xl pb-4">{service.title}</h3>
-              <p>{service.description}</p>
+            <div key={index} data-aos="fade-up">
+              <h3 className="font-semibold text-xl pb-4" data-aos="fade-up">
+                {service.title}
+              </h3>
+              <p data-aos="fade-up">{service.description}</p>
             </div>
           ))}
         </div>

@@ -60,7 +60,10 @@ const MachineLearningDevelopment = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Our
           <span className="text-amber-400 px-2">
             Machine Learning Development
@@ -69,7 +72,10 @@ const MachineLearningDevelopment = () => {
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           As a machine learning services provider with over 230 cross-functional
           experts, we stay ahead of your industry challenges and leverage
           emerging ML opportunities to benefit your business.
@@ -77,11 +83,17 @@ const MachineLearningDevelopment = () => {
       </div>
       <div className="mt-12 px-4 md:px-0 md:p-12 md:container mx-auto text-slate-800 bg-white grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-16">
         {sections.map((section, index) => (
-          <div key={index}>
-            <h2 className="font-semibold text-lg">{section.title}</h2>
+          <div key={index} data-aos="fade-up">
+            <h2 className="font-semibold text-lg" data-aos="fade-up">
+              {section.title}
+            </h2>
 
             {section.items.map((item, i) => (
-              <li key={i} className={i % 2 === 0 ? "py-4" : ""}>
+              <li
+                key={i}
+                data-aos="fade-up"
+                className={i % 2 === 0 ? "py-4" : ""}
+              >
                 {item}
               </li>
             ))}

@@ -47,6 +47,7 @@ const FacialRecognitionFaq = () => {
               key={index}
               value={title}
               className="border-b border-[#00000026] py-6"
+              data-aos="fade-up"
             >
               <AccordionTrigger className="text-lg font-semibold w-full">
                 {title}
@@ -55,7 +56,7 @@ const FacialRecognitionFaq = () => {
             </AccordionItem>
           ))}
         </Accordion>
-        <Link href={"/contact-us"} className="pt-6">
+        <Link href={"/contact-us"} className="pt-6" data-aos="fade-up">
           <Button>Tell us about your project</Button>
         </Link>
       </div>

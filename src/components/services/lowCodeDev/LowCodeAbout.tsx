@@ -1,3 +1,4 @@
+import { ServicesCard } from "@/components/componentShared";
 import { PageHeaderText } from "@/components/shared";
 import React from "react";
 const services = [
@@ -24,23 +25,11 @@ const services = [
 ];
 
 const LowCodeAbout = () => {
-  const ServiceCard = ({
-    title,
-    description,
-  }: {
-    title: string;
-    description: string;
-  }) => (
-    <div>
-      <p className="font-semibold text-blue-600">{title}</p>
-      <p className="pt-6">{description}</p>
-    </div>
-  );
   return (
     <div className="bg-white py-16 text-slate-800">
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="What Anchor Informatics offers as part of low-code development services" />
-        <p>
+        <p data-aos="fade-up">
           Our low-code company empowers you to develop proof of concepts (PoCs),
           prototypes, and minimum viable products (MVPs) for your technology
           solutions up to three times faster. A skilled team of business
@@ -48,7 +37,7 @@ const LowCodeAbout = () => {
         </p>
         <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
           {services.map((service, index) => (
-            <ServiceCard
+            <ServicesCard
               key={index}
               title={service.title}
               description={service.description}

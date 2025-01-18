@@ -12,11 +12,11 @@ const LowCodeBanner = () => {
 development services"
           className="w-full md:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4 z-10">
+        <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
           Speed up time to market and cut application development costs by up to
           50% with ITRex&apos;s low-code and no-code development services.
         </p>
-        <Button className="w-fit z-10">
+        <Button className="w-fit z-10" data-aos="fade-up">
           Get In Touch
           <ArrowRight />
         </Button>
@@ -26,7 +26,7 @@ development services"
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute md:flex top-24 right-32"
+        className="absolute md:flex top-24 right-32 animate-rotate"
       />
     </div>
   );

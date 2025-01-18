@@ -29,7 +29,7 @@ const AiDevServices = () => {
     title: string;
     description: string;
   }) => (
-    <div>
+    <div data-aos="fade-up">
       <p className="font-semibold">{title}</p>
       <p className="pt-6">{description}</p>
     </div>
@@ -44,7 +44,10 @@ const AiDevServices = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container"
+          data-aos="fade-up"
+        >
           The Core pillars
           <span className="text-amber-400">
             {" "}

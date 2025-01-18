@@ -23,7 +23,7 @@ const ELearningBanner = () => {
         alt="About Anchor Informatics"
         height={400}
         width={600}
-        className="absolute  md:flex top-16 right-32"
+        className="absolute  md:flex top-16 right-32 animate-rotate"
       />
     </div>
   );

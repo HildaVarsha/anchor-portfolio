@@ -46,6 +46,7 @@ const NlpFaq = () => {
             <AccordionItem
               key={index}
               value={title}
+              data-aos="fade-up"
               className="border-b border-[#00000026] py-6"
             >
               <AccordionTrigger className="text-lg font-semibold w-full">

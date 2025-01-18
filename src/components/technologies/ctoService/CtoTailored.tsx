@@ -46,14 +46,19 @@ const CtoTailored = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container">
-          <p>Our CTO as a Service: Tailored</p>{" "}
-          <p className="text-amber-400">Solutions for Your Business Needs</p>
+        <div
+          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container"
+          data-aos="fade-up"
+        >
+          <p data-aos="fade-up">Our CTO as a Service: Tailored</p>{" "}
+          <p className="text-amber-400" data-aos="fade-up">
+            Solutions for Your Business Needs
+          </p>
         </div>
       </div>
       <div className="bg-white text-slate-800">
         <div className="px-4 md:px-0 md:container py-16 mx-auto">
-          <p className="py-4 text-lg">
+          <p className="py-4 text-lg" data-aos="fade-up">
             With over a decade of experience guiding complex, innovative
             projects, our CTO as a Service offering ensures technical excellence
             for your business. Whether it&apos;s leading your R&D team, managing
@@ -63,9 +68,11 @@ const CtoTailored = () => {
           </p>
           <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-12 mb-4">
             {ctoTailoredServices?.map((service, index) => (
-              <div key={index}>
-                <h3 className="font-semibold text-xl pb-4">{service.title}</h3>
-                <p>{service.description}</p>
+              <div key={index} data-aos="fade-up">
+                <h3 className="font-semibold text-xl pb-4" data-aos="fade-up">
+                  {service.title}
+                </h3>
+                <p data-aos="fade-up">{service.description}</p>
               </div>
             ))}
           </div>

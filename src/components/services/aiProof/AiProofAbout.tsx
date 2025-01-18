@@ -42,7 +42,7 @@ const AiProofAbout = () => {
     title: string;
     description: string;
   }) => (
-    <div>
+    <div data-aos="fade-up">
       <p className="font-semibold text-blue-600">{title}</p>
       <p className="pt-6">{description}</p>
     </div>
@@ -51,7 +51,7 @@ const AiProofAbout = () => {
     <div className="bg-white py-16 text-slate-800">
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="How We Can Support Your AI PoC Development" />
-        <p>
+        <p data-aos="fade-up">
           As experienced AI consultants with a solid foundation in business
           analysis, we understand the unique challenges our clients
           encounter—ranging from limited budgets and resources to the urgency of

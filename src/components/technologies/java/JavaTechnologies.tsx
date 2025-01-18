@@ -8,10 +8,16 @@ interface TechnologyGroupProps {
 
 const TechnologyGroup: React.FC<TechnologyGroupProps> = ({ title, items }) => (
   <div>
-    <p className="text-2xl font-semibold">{title}</p>
+    <p className="text-2xl font-semibold" data-aos="fade-up">
+      {title}
+    </p>
     <ul className="py-4">
       {items.map((item, index) => (
-        <li key={index} className={index % 2 !== 0 ? "py-4" : "pt-4"}>
+        <li
+          key={index}
+          className={index % 2 !== 0 ? "py-4" : "pt-4"}
+          data-aos="fade-up"
+        >
           {item}
         </li>
       ))}
@@ -81,10 +87,16 @@ const JavaTechnologies: React.FC = () => {
         }}
       >
         <div className="container mx-auto">
-          <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold">
+          <p
+            className="px-4 md:px-0 text-2xl md:text-5xl font-bold"
+            data-aos="fade-up"
+          >
             Technologies
           </p>
-          <p className="text-amber-400 px-4 md:px-0 text-2xl md:text-5xl font-bold">
+          <p
+            className="text-amber-400 px-4 md:px-0 text-2xl md:text-5xl font-bold"
+            data-aos="fade-up"
+          >
             we use
           </p>
         </div>

@@ -30,7 +30,7 @@ const FacialRecognitionSoftware = () => {
     title: string;
     description: string;
   }) => (
-    <div>
+    <div data-aos="fade-up">
       <p className="font-semibold">{title}</p>
       <p className="pt-6">{description}</p>
     </div>
@@ -45,7 +45,10 @@ const FacialRecognitionSoftware = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Computer Vision
           <span className="text-amber-400">
             {" "}
@@ -54,7 +57,10 @@ const FacialRecognitionSoftware = () => {
         </p>
       </div>
       <div className="py-12 bg-white">
-        <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <div
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           <p className="">
             While primarily an IT services company, Anchor’s Informative has
             ventured into productization with MotionMind AI - —a pre-packaged,

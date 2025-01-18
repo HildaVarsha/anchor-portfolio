@@ -14,7 +14,7 @@ const JavaTopWays: React.FC = () => {
         }}
       >
         <div className="container mx-auto px-4">
-          <p className="text-2xl md:text-5xl  font-bold">
+          <p className="text-2xl md:text-5xl  font-bold" data-aos="fade-up">
             The top ways our Java development company can bring exceptional
             value to you.
           </p>
@@ -25,7 +25,7 @@ const JavaTopWays: React.FC = () => {
       <div className="py-12 bg-white">
         <div className="container mx-auto px-4 text-slate-800">
           {/* Overview */}
-          <p className="pb-6">
+          <p className="pb-6" data-aos="fade-up">
             We can expand your team or company with Java app development
             expertise of any scale. Whether you need a dedicated team or
             individual developers, we manage your Java project from start to
@@ -56,7 +56,7 @@ const JavaTopWays: React.FC = () => {
 
           {/* Roles Section */}
           <div className="py-12 bg-blue-100 p-8">
-            <p className="text-2xl pb-8 font-semibold">
+            <p className="text-2xl pb-8 font-semibold" data-aos="fade-up">
               If you&apos;re looking for full end-to-end coverage or assistance
               with specific parts of your Java project, hire our dedicated team
               and leave the management and recruitment to us.
@@ -101,9 +101,11 @@ const ServiceOption: React.FC<ServiceOptionProps> = ({
   title,
   description,
 }) => (
-  <div>
-    <p className="font-semibold text-xl mb-6">{title}</p>
-    <p>{description}</p>
+  <div data-aos="fade-up">
+    <p className="font-semibold text-xl mb-6" data-aos="fade-up">
+      {title}
+    </p>
+    <p data-aos="fade-up">{description}</p>
   </div>
 );
 
@@ -115,7 +117,11 @@ interface RoleColumnProps {
 const RoleColumn: React.FC<RoleColumnProps> = ({ roles }) => (
   <div className="w-full">
     {roles?.map((role, index) => (
-      <li key={index} className={index % 2 !== 0 ? "py-8" : ""}>
+      <li
+        key={index}
+        className={index % 2 !== 0 ? "py-8" : ""}
+        data-aos="fade-up"
+      >
         {role}
       </li>
     ))}

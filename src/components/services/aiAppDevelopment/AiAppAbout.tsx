@@ -10,7 +10,10 @@ const Section = ({
   description: string;
   points: string[];
 }) => (
-  <div className="py-6 flex flex-col md:flex-row gap-4 md:gap-16 border-b border-slate-200">
+  <div
+    className="py-6 flex flex-col md:flex-row gap-4 md:gap-16 border-b border-slate-200"
+    data-aos="fade-up"
+  >
     <p className="font-semibold text-lg w-full">{title}</p>
     <div className="w-full">
       <p>{description}</p>

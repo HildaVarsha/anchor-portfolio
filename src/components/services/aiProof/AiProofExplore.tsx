@@ -1,3 +1,4 @@
+import { ServicesCard } from "@/components/componentShared";
 import React from "react";
 
 const services = [
@@ -33,18 +34,6 @@ const services = [
   },
 ];
 const AiProofExplore = () => {
-  const ServiceCard = ({
-    title,
-    description,
-  }: {
-    title: string;
-    description: string;
-  }) => (
-    <div>
-      <p className="font-semibold text-blue-600">{title}</p>
-      <p className="pt-6">{description}</p>
-    </div>
-  );
   return (
     <div>
       <div
@@ -55,12 +44,18 @@ const AiProofExplore = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container"
+          data-aos="fade-up"
+        >
           Explore our expertise in AI PoC development.
         </p>
       </div>
       <div className="py-12 bg-white text-slate-800">
-        <p className="pb-6 px-4 md:px-0 md:container mx-auto">
+        <p
+          className="pb-6 px-4 md:px-0 md:container mx-auto"
+          data-aos="fade-up"
+        >
           Having embraced AI early on, long before it became mainstream, Anchor
           has gained extensive expertise across various AI types and subsets. We
           leverage this knowledge to tackle real-world challenges that arise
@@ -69,7 +64,7 @@ const AiProofExplore = () => {
         <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
           <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
             {services.map((service, index) => (
-              <ServiceCard
+              <ServicesCard
                 key={index}
                 title={service.title}
                 description={service.description}

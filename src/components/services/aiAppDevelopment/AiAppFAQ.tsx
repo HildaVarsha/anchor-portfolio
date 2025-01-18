@@ -34,6 +34,7 @@ const AiAppFAQ = () => {
                 key={index}
                 value={title}
                 className="border-b border-[#00000026] py-6"
+                data-aos="fade-up"
               >
                 <AccordionTrigger className="text-lg font-semibold w-full">
                   {title}

@@ -39,7 +39,7 @@ const UiUxDesign = () => {
     title: string;
     description: string;
   }) => (
-    <div>
+    <div data-aos="fade-up">
       <p className="font-semibold text-slate-800">{title}</p>
       <p className="pt-6">{description}</p>
     </div>
@@ -54,14 +54,17 @@ const UiUxDesign = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Our UI/UX Design Company’s
           <span className="text-amber-400 px-2">Core Strengths</span>
         </p>
       </div>
       <div className="bg-amber-400 py-16 text-slate-800">
         <div className="md:container mx-auto px-4">
-          <p>
+          <p data-aos="fade-up">
             While your software solution may be complex behind the scenes, its
             UI/UX design should remain simple and intuitive. As an IT company
             committed to this philosophy, we prioritize consistency,

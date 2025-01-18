@@ -11,12 +11,12 @@ const GraphicDesignBanner = () => (
         label="Creative design solutions crafted to elevate your brand's visual impact and meet your business goals."
         className="w-full md:max-w-2xl"
       />
-      <p className="w-full md:max-w-2xl py-4 z-10">
+      <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
         Build a unique brand identity and accelerate business growth with
         comprehensive graphic design and marketing solutions from Anchor
         Informatics.
       </p>
-      <Button className="w-fit z-10">
+      <Button className="w-fit z-10" data-aos="fade-up">
         Get In Touch
         <ArrowRight />
       </Button>
@@ -26,7 +26,7 @@ const GraphicDesignBanner = () => (
       alt="About Anchor Informatics"
       height={500}
       width={500}
-      className="md:absolute hidden md:flex top-4 md:top-24 right-32"
+      className="md:absolute hidden md:flex top-4 md:top-24 right-32 animate-rotate"
     />
   </div>
 );

@@ -8,7 +8,7 @@ const AiDevAtAnchor = () => {
     title: string;
     description: string;
   }) => (
-    <div>
+    <div data-aos="fade-up">
       <p className="font-semibold text-blue-600">{title}</p>
       <p className="pt-6">{description}</p>
     </div>
@@ -55,7 +55,10 @@ const AiDevAtAnchor = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container"
+          data-aos="fade-up"
+        >
           At Anchor Informatics, an AI Development
           <span className="text-amber-400">
             {" "}
@@ -66,7 +69,7 @@ const AiDevAtAnchor = () => {
       </div>
       <div className="py-12  bg-white">
         <div className=" px-4 md:px-0 md:container mx-auto text-slate-800">
-          <p className="">
+          <p className="" data-aos="fade-up">
             Anchor Informatics is an AI development company with more than a
             decade of experience. We empower you to harness cutting-edge AI
             tools and technologies to drive exponential growth.

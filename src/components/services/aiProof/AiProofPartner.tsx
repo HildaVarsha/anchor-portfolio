@@ -11,13 +11,16 @@ const AiProofPartner = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Why partner with Anchor Informatics for
           <span className="text-amber-400">{""} AI PoC development?</span>
         </p>
       </div>
       <div className="mt-12 p-4  md:p-12 md:container mx-auto text-slate-800 bg-amber-100 flex flex-col md:flex-row gap-4 md:gap-16">
-        <div>
+        <div data-aos="fade-up">
           <p className="">
             <strong>In-house R&D expertise.</strong> At Anchor Informatics, we
             have a dedicated in-house R&D team focused on driving innovation and
@@ -34,7 +37,7 @@ const AiProofPartner = () => {
             and lay the foundation for full-scale AI implementation.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <p>
             <strong>Flexible collaboration options.</strong> Whether you need a
             dedicated team to oversee your AI PoC project or a virtual CTO for

@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui";
+import { ServicesCard } from "@/components/componentShared";
 
 const services = [
   {
@@ -35,18 +36,6 @@ const services = [
   },
 ];
 const FacialRecognitionSoutions = () => {
-  const ServiceCard = ({
-    title,
-    description,
-  }: {
-    title: string;
-    description: string;
-  }) => (
-    <div>
-      <p className="font-semibold text-blue-600">{title}</p>
-      <p className="pt-6">{description}</p>
-    </div>
-  );
   return (
     <div className="bg-white pb-16">
       <div
@@ -57,7 +46,10 @@ const FacialRecognitionSoutions = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Develop Industry-Specific
           <span className="text-amber-400">
             {" "}
@@ -66,7 +58,10 @@ const FacialRecognitionSoutions = () => {
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           Our facial recognition software development services stand out due to
           end-to-end application integration and adherence to industry-specific
           requirements. We have successfully delivered face recognition
@@ -77,7 +72,7 @@ const FacialRecognitionSoutions = () => {
         <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
           <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
             {services.map((service, index) => (
-              <ServiceCard
+              <ServicesCard
                 key={index}
                 title={service.title}
                 description={service.description}

@@ -12,13 +12,13 @@ const UiUxBanner = () => {
           label="Comprehensive UI/UX design solutions"
           className="w-full md:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4 z-10">
+        <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
           Anchor informatics offers a full suite of UI/UX design services,
           transforming mobile apps, websites, dashboards, and cyber-physical
           systems into standout solutions that captivate users and drive
           tangible business results.
         </p>
-        <Button className="w-fit z-10">
+        <Button className="w-fit z-10" data-aos="fade-up">
           Get In Touch
           <ArrowRight />
         </Button>
@@ -28,7 +28,7 @@ const UiUxBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute hidden  md:flex top-24 right-32"
+        className="absolute hidden  md:flex top-24 right-32  animate-rotate"
       />
     </div>
   );

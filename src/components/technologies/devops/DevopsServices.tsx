@@ -11,13 +11,21 @@ const DevopsServices = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
-          <p>Our DevOps Services and </p>
-          <p className="text-amber-400">Solutions</p>
+        <div
+          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container"
+          data-aos="fade-up"
+        >
+          <p data-aos="fade-up">Our DevOps Services and </p>
+          <p className="text-amber-400" data-aos="fade-up">
+            Solutions
+          </p>
         </div>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           As technology reshapes the business landscape, our DevOps consultants
           are here to transform your company&apos;s challenges into a
           competitive advantage. From CI/CD and cloud DevOps services to
