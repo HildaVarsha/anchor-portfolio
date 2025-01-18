@@ -24,7 +24,7 @@ const SoftwareEngineerBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute md:flex top-20 right-32 animate-rotate"
+        className="md:absolute md:flex hidden md:top-20 right-32 md:animate-rotate"
       />
     </div>
   );
