@@ -4,7 +4,7 @@ import { Button } from "../ui";
 
 const GetHireButton = () => {
   return (
-    <Link href={"/contact-us"} data-aos="fade-up">
+    <Link href={"/contact-us"} data-aos="fade-up" className="z-10">
       <Button>Get In Touch</Button>
     </Link>
   );

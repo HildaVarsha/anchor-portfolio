@@ -26,7 +26,7 @@ const AiProofBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="md:absolute md:flex top-24 right-32 animate-rotate"
+        className="absolute md:flex top-24 right-32 animate-rotate"
       />
     </div>
   );
