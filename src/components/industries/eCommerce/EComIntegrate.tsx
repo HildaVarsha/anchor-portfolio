@@ -47,7 +47,10 @@ const EComIntegrate = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Integrate all your systems
           <span className="text-amber-400 pl-2">
             {" "}
@@ -56,7 +59,10 @@ const EComIntegrate = () => {
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           Seamless integration of your ecommerce website with the right mix of
           back-office systems is what makes or breaks customer experience and
           real-time analytics. We have helped dozens of brands to build top

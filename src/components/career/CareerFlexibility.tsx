@@ -22,19 +22,24 @@ const sections = [
 const CareerFlexibility = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      {sections.map((section, index) => (
+      {sections?.map((section, index) => (
         <div
           key={index}
           className={`px-4 md:px-0 md:container mx-auto flex flex-col md:flex-row  gap-4 md:gap-12 justify-between ${
             index > 0 ? "pt-12" : ""
           }`}
+          data-aos="fade-up"
         >
           <div className="w-full">
             <PageHeaderText label={section.header} />
           </div>
           <div className="w-full">
             {section.paragraphs.map((paragraph, i) => (
-              <p key={i} className={i === 0 ? "pt-4" : "pt-2"}>
+              <p
+                key={i}
+                className={i === 0 ? "pt-4" : "pt-2"}
+                data-aos="fade-up"
+              >
                 {paragraph}
               </p>
             ))}

@@ -36,18 +36,21 @@ const FinTechPower = () => {
         }}
       >
         <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
-          <p>Leverage the power of innovative techs</p>
-          <p className="text-amber-400"> to redefine finance</p>
+          <p data-aos="fade-up">Leverage the power of innovative techs</p>
+          <p className="text-amber-400" data-aos="fade-up">
+            {" "}
+            to redefine finance
+          </p>
         </div>
       </div>
       <div className="py-12 bg-amber-400">
         <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
-          <p>
+          <p data-aos="fade-up">
             Innovators at heart, we strongly believe in the power of novel
             technology. We use our expertise in blockchain, smart contracts,
             RPA, and AI development to help you design a new future for finance.
           </p>
-          <p className="pt-6">
+          <p className="pt-6" data-aos="fade-up">
             We don’t innovate for the sake of it, though. Rather, we treat novel
             technology as a strategic imperative that helps traditional and
             non-traditional financial institutions create value now and shape

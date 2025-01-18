@@ -66,12 +66,16 @@ const IndustriesTechnology = () => {
     <div className="bg-white">
       <div className="px-4 md:px-0 md:container mx-auto py-16 text-slate-800 grid grid-cols-1 md:grid-cols-3 gap-12">
         {industries.map((industry, index) => (
-          <div key={index}>
-            <p className="font-semibold text-3xl pb-4">{industry.title}</p>
-            <p className="py-4">{industry.description}</p>
+          <div key={index} data-aos="fade-up">
+            <p className="font-semibold text-3xl pb-4" data-aos="fade-up">
+              {industry.title}
+            </p>
+            <p className="py-4" data-aos="fade-up">
+              {industry.description}
+            </p>
           </div>
         ))}
-        <Button className="w-fit">
+        <Button className="w-fit" data-aos="fade-up">
           Talk to tech consultants <ArrowRight />
         </Button>
       </div>

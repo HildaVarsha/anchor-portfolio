@@ -12,7 +12,7 @@ const SupplyChainBanner = () => {
 and supply chain"
           className="w-full md:max-w-2xl"
         />
-        <p className="md:max-w-2xl py-4 z-10">
+        <p className="md:max-w-2xl py-4 z-10" data-aos="fade-up">
           Leverage the power of next-gen technologies to revamp manufacturing
           and supply chain management processes, keep your clients happy, and
           improve your bottom line
@@ -24,6 +24,7 @@ and supply chain"
         alt="About Anchor Informatics"
         height={400}
         width={600}
+        data-aos="fade-up"
         className="absolute  md:flex top-16 right-32 animate-rotate"
       />
     </div>

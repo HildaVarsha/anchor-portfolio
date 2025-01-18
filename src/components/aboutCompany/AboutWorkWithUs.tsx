@@ -45,12 +45,18 @@ const AboutWorkWithUs = () => {
             <AccordionItem
               key={index}
               value={title}
+              data-aos="fade-up"
               className="border-b border-[#00000026] py-6"
             >
-              <AccordionTrigger className="text-lg font-semibold w-full">
+              <AccordionTrigger
+                className="text-lg font-semibold w-full"
+                data-aos="fade-up"
+              >
                 {title}
               </AccordionTrigger>
-              <AccordionContent className="pt-6">{content}</AccordionContent>
+              <AccordionContent className="pt-6" data-aos="fade-up">
+                {content}
+              </AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>

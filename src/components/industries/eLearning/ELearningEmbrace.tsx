@@ -46,7 +46,10 @@ const ELearningEmbrace = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Embracing the possibilities
           <span className="text-amber-400 pl-2">
             of educational technology to the fullest
@@ -54,7 +57,10 @@ const ELearningEmbrace = () => {
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           We design feature-rich educational software solutions that help
           learners hone essential skills faster, bring a human touch to online
           learning, boost educational content delivery, and enhance the learner
@@ -67,12 +73,18 @@ const ELearningEmbrace = () => {
             <AccordionItem
               key={index}
               value={title}
+              data-aos="fade-up"
               className="border-b border-[#00000026] py-6"
             >
-              <AccordionTrigger className="text-lg font-semibold w-full">
+              <AccordionTrigger
+                className="text-lg font-semibold w-full"
+                data-aos="fade-up"
+              >
                 {title}
               </AccordionTrigger>
-              <AccordionContent className="pt-6">{content}</AccordionContent>
+              <AccordionContent className="pt-6" data-aos="fade-up">
+                {content}
+              </AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>

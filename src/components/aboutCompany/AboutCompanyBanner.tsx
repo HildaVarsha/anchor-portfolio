@@ -9,17 +9,22 @@ const AboutCompanyBanner = () => {
     <div className="bg-amber-300 h-[600px] pt-24 relative">
       <div className="px-4 md:px-0 md:container mx-auto text-slate-800 flex flex-col justify-center h-full">
         <div>
-          <p className="text-3xl md:text-5xl font-bold ">We&apos;re leading</p>
-          <p className="text-3xl md:text-5xl font-bold py-2 text-slate-800">
+          <p className="text-3xl md:text-5xl font-bold" data-aos="fade-up">
+            We&apos;re leading
+          </p>
+          <p
+            className="text-3xl md:text-5xl font-bold py-2 text-slate-800"
+            data-aos="fade-up"
+          >
             Power Of Technology
           </p>
-          <p className="text-sm max-w-lg pt-2">
+          <p className="text-sm max-w-lg pt-2" data-aos="fade-up">
             We get a buzz out of unlocking the power of emerging tech for both
             big-name enterprises and ambitious startups.
           </p>
         </div>
       </div>
-      <Link href={"/contact-us"}>
+      <Link href={"/contact-us"} data-aos="fade-up">
         <Button className="w-full">
           Get In Touch <ArrowRight />
         </Button>

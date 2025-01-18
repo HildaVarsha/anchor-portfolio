@@ -36,7 +36,10 @@ const RetailBoost = () => {
         }}
       >
         <div className="px-4 md:px-0 md:container mx-auto">
-          <p className="text-5xl mx-auto font-bold container">
+          <p
+            className="text-5xl mx-auto font-bold container"
+            data-aos="fade-up"
+          >
             Boost retail and wholesale
             <span className="text-amber-400 text-5xl mx-auto font-bold container pl-2">
               operations
@@ -45,7 +48,10 @@ const RetailBoost = () => {
         </div>
       </div>
       <div className="py-12 bg-amber-400">
-        <div className="px-4 md:px-0 md:container mx-auto bg-amber-400 p-4 text-slate-800">
+        <div
+          className="px-4 md:px-0 md:container mx-auto bg-amber-400 p-4 text-slate-800"
+          data-aos="fade-up"
+        >
           With our retail software development services, you can empower your
           business with tools that make it easier to manage orders and payments,
           as well as optimize and even automate sourcing, procurement, and

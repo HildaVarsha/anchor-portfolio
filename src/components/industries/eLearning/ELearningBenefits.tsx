@@ -47,13 +47,19 @@ const ELearningBenefits = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Unleashing the benefits
           <span className="text-amber-400 pl-2">of tech-assisted learning</span>
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           Driven by the COVID-19 crisis, education has tapped in radical
           transformation. With distance learning sparking public interest in
           educational innovations, EdTech will continue to reshape the way we

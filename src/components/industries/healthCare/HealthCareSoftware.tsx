@@ -76,13 +76,19 @@ const HealthCareSoftware = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Healthcare software solutions
           <span className="text-amber-400">we develop</span>
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           Our medical software solutions portfolio features powerful tools
           driving patient engagement and automating fastidious tasks associated
           with inpatient and outpatient care. To secure patient data and protect

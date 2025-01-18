@@ -46,7 +46,10 @@ const LogisticsCustom = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Custom logistics software
           <span className="text-amber-400">
             {" "}
@@ -55,7 +58,10 @@ const LogisticsCustom = () => {
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           Tell us about your idea or challenge, simple or complex. Together we
           will figure out the best-fit logistics software solution that will
           take your business to a new strategic level. With us, your
@@ -75,7 +81,7 @@ const LogisticsCustom = () => {
               />
             ))}
           </div>
-          <Link href={"/contact-us"}>
+          <Link href={"/contact-us"} data-aos="fade-up">
             <Button>Get In Touch</Button>
           </Link>
         </div>

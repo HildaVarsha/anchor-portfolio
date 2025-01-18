@@ -138,6 +138,7 @@ const BlogsListing = () => {
               className={`${
                 selectedCategory === category ? "text-blue-600" : ""
               } hover:text-blue-600`}
+              data-aos="fade-up"
             >
               {category}
             </button>
@@ -154,9 +155,14 @@ const BlogsListing = () => {
                 width={300}
                 height={300}
                 className="w-full rounded-md"
+                data-aos="flip-left"
               />
-              <p className="py-4 font-semibold">{item.title}</p>
-              <p className="font-bold text-2xl">{item.description}</p>
+              <p className="py-4 font-semibold" data-aos="fade-up">
+                {item.title}
+              </p>
+              <p className="font-bold text-2xl" data-aos="fade-up">
+                {item.description}
+              </p>
             </div>
           ))}
         </div>

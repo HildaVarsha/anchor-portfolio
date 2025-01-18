@@ -25,7 +25,7 @@ const RetailAbout = () => {
     <div className="bg-white py-16 text-slate-800">
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="Flexible retail software development services" />
-        <p>
+        <p data-aos="fade-up">
           A retail software development company with 13+ years of experience, we
           have full-stack capabilities to help you ride the crest of digital
           transformation in retail. Whether you’re about to develop a custom

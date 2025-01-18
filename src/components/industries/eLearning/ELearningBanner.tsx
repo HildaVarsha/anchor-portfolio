@@ -11,7 +11,7 @@ const ELearningBanner = () => {
           label="eLearning software development services"
           className="w-full md:max-w-2xl"
         />
-        <p className="md:max-w-2xl py-4 z-10">
+        <p className="md:max-w-2xl py-4 z-10" data-aos="fade-up">
           We develop powerful educational solutions that turn in-person and
           online learning into a diverse, engaging, and results-driven
           experience
@@ -23,6 +23,7 @@ const ELearningBanner = () => {
         alt="About Anchor Informatics"
         height={400}
         width={600}
+        data-aos="fade-up"
         className="absolute  md:flex top-16 right-32 animate-rotate"
       />
     </div>

@@ -31,7 +31,10 @@ const RetailOvercome = () => {
         }}
       >
         <div className="px-4 md:px-0 md:container mx-auto">
-          <p className="text-5xl mx-auto font-bold container">
+          <p
+            className="text-5xl mx-auto font-bold container"
+            data-aos="fade-up"
+          >
             Overcome the aftermath of the pandemic
             <span className="text-amber-400 text-5xl mx-auto font-bold pl-2">
               and reopen safely
@@ -41,12 +44,12 @@ const RetailOvercome = () => {
       </div>
       <div className="py-12 bg-amber-400">
         <div className="px-4 md:px-0 md:container mx-auto bg-amber-400 p-4 text-slate-800">
-          <p>
+          <p data-aos="fade-up">
             With brick-and-mortar stores reopening, retailers need to make sure
             offline shopping is safe and enjoyable. We empower the retail
             industry with software solutions that do just that.
           </p>
-          <p className="pt-6">
+          <p className="pt-6" data-aos="fade-up">
             Our custom retail software solutions will help you inform your
             customers about safety regulations, make sure they follow precaution
             measures, and prevent crowding through self-service and

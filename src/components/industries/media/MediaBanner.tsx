@@ -14,7 +14,7 @@ const MediaBanner = () => {
 software solutions"
           className="w-full md:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4 z-10">
+        <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
           Boost content production, collaborate globally, and engage audiences
           of all sizes with innovative and insightful media and entertainment
           software solutions
@@ -26,6 +26,7 @@ software solutions"
         alt="About Anchor Informatics"
         height={500}
         width={500}
+        data-aos="fade-up"
         className="absolute md:flex top-24 right-32 animate-rotate"
       />
     </div>

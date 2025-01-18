@@ -42,7 +42,7 @@ const HealthCareAbout = () => {
     <div className="bg-white py-16 text-slate-800">
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="Custom healthcare software development for every need" />
-        <p>
+        <p data-aos="fade-up">
           A healthcare software development company with a rich portfolio, ITRex
           offers end-to-end medical software development services to healthcare
           providers, pharmaceutical companies, digital health startups, and

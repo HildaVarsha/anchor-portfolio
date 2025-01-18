@@ -35,13 +35,19 @@ const ELearningDeliver = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Delivering custom eLearning solutions
           <span className="text-amber-400"> to make practice perfect</span>
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           Technologies keep reshaping every aspect of our daily lives, and
           education needs innovative tools to make offline and online learners’
           practice more efficient. An eLearning software development company

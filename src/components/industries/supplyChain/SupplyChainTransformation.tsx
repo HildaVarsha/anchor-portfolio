@@ -11,21 +11,24 @@ const SupplyChainTransformation = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Why entrust your digital transformation
           <span className="text-amber-400">{""} project to ITRex?</span>
         </p>
       </div>
       <div className="mt-12 p-4  md:p-12 md:container mx-auto text-slate-800 bg-amber-100 flex flex-col md:flex-row gap-4 md:gap-16">
         <div>
-          <p className="">
+          <p className="" data-aos="fade-up">
             <strong>We are vendor-agnostic.</strong> {""} ITRex uses
             proprietary, open-source, and SaaS-based technologies to avoid
             vendor lock-in when developing IT solutions for supply chain and
             manufacturing companies. This way, we create systems that scale well
             and can be adjusted to your evolving needs.
           </p>
-          <p className="pt-8">
+          <p className="pt-8" data-aos="fade-up">
             <strong>We are agile.</strong> {""} When working on our clients’
             projects, we take the “start small, think big” approach, breaking
             complex systems into smaller pieces of functionality and
@@ -35,7 +38,7 @@ const SupplyChainTransformation = () => {
           </p>
         </div>
         <div>
-          <p>
+          <p data-aos="fade-up">
             <strong>We worship innovation.</strong> {""} With an internal R&D
             department and a handful of moonshot projects under our belt, the
             ITRex team masters novel technologies before they go mainstream.
@@ -43,7 +46,7 @@ const SupplyChainTransformation = () => {
             always seek ways to help our customers adopt new technologies
             faster, at a lower cost, and with a bigger ROI.
           </p>
-          <p className="pt-8">
+          <p className="pt-8" data-aos="fade-up">
             <strong> We are ITRex.{""}</strong> Established in 2009 as a
             general-purpose custom software engineering company, we’ve become a
             one-stop shop for leading-edge AI, data, IoT, and automation

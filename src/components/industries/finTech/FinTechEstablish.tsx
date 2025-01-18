@@ -86,35 +86,45 @@ const FinTechEstablish = () => {
         }}
       >
         <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
-          <p>Established FinTech software development </p>
-          <p className="text-amber-400"> workflows for prolific cooperation</p>
+          <p data-aos="fade-up">Established FinTech software development </p>
+          <p className="text-amber-400" data-aos="fade-up">
+            {" "}
+            workflows for prolific cooperation
+          </p>
         </div>
       </div>
       <div className="py-12 bg-amber-400">
-        <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <div
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           Whether you look to transform your organization into a truly digital
           enterprise or seek to bring a new FinTech product to the market, we
           have efficient processes to deliver value from day one.
         </div>
       </div>
       <div className="px-4 md:px-0 md:container mx-auto py-16  text-slate-800">
-        <Tabs defaultValue="Discovery">
+        <Tabs defaultValue="Discovery" data-aos="fade-up">
           <TabsList className="flex gap-8 w-72 md:w-full overflow-auto overflow-y-hidden">
             {tabsData.map((tab) => (
-              <TabsTrigger key={tab.value} value={tab.value}>
+              <TabsTrigger key={tab.value} value={tab.value} data-aos="fade-up">
                 {tab.title}
               </TabsTrigger>
             ))}
           </TabsList>
           {tabsData.map((tab) => (
-            <TabsContent key={tab.value} value={tab.value}>
+            <TabsContent key={tab.value} value={tab.value} data-aos="fade-up">
               <div className="py-8 flex flex-col md:flex-row justify-between gap-4 md:gap-12">
-                <div className="w-full">{tab.content.description}</div>
+                <div className="w-full" data-aos="fade-up">
+                  {tab.content.description}
+                </div>
                 <div className="w-full">
-                  <p className="font-semibold">Key Points:</p>
+                  <p className="font-semibold" data-aos="fade-up">
+                    Key Points:
+                  </p>
                   <ul>
                     {tab.content.points.map((point, index) => (
-                      <li key={index} className="py-2">
+                      <li key={index} className="py-2" data-aos="fade-up">
                         {point}
                       </li>
                     ))}

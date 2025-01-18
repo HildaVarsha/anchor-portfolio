@@ -74,6 +74,7 @@ const EComTechnology = () => {
           {Object.keys(industryContent).map((industry) => (
             <button
               key={industry}
+              data-aos="fade-up"
               onClick={() => setSelectedIndustry(industry)}
               className={`font-semibold text-2xl ${
                 selectedIndustry === industry ? "text-blue-600" : ""
@@ -84,11 +85,17 @@ const EComTechnology = () => {
           ))}
         </div>
         <div className="">
-          <p>{industryContent[selectedIndustry].description}</p>
+          <p data-aos="fade-up">
+            {industryContent[selectedIndustry].description}
+          </p>
           <ul className="py-4">
             {industryContent[selectedIndustry].points.map(
               (point: string, index: number) => (
-                <li key={index} className={index % 2 === 0 ? "py-4" : ""}>
+                <li
+                  key={index}
+                  className={index % 2 === 0 ? "py-4" : ""}
+                  data-aos="fade-up"
+                >
                   {point}
                 </li>
               )

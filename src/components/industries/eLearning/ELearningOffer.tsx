@@ -14,7 +14,10 @@ const ELearningOffer = () => {
         }}
       >
         <div className="px-4 md:px-0 md:container mx-auto">
-          <p className="text-3xl md:text-5xl mx-auto font-bold container">
+          <p
+            className="text-3xl md:text-5xl mx-auto font-bold container"
+            data-aos="fade-up"
+          >
             Offering flexible
             <span className="text-amber-400 text-3xl md:text-5xl mx-auto font-bold pl-2">
               engagement models
@@ -28,8 +31,8 @@ const ELearningOffer = () => {
           <div className="py-6 flex flex-col md:flex-row gap-4 md:gap-16">
             <div className="w-full">
               <div className="flex  gap-4">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   <strong>R&D and consulting.</strong> Analyzing your
                   educational needs, we will help you formulate a business case,
                   select the right software solution, define its feature set,
@@ -37,8 +40,8 @@ const ELearningOffer = () => {
                 </p>
               </div>
               <div className="flex gap-4 pt-12">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   <strong>Legacy eLearning solution enhancement.</strong>We will
                   enrich your solution with new features, optimize the existing
                   workflows, improve the solution’s performance and user
@@ -48,8 +51,8 @@ const ELearningOffer = () => {
             </div>
             <div className="w-full">
               <div className="flex gap-4">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   <strong>Custom eLearning software development. </strong>We
                   will develop an educational solution from scratch, packing it
                   with the necessary features, putting the required integrations
@@ -57,8 +60,8 @@ const ELearningOffer = () => {
                 </p>
               </div>
               <div className="flex  gap-4 pt-12">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   <strong>
                     Customization of open-source learning platforms.
                   </strong>

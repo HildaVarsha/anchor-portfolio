@@ -13,7 +13,7 @@ development
 services"
           className="w-full md:max-w-2xl"
         />
-        <p className="md:max-w-2xl py-4 z-10">
+        <p className="md:max-w-2xl py-4 z-10" data-aos="fade-up">
           Attract and retain customers through stellar omnichannel experiences
           with our retail software development services
         </p>
@@ -24,6 +24,7 @@ services"
         alt="About Anchor Informatics"
         height={400}
         width={600}
+        data-aos="fade-up"
         className="absolute  md:flex top-16 right-32"
       />
     </div>

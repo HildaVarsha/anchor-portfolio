@@ -7,7 +7,7 @@ const EComAbout = () => {
     <div className="bg-white py-16 text-slate-800">
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="Ecommerce development services for online and brick-and-mortar retailers" />
-        <p>
+        <p data-aos="fade-up">
           No matter what type of retail business you are, we have the right
           expertise and experience to deliver a successful ecommerce solution
           that will engage your specific audience — with a tailored
@@ -23,6 +23,7 @@ const EComAbout = () => {
             width={100}
             height={100}
             quality={100}
+            data-aos="fade-up"
             className="w-full h-[500px] object-cover rounded-md mt-12"
           />
         </div>

@@ -9,7 +9,10 @@ const AboutWhyChooseUs = () => {
           label="Why Choose Us?"
           className="text-slate-800 text-center"
         />
-        <p className="text-center text-slate-800 text-lg max-w-lg mx-auto">
+        <p
+          className="text-center text-slate-800 text-lg max-w-lg mx-auto"
+          data-aos="fade-up"
+        >
           Our objective is to assist businesses in accelerating the adoption of
           new technologies, resolving difficult issues that arise frequently
           throughout digital transformation, and orchestrating continuous
