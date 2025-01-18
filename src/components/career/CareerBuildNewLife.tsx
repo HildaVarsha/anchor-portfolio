@@ -25,6 +25,7 @@ const CareerBuildNewLife = () => {
               width={300}
               height={300}
               className="w-full"
+              data-aos="fade-up"
             />
           ))}
         </div>

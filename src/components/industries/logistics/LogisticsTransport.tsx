@@ -12,8 +12,11 @@ const LogisticsTransport = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
-          ITRex: Top transportation & logistics
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
+          Anchor: Top transportation & logistics
           <span className="text-amber-400">
             {" "}
             {""} software development company
@@ -26,16 +29,16 @@ const LogisticsTransport = () => {
           <div className="py-6 flex flex-col md:flex-row gap-4 md:gap-16">
             <div className="w-full">
               <div className="flex items-center gap-4">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   <strong>We have great talent.</strong> With our 300-strong
                   team, we bring in top professionals to develop simple to
                   complex logistics software solutions for your growth
                 </p>
               </div>
               <div className="flex items-center gap-4 pt-6">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   <strong>We are vendor-agnostic.</strong> As an independent
                   consultant in transportation and logistics software
                   development, we only recommend technologies and solutions that
@@ -45,8 +48,8 @@ const LogisticsTransport = () => {
             </div>
             <div className="w-full">
               <div className="flex items-center gap-4">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   <strong>We know emerging tech.</strong> We stay at the
                   forefront of new-age technologies, delivering perfectly
                   crafted solutions in domains like AI/ML, Big Data, IoT,
@@ -54,8 +57,8 @@ const LogisticsTransport = () => {
                 </p>
               </div>
               <div className="flex items-center gap-4 pt-6">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   <strong>We have experience.</strong> With 13+ years of
                   experience in technology consulting and software development,
                   we’ve successfully delivered 600+ products to 200+ happy

@@ -41,12 +41,18 @@ const FinTechIndustry = () => {
         }}
       >
         <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
-          <p>Industry-specific FinTech </p>
-          <p className="text-amber-400"> software development</p>
+          <p data-aos="fade-up">Industry-specific FinTech </p>
+          <p className="text-amber-400" data-aos="fade-up">
+            {" "}
+            software development
+          </p>
         </div>
       </div>
       <div className="py-12 bg-amber-400">
-        <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <div
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           Our financial software development services integrate tech-savviness
           and industry-specific expertise. We deep dive into the peculiarities
           of your sector to architect a financial software solution that is

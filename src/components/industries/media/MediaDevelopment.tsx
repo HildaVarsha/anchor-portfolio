@@ -33,13 +33,19 @@ const MediaDevelopment = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           End-to-end media and entertainment
           <span className="text-amber-400"> {""} development services</span>
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           Partnering with ITRex, you collaborate with a team of experienced
           media & entertainment software developers who can guide your project
           from ideation to realization. We put field-tested workflows and
@@ -54,9 +60,14 @@ const MediaDevelopment = () => {
             <div
               className="flex gap-4 md:gap-16 border-b border-slate-400 py-12"
               key={index}
+              data-aos="fade-up"
             >
-              <p className="text-2xl font-semibold w-full">{service?.title}</p>
-              <p className="w-full">{service?.description}</p>
+              <p className="text-2xl font-semibold w-full" data-aos="fade-up">
+                {service?.title}
+              </p>
+              <p className="w-full" data-aos="fade-up">
+                {service?.description}
+              </p>
             </div>
           ))}
         </div>

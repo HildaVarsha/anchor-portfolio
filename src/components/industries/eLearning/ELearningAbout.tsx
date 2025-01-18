@@ -30,7 +30,7 @@ const ELearningAbout = () => {
     <div className="bg-white py-16 text-slate-800">
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="We craft educational software for every need" />
-        <p>
+        <p data-aos="fade-up">
           We help our clients in K-12, postsecondary, and corporate segments to
           redefine the way they teach, learn, communicate, and operate. EdTech
           startups and educational software companies, in turn, use our

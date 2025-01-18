@@ -6,7 +6,7 @@ const IndustriesWeServe = () => {
     <div className="bg-white">
       <div className="px-4 md:px-0 md:container mx-auto py-12 text-slate-800">
         <PageHeaderText label="Industries We Serve: Applications & Systems" />
-        <p className="pt-4 text-lg">
+        <p className="pt-4 text-lg" data-aos="fade-up">
           The Geospatial Revolution As technology evolves, the potential for
           geospatial innovations to shape consumer experiences and fuel
           multibillion-dollar industries has never been greater. Anchor

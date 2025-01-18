@@ -45,11 +45,18 @@ const AboutValues = () => {
           className={`flex items-center justify-between gap-16 pt-16 ${
             reverse ? "flex-row-reverse" : ""
           }`}
+          data-aos="fade-up"
         >
-          <p className="text-amber-400 w-full">{description}</p>
+          <p className="text-amber-400 w-full" data-aos="fade-up">
+            {description}
+          </p>
           <div className="w-full text-center">
-            <p className="text-9xl text-amber-400 font-bold">{number}</p>
-            <p className="font-semibold text-3xl">{title}</p>
+            <p className="text-9xl text-amber-400 font-bold" data-aos="fade-up">
+              {number}
+            </p>
+            <p className="font-semibold text-3xl" data-aos="fade-up">
+              {title}
+            </p>
           </div>
         </div>
       ))}

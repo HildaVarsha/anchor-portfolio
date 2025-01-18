@@ -33,13 +33,19 @@ const MediaEntertainment = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Media and entertainment solutions
           <span className="text-amber-400"> {""} for every need</span>
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           As audiences have more choice than ever, media and entertainment
           companies need an edge. We craft powerful media and entertainment
           solutions that win you a competitive advantage.

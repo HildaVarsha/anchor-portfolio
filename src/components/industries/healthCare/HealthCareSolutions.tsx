@@ -35,13 +35,19 @@ const HealthCareSolutions = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Our approach to delivering healthcare
           <span className="text-amber-400">software development services</span>
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           We provide a wide range of medical software engineering services,
           including prototyping, development, deployment, post-launch
           maintenance, upgrade of medical apps, and integration with third-party

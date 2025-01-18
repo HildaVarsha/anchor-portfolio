@@ -12,7 +12,7 @@ const LogisticBanner = () => {
 development"
           className="w-full md:max-w-2xl"
         />
-        <p className="md:max-w-2xl py-4 z-10">
+        <p className="md:max-w-2xl py-4 z-10" data-aos="fade-up">
           Embrace logistics and transportation management technology for smarter
           and cost-effective operations to get ahead in the industry faced with
           a dramatic digital disruption
@@ -24,6 +24,7 @@ development"
         alt="About Anchor Informatics"
         height={400}
         width={600}
+        data-aos="fade-up"
         className="absolute  md:flex top-16 right-32 animate-rotate"
       />
     </div>

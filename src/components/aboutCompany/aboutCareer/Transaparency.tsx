@@ -15,19 +15,19 @@ const Transaparency = () => {
         />
         <div className="w-full h-full">
           <PageHeaderText label="Honesty, transparency, and a family spirit." />
-          <p className="py-6">
+          <p className="py-6" data-aos="fade-up">
             We always aim to be honest with each other and our clients.
             It&apos;s not just about being truthful; it’s about taking
             responsibility and being transparent, never hiding important
             details. develop software, create strategies, and provide expert
             guidance.
           </p>
-          <p>
+          <p data-aos="fade-up">
             We’re not afraid to argue because we care deeply about our work.
             Disagreements happen, but we handle them like family, always
             supporting and helping each other.
           </p>
-          <p className="pt-4">
+          <p className="pt-4" data-aos="fade-up">
             Our managers follow this principle as well. You’re never too junior
             to ask questions or share your opinion.
           </p>

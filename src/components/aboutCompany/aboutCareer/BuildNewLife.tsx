@@ -13,7 +13,7 @@ const BuildNewLife = () => {
     <div className="bg-white md:py-16 text-slate-800">
       <div className="px-4 md:container mx-auto">
         <div className="flex flex-col md:flex-row gap-4 md:gap-16">
-          <p>
+          <p data-aos="fade-up">
             If you&apos;re interested, you can relocate to Poland, Georgia, or
             Armenia. We&apos;ll assist you and your family with legal matters,
             transportation, healthcare, and finding a home.
@@ -32,6 +32,7 @@ a new city"
               width={300}
               height={300}
               className="w-full"
+              data-aos="fade-up"
             />
           ))}
         </div>

@@ -30,12 +30,27 @@ const AboutOurWorkProgress = () => {
         <PageHeaderText label="Our Work Process" className="text-slate-800" />
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 gap-16">
           {workProgressData?.map(({ imgSrc, title, description }, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <Image src={imgSrc} alt={title} width={100} height={100} />
-              <p className="text-slate-800 font-semibold text-xl py-4">
+            <div
+              key={index}
+              className="flex flex-col items-center"
+              data-aos="fade-up"
+            >
+              <Image
+                src={imgSrc}
+                alt={title}
+                width={100}
+                height={100}
+                data-aos="fade-up"
+              />
+              <p
+                className="text-slate-800 font-semibold text-xl py-4"
+                data-aos="fade-up"
+              >
                 {title}
               </p>
-              <p className="text-slate-800 pb-4 text-center">{description}</p>
+              <p className="text-slate-800 pb-4 text-center" data-aos="fade-up">
+                {description}
+              </p>
             </div>
           ))}
         </div>

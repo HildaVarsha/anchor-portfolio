@@ -7,15 +7,15 @@ const AskYourSelf = () => {
       <div className="md:container p-4 bg-slate-200  md:p-16 mx-auto">
         <PageHeaderText label="Now ask yourself" className="text-center" />
         <div className="flex flex-col justify-between md:flex-row gap-4 md:gap-16 md:pt-8">
-          <p className="font-semibold">
+          <p className="font-semibold" data-aos="fade-up">
             Does being part of a poorly executed project bother you enough to
             speak up?
           </p>
-          <p className="font-semibold">
+          <p className="font-semibold" data-aos="fade-up">
             Do you care about your client, your project, your decisions, and
             your team?
           </p>
-          <p className="font-semibold">
+          <p className="font-semibold" data-aos="fade-up">
             Do you thrive on solving challenging problems?
           </p>
         </div>

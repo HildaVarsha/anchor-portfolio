@@ -31,7 +31,10 @@ const RetailEngagging = () => {
         }}
       >
         <div className="px-4 md:px-0 md:container mx-auto">
-          <p className="text-5xl mx-auto font-bold container">
+          <p
+            className="text-5xl mx-auto font-bold container"
+            data-aos="fade-up"
+          >
             Orchestrate engaging
             <span className="text-amber-400 text-5xl mx-auto font-bold pl-2">
               customer experience
@@ -40,7 +43,10 @@ const RetailEngagging = () => {
         </div>
       </div>
       <div className="py-12 bg-amber-400">
-        <div className="px-4 md:px-0 md:container mx-auto bg-amber-400 p-4 text-slate-800">
+        <div
+          className="px-4 md:px-0 md:container mx-auto bg-amber-400 p-4 text-slate-800"
+          data-aos="fade-up"
+        >
           With our retail software services, you can augment your business with
           retail software solutions that let you dig into your customers’
           wishes, breed loyalty with personalized offers, encourage repeat

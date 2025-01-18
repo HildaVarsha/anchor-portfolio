@@ -1,8 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import { PageHeaderText } from "../../shared";
-import { Button } from "../../ui";
-import { ArrowRight } from "lucide-react";
 import { Banner } from "@/components/componentShared";
 
 const HealthCareBanner = () => {

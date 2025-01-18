@@ -15,7 +15,7 @@ development
 services"
           className="w-full md:max-w-2xl"
         />
-        <p className="z-10 pb-8 md:max-w-2xl">
+        <p className="z-10 pb-8 md:max-w-2xl" data-aos="fade-up">
           We help enterprises and startups tap into the new era of finance. The
           one where operations are automated, decisions are data-driven, and
           security is top-notch. Use our financial software development services

@@ -11,9 +11,11 @@ const stats = [
 ];
 
 const StatCard = ({ value, label }: { value: string; label: string }) => (
-  <div>
-    <p className="font-bold text-5xl text-amber-400 pb-2">{value}</p>
-    <p>{label}</p>
+  <div data-aos="fade-up">
+    <p className="font-bold text-5xl text-amber-400 pb-2" data-aos="fade-up">
+      {value}
+    </p>
+    <p data-aos="fade-up">{label}</p>
   </div>
 );
 

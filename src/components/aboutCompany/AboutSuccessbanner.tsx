@@ -17,7 +17,10 @@ const AboutSuccessbanner = () => {
           label="We are hungrrrrry
 "
         />
-        <p className="text-2xl md:text-5xl font-semibold text-amber-400">
+        <p
+          className="text-2xl md:text-5xl font-semibold text-amber-400"
+          data-aos="fade-up"
+        >
           for your success
         </p>
       </div>

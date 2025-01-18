@@ -38,7 +38,10 @@ const RetailGain = () => {
         }}
       >
         <div className="px-4 md:px-0 md:container mx-auto">
-          <p className="text-5xl mx-auto font-bold container">
+          <p
+            className="text-5xl mx-auto font-bold container"
+            data-aos="fade-up"
+          >
             Gain efficiency and exceed customer
             <span className="text-amber-400 text-5xl mx-auto font-bold pl-2">
               expectations with AI-powered intelligence
@@ -47,7 +50,10 @@ const RetailGain = () => {
         </div>
       </div>
       <div className="py-12 bg-amber-400">
-        <div className="px-4 md:px-0 md:container mx-auto bg-amber-400 p-4 text-slate-800">
+        <div
+          className="px-4 md:px-0 md:container mx-auto bg-amber-400 p-4 text-slate-800"
+          data-aos="fade-up"
+        >
           Specializing in artificial intelligence, we put it to use when
           developing software solutions for retail. Our retail data analytics
           solutions merge data from retail ERPs, CRMs, vendor portals,
@@ -74,8 +80,8 @@ const RetailGain = () => {
           <div className="py-6 flex flex-col md:flex-row gap-4 md:gap-16">
             <div className="w-full">
               <div className="flex  gap-4">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   We have hands-on experience creating cyber-physical systems
                   and embedded software for smart retail equipment, including
                   beacon-powered systems, surveillance cameras, digital signage,
@@ -83,8 +89,8 @@ const RetailGain = () => {
                 </p>
               </div>
               <div className="flex gap-4 pt-12">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   We have ten years of experience delivering retail software
                   development services and full-stack capabilities in place,
                   including web, mobile, cloud, and embedded systems
@@ -94,16 +100,16 @@ const RetailGain = () => {
             </div>
             <div className="w-full">
               <div className="flex gap-4">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   We are well-versed in building complete data ecosystems —
                   including AI-powered ones — that provide a 360-degree view
                   into a company’s operations for global retail brands.
                 </p>
               </div>
               <div className="flex  gap-4 pt-12">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   We follow retail software development best practices and set
                   up all the necessary data security practices to ensure that
                   our retail solutions comply with PCI DSS, GDPR, and relevant

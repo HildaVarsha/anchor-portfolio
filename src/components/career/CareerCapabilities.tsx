@@ -31,14 +31,17 @@ const CareerCapabilities = () => {
         />
         <div className="flex flex-col md:flex-row items-center justify-between w-full text-slate-800 gap-8 pt-4">
           {capabilities.map((capability, index) => (
-            <div key={index}>
+            <div key={index} data-aos="fade-up">
               <Image
                 src={capability.src}
                 alt="Capabilities"
                 width={56}
                 height={56}
+                data-aos="fade-up"
               />
-              <p className="pt-6 font-semibold text-lg">{capability.text}</p>
+              <p className="pt-6 font-semibold text-lg" data-aos="fade-up">
+                {capability.text}
+              </p>
             </div>
           ))}
         </div>

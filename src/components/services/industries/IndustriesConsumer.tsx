@@ -13,7 +13,10 @@ const IndustriesConsumer = () => {
       />
 
       <div className="bg-amber-400 text-slate-800">
-        <div className="px-4 md:px-0 md:max-w-2xl mx-auto py-12">
+        <div
+          className="px-4 md:px-0 md:max-w-2xl mx-auto py-12"
+          data-aos="fade-up"
+        >
           In today&apos;s competitive market, companies need to meet shifting
           customer expectations while capturing new growth opportunities. Anchor
           Informatics provides end-to-end consulting services, from strategic

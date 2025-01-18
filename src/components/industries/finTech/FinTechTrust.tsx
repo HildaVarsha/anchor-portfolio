@@ -14,7 +14,10 @@ const FinTechTrust = () => {
         }}
       >
         <div className="px-4 md:px-0 md:container mx-auto">
-          <p className="text-3xl md:text-5xl mx-auto font-bold container">
+          <p
+            className="text-3xl md:text-5xl mx-auto font-bold container"
+            data-aos="fade-up"
+          >
             ITRex: a trusted financial software
             <span className="text-amber-400 text-3xl md:text-5xl mx-auto font-bold pl-2">
               development company
@@ -27,16 +30,16 @@ const FinTechTrust = () => {
           <div className="py-6 flex flex-col md:flex-row gap-4 md:gap-16">
             <div className="w-full">
               <div className="flex  gap-4">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   <strong>Vendor-agnostic:</strong> We are not tied to any
                   providers, so we only recommend technologies that we believe
                   are right for you
                 </p>
               </div>
               <div className="flex gap-4 pt-12">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   <strong>Top developers with niche skills:</strong>With our
                   350-strong team, we bring in best BA, development, and R&D
                   talent
@@ -45,8 +48,8 @@ const FinTechTrust = () => {
             </div>
             <div className="w-full">
               <div className="flex gap-4">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   <strong>Diverse expertise: </strong>Financial software
                   development company with a decade of experience, we have
                   delivered hundreds of successful solutions to businesses from
@@ -54,8 +57,8 @@ const FinTechTrust = () => {
                 </p>
               </div>
               <div className="flex  gap-4 pt-12">
-                <CheckCircle className="w-20 h-20 pr-1" />
-                <p>
+                <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
+                <p data-aos="fade-up">
                   <strong>Proven track record:</strong>
                   We have successfully completed 600+ projects and served 200+
                   clients across the globe

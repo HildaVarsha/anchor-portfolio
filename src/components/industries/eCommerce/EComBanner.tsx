@@ -13,7 +13,7 @@ development
 services"
           className="w-full md:max-w-2xl"
         />
-        <p className="md:max-w-2xl py-4 z-10">
+        <p className="md:max-w-2xl py-4 z-10" data-aos="fade-up">
           We build best-in-class B2B ecommerce solutions, helping you drive
           reach, conversion rates, and ROI
         </p>
@@ -24,7 +24,8 @@ services"
         alt="About Anchor Informatics"
         height={400}
         width={600}
-        className="absolute  md:flex top-24 right-32 animate-rotate"
+        data-aos="fade-up"
+        className="absolute  md:flex top-24 right-32 animate-rotate "
       />
     </div>
   );

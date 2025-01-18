@@ -12,7 +12,10 @@ const IndustriesUtilityEnergy = () => {
         className="w-full"
       />
       <div className="bg-amber-400 text-slate-800">
-        <div className="px-4 md:px-0 md:max-w-2xl mx-auto py-12">
+        <div
+          className="px-4 md:px-0 md:max-w-2xl mx-auto py-12"
+          data-aos="fade-up"
+        >
           Digital transformation is at the heart of the future for energy and
           utility companies. Anchor Informatics works with electricity, gas, and
           water providers, helping them harness digital innovation to drive

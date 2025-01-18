@@ -38,7 +38,7 @@ const MediaAbout = () => {
           label="Become a roaring success with our
 media and entertainment solutions company"
         />
-        <p>
+        <p data-aos="fade-up">
           Marrying a decade of experience crafting custom software solutions and
           innovative thinking, we help you connect with your audiences, build
           interactive experiences, and boost content production — no matter the
@@ -50,9 +50,14 @@ media and entertainment solutions company"
             <div
               className="flex gap-4 md:gap-16 border-b border-slate-400 py-12"
               key={index}
+              data-aos="fade-up"
             >
-              <p className="text-2xl font-semibold w-full">{service?.title}</p>
-              <p className="w-full">{service?.description}</p>
+              <p className="text-2xl font-semibold w-full" data-aos="fade-up">
+                {service?.title}
+              </p>
+              <p className="w-full" data-aos="fade-up">
+                {service?.description}
+              </p>
             </div>
           ))}
         </div>

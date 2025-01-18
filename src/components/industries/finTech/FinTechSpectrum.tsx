@@ -41,20 +41,23 @@ const FinTechSpectrum = () => {
         }}
       >
         <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
-          <p>A full spectrum of financial software</p>
-          <p className="text-amber-400"> development services</p>
+          <p data-aos="fade-up">A full spectrum of financial software</p>
+          <p className="text-amber-400" data-aos="fade-up">
+            {" "}
+            development services
+          </p>
         </div>
       </div>
       <div className="py-12 bg-amber-400">
         <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
-          <p>
+          <p data-aos="fade-up">
             We offer a full spectrum of financial software development services
             to help you realize full value from your investments. Whether you’re
             just embarking on a FinTech journey and need advice on how to
             navigate change, look for a specific skill to fill in knowledge
             gaps, or search for a turnkey FinTech software developer
           </p>
-          <p className="pt-6">
+          <p className="pt-6" data-aos="fade-up">
             — we do it all while staying responsive to your needs. We are
             well-versed in:
           </p>

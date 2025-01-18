@@ -11,13 +11,22 @@ const CareerBanner = () => {
       className="py-12 h-screen"
     >
       <div className="px-4 md:px-0 md:container mx-auto flex flex-col items-center justify-center h-full">
-        <p className="text-2xl md:text-8xl font-semibold text-amber-400">
+        <p
+          className="text-2xl md:text-8xl font-semibold text-amber-400"
+          data-aos="fade-up"
+        >
           Build things you’re
         </p>
-        <p className="text-2xl md:text-8xl font-semibold text-amber-400">
+        <p
+          className="text-2xl md:text-8xl font-semibold text-amber-400"
+          data-aos="fade-up"
+        >
           proud of
         </p>
-        <p className="pt-4 max-w-3xl mx-auto text-center text-xl">
+        <p
+          className="pt-4 max-w-3xl mx-auto text-center text-xl"
+          data-aos="fade-up"
+        >
           Join a crew as motivated as you. Make cool stuff for global brands.
           Level up, learn and grow.
         </p>

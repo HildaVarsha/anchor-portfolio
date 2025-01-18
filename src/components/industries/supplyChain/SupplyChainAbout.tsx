@@ -30,7 +30,7 @@ const SupplyChainAbout = () => {
     <div className="bg-white py-16 text-slate-800">
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="Tailored offering for manufacturing and supply chain companies" />
-        <p>
+        <p data-aos="fade-up">
           To help your company navigate the post-pandemic recession and ride the
           wave of digital disruption, ITRex uses an interdisciplinary approach
           spanning business analysis, technology consulting, custom software
