@@ -27,8 +27,8 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 const TopNavbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const pathname = usePathname(); // Get the current path
-
+  const pathname: any = usePathname(); // Get the current path
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
   useEffect(() => {
     if (pathname === "/about-company") return; // Only add the scroll listener for the home page
     const handleScroll = () => setIsScrolled(window.scrollY > 0);
@@ -45,43 +45,45 @@ const TopNavbar = () => {
   const menus = [
     {
       title: "AI Data",
+      baseUrl: "/ai-data",
       links: [
         {
-          href: "/services/ai-app-development",
+          href: "/ai-data/ai-app-development",
           label: "AI App Development",
         },
         {
-          href: "/services/ai-dev",
+          href: "/ai-data/ai-dev",
           label: "AI Development",
         },
         {
-          href: "/services/ai-proof",
+          href: "/ai-data/ai-proof",
           label: "AI Proof Concept",
         },
         {
-          href: "/services/custom-computer",
+          href: "/ai-data/custom-computer",
           label: "Custom Computer Version",
         },
         {
-          href: "/services/facial-recognition",
+          href: "/ai-data/facial-recognition",
           label: "Facial Recognition",
         },
         {
-          href: "/services/nlp",
+          href: "/ai-data/nlp",
           label: "NLP Services",
         },
         {
-          href: "/services/anomaly-detection",
+          href: "/ai-data/anomaly-detection",
           label: "Anomaly Detection",
         },
         {
-          href: "/services/machine-learning",
+          href: "/ai-data/machine-learning",
           label: "Machine Learning",
         },
       ],
     },
     {
       title: "Services",
+      baseUrl: "/services",
       links: [
         { href: "/services/graphic-design", label: "Graphic Design" },
         {
@@ -114,6 +116,7 @@ const TopNavbar = () => {
 
     {
       title: "Industries",
+      baseUrl: "/industries",
       links: [
         {
           href: "/industries/health-care",
@@ -129,10 +132,12 @@ const TopNavbar = () => {
         { href: "/industries/e-learning", label: "ELearning" },
         { href: "/industries/fin-tech", label: "FinTech" },
         { href: "/industries/e-commerce", label: "Ecommerce" },
+        { href: "/industries", label: "About Industries" },
       ],
     },
     {
       title: "Technology",
+      baseUrl: "/technologies",
       links: [
         { href: "/technologies/dot-net", label: ".Net Development" },
         { href: "/technologies/java", label: "Java Development" },
@@ -143,11 +148,11 @@ const TopNavbar = () => {
           label: "Software Engineering",
         },
         { href: "/technologies/devops", label: "DevOps Solutions" },
-        { href: "/industries", label: "About Industries" },
       ],
     },
     {
       title: "Company",
+      baseUrl: "/about-company",
       links: [
         { href: "/about-company", label: "About Company" },
         { href: "/about-company/how-we-work", label: "How We Work" },
@@ -164,7 +169,12 @@ const TopNavbar = () => {
   const NavigationLinks = () => {
     return (
       <ul className="flex flex-col md:flex-row md:items-center gap-6 mt-6 md:mt-0">
-        <Link href="/" className="hover:text-amber-400">
+        <Link
+          href="/"
+          className={`${
+            pathname === "/" ? "text-amber-400" : "hover:text-amber-400"
+          }`}
+        >
           Home
         </Link>
 
@@ -172,14 +182,21 @@ const TopNavbar = () => {
           <NavigationMenu key={menu.title}>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="text-white">
+                <NavigationMenuTrigger
+                  className={`p-2 hover:text-amber-400 w-full cursor-pointer flex items-center gap-2 ${
+                    pathname.includes(menu.baseUrl) ? "text-amber-400" : ""
+                  }`}
+                >
                   {menu.title}
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="rounded-none p-4 flex flex-col">
                   {menu.links.map((link) => (
                     <NavigationMenuLink
                       key={link.href}
-                      className="p-2 hover:text-amber-400 w-full cursor-pointer flex items-center gap-2"
+                      className={`p-2 hover:text-amber-400 w-full cursor-pointer flex items-center gap-2 ${
+                        pathname.includes(link.href) ? "text-amber-400" : ""
+                      }`}
+                      // className="p-2 hover:text-amber-400 w-full cursor-pointer flex items-center gap-2"
                     >
                       <ChevronsRight className="w-4 h-4" />
                       <Link href={link.href}>{link.label}</Link>
@@ -191,16 +208,24 @@ const TopNavbar = () => {
           </NavigationMenu>
         ))}
 
-        <Link href="/career" className="hover:text-amber-400">
+        <Link
+          href="/career"
+          className={`${
+            pathname === "/career" ? "text-amber-400" : "hover:text-amber-400"
+          }`}
+        >
           Career
         </Link>
         <Link href={"/contact-us"}>
-          <Button variant="outline">Contact Us</Button>
+          <Button variant={pathname === "/contact-us" ? "default" : "outline"}>
+            Contact Us
+          </Button>
         </Link>
       </ul>
     );
   };
   const MobileMenu = () => {
+    const handleLinkClick = () => setIsSheetOpen(false);
     return (
       <div className="flex flex-col gap-4 py-4  text-white">
         {/* Logo */}
@@ -211,7 +236,10 @@ const TopNavbar = () => {
 
           <Link
             href="/"
-            className="block py-2 hover:text-amber-500 font-semibold"
+            className={`hover:text-amber-400 block p-2 font-semibold ${
+              pathname === "/" ? "text-amber-400" : ""
+            }`}
+            onClick={handleLinkClick}
           >
             Home
           </Link>
@@ -220,7 +248,13 @@ const TopNavbar = () => {
           {menus?.map((section) => (
             <details className="group" key={section?.title}>
               <summary className="py-2 hover:text-amber-500 cursor-pointer font-semibold flex items-center gap-2">
-                <p className="w-20">{section.title}</p>
+                <p
+                  className={`p-2 w-24 hover:text-amber-400  cursor-pointer flex items-center gap-2 ${
+                    pathname.includes(section.baseUrl) ? "text-amber-400" : ""
+                  }`}
+                >
+                  {section.title}
+                </p>
 
                 <Icon
                   icon="icon-park-solid:down-one"
@@ -236,7 +270,13 @@ const TopNavbar = () => {
                     className="flex items-center gap-2 hover:text-amber-500"
                   >
                     <SendHorizontal className="w-4 h-4" />
-                    <Link href={link.href} className="block text-sm">
+                    <Link
+                      href={link.href}
+                      className={`p-2 hover:text-amber-400 w-full cursor-pointer flex items-center gap-2 ${
+                        pathname.includes(link.href) ? "text-amber-400" : ""
+                      }`}
+                      onClick={handleLinkClick}
+                    >
                       {link.label}
                     </Link>
                   </div>
@@ -244,14 +284,25 @@ const TopNavbar = () => {
               </div>
             </details>
           ))}
-          <Link
-            href="/career"
-            className="block py-2 hover:text-amber-500 font-semibold"
-          >
-            Career
-          </Link>
-          <Link href={"/contact-us"}>
-            <Button variant="outline" className="font-semibold">
+          <div className="pb-8">
+            <Link
+              href="/career"
+              onClick={handleLinkClick}
+              className={` px-2 font-semibold ${
+                pathname === "/career"
+                  ? "text-amber-400"
+                  : "hover:text-amber-400"
+              }`}
+            >
+              Career
+            </Link>
+          </div>
+
+          <Link href={"/contact-us"} className="mt-8" onClick={handleLinkClick}>
+            <Button
+              variant={pathname === "/contact-us" ? "default" : "outline"}
+              className="font-semibold"
+            >
               Contact Us
             </Button>
           </Link>
@@ -268,7 +319,7 @@ const TopNavbar = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="md:hidden flex items-center gap-4">
-          <Sheet>
+          <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger>
               <MenuIcon />
             </SheetTrigger>
