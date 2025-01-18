@@ -12,12 +12,12 @@ const MarkettingBanner = () => {
           label="Personalized digital marketing services tailored to your business needs."
           className="w-full md:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4 z-10">
+        <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
           &quot;Build a unique online presence and accelerate business growth
           with comprehensive digital marketing services from Anchor
           Informatics.&quot;
         </p>
-        <Button className="w-fit z-10">
+        <Button className="w-fit z-10" data-aos="fade-up">
           Get In Touch
           <ArrowRight />
         </Button>
@@ -27,7 +27,7 @@ const MarkettingBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute md:flex top-24 right-32"
+        className="absolute md:flex top-24 right-32 animate-rotate"
       />
     </div>
   );

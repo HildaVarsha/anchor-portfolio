@@ -9,7 +9,7 @@ const AiDevSolutions = () => {
     title: string;
     description: string;
   }) => (
-    <div>
+    <div data-aos="fade-up">
       <p className="font-semibold">{title}</p>
       <p className="pt-6">{description}</p>
     </div>
@@ -78,13 +78,19 @@ const AiDevSolutions = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Artificial Intelligence
           <span className="text-amber-400">solutions we Create</span>
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           As an AI software development company, we are committed to the
           transformative power of artificial intelligence in driving business
           success. Explore a variety of AI use cases that showcase our

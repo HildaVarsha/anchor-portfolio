@@ -1,7 +1,10 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import PageHeaderText from "./PageHeaderText";
 import Image from "next/image";
 import Link from "next/link";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import {
   FacebookIcon,
   Instagram,
@@ -24,6 +27,15 @@ const Footer = () => {
       href: "mailto:contact@anchorinformatics.co.uk",
     },
   ];
+  useEffect(() => {
+    // Initialize AOS when the component mounts
+    AOS.init({
+      duration: 300, // Set default animation duration
+      easing: "ease-in-out", // Set easing function
+      once: false, // Ensures animation happens only once
+    });
+  }, []);
+
   return (
     <div className="py-12 px-4 md:px-0 md:container mx-auto">
       <PageHeaderText

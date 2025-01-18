@@ -12,12 +12,17 @@ const DevopsBenefits = () => {
         }}
       >
         <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
-          <p>Benefits you get with our</p>
-          <p className="text-amber-400">DevOps Solutions </p>
+          <p data-aos="fade-up">Benefits you get with our</p>
+          <p className="text-amber-400" data-aos="fade-up">
+            DevOps Solutions{" "}
+          </p>
         </div>
       </div>
       <div className="py-12">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           Our DevOps solutions company guarantees you’ll maximize the benefits
           of rapid iterations, on-demand infrastructure setup and configuration,
           streamlined architecture, enhanced security, and automated testing

@@ -24,7 +24,7 @@ services"
         alt="About Anchor Informatics"
         height={400}
         width={600}
-        className="absolute  md:flex top-24 right-32"
+        className="absolute  md:flex top-24 right-32 animate-rotate"
       />
     </div>
   );

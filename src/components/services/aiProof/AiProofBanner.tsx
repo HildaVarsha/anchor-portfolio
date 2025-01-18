@@ -12,11 +12,11 @@ const AiProofBanner = () => {
           label="Development Services for AI Proof of Concept"
           className="w-full md:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4 z-10">
+        <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
           Quickly test, validate, and bring your AI ideas to life affordably
           with Anchor AI&apos;s proof-of-concept development services.
         </p>
-        <Button className="w-fit z-10">
+        <Button className="w-fit z-10" data-aos="fade-up">
           Get In Touch
           <ArrowRight />
         </Button>
@@ -26,7 +26,7 @@ const AiProofBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="md:absolute md:flex top-24 right-32"
+        className="md:absolute md:flex top-24 right-32 animate-rotate"
       />
     </div>
   );

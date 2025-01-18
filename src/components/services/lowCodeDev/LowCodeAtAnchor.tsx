@@ -29,7 +29,7 @@ const LowCodeAtAnchor = () => {
     title: string;
     description: string;
   }) => (
-    <div>
+    <div data-aos="fade-up">
       <p className="font-semibold text-slate-800">{title}</p>
       <p className="pt-6">{description}</p>
     </div>
@@ -44,7 +44,10 @@ const LowCodeAtAnchor = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Why choose to collaborate with
           <span className="text-amber-400 px-2">our low-code company?</span>
         </p>

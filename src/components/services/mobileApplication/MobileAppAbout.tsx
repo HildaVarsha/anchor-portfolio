@@ -36,7 +36,7 @@ const MobileAppAbout = () => {
     <div className="bg-white text-slate-800">
       <div className="px-4 md:px-0  md:container py-16 mx-auto">
         <PageHeaderText label="Our Mobile App development services empower you to stand out from the crowd" />
-        <p className="py-4 text-lg">
+        <p className="py-4 text-lg" data-aos="fade-up">
           &quot;With over a decade of experience building successful Mobile
           Apps, we have the expertise to create something remarkable for you. No
           matter the challenge, there are few aspects of App development we
@@ -46,13 +46,13 @@ const MobileAppAbout = () => {
         </p>
         <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-12">
           {mobileAppServices.map((service, index) => (
-            <div key={index}>
+            <div key={index} data-aos="fade-up">
               <h3 className="font-semibold text-xl pb-4">{service.title}</h3>
               <p>{service.description}</p>
             </div>
           ))}
         </div>
-        <Button className="mt-4">
+        <Button className="mt-4" data-aos="fade-up">
           Request our Graphic Designing services <ArrowRight />
         </Button>
       </div>

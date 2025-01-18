@@ -18,7 +18,9 @@ const services = [
   },
 ];
 const UiUXAtAnchor = () => {
-  const ServiceCard = ({ title }: { title: string }) => <li>{title}</li>;
+  const ServiceCard = ({ title }: { title: string }) => (
+    <li data-aos="fade-up">{title}</li>
+  );
   return (
     <div className="bg-white pb-16">
       <div
@@ -29,7 +31,10 @@ const UiUXAtAnchor = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Why work with our
           <span className="text-amber-400 px-2"> UI/UX design company?</span>
         </p>

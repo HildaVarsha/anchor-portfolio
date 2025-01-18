@@ -194,7 +194,9 @@ const TopNavbar = () => {
         <Link href="/career" className="hover:text-amber-400">
           Career
         </Link>
-        <Button variant="outline">Contact Us</Button>
+        <Link href={"/contact-us"}>
+          <Button variant="outline">Contact Us</Button>
+        </Link>
       </ul>
     );
   };
@@ -248,9 +250,11 @@ const TopNavbar = () => {
           >
             Career
           </Link>
-          <Button variant="outline" className="font-semibold">
-            Contact Us
-          </Button>
+          <Link href={"/contact-us"}>
+            <Button variant="outline" className="font-semibold">
+              Contact Us
+            </Button>
+          </Link>
         </div>
       </div>
     );

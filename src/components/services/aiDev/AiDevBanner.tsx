@@ -12,14 +12,14 @@ const AiDevBanner = () => {
           label="Introduction to AI Development Services"
           className="w-full md:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4 z-10">
+        <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
           At Anchor Informatics, our AI development services are designed to
           complement your in-house IT team by addressing knowledge gaps,
           tailoring commercially available AI products and foundation models to
           your specific needs, or crafting bespoke AI solutions from the ground
           up.
         </p>
-        <Button className="w-fit z-10">
+        <Button className="w-fit z-10" data-aos="fade-up">
           Get In Touch
           <ArrowRight />
         </Button>
@@ -29,7 +29,7 @@ const AiDevBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute md:flex top-24 right-32"
+        className="absolute md:flex top-24 right-32 animate-rotate"
       />
     </div>
   );

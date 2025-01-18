@@ -5,7 +5,7 @@ import React from "react";
 const HireButton = () => {
   return (
     <div>
-      <Button className="w-fit mt-4">
+      <Button className="w-fit mt-4" data-aos="fade-up">
         Hire software engineer
         <ArrowRight />
       </Button>

@@ -35,7 +35,7 @@ const HostingAbout = () => {
     <div className="bg-white text-slate-800">
       <div className="px-4 md:px-0 md:container py-16 mx-auto">
         <PageHeaderText label="Our hosting services empower your website to perform at its best, helping you stand out from the competition." />
-        <p className="py-4 text-lg">
+        <p className="py-4 text-lg" data-aos="fade-up">
           &quot;With over a decade of experience delivering reliable hosting
           solutions, we have the expertise to support and grow your online
           presence. No matter the challenge, our team has navigated nearly every
@@ -45,13 +45,13 @@ const HostingAbout = () => {
         </p>
         <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-12 mb-4">
           {hostingServices?.map((service, index) => (
-            <div key={index}>
+            <div key={index} data-aos="fade-up">
               <h3 className="font-semibold text-xl pb-4">{service.title}</h3>
               <p>{service.description}</p>
             </div>
           ))}
         </div>
-        <Button className="mt-4">
+        <Button className="mt-4" data-aos="fade-up">
           Request our custom web development services <ArrowRight />
         </Button>
       </div>

@@ -46,20 +46,28 @@ const CtoBenefits = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container">
-          <p>Benefit from our broad </p>{" "}
-          <p className="text-amber-400">technology capabilities.</p>
+        <div
+          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container"
+          data-aos="fade-up"
+        >
+          <p data-aos="fade-up">Benefit from our broad </p>{" "}
+          <p className="text-amber-400" data-aos="fade-up">
+            technology capabilities.
+          </p>
         </div>
       </div>
       <div className="bg-white text-slate-800">
         <div className="px-4 md:px-0 md:container py-16 mx-auto">
           <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-12 mb-4">
             {ctoBenefits?.map((service, index) => (
-              <div key={index}>
-                <h3 className="font-semibold text-blue-800 text-xl pb-4">
+              <div key={index} data-aos="fade-up">
+                <h3
+                  className="font-semibold text-blue-800 text-xl pb-4"
+                  data-aos="fade-up"
+                >
                   {service.title}
                 </h3>
-                <p>{service.description}</p>
+                <p data-aos="fade-up">{service.description}</p>
               </div>
             ))}
           </div>

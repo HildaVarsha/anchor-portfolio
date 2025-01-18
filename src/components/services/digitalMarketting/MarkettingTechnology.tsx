@@ -30,8 +30,16 @@ const MarkettingTechnology = () => {
         }}
       >
         <div className="px-4 md:px-0 md:container mx-auto">
-          <p className="text-5xl mx-auto font-bold max-w-4xl">Technologies</p>
-          <p className="text-amber-400 text-5xl mx-auto font-bold max-w-4xl">
+          <p
+            className="text-5xl mx-auto font-bold max-w-4xl"
+            data-aos="fade-up"
+          >
+            Technologies
+          </p>
+          <p
+            className="text-amber-400 text-5xl mx-auto font-bold max-w-4xl"
+            data-aos="fade-up"
+          >
             we work with
           </p>
         </div>
@@ -39,7 +47,7 @@ const MarkettingTechnology = () => {
       <div className="py-12 bg-white">
         <div className="px-4 md:px-0 md:container mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-slate-800">
           {technologies?.map((tech, index) => (
-            <div key={index}>
+            <div key={index} data-aos="fade-up">
               <p className="text-2xl font-semibold">{tech.title}</p>
               <p className="py-4">{tech.description}</p>
             </div>

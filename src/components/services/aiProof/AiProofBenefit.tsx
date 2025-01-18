@@ -32,7 +32,7 @@ const AiProofBenefit = () => {
     title: string;
     description: string;
   }) => (
-    <div>
+    <div data-aos="fade-up">
       <p className="font-semibold">{title}</p>
       <p className="pt-6">{description}</p>
     </div>
@@ -47,7 +47,10 @@ const AiProofBenefit = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           How Can You Benefit from
           <span className="text-amber-400">
             {" "}
@@ -56,7 +59,10 @@ const AiProofBenefit = () => {
         </p>
       </div>
       <div className="py-12 bg-amber-400">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           Our complete AI Proof of Concept (PoC) development services offer
           value to businesses of all sizes, from AI startups looking for seed
           funding to mid-sized companies and large enterprises undergoing
@@ -75,7 +81,7 @@ const AiProofBenefit = () => {
               />
             ))}
           </div>
-          <Link href={"/contact-us"}>
+          <Link href={"/contact-us"} data-aos="fade-up">
             <Button>Get In Touch</Button>
           </Link>
         </div>

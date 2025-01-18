@@ -12,13 +12,13 @@ const MachineLearningBanner = () => {
           label="Machine Learning Development and Consulting Solutions."
           className="w-full md:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl pt-4 pb-6 z-10">
+        <p className="w-full md:max-w-2xl pt-4 pb-6 z-10" data-aos="fade-up">
           Harness the power of machine learning to drive measurable business
           value with Anchor Informatics. Backed by over 13 years of industry
           experience, we offer expert machine learning development and
           consulting services.
         </p>
-        <Button className="w-fit z-10">
+        <Button className="w-fit z-10" data-aos="fade-up">
           Talk to our ML consultant
           <ArrowRight />
         </Button>
@@ -28,7 +28,7 @@ const MachineLearningBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute  md:flex top-24 right-32"
+        className="absolute  md:flex top-24 right-32 animate-rotate"
       />
     </div>
   );

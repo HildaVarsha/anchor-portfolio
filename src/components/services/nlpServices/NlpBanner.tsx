@@ -12,12 +12,12 @@ const NlpBanner = () => {
           label="NLP Services and Solutions"
           className="w-full md:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4 z-10">
+        <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
           Collaborate with Anchor&apos;s Informative for advanced NLP services
           to automate your business and capitalize on the opportunities that
           recent NLP breakthroughs are creating.
         </p>
-        <Button className="w-fit z-10">
+        <Button className="w-fit z-10" data-aos="fade-up">
           Get In Touch
           <ArrowRight />
         </Button>
@@ -27,7 +27,7 @@ const NlpBanner = () => {
         alt="About Anchor Informatics"
         height={700}
         width={600}
-        className="absolute md:flex top-24 right-32"
+        className="absolute md:flex top-24 right-32 animate-rotate"
       />
     </div>
   );

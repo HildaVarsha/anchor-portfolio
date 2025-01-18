@@ -11,13 +11,16 @@ const AiDevPartner = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Why Partner with Our
           <span className="text-amber-400">{""} AI Development Company?</span>
         </p>
       </div>
       <div className="mt-12 p-4  md:p-12 md:container mx-auto text-slate-800 bg-blue-100 flex flex-col md:flex-row gap-4 md:gap-16">
-        <div>
+        <div data-aos="fade-up">
           <p className="">
             <strong>Vendor-agnostic.</strong> We are independent of any specific
             providers or tools, allowing us to recommend AI development
@@ -29,7 +32,7 @@ const AiDevPartner = () => {
             and R&D specialists as needed.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <p>
             <strong>Diverse expertise.</strong>Our AI development company has
             successfully completed more than 600 projects across diverse

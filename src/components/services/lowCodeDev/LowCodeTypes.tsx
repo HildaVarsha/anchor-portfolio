@@ -1,3 +1,4 @@
+import { ServicesCard } from "@/components/componentShared";
 import React from "react";
 const services = [
   {
@@ -17,18 +18,6 @@ const services = [
   },
 ];
 const LowCodeTypes = () => {
-  const ServiceCard = ({
-    title,
-    description,
-  }: {
-    title: string;
-    description: string;
-  }) => (
-    <div>
-      <p className="font-semibold text-blue-600">{title}</p>
-      <p className="pt-6">{description}</p>
-    </div>
-  );
   return (
     <div className="bg-white py-16">
       <div
@@ -39,14 +28,17 @@ const LowCodeTypes = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Types of low-code solutions
           <span className="text-amber-400 px-2">we create</span>
         </p>
       </div>
       <div className="bg-white pt-16 text-slate-800">
         <div className="md:container mx-auto px-4">
-          <p>
+          <p data-aos="fade-up">
             We leverage secure, efficient, and feature-rich low-code and no-code
             development solutions—complete with integrated backends,
             preconfigured modules, and drag-and-drop UI design tools—to create
@@ -55,7 +47,7 @@ const LowCodeTypes = () => {
           </p>
           <div className="pt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
             {services.map((service, index) => (
-              <ServiceCard
+              <ServicesCard
                 key={index}
                 title={service.title}
                 description={service.description}

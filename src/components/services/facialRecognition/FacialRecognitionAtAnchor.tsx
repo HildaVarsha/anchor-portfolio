@@ -49,7 +49,10 @@ const FacialRecognitionAtAnchor = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           Anchor’s Informative for Face Recognition
           <span className="text-amber-400"> Software Development.</span>
         </p>
@@ -58,6 +61,7 @@ const FacialRecognitionAtAnchor = () => {
         {sections.map((section, index) => (
           <div
             key={index}
+            data-aos="fade-up"
             className="flex flex-col md:flex-row gap-4 md:gap-16 md:justify-between"
           >
             <p className="font-semibold w-full">{section.title}</p>

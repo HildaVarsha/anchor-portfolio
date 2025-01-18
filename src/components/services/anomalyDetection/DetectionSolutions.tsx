@@ -8,26 +8,26 @@ const DetectionSolutions = () => {
         <PageHeaderText label="Our anomaly detection solutions will help you:" />
         <div className="flex flex-col md:flex-row gap-4 md:gap-16">
           <div>
-            <li className="">
+            <li className="" data-aos="fade-up">
               Transform Your Isolated IT Systems and Data Sources into a Unified
               Intelligent Analytics Solution
             </li>
-            <li className="py-4">
+            <li className="py-4" data-aos="fade-up">
               Eliminate Manual Data Review and Data Labeling with Unsupervised
               Machine Learning
             </li>
-            <li>
+            <li data-aos="fade-up">
               Identify Spikes, Performance Issues, Correlations, and Trend
               Changes Before They Impact Your Business
             </li>
           </div>
           <div>
-            <li>Stay Vigilant with Real-Time Alerts</li>
-            <li className="py-4">
+            <li data-aos="fade-up">Stay Vigilant with Real-Time Alerts</li>
+            <li className="py-4" data-aos="fade-up">
               Empowering Employees with Accessible Data Analytics for Better
               Decision-Making
             </li>
-            <li>
+            <li data-aos="fade-up">
               Enhance Security, Reliability, and Resilience of Software and
               Cyber-Physical Systems
             </li>

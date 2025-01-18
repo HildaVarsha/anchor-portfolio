@@ -8,7 +8,7 @@ const ServiceOption: React.FC<ServiceOptionProps> = ({
   title,
   description,
 }) => (
-  <div>
+  <div data-aos="fade-up">
     <p className="font-semibold text-xl mb-6">{title}</p>
     <p>{description}</p>
   </div>
@@ -25,9 +25,12 @@ const CtoBuildProject = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container">
-          <p>Build your project with the support</p>{" "}
-          <p className="text-amber-400">
+        <div
+          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container"
+          data-aos="fade-up"
+        >
+          <p data-aos="fade-up">Build your project with the support</p>{" "}
+          <p className="text-amber-400" data-aos="fade-up">
             of a virtual CTO and a top-tier team.
           </p>
         </div>
@@ -37,7 +40,7 @@ const CtoBuildProject = () => {
       <div className="py-12 bg-white">
         <div className="container mx-auto px-4 text-slate-800">
           {/* Overview */}
-          <p className="pb-6">
+          <p className="pb-6" data-aos="fade-up">
             Our diverse tech expertise and ample resources enable us not only to
             guide your project but also to bring it to fruition. Depending on
             your project’s requirements, you can select from the following

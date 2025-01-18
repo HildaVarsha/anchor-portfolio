@@ -41,7 +41,7 @@ const ServiceCard = ({
   title: string;
   description: string;
 }) => (
-  <div>
+  <div data-aos="fade-up">
     <p className="font-semibold text-blue-600">{title}</p>
     <p className="pt-6">{description}</p>
   </div>
@@ -52,7 +52,7 @@ const AiDevAbout = () => {
     <div className="bg-white py-16 text-slate-800">
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="Unleashing the Power of AI with Expert Solutions" />
-        <p>
+        <p data-aos="fade-up">
           At Anchor, we provide a full range of AI development services designed
           to empower your business with the capabilities of artificial
           intelligence. Whether you&apos;re beginning your AI journey or aiming

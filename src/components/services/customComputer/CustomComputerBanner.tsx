@@ -12,11 +12,11 @@ const CustomComputerBanner = () => {
           label="Customized Computer Vision Solutions for Industry-Specific Requirements"
           className="w-full md:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4 z-10">
+        <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
           Create a state-of-the-art computer vision solution to transform your
           business with increased innovation and efficiency.
         </p>
-        <Button className="w-fit z-10">
+        <Button className="w-fit z-10" data-aos="fade-up">
           Get In Touch
           <ArrowRight />
         </Button>
@@ -26,7 +26,7 @@ const CustomComputerBanner = () => {
         alt="About Anchor Informatics"
         height={500}
         width={500}
-        className="absolute md:flex top-24 right-32"
+        className="absolute md:flex top-24 right-32 animate-rotate"
       />
     </div>
   );

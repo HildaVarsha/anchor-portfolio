@@ -29,7 +29,7 @@ const CtoServiceAbout = () => {
     <div className="bg-white text-slate-800">
       <div className="px-4 md:px-0 md:container py-16 mx-auto">
         <PageHeaderText label="Flexible, high-level virtual CTO services tailored to your needs." />
-        <p className="py-4 text-lg">
+        <p className="py-4 text-lg" data-aos="fade-up">
           We assist startups and growing SMEs with technical diligence through
           flexible CTO-as-a-Service engagement models. Whether you need an
           impartial consultation on your solution, seek to fill a technological
@@ -38,9 +38,11 @@ const CtoServiceAbout = () => {
         </p>
         <div className="pt-4 grid grid-cols-1 md:grid-cols-2 gap-12 mb-4">
           {ctoServices?.map((service, index) => (
-            <div key={index}>
-              <h3 className="font-semibold text-xl pb-4">{service.title}</h3>
-              <p>{service.description}</p>
+            <div key={index} data-aos="fade-up">
+              <h3 className="font-semibold text-xl pb-4" data-aos="fade-up">
+                {service.title}
+              </h3>
+              <p data-aos="fade-up">{service.description}</p>
             </div>
           ))}
         </div>

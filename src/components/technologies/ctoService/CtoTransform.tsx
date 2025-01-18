@@ -9,9 +9,11 @@ const ServiceOption: React.FC<ServiceOptionProps> = ({
   title,
   description,
 }) => (
-  <div>
-    <p className="font-semibold text-xl mb-6">{title}</p>
-    <p>{description}</p>
+  <div data-aos="fade-up">
+    <p className="font-semibold text-xl mb-6" data-aos="fade-up">
+      {title}
+    </p>
+    <p data-aos="fade-up">{description}</p>
   </div>
 );
 const CtoTransform = () => {
@@ -26,9 +28,12 @@ const CtoTransform = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container">
-          <p>See how CTO as a Service can</p>{" "}
-          <p className="text-amber-400">
+        <div
+          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container"
+          data-aos="fade-up"
+        >
+          <p data-aos="fade-up">See how CTO as a Service can</p>{" "}
+          <p className="text-amber-400" data-aos="fade-up">
             transform your technology leadership.
           </p>
         </div>
@@ -38,7 +43,7 @@ const CtoTransform = () => {
       <div className="py-12 bg-white">
         <div className="container mx-auto px-4 text-slate-800">
           {/* Overview */}
-          <p className="pb-6">
+          <p className="pb-6" data-aos="fade-up">
             We’ll ensure you fully capitalize on our CTO consulting services by
             providing CTO-led research and development, strategic planning, and
             expert oversight, all aimed at delivering technical excellence while

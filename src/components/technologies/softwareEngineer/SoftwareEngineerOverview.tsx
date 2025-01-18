@@ -7,7 +7,11 @@ const SoftwareEngineerOverview = () => {
   const RoleColumn: React.FC<RoleColumnProps> = ({ roles }) => (
     <div className="w-full">
       {roles?.map((role, index) => (
-        <li key={index} className={index % 2 !== 0 ? "py-8" : ""}>
+        <li
+          key={index}
+          className={index % 2 !== 0 ? "py-8" : ""}
+          data-aos="fade-up"
+        >
           {role}
         </li>
       ))}
@@ -24,8 +28,10 @@ const SoftwareEngineerOverview = () => {
         }}
       >
         <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
-          <p>Overview of Our Software </p>
-          <p className="text-amber-400">Engineering Company</p>
+          <p data-aos="fade-up">Overview of Our Software </p>
+          <p className="text-amber-400" data-aos="fade-up">
+            Engineering Company
+          </p>
         </div>
       </div>
 

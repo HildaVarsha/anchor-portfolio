@@ -1,3 +1,4 @@
+import { ServicesCard } from "@/components/componentShared";
 import { PageHeaderText } from "@/components/shared";
 import React from "react";
 const services = [
@@ -14,23 +15,11 @@ const services = [
 ];
 
 const DetectionAbout = () => {
-  const ServiceCard = ({
-    title,
-    description,
-  }: {
-    title: string;
-    description: string;
-  }) => (
-    <div>
-      <p className="font-semibold text-blue-600">{title}</p>
-      <p className="pt-6">{description}</p>
-    </div>
-  );
   return (
     <div className="bg-white py-16 text-slate-800">
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="Explore our anomaly detection services" />
-        <p>
+        <p data-aos="fade-up">
           Our company is highly skilled in cloud computing, artificial
           intelligence and its subsets,data science and the Internet of Things.
           With this expertise, Anchors can assist you in developing anomaly
@@ -39,7 +28,7 @@ const DetectionAbout = () => {
         </p>
         <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
           {services.map((service, index) => (
-            <ServiceCard
+            <ServicesCard
               key={index}
               title={service.title}
               description={service.description}

@@ -54,7 +54,10 @@ const NlpIndustry = () => {
           backgroundPosition: "center",
         }}
       >
-        <p className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto">
+        <p
+          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          data-aos="fade-up"
+        >
           We create tailored
           <span className="text-amber-400">
             {" "}
@@ -63,7 +66,10 @@ const NlpIndustry = () => {
         </p>
       </div>
       <div className="py-12 bg-amber-400 ">
-        <p className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <p
+          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          data-aos="fade-up"
+        >
           We collaborate closely with you to understand your business challenge
           and provide a natural language processing solution that delivers the
           most efficient results.
@@ -73,10 +79,15 @@ const NlpIndustry = () => {
         {sections.map((section, index) => (
           <div
             key={index}
+            data-aos="fade-up"
             className="flex flex-col md:flex-row gap-4 md:gap-16 md:justify-between"
           >
-            <p className="font-semibold w-full">{section.title}</p>
-            <p className="w-full">{section.content}</p>
+            <p className="font-semibold w-full" data-aos="fade-up">
+              {section.title}
+            </p>
+            <p className="w-full" data-aos="fade-up">
+              {section.content}
+            </p>
           </div>
         ))}
       </div>

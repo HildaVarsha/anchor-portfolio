@@ -12,12 +12,12 @@ const FacialRecognitionBanner = () => {
           label="Services for the development of facial recognition software."
           className="w-full md:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4 z-10">
+        <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
           Utilize Anchor&apos;s advanced facial recognition software development
           services to build next-generation solutions for security, compliance
           monitoring, and behavior analytics.
         </p>
-        <Button className="w-fit z-10">
+        <Button className="w-fit z-10" data-aos="fade-up">
           Get In Touch
           <ArrowRight />
         </Button>

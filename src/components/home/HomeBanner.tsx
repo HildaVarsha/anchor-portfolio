@@ -10,10 +10,13 @@ const HomeBanner = () => {
   useEffect(() => {
     // Initialize AOS when the component mounts
     AOS.init({
-      duration: 500, // Set default animation duration
+      duration: 300, // Set default animation duration
       easing: "ease-in-out", // Set easing function
       once: false, // Ensures animation happens only once
     });
+  }, []);
+  useEffect(() => {
+    AOS.refresh(); // Refresh AOS animations
   }, []);
   return (
     <div className="relative flex flex-col justify-center h-screen overflow-hidden">

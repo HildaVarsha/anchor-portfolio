@@ -23,8 +23,17 @@ const technologies = [
 ];
 
 const TechnologyCard = ({ src }: { src: string }) => (
-  <div className="p-8 border border-gray-400 flex items-center justify-center">
-    <Image src={src} alt="Technology" width={110} height={50} />
+  <div
+    className="p-8 border border-gray-400 flex items-center justify-center"
+    data-aos="fade-up"
+  >
+    <Image
+      src={src}
+      alt="Technology"
+      width={110}
+      height={50}
+      data-aos="fade-up"
+    />
   </div>
 );
 
@@ -40,8 +49,10 @@ const DevopsTechnology = () => {
         }}
       >
         <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container">
-          <p>The Technology Stack Behind</p>
-          <p className="text-amber-400">Our DevOps Solutions</p>
+          <p data-aos="fade-up">The Technology Stack Behind</p>
+          <p className="text-amber-400" data-aos="fade-up">
+            Our DevOps Solutions
+          </p>
         </div>
       </div>
       <div className="py-12">
