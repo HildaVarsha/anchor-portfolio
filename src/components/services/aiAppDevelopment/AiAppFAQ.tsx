@@ -9,19 +9,21 @@ import {
 
 const accordionItems = [
   {
-    title: "How much does it cost to build an AI app?",
-    content: "We provide end-to-end solutions for your business needs.",
-  },
-  {
-    title: "How can I discuss my AI app idea with you?",
+    title: "What is the cost of developing an AI app?",
     content:
-      "Our team consists of highly skilled professionals with years of experience.",
+      "We offer comprehensive solutions tailored to your business requirements.",
   },
   {
-    title: "What is your tech stack for AI app development?",
-    content: "We ensure high-quality standards in all our deliverables.",
+    title: "How can I share my AI app idea with your team?",
+    content:
+      "Our team is made up of highly experienced professionals with years of expertise in the field.",
+  },
+  {
+    title: "What technologies do you use for AI app development?",
+    content: "We maintain high-quality standards in all our deliverables.",
   },
 ];
+
 const AiAppFAQ = () => {
   return (
     <div className="bg-white py-16 text-slate-800">

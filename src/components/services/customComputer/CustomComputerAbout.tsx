@@ -5,47 +5,47 @@ const services = [
   {
     title: "Image Classification",
     description:
-      "Looking for highly accurate image classification? We offer a robust computer vision solution for tasks such as automated image organization in apps or visual databases, visual search, content moderation, and more.",
+      "We offer a robust computer vision solution for accurate image classification tasks, such as automated image organization in apps or visual databases, visual search, content moderation, and more.",
   },
   {
     title: "Image Segmentation",
     description:
-      "Semantic and instance segmentation are also integral parts of our computer vision services. We assist in extracting detailed object information, whether for medical diagnostics, robotics, video surveillance, traffic monitoring, or other applications.",
+      "Our services include both semantic and instance segmentation, helping you extract detailed object information for applications like medical diagnostics, robotics, video surveillance, traffic monitoring, and beyond.",
   },
   {
     title: "Object Detection",
     description:
-      "Are you looking to create a high-performance object detection solution for crowd counting, facial recognition, video surveillance, mask detection, or anomaly detection in sectors like manufacturing, farming, or radiology? Our computer vision developers are ready to deliver.",
+      "Need a high-performance object detection solution? Whether it's for crowd counting, facial recognition, video surveillance, mask detection, or anomaly detection in sectors like manufacturing, farming, or radiology, we've got you covered.",
   },
   {
     title: "Object Tracking",
     description:
-      "We assist companies in utilizing deep learning algorithms to estimate and predict the position of moving objects in video footage. Whether it's for surveillance solutions, intelligent activity recognition systems, or traffic monitoring systems, we have successfully handled it all.",
+      "We help companies utilize deep learning algorithms to estimate and predict the position of moving objects in video footage. Our solutions span surveillance, intelligent activity recognition, and traffic monitoring systems.",
   },
   {
     title: "Intelligent Video Analysis",
     description:
-      "As part of our computer vision services, we provide advanced video analysis technology for tasks such as video description, segmentation, summarization (including feature, event, motion/color, and object-based), and post-processing.",
+      "Our advanced video analysis technology provides solutions for video description, segmentation, summarization (including feature, event, motion/color, and object-based), and post-processing.",
   },
   {
     title: "Pose Estimation",
     description:
-      "Leverage our computer vision services to select the most suitable approach and library for interpreting human posture using deep learning. Whether you're in retail, fitness, sports, gaming, or robotics, we'll help bring your vision to life.",
+      "We provide expertise in interpreting human posture through deep learning, offering tailored solutions for industries such as retail, fitness, sports, gaming, and robotics.",
   },
   {
-    title: "Content-based Image Retrievaln",
+    title: "Content-based Image Retrieval (CBIR)",
     description:
-      "CBIR systems search images by analyzing their content instead of relying on metadata. If you need expert assistance in developing an effective search mechanism for your visual database, we’re just a click away.",
+      "CBIR systems analyze image content, not metadata, to enable more efficient image searches. We help you develop effective search mechanisms for your visual database to enhance retrieval capabilities.",
   },
   {
-    title: "Generative Adversarial Networks",
+    title: "Generative Adversarial Networks (GANs)",
     description:
-      "Leverage our expertise in using GANs for tasks such as generating images from descriptions, restoring missing parts, upscaling images to high resolution, and adapting their domain. We have the knowledge to manage data and train models to deliver precise results.",
+      "Leverage our expertise in GANs for tasks such as generating images from descriptions, restoring missing parts, upscaling images to high resolution, and adapting their domain. We specialize in data management and model training to deliver precise results.",
   },
   {
     title: "Computer Vision on the Edge",
     description:
-      "Anchor offers computer vision solutions that leverage device resources to deliver low-latency automated predictions, empowering your business. If you need to automate monitoring or visual inspection tasks for improved safety and efficiency, feel free to reach out.",
+      "We offer edge-based computer vision solutions that leverage device resources to provide low-latency, automated predictions. This empowers your business with real-time visual inspection and monitoring, improving safety and efficiency.",
   },
 ];
 
@@ -55,12 +55,12 @@ const CustomComputerAbout = () => {
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="Our computer vision services" />
         <p data-aos="fade-up">
-          Whatever computer vision challenge you encounter, we&apos;re likely
-          already well-versed in it. We have the technical expertise, but
-          there&apos;s more to it. As your partner, we are committed to your
-          business success, ensuring that our computer vision services deliver a
-          quick return on investment.
+          Whatever computer vision challenge you face, we're likely already
+          experts in it. With our deep technical expertise and a strong
+          commitment to your business success, we ensure that our computer
+          vision services deliver a rapid return on investment.
         </p>
+
         <div className="py-6 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
           {services.map((service, index) => (
             <ServicesCard

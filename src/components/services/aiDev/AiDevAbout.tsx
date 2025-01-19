@@ -53,12 +53,13 @@ const AiDevAbout = () => {
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="Unleashing the Power of AI with Expert Solutions" />
         <p data-aos="fade-up">
-          At Anchor, we provide a full range of AI development services designed
-          to empower your business with the capabilities of artificial
-          intelligence. Whether you&apos;re beginning your AI journey or aiming
-          to enhance and streamline existing solutions, our team of experts is
-          here to support you every step of the way.
+          At Anchor, we offer a comprehensive suite of AI development services
+          to help your business harness the power of artificial intelligence.
+          Whether you're starting your AI journey or looking to improve and
+          optimize your existing solutions, our team of experts is here to guide
+          and support you throughout the process.
         </p>
+
         <div className="py-6 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
           {services.map((service, index) => (
             <ServiceCard

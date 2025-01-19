@@ -24,11 +24,11 @@ const NlpTechnology = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Anchor&apos;s expert NLP specialists lead the way in natural language
-          processing solutions. With experience in delivering customized NLP
-          solutions, they not only tackle specific business challenges—though
-          that’s our consistent strength—but also drive transformation across
-          entire industries.
+          Anchor&apos;s team of expert NLP specialists leads the way in natural
+          language processing solutions. With extensive experience in delivering
+          customized NLP solutions, we not only address specific business
+          challenges—our consistent strength—but also drive transformation
+          across entire industries.
         </p>
       </div>
     </div>

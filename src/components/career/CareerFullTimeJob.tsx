@@ -18,14 +18,14 @@ const CareerFullTimeJob = () => {
         <div className="w-full">
           <PageHeaderText label="Job full time" className="" />
           <p className="py-4" data-aos="fade-up">
-            Graduating seniors with unprecedented learning opportunities will
-            take the first step toward a good career. We are searching for
-            students who are motivated and ready to join forces with some of the
-            consulting world&apos;s best and brightest minds. Pupils of MBA
+            Graduating seniors with exceptional learning opportunities will take
+            the first step toward a successful career. We are looking for
+            motivated students ready to collaborate with some of the brightest
+            minds in the consulting world, including MBA graduates.
           </p>
           <p className="py-4" data-aos="fade-up">
-            Our MBA program hires from many business schools across the globe.
-            Choose your place, or read more about our chances.
+            Our MBA program recruits from top business schools worldwide. Choose
+            your location or learn more about the opportunities available.
           </p>
         </div>
       </div>

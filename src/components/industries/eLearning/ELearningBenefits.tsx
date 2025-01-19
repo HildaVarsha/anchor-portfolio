@@ -5,36 +5,45 @@ const services = [
   {
     title: "Accessibility",
     description:
-      "Friendly for learners with special needs and those without the ‘geek gene’",
+      "Designed to be user-friendly for learners with special needs and those without technical expertise.",
   },
   {
     title: "Flexibility",
     description:
-      "Customizable for all participants, tailored to your business needs",
+      "Fully customizable to meet the needs of all participants, tailored to your specific business requirements.",
   },
   {
     title: "Granularity",
     description:
-      "Highlighting all the peculiarities of the educational process",
+      "Focusing on the unique aspects of the educational process to ensure detailed learning experiences.",
   },
   {
     title: "Personalization",
-    description: "Overcoming the one-size-fits-all eLearning problem",
+    description:
+      "Solving the one-size-fits-all issue by offering personalized eLearning solutions.",
   },
   {
     title: "Persistence",
-    description: "Instrumentally motivating target learners to carry on",
+    description:
+      "Using tools to motivate learners and encourage continuous progress.",
   },
-  { title: "Motivation", description: "Making courseware products engaging" },
+  {
+    title: "Motivation",
+    description:
+      "Making courseware products engaging and motivating for learners.",
+  },
   {
     title: "Collaboration",
-    description: "Designing easy-to-use tools for fruitful teamwork",
+    description:
+      "Creating intuitive tools for effective teamwork and collaboration among learners.",
   },
   {
     title: "Age-friendly",
-    description: "Providing a helpful environment for adults",
+    description:
+      "Providing a supportive learning environment for adult learners.",
   },
 ];
+
 const ELearningBenefits = () => {
   return (
     <div className="bg-white ">
@@ -60,12 +69,12 @@ const ELearningBenefits = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Driven by the COVID-19 crisis, education has tapped in radical
-          transformation. With distance learning sparking public interest in
-          educational innovations, EdTech will continue to reshape the way we
-          teach and learn. Now, it’s the perfect time for educational
-          institutions to take the first step toward digital transformation and
-          start enjoying the improvements it ignites
+          The COVID-19 crisis has accelerated radical transformations in
+          education. With distance learning capturing public interest in
+          educational innovations, EdTech will continue to reshape the future of
+          teaching and learning. Now is the ideal time for educational
+          institutions to embark on their digital transformation journey and
+          begin reaping the benefits it brings.
         </p>
       </div>
       <div className="px-4 md:px-0 md:container mx-auto text-slate-800">

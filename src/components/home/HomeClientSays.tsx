@@ -10,6 +10,7 @@ import {
   CarouselPrevious,
 } from "../ui";
 import { PageHeaderText } from "../shared";
+import { TESTIMONIALS } from "@/lib/constants/Testimonials";
 
 const HomeClientSays = () => {
   return (
@@ -22,7 +23,7 @@ const HomeClientSays = () => {
           <PageHeaderText label={"What clients say about us"} />
         </div>
         <CarouselContent className="pt-4">
-          {Array.from({ length: 5 }).map((_, index) => (
+          {TESTIMONIALS.map((item, index) => (
             <CarouselItem key={index}>
               <div className="p-4 flex  flex-col md:flex-row items-center justify-between gap-12">
                 <div
@@ -32,11 +33,11 @@ const HomeClientSays = () => {
                 >
                   <Avatar>
                     <AvatarImage src="https://github.com/shadcn.png" />
-                    <AvatarFallback>CN</AvatarFallback>
+                    <AvatarFallback>{item.avatar}</AvatarFallback>
                   </Avatar>
                   <div>
-                    <p className="text-sm">Jeff Block</p>
-                    <p>VP of Process and Technology PotentiaMetrics, Inc.</p>
+                    <p className="text-sm">{item.name}</p>
+                    <p>{item.company}</p>
                   </div>
                 </div>
                 <div
@@ -44,17 +45,7 @@ const HomeClientSays = () => {
                   data-aos-delay="600"
                   className="text-lg font-semibold w-full"
                 >
-                  Working with Anchor Informatics was a transformative
-                  experience for our organization. Their team of professionals
-                  brought unmatched expertise to the table, turning our
-                  challenges into opportunities for growth. From the first
-                  meeting to the project handoff, they demonstrated a deep
-                  understanding of our requirements and provided innovative
-                  solutions tailored to our needs. The software development
-                  services they delivered were nothing short of exceptional,
-                  ensuring that our platform was robust, scalable, and
-                  future-proof. Their attention to detail and commitment to
-                  quality stood out throughout the process.
+                  {item.text}
                 </div>
               </div>
             </CarouselItem>

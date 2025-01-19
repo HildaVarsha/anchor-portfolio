@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+// !data Updated
 const Blogs = () => {
   useEffect(() => {
     // Initialize AOS when the component mounts

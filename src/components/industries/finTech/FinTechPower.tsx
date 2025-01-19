@@ -4,24 +4,34 @@ import React from "react";
 const FinTechPower = () => {
   const services = [
     {
-      title: "Blockchain",
+      title: "Blockchain Technology",
       description:
-        "We architect decentralized financial applications relying on smart contracts that boast built-in security and immunity to fraud",
+        "We design and develop decentralized financial systems powered by blockchain, utilizing smart contracts for enhanced security, transparency, and fraud resistance.",
     },
     {
-      title: "Artificial Intelligence",
+      title: "Artificial Intelligence Solutions",
       description:
-        "We power FinTech solutions with AI to help you make faster, smarter decisions and enable change at scale",
+        "We integrate AI into FinTech platforms to drive smarter decision-making, accelerate automation, and optimize business outcomes at scale.",
     },
     {
-      title: "Robotic Process Automation",
+      title: "Robotic Process Automation (RPA)",
       description:
-        "We bring RPA in to help you improve efficiency and productivity, empower employees, and pave new ways for innovation",
+        "We implement RPA to streamline workflows, boost operational efficiency, and empower employees to focus on high-value tasks, fostering innovation and reducing human error.",
     },
     {
-      title: "Internet of Things",
+      title: "Internet of Things (IoT) Integration",
       description:
-        "We leverage IoT to power financial institutions with security, point-of-sale, and contactless payments solutions",
+        "We harness the power of IoT to offer secure, real-time data processing, enhance customer experiences, and provide contactless payment solutions for financial services.",
+    },
+    {
+      title: "Cybersecurity Solutions",
+      description:
+        "We provide comprehensive cybersecurity measures to protect financial institutions from emerging threats, ensuring data integrity and safeguarding user trust.",
+    },
+    {
+      title: "Cloud Computing Services",
+      description:
+        "We optimize cloud-based solutions for scalability and flexibility, enabling financial businesses to securely store and manage data, while ensuring accessibility across all devices.",
     },
   ];
 
@@ -46,18 +56,20 @@ const FinTechPower = () => {
       <div className="py-12 bg-amber-400">
         <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
           <p data-aos="fade-up">
-            Innovators at heart, we strongly believe in the power of novel
-            technology. We use our expertise in blockchain, smart contracts,
-            RPA, and AI development to help you design a new future for finance.
+            At our core, we are innovators, driven by the transformative power
+            of cutting-edge technology. Leveraging our expertise in blockchain,
+            smart contracts, AI, and RPA development, we empower you to build a
+            forward-looking future for the financial world.
           </p>
           <p className="pt-6" data-aos="fade-up">
-            We don’t innovate for the sake of it, though. Rather, we treat novel
-            technology as a strategic imperative that helps traditional and
-            non-traditional financial institutions create value now and shape
-            their journeys into the future.
+            Innovation is not just for innovation's sake. We view emerging
+            technologies as a strategic tool—enabling both traditional and
+            disruptive financial institutions to create real value today and
+            shape their future success in an ever-evolving landscape.
           </p>
         </div>
       </div>
+
       <div className="px-4 md:px-0 md:container mx-auto py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 text-slate-800">
         {services?.map((service, index) => (
           <ServicesCard

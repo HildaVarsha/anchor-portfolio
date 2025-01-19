@@ -15,29 +15,27 @@ const HomeLatestThinkings = () => {
   const technologies = [
     {
       src: "https://images.pexels.com/photos/5155361/pexels-photo-5155361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "What are AI agents, and how do you implement them?",
+      title: "What Are AI Agents and How to Implement Them?",
       description:
-        "Learn what AI agents are, what they can do for healthcare, finance, and other fields, and how ITRex can help you implement one.",
+        "Discover what AI agents are, how they can revolutionize industries like healthcare and finance, and how ITRex can assist you in deploying them effectively.",
     },
     {
       src: "https://images.pexels.com/photos/18069693/pexels-photo-18069693/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-illustration-depicts-language-models-which-generate-text-it-was-created-by-wes-cockx-as-part-of-the-visualising-ai-project-l.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title:
-        "Generative AI in business: top 5 use cases every company should consider",
+      title: "Generative AI in Business: Top 5 Use Cases to Explore",
       description:
-        "Looking to make generative AI part of your company’s tech stack? Discover these promising generative AI applications in business to get inspired!",
+        "Interested in incorporating generative AI into your business? Explore these top AI applications to inspire your next technological breakthrough.",
     },
     {
       src: "https://images.pexels.com/photos/19319639/pexels-photo-19319639/free-photo-of-boston-dynamics-robot-in-a-car-factory.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title:
-        "Generative AI in banking: promising use cases and potential hurdles",
+      title: "Generative AI in Banking: Key Applications and Challenges",
       description:
-        "Generative AI is set to change the traditional banking paradigm. Learn about how banks can transform their operations with Gen AI.",
+        "Generative AI is poised to transform the banking industry. Learn how financial institutions can adopt AI to optimize operations and overcome challenges.",
     },
     {
       src: "https://images.pexels.com/photos/17485741/pexels-photo-17485741/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-visualises-the-benefits-and-flaws-of-large-language-models-it-was-created-by-tim-west-as-part-of-the-visualising-ai-pr.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "How to implement AI in your organization: the definitive guide",
+      title: "How to Implement AI in Your Organization: A Comprehensive Guide",
       description:
-        "How to implement AI in your business and achieve a substantial return on your artificial intelligence investments?",
+        "Looking to integrate AI into your business and maximize ROI? This guide will show you the steps to successfully implement AI and harness its full potential.",
     },
   ];
 

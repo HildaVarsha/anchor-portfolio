@@ -8,12 +8,12 @@ const FinTechEstablish = () => {
       title: "Discovery",
       content: {
         description:
-          "Exploring opportunities, identifying challenges, and gathering insights to set the foundation for the project.",
+          "Identifying opportunities, addressing challenges, and gathering key insights to establish a solid foundation for the project.",
         points: [
-          "Conducting stakeholder interviews",
-          "Understanding user needs",
-          "Analyzing market trends",
-          "Defining initial goals and scope",
+          "Conducting interviews with stakeholders",
+          "Understanding the needs of users",
+          "Examining market trends",
+          "Setting initial goals and defining scope",
         ],
       },
     },
@@ -22,11 +22,11 @@ const FinTechEstablish = () => {
       title: "Evaluation",
       content: {
         description:
-          "Assessing requirements, analyzing feasibility, and setting priorities for project execution.",
+          "Evaluating requirements, assessing feasibility, and prioritizing tasks for project execution.",
         points: [
-          "Technical feasibility analysis",
-          "Risk assessment",
-          "Resource allocation",
+          "Analyzing technical feasibility",
+          "Assessing potential risks",
+          "Allocating resources",
           "Prioritizing features and functionalities",
         ],
       },
@@ -36,12 +36,12 @@ const FinTechEstablish = () => {
       title: "Planning",
       content: {
         description:
-          "Formulating a detailed roadmap and preparing for implementation with clear timelines and responsibilities.",
+          "Creating a comprehensive plan with a clear timeline and assigning roles and responsibilities for successful project implementation.",
         points: [
-          "Creating a project timeline",
-          "Assigning team roles",
-          "Establishing milestones",
-          "Finalizing the project scope",
+          "Developing a project timeline",
+          "Defining team roles and responsibilities",
+          "Setting milestones for progress",
+          "Finalizing the project scope and deliverables",
         ],
       },
     },
@@ -50,12 +50,12 @@ const FinTechEstablish = () => {
       title: "Development",
       content: {
         description:
-          "Bringing ideas to life by coding, testing, and iterating to build functional solutions.",
+          "Turning ideas into tangible solutions through coding, testing, and iteration to ensure functionality and performance.",
         points: [
-          "Writing and reviewing code",
-          "Integrating APIs and services",
-          "Unit and integration testing",
-          "Tracking progress with agile methodologies",
+          "Writing and refining code",
+          "Integrating third-party APIs and services",
+          "Performing unit and integration testing",
+          "Monitoring progress with agile methodologies",
         ],
       },
     },
@@ -64,16 +64,17 @@ const FinTechEstablish = () => {
       title: "Reiteration",
       content: {
         description:
-          "Refining the product through feedback, enhancements, and continuous improvement cycles.",
+          "Enhancing the product through continuous feedback, iterative improvements, and addressing any issues to ensure stability and scalability.",
         points: [
-          "Gathering user feedback",
-          "Implementing iterative updates",
-          "Addressing bugs and performance issues",
-          "Ensuring product scalability and stability",
+          "Collecting feedback from users",
+          "Implementing iterative updates and enhancements",
+          "Resolving bugs and optimizing performance",
+          "Ensuring scalability and stability for long-term success",
         ],
       },
     },
   ];
+
   return (
     <div className="bg-white">
       {" "}
@@ -98,9 +99,9 @@ const FinTechEstablish = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Whether you look to transform your organization into a truly digital
-          enterprise or seek to bring a new FinTech product to the market, we
-          have efficient processes to deliver value from day one.
+          Whether you aim to evolve your organization into a fully digital
+          enterprise or introduce a new FinTech product to the market, we employ
+          streamlined processes that deliver value right from the start.
         </div>
       </div>
       <div className="px-4 md:px-0 md:container mx-auto py-16  text-slate-800">

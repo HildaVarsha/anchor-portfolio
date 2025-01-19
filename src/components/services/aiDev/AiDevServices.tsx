@@ -1,26 +1,27 @@
 import React from "react";
 const services = [
   {
-    title: "Data quality",
+    title: "Data Quality",
     description:
-      "We perform comprehensive data validation and cleansing to ensure that insights are derived from high-quality, dependable data.",
+      "We carry out thorough data validation and cleansing to ensure that insights are based on high-quality, reliable data.",
   },
   {
     title: "Explainability",
     description:
-      "We utilize white-box AI models, enabling users to understand the decision-making process behind AI algorithms.",
+      "We use white-box AI models, allowing users to understand the decision-making process behind AI algorithms.",
   },
   {
     title: "Predictable ROI",
     description:
-      "We start our AI development projects with a proof of concept, allowing you to assess the potential value of AI without making significant upfront investments.",
+      "We initiate AI development projects with a proof of concept, enabling you to evaluate the potential value of AI without making significant upfront investments.",
   },
   {
     title: "Security",
     description:
-      "We apply strong security protocols to ensure that your data and infrastructure are thoroughly protected against potential threats.",
+      "We implement robust security protocols to ensure your data and infrastructure are fully protected against potential threats.",
   },
 ];
+
 const AiDevServices = () => {
   const ServiceCard = ({
     title,

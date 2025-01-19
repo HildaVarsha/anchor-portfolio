@@ -5,21 +5,21 @@ import Image from "next/image";
 const expertiseData = [
   {
     src: "/expertise-ai.png",
-    title: "AI (Artificial Intelligence)",
+    title: "Artificial Intelligence (AI)",
     description:
-      "From machine learning to natural language processing, we unlock the full potential of AI to help machines think, act, and improve.",
+      "From machine learning to natural language processing, we unlock the full capabilities of AI to enable machines to think, learn, and improve continuously.",
   },
   {
     src: "/expertise-rcs.png",
-    title: "RCS (Resilient Cyber Sector)",
+    title: "Resilient Cyber Sector (RCS)",
     description:
-      "Our “bend but don’t break” approach ensures your enterprise remains secure, resilient, and prepared for any disruption.",
+      "With our 'bend but don’t break' strategy, we ensure your organization stays secure, adaptable, and ready for any disruption.",
   },
   {
     src: "/expertise-saas.png",
-    title: "SaaS (Software as a Service)",
+    title: "Software as a Service (SaaS)",
     description:
-      "Powering the future of work with cloud-based solutions, giving you seamless access to software resources.",
+      "Empowering the future of business with cloud-based solutions that provide seamless and efficient access to essential software resources.",
   },
 ];
 

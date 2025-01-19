@@ -16,58 +16,60 @@ const AiDevSolutions = () => {
   );
   const services = [
     {
-      title: "Manual task automation",
+      title: "Automation of Manual Tasks",
       description:
-        "We offer optical character recognition (OCR) and data capture solutions that extract information from documents, eliminating the need for manual processes.",
+        "We provide optical character recognition (OCR) and data capture solutions that extract information from documents, eliminating the need for manual processes.",
     },
     {
-      title: "Facial recognition",
+      title: "Facial Recognition",
       description:
-        "We provide person identification solutions using live captures and digital images for biometric authentication, access control, and various security applications.",
+        "We offer person identification solutions using live captures and digital images for biometric authentication, access control, and various security applications.",
     },
     {
-      title: "Image data labeling",
+      title: "Image Data Labeling",
       description:
         "We develop deep learning models that automatically detect and label people and objects in images and videos.",
     },
     {
-      title: "Human activity recognition",
+      title: "Human Activity Recognition",
       description:
-        "We develop intelligent models for human posture recognition, applicable in sports training, surveillance, healthcare, and various other industries.",
+        "We build intelligent models for recognizing human posture, applicable in sports training, surveillance, healthcare, and various other industries.",
     },
     {
-      title: "Object detection",
+      title: "Object Detection",
       description:
-        "We create advanced algorithms for object detection and identification in images and videos, applied in retail analytics, autonomous vehicles, and smart surveillance systems.",
+        "We create advanced algorithms for detecting and identifying objects in images and videos, used in retail analytics, autonomous vehicles, and smart surveillance systems.",
     },
     {
-      title: "Pattern recognition",
+      title: "Pattern Recognition",
       description:
-        "Advanced AI systems that identify patterns in data, enabling predictive analytics, anomaly detection, and personalized recommendations.",
+        "We design AI systems that recognize patterns in data, enabling predictive analytics, anomaly detection, and personalized recommendations.",
     },
   ];
+
   const emotionServices = [
     {
-      title: "Speech recognition",
+      title: "Speech Recognition",
       description:
-        "We provide real-time speech processing and voice interfaces to automate routine tasks and elevate the user experience.",
+        "We offer real-time speech processing and voice interfaces to automate routine tasks and enhance user experiences.",
     },
     {
-      title: "Semantic search",
+      title: "Semantic Search",
       description:
-        "Advanced NLP-powered algorithms designed to deliver search results that accurately align with a user's intent.",
+        "We develop advanced NLP-powered algorithms to provide search results that accurately match a user's intent.",
     },
     {
-      title: "Text classification",
+      title: "Text Classification",
       description:
-        "NLP-powered categorization of emails, posts, and other text data for sentiment analysis, topic labeling, and spam detection.",
+        "We use NLP techniques to categorize emails, posts, and other text data for sentiment analysis, topic labeling, and spam detection.",
     },
     {
-      title: "Emotion recognition",
+      title: "Emotion Recognition",
       description:
-        "We analyze images and videos to detect and recognize emotions, helping you gain deeper insights into your customers' reactions to your products and services.",
+        "We analyze images and videos to detect and recognize emotions, giving you deeper insights into how customers react to your products and services.",
     },
   ];
+
   return (
     <div className="bg-white py-16">
       <div
@@ -91,11 +93,11 @@ const AiDevSolutions = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          As an AI software development company, we are committed to the
-          transformative power of artificial intelligence in driving business
-          success. Explore a variety of AI use cases that showcase our
-          expertise. From optimizing operations to boosting profits, our bespoke
-          AI development services deliver measurable growth and exceptional
+          As an AI software development company, we are dedicated to leveraging
+          the transformative power of artificial intelligence to drive business
+          success. Explore a range of AI use cases that highlight our expertise.
+          From optimizing operations to increasing profits, our custom AI
+          development services deliver measurable growth and outstanding
           results.
         </p>
       </div>

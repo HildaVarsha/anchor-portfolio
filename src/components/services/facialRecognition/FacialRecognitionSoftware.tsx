@@ -5,24 +5,25 @@ const FacialRecognitionSoftware = () => {
     {
       title: "Fast implementation",
       description:
-        "MotionMind AI offers pre-trained computer vision models that precisely detect key points on the human body, including facial landmarks. This accelerates the development of facial recognition software, enabling faster implementation of the technology.",
+        "MotionMind AI provides pre-trained computer vision models that accurately detect key points on the human body, including facial landmarks. This enables faster development of facial recognition software, accelerating the technology's implementation.",
     },
     {
       title: "High precision",
       description:
-        "MotionMind AI is built on top-tier open-source and proprietary computer vision models, delivering exceptional accuracy and precision in face recognition software development, ensuring the value of your investment.",
+        "Built on top-tier open-source and proprietary computer vision models, MotionMind AI delivers exceptional accuracy and precision in face recognition software development, ensuring the value of your investment.",
     },
     {
       title: "Lower development costs",
       description:
-        "MotionMind AI removes the need to build CV models from the ground up, speeding up face recognition app development and reducing time to market. Moreover, the technology is compatible with any camera setup, lowering hardware costs, and can operate on both devices and in the cloud.",
+        "MotionMind AI eliminates the need to build computer vision models from scratch, speeding up face recognition app development and reducing time to market. The technology is compatible with any camera setup, lowering hardware costs, and can operate both on devices and in the cloud.",
     },
     {
       title: "Flexibility",
       description:
-        "We have successfully applied MotionMind AI to a range of tasks, from human pose estimation to facial recognition software development. The technology has become an integral part of our operations.",
+        "MotionMind AI has been successfully applied to various tasks, ranging from human pose estimation to facial recognition software development. The technology has become an integral part of our operations.",
     },
   ];
+
   const ServiceCard = ({
     title,
     description,
@@ -63,11 +64,13 @@ const FacialRecognitionSoftware = () => {
         >
           <p className="">
             While primarily an IT services company, Anchor’s Informative has
-            ventured into productization with MotionMind AI - —a pre-packaged,
-            MotionMind AI offers a solution well-suited for face recognition
-            software development, with powerful functionality that delivers
-            real-world business benefits. easily customizable computer vision
+            expanded into productization with MotionMind AI—a pre-packaged,
+            easily customizable computer vision solution. MotionMind AI offers
+            powerful functionality, making it an ideal choice for face
+            recognition software development and delivering real-world business
+            benefits.
           </p>
+
           <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
             {services.map((service, index) => (
               <ServiceCard

@@ -4,29 +4,29 @@ import React from "react";
 const FinTechSpectrum = () => {
   const services = [
     {
-      title: "End-to-end FinTech software development",
+      title: "End-to-End FinTech Software Development",
       description:
-        "We will accompany you throughout the development process, delivering initial consulting, design, engineering, testing, integration, and deployment of your FinTech solution",
+        "We guide you through every step of the development lifecycle, offering consulting, design, engineering, testing, integration, and seamless deployment of your FinTech solution.",
     },
     {
-      title: "FinTech software testing",
+      title: "FinTech Software Testing",
       description:
-        "We will ensure that your FinTech solution runs without glitches, verifying its functionality, performance, security, usability, interoperability, and compliance",
+        "We ensure your FinTech solution operates flawlessly by thoroughly testing its functionality, performance, security, usability, interoperability, and compliance with industry standards.",
     },
     {
-      title: "API-driven software integration",
+      title: "API-Driven Software Integration",
       description:
-        "We will help you smoothly integrate your FinTech solution into the corporate infrastructure, creating a cohesive, interoperable technology environment",
+        "We facilitate the smooth integration of your FinTech solution into your existing corporate infrastructure, creating a unified and interoperable technology ecosystem.",
     },
     {
-      title: "Legacy software modernization",
+      title: "Legacy Software Modernization",
       description:
-        "We will plan and roll out the necessary upgrades to help you lengthen the lifespan of your software , enhance its functionality, and optimize operational costs",
+        "We help modernize your legacy systems, enhancing their functionality, extending their lifespan, and optimizing operational costs to keep your technology up to date and competitive.",
     },
     {
-      title: "FinTech consulting",
+      title: "FinTech Consulting",
       description:
-        "We will help you navigate disruption, identify the right opportunity areas, transition to digital-first financial service provisioning, and solve other technology-related tasks along the way",
+        "We guide you through the complexities of FinTech, from identifying growth opportunities and transitioning to a digital-first approach to addressing technology-related challenges along the way.",
     },
   ];
 
@@ -40,26 +40,25 @@ const FinTechSpectrum = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
-          <p data-aos="fade-up">A full spectrum of financial software</p>
+        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container">
+          <p data-aos="fade-up">A Full Spectrum of Financial Software</p>
           <p className="text-amber-400" data-aos="fade-up">
-            {" "}
-            development services
+            Development Services
           </p>
         </div>
       </div>
       <div className="py-12 bg-amber-400">
         <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
           <p data-aos="fade-up">
-            We offer a full spectrum of financial software development services
-            to help you realize full value from your investments. Whether you’re
-            just embarking on a FinTech journey and need advice on how to
-            navigate change, look for a specific skill to fill in knowledge
-            gaps, or search for a turnkey FinTech software developer
+            We offer a comprehensive range of financial software development
+            services, designed to help you unlock the full potential of your
+            investments. Whether you’re just starting your FinTech journey, need
+            expertise to fill specific knowledge gaps, or are looking for a
+            complete, turnkey solution, we are here to help.
           </p>
           <p className="pt-6" data-aos="fade-up">
-            — we do it all while staying responsive to your needs. We are
-            well-versed in:
+            We are dedicated to staying responsive to your needs and delivering
+            tailored solutions. Our expertise spans across:
           </p>
         </div>
       </div>

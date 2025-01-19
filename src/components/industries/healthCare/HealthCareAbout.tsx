@@ -3,24 +3,24 @@ import React from "react";
 
 const services = [
   {
-    title: "Healthcare providers",
+    title: "Healthcare Providers",
     description:
-      "Our healthcare software development company will assist you in implementing EMR/EHR, practice and laboratory management, hospital asset tracking, remote patient monitoring (RPM), point of care (POC), and population health management (PHM) solutions.",
+      "We help healthcare organizations implement comprehensive solutions, including EMR/EHR systems, practice and laboratory management tools, hospital asset tracking, remote patient monitoring (RPM), point-of-care (POC) technologies, and population health management (PHM) platforms.",
   },
   {
-    title: "Pharmaceutical and biotech companies",
+    title: "Pharmaceutical and Biotech Companies",
     description:
-      "We build and customize healthcare software solutions for clinical trials, drug development, production, and distribution. These include simulation and data visualization tools, ERP systems, and accounting software. We also create standalone apps and entire software ecosystems, facilitating research and development (R&D) activities.",
+      "We create and customize software solutions for the pharmaceutical and biotech industries, including clinical trial management, drug development, production, and distribution. Our services include simulation tools, data visualization platforms, ERP systems, and accounting software, as well as standalone apps and integrated software ecosystems to support R&D efforts.",
   },
   {
-    title: "Medical device manufacturers",
+    title: "Medical Device Manufacturers",
     description:
-      "Our healthcare software development team gives voice and processing power to hospital-grade and consumer devices. To that end, we develop embedded systems, mobile/web/cloud solutions for device management, and AI-driven data analytics tools.",
+      "Our team empowers medical device manufacturers with advanced software solutions, including embedded systems, mobile/web/cloud applications for device management, and AI-driven data analytics tools to enhance performance and reliability.",
   },
   {
-    title: "Digital health startups",
+    title: "Digital Health Startups",
     description:
-      "Partner with ITRex to create telehealth and telemedicine systems, wellness technology solutions, including Femtech and Baby Tech products, and software infrastructure for diagnostic and assistive devices.",
+      "Collaborate with ITRex to develop cutting-edge telehealth and telemedicine platforms, wellness technologies, including FemTech and BabyTech products, and software infrastructures for diagnostic and assistive devices.",
   },
 ];
 
@@ -43,13 +43,14 @@ const HealthCareAbout = () => {
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="Custom healthcare software development for every need" />
         <p data-aos="fade-up">
-          A healthcare software development company with a rich portfolio, ITRex
-          offers end-to-end medical software development services to healthcare
-          providers, pharmaceutical companies, digital health startups, and
-          medical device manufacturers. To create healthcare IT solutions that
-          would benefit your organization, we always put security first, ensure
-          healthcare data interoperability, and follow UI/UX best practices.
+          With a proven track record, ITRex is a healthcare software development
+          company that delivers end-to-end solutions for healthcare providers,
+          pharmaceutical companies, digital health startups, and medical device
+          manufacturers. We prioritize security, ensure seamless healthcare data
+          interoperability, and adhere to UI/UX best practices to develop IT
+          solutions that truly benefit your organization.
         </p>
+
         <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
           {services.map((service, index) => (
             <ServiceCard

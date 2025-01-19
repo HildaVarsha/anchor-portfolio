@@ -13,10 +13,11 @@ const AiAppBanner = () => {
           className="w-full md:max-w-2xl"
         />
         <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
-          Transform your business with Anchor Informatics&apos; AI app
-          development services. We create smart, cutting-edge AI-powered
-          applications that help you achieve the extraordinary.
+          Revolutionize your business with Anchor Informatics' AI app
+          development solutions. We build innovative, AI-driven applications
+          that empower you to reach new heights.
         </p>
+
         <Button className="w-fit z-10" data-aos="fade-up">
           Get In Touch
           <ArrowRight />

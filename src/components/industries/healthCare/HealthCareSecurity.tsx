@@ -26,28 +26,33 @@ const HealthcareSecurity = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Our clients’ data privacy, security, and compliance are a priority for
-          us. So, as a top medical software development company, we:
+          At ITRex, safeguarding our clients' data privacy, security, and
+          compliance is a top priority. As a leading medical software
+          development company, we ensure:
         </p>
         <div className="p-8 md:container mx-auto bg-blue-100 my-12 text-slate-800 flex flex-col md:flex-row gap-4 md:gap-16">
           <div className="w-full">
-            <li data-aos="fade-up">
-              Comply with industry standards, including HIPAA, GDPR, HITECH,
-              HL7, and FHIR
-            </li>
-            <li className="pt-4" data-aos="fade-up">
-              Adhere to the established software development security standards
-              and frameworks, such as OWASP and OWASP SAMM
-            </li>
+            <ul>
+              <li data-aos="fade-up">
+                Full compliance with industry standards such as HIPAA, GDPR,
+                HITECH, HL7, and FHIR
+              </li>
+              <li className="pt-4" data-aos="fade-up">
+                Adherence to established software development security
+                frameworks, including OWASP and OWASP SAMM
+              </li>
+            </ul>
           </div>
           <div className="w-full">
-            <li data-aos="fade-up">
-              Work with major healthcare coding styles like ICPC-2, DICOM, CPT,
-              and ICD-10
-            </li>
-            <li className="pt-4" data-aos="fade-up">
-              Comply with payment processing standards, such as PCI DSS
-            </li>
+            <ul>
+              <li data-aos="fade-up">
+                Expertise in major healthcare coding systems like ICPC-2, DICOM,
+                CPT, and ICD-10
+              </li>
+              <li className="pt-4" data-aos="fade-up">
+                Compliance with payment processing standards such as PCI DSS
+              </li>
+            </ul>
           </div>
         </div>
       </div>

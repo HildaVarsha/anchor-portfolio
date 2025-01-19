@@ -8,13 +8,15 @@ const LogisticsAbout = () => {
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="Transportation and logistics software development company to serve your innovation needs" />
         <p data-aos="fade-up">
-          We know you are in the midst of unprecedented change accelerated by
-          the pandemic, and we are here to help. Use our unmatched expertise in
-          logistics software development to change the face of your business
-          going forward. We build logistics and transportation software
-          solutions with top-tier features that close visibility gaps, empower
-          confident decisions, and strengthen supply chain resilience.
+          We understand that the pandemic has brought about unprecedented
+          challenges, and we're here to support you through this transformation.
+          Leverage our unparalleled expertise in logistics software development
+          to shape the future of your business. We create advanced logistics and
+          transportation solutions with cutting-edge features that bridge
+          visibility gaps, enable informed decision-making, and enhance supply
+          chain resilience.
         </p>
+
         <div className="py-12 flex flex-col md:flex-row gap-4 md:gap-8">
           <div className="w-full">
             <p

@@ -4,7 +4,7 @@ import { useState } from "react";
 const industryContent: any = {
   Retail: {
     description:
-      "Reduce in-store human interactions, personalize the customer experience, or utilize computer vision technology for improved inventory management and product displays. We develop solutions for:",
+      "Reduce in-store human interactions, personalize the customer experience, or leverage computer vision technology to enhance inventory management and product displays. We develop solutions for:",
     points: [
       "Automated checkout",
       "In-store navigation",
@@ -17,7 +17,7 @@ const industryContent: any = {
   },
   Healthcare: {
     description:
-      "Enhance patient care, streamline operations, and improve diagnostic accuracy using AI solutions tailored for healthcare. We develop solutions for:",
+      "Enhance patient care, streamline operations, and boost diagnostic accuracy with AI solutions tailored for the healthcare industry. We develop solutions for:",
     points: [
       "Predictive healthcare analytics",
       "AI-powered diagnostics",
@@ -29,7 +29,7 @@ const industryContent: any = {
   },
   Education: {
     description:
-      "Empower learners and educators with personalized and engaging educational experiences. We develop solutions for:",
+      "Empower both learners and educators with personalized, engaging educational experiences. We develop solutions for:",
     points: [
       "AI-powered tutoring systems",
       "Personalized learning platforms",
@@ -66,7 +66,7 @@ const industryContent: any = {
 };
 
 const CustomComputerFeatures = () => {
-  const [selectedIndustry, setSelectedIndustry] = useState("Retail");
+  const [selectedIndustry, setSelectedIndustry] = useState<any>("Retail");
 
   return (
     <div className="py-16 bg-white text-slate-800">

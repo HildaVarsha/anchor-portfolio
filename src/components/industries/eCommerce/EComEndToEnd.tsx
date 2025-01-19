@@ -29,11 +29,11 @@ const EComEndToEnd = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          With more than a decade of experience and extensive cross-domain
-          expertise, we offer a full suite of ecommerce development services to
-          address your challenges no matter how big or small they are. From
-          expert advice to comprehensive maintenance services, we have done it
-          all, keeping our clients delighted.
+          With over a decade of experience and deep cross-domain expertise, we
+          provide a complete range of ecommerce development services to tackle
+          challenges of any size. From expert guidance to full-scale maintenance
+          services, we've successfully handled it all, ensuring our clients
+          remain satisfied.
         </p>
       </div>
     </div>

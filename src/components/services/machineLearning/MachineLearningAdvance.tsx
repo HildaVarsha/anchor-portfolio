@@ -8,12 +8,12 @@ const MachineLearningAdvance = () => {
       title: "Discovery",
       content: {
         description:
-          "We thoroughly analyze your data, challenges, and IT infrastructure to uncover new business opportunities, define use cases, and outline the AI development process.",
+          "We conduct a comprehensive analysis of your data, challenges, and IT infrastructure to identify new business opportunities, define use cases, and map out the AI development journey.",
         points: [
-          "Assessing data sources and quality",
-          "Identifying business goals and challenges",
-          "Defining success metrics and benchmarks",
-          "Outlining the ML project roadmap",
+          "Evaluating data sources and quality",
+          "Recognizing business goals and challenges",
+          "Establishing success metrics and benchmarks",
+          "Planning the ML project roadmap",
         ],
       },
     },
@@ -22,12 +22,12 @@ const MachineLearningAdvance = () => {
       title: "Data Preparation",
       content: {
         description:
-          "Preparing your data for machine learning involves cleaning, structuring, and transforming raw data into a usable format for effective model training.",
+          "Preparing your data for machine learning includes cleaning, organizing, and transforming raw data into a structured format suitable for effective model training.",
         points: [
-          "Data cleaning and handling missing values",
-          "Feature engineering and extraction",
-          "Data normalization and scaling",
-          "Splitting datasets into training, validation, and test sets",
+          "Cleaning data and addressing missing values",
+          "Feature extraction and engineering",
+          "Normalizing and scaling data",
+          "Splitting data into training, validation, and test sets",
         ],
       },
     },
@@ -36,12 +36,12 @@ const MachineLearningAdvance = () => {
       title: "Modeling",
       content: {
         description:
-          "The modeling phase focuses on developing, training, and fine-tuning machine learning models to achieve optimal performance.",
+          "The modeling stage focuses on developing, training, and fine-tuning machine learning models to achieve the best possible performance.",
         points: [
-          "Choosing the right algorithms for the problem",
+          "Selecting the appropriate algorithms for the task",
           "Training and validating models",
-          "Hyperparameter tuning for optimization",
-          "Comparing model performance using metrics",
+          "Optimizing models through hyperparameter tuning",
+          "Evaluating model performance using various metrics",
         ],
       },
     },
@@ -50,12 +50,12 @@ const MachineLearningAdvance = () => {
       title: "Deployment & Optimization",
       content: {
         description:
-          "Deployment involves integrating the machine learning model into production systems, followed by continuous optimization to ensure scalability and efficiency.",
+          "Deployment involves incorporating the machine learning model into production systems, followed by ongoing optimization to ensure efficiency and scalability.",
         points: [
-          "Model deployment to cloud or on-premise systems",
-          "Setting up monitoring for model performance",
-          "Implementing feedback loops for continuous improvement",
-          "Scaling models for high-volume data processing",
+          "Deploying models to cloud or on-premise environments",
+          "Setting up performance monitoring for models",
+          "Implementing feedback mechanisms for continuous refinement",
+          "Scaling models to handle large volumes of data",
         ],
       },
     },

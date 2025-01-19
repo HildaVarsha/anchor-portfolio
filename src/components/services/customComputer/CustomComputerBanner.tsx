@@ -13,9 +13,10 @@ const CustomComputerBanner = () => {
           className="w-full md:max-w-2xl"
         />
         <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
-          Create a state-of-the-art computer vision solution to transform your
-          business with increased innovation and efficiency.
+          Develop a cutting-edge computer vision solution to revolutionize your
+          business, driving innovation and enhancing efficiency.
         </p>
+
         <Button className="w-fit z-10" data-aos="fade-up">
           Get In Touch
           <ArrowRight />

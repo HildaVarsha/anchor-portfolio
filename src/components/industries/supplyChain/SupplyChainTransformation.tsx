@@ -19,39 +19,38 @@ const SupplyChainTransformation = () => {
           <span className="text-amber-400">{""} project to ITRex?</span>
         </p>
       </div>
-      <div className="mt-12 p-4  md:p-12 md:container mx-auto text-slate-800 bg-amber-100 flex flex-col md:flex-row gap-4 md:gap-16">
+      <div className="mt-12 p-4 md:p-12 md:container mx-auto text-slate-800 bg-amber-100 flex flex-col md:flex-row gap-4 md:gap-16">
         <div>
           <p className="" data-aos="fade-up">
-            <strong>We are vendor-agnostic.</strong> {""} ITRex uses
-            proprietary, open-source, and SaaS-based technologies to avoid
-            vendor lock-in when developing IT solutions for supply chain and
-            manufacturing companies. This way, we create systems that scale well
-            and can be adjusted to your evolving needs.
+            <strong>We are vendor-neutral.</strong> {""} ITRex utilizes a mix of
+            proprietary, open-source, and SaaS-based technologies to prevent
+            vendor lock-in when crafting IT solutions for supply chain and
+            manufacturing businesses. This approach ensures the systems we
+            create are scalable and adaptable to your changing needs.
           </p>
           <p className="pt-8" data-aos="fade-up">
-            <strong>We are agile.</strong> {""} When working on our clients’
-            projects, we take the “start small, think big” approach, breaking
-            complex systems into smaller pieces of functionality and
-            implementing them step by step while considering the bigger picture.
-            In the process, we collect stakeholder feedback and tweak the IT
-            solutions accordingly.
+            <strong>We are flexible.</strong> {""} In our projects, we follow a
+            “start small, think big” strategy, breaking down complex systems
+            into manageable parts and implementing them step by step while
+            keeping the bigger vision in mind. We continuously gather feedback
+            from stakeholders to refine and optimize the IT solutions.
           </p>
         </div>
         <div>
           <p data-aos="fade-up">
-            <strong>We worship innovation.</strong> {""} With an internal R&D
-            department and a handful of moonshot projects under our belt, the
-            ITRex team masters novel technologies before they go mainstream.
-            From rapid prototyping to experimenting with generative AI, we
-            always seek ways to help our customers adopt new technologies
-            faster, at a lower cost, and with a bigger ROI.
+            <strong>We value innovation.</strong> {""} With an in-house R&D team
+            and numerous ambitious projects behind us, the ITRex team is ahead
+            of the curve in mastering emerging technologies before they become
+            mainstream. From rapid prototyping to exploring generative AI, we’re
+            dedicated to helping our clients adopt cutting-edge technologies
+            quickly, cost-effectively, and with greater ROI.
           </p>
           <p className="pt-8" data-aos="fade-up">
-            <strong> We are ITRex.{""}</strong> Established in 2009 as a
-            general-purpose custom software engineering company, we’ve become a
-            one-stop shop for leading-edge AI, data, IoT, and automation
-            solutions. Our global 270-strong team is ready to take on your
-            challenge — and turn it into our common success story!
+            <strong>We are ITRex.</strong> {""} Founded in 2009 as a custom
+            software engineering company, we have evolved into a one-stop
+            destination for advanced AI, data, IoT, and automation solutions.
+            Our global team of 270 professionals is ready to take on your
+            challenges and transform them into success stories.
           </p>
         </div>
       </div>

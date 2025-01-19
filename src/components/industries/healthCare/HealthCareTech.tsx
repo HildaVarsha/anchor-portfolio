@@ -5,22 +5,22 @@ const services = [
   {
     title: "Healthcare providers",
     description:
-      "Our healthcare software development company will assist you in implementing EMR/EHR, practice and laboratory management, hospital asset tracking, remote patient monitoring (RPM), point of care (POC), and population health management (PHM) solutions.",
+      "Our healthcare software development company supports the implementation of EMR/EHR systems, practice and lab management solutions, hospital asset tracking, remote patient monitoring (RPM), point of care (POC), and population health management (PHM) technologies.",
   },
   {
     title: "Pharmaceutical and biotech companies",
     description:
-      "We build and customize healthcare software solutions for clinical trials, drug development, production, and distribution. These include simulation and data visualization tools, ERP systems, and accounting software. We also create standalone apps and entire software ecosystems, facilitating research and development (R&D) activities.",
+      "We design and tailor healthcare software for clinical trials, drug development, production, and distribution. Our solutions include simulation and data visualization tools, ERP systems, accounting software, as well as standalone apps and integrated software ecosystems to support research and development (R&D) efforts.",
   },
   {
     title: "Medical device manufacturers",
     description:
-      "Our healthcare software development team gives voice and processing power to hospital-grade and consumer devices. To that end, we develop embedded systems, mobile/web/cloud solutions for device management, and AI-driven data analytics tools.",
+      "Our healthcare software development team enhances hospital-grade and consumer devices by creating embedded systems, mobile/web/cloud-based management solutions, and AI-powered data analytics tools.",
   },
   {
     title: "Digital health startups",
     description:
-      "Partner with ITRex to create telehealth and telemedicine systems, wellness technology solutions, including Femtech and Baby Tech products, and software infrastructure for diagnostic and assistive devices.",
+      "Collaborate with ITRex to develop telehealth and telemedicine platforms, wellness technologies, including Femtech and Baby Tech products, and software solutions for diagnostic and assistive devices.",
   },
 ];
 
@@ -47,9 +47,11 @@ const HealthCareTech = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Our healthcare software development company is always looking for the
-          newest technology trends that we can employ to help our clients
+          At our healthcare software development company, we continuously
+          explore the latest technology trends to implement innovative solutions
+          that drive success for our clients.
         </p>
+
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 px-4 md:px-0 md:container mx-auto text-slate-800">
           {services.map((service, index) => (
             <ServicesCard

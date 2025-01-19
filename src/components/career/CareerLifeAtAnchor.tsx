@@ -15,17 +15,16 @@ const CareerLifeAtAnchor = () => {
         />
         <div className="w-full">
           <PageHeaderText
-            label="Your life at 
-Anchor Informatics"
+            label="Your life at Anchor Informatics"
             className="text-slate-800"
           />
           <p className="py-4 text-xl font-semibold" data-aos="fade-up">
             Find your favorite job with no pain and no gain
           </p>
           <p data-aos="fade-up">
-            We owe our success to our passionate and dedicated team. We believe
-            in nurturing relationships for creating a positive impact in our
-            environment.
+            Our success is driven by our passionate and dedicated team. We
+            believe in fostering relationships that create a positive impact on
+            our environment.
           </p>
         </div>
       </div>

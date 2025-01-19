@@ -6,22 +6,23 @@ const services = [
   {
     title: "Cloud services",
     description:
-      "Microsoft Azure (Cognitive Services, Anomaly Detector), AW(Sagemaker, Cloud Watch, Kinesis, Panorama, IoT Greengrass), Google Cloud (Stream Analytics,AI services)",
+      "Microsoft Azure (Cognitive Services, Anomaly Detector), AWS (Sagemaker, Cloud Watch, Kinesis, Panorama, IoT Greengrass), Google Cloud (Stream Analytics, AI services)",
   },
   {
     title: "Machine learning models",
     description: "Scikit-learn, PyTorch, TensorFlow, Keras, Apache Spark MLlib",
   },
   {
-    title: "Data integration, warehousing &analytics",
+    title: "Data integration, warehousing & analytics",
     description:
-      "Apache NiFi, SQL Server Integration Services,Trifacta, Apache Kafka, Amazon Kinesis,PostgreSQL, MySQL,AWS Glue, Azure Data Factory",
+      "Apache NiFi, SQL Server Integration Services, Trifacta, Apache Kafka, Amazon Kinesis, PostgreSQL, MySQL, AWS Glue, Azure Data Factory",
   },
   {
     title: "Data visualization",
-    description: "Kibana, Grafana, D3.js,matplotlib, Plotly",
+    description: "Kibana, Grafana, D3.js, Matplotlib, Plotly",
   },
 ];
+
 const DetectionServices = () => {
   const ServiceCard = ({
     title,
@@ -61,11 +62,11 @@ const DetectionServices = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Our anomaly detection company utilizes a blend of open-source and
-          proprietary technologies—including machine learning frameworks, data
-          mining tools, and application integration services—to design process
-          monitoring and anomaly detection solutions customized to meet your
-          business requirements.
+          At our anomaly detection company, we leverage a blend of open-source
+          and proprietary technologies—including machine learning frameworks,
+          data mining tools, and application integration services—to create
+          process monitoring and anomaly detection solutions tailored to your
+          specific business needs.
         </p>
       </div>
       <div className="py-12 bg-white">

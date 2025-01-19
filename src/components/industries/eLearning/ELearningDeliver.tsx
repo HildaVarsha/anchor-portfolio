@@ -5,22 +5,22 @@ const services = [
   {
     title: "LMS and LCMS",
     description:
-      "Leverage a kit of easy-to-handle learning tools to build impactful and accessible training programs, create top-notch educational resources, and conveniently enroll, track, and evaluate online learners. Our learning management systems feature student assessment and remote proctoring modules, too, supporting the entire education process",
+      "Utilize a suite of easy-to-use learning tools to create effective and accessible training programs, develop high-quality educational content, and efficiently manage, track, and assess online learners. Our learning management systems also include student assessment and remote proctoring features, supporting the entire education lifecycle.",
   },
   {
     title: "School management software",
     description:
-      "Increase operational efficiency and drive cost savings with school management and school ERP software. Our educational solutions help manage daily administrative tasks, such as fee and staff payroll management, accounting and financial management, library and inventory management, school transportation tracking, and many more",
+      "Boost operational efficiency and achieve cost savings with our school management and ERP solutions. These tools assist in managing everyday administrative tasks such as fee collection, payroll management, accounting, library and inventory management, transportation tracking, and more.",
   },
   {
     title: "Education portals",
     description:
-      "Manage educational data online with feature-rich education portals and information systems. Our custom eLearning solutions optimize scheduling, facilitate student attendance monitoring, speed upgrading, and allow educators and students to conveniently view educational information, generate performance reports, and more",
+      "Easily manage educational data online with custom-designed education portals and information systems. Our solutions streamline scheduling, attendance tracking, speed up updates, and provide a convenient platform for educators and students to access educational content, generate performance reports, and more.",
   },
   {
     title: "Assistive learning solutions",
     description:
-      "Make education accessible to students with special needs by leveraging AI-powered text-to-speech, speech-to-text, writing assistance, proofreading, as well as planning and class scheduling software. Our custom assistive learning solutions improve focus, promote independent learning, and spark academic success for all students",
+      "Make education more inclusive by offering AI-powered tools such as text-to-speech, speech-to-text, writing assistance, proofreading, and class planning software. Our tailored assistive learning solutions enhance focus, promote independent learning, and drive academic success for all students.",
   },
 ];
 const ELearningDeliver = () => {
@@ -48,12 +48,12 @@ const ELearningDeliver = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Technologies keep reshaping every aspect of our daily lives, and
-          education needs innovative tools to make offline and online learners’
-          practice more efficient. An eLearning software development company
-          with a decade of experience, we design and develop high-performing,
-          full-fledged solutions for students, educators, and instructional
-          designers.
+          Technologies continue to reshape every facet of our lives, and
+          education requires innovative tools to make learning—both online and
+          offline—more effective. As an eLearning software development company
+          with over a decade of experience, we specialize in designing and
+          developing high-performance, comprehensive solutions for students,
+          educators, and instructional designers.
         </p>
       </div>
       <div className="px-4 md:px-0 md:container mx-auto text-slate-800">

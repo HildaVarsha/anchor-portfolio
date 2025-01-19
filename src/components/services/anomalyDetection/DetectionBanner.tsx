@@ -13,9 +13,9 @@ const DetectionBanner = () => {
           className="w-full md:max-w-2xl"
         />
         <p className="w-full md:max-w-2xl pt-4 pb-6 z-10" data-aos="fade-up">
-          Our anomaly detection development services help you detect and address
-          issues before they affect your processes, customers, revenue, or brand
-          reputation.
+          Our anomaly detection development services help you identify and
+          address issues proactively, preventing potential disruptions to your
+          processes, customer satisfaction, revenue, or brand reputation.
         </p>
         <Button className="w-fit z-10" data-aos="fade-up">
           Partner with our anomaly detection company

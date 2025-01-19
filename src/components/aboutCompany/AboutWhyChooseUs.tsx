@@ -13,10 +13,9 @@ const AboutWhyChooseUs = () => {
           className="text-center text-slate-800 text-lg max-w-lg mx-auto"
           data-aos="fade-up"
         >
-          Our objective is to assist businesses in accelerating the adoption of
-          new technologies, resolving difficult issues that arise frequently
-          throughout digital transformation, and orchestrating continuous
-          innovation.
+          Our goal is to help businesses speed up the integration of new
+          technologies, address common challenges encountered during digital
+          transformation, and drive ongoing innovation.
         </p>
       </div>
     </div>

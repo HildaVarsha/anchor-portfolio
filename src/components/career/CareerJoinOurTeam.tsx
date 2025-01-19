@@ -9,13 +9,14 @@ const CareerJoinOurTeam = () => {
         <div className="w-full">
           <PageHeaderText label="Join our team" className="text-slate-800" />
           <p className="py-6" data-aos="fade-up">
-            Look for open positions that suit your interest and skills. We are
-            looking for team members who are passionate, curious, imaginative
-            and concentrated on solutions.
+            Explore open positions that align with your interests and skills. We
+            are seeking team members who are passionate, curious, imaginative,
+            and focused on finding solutions.
           </p>
           <p className="" data-aos="fade-up">
-            If you hide behind policies and processes because, secretly, you’re
-            terrified of owning ideas or decisions, you too will think it sucks.
+            If you hide behind policies and processes because, deep down, you're
+            afraid of owning ideas or decisions, then this environment may not
+            be for you.
           </p>
         </div>
         <Image

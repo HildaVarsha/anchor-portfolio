@@ -17,14 +17,15 @@ const WhoWeAre = () => {
         <div className="w-full h-full">
           <PageHeaderText label="Who we are" />
           <p className="pb-6 md:py-6" data-aos="fade-up">
-            Anchor Informatics is a team of over 300 technology professionals
-            located in Poland, Georgia, Ukraine, Armenia, and the USA. We
-            develop software, create strategies, and provide expert guidance.
+            Anchor Informatics is a diverse team of over 300 technology experts
+            across Poland, Georgia, Ukraine, Armenia, and the USA. We specialize
+            in software development, strategy creation, and offering expert
+            consultation.
           </p>
           <p data-aos="fade-up">
-            We tackle challenges and fuel growth for our clients, including
-            major names like Take a Swing at Cancer, Procter & Gamble, Dun &
-            Bradstreet, and Dollar Shave Club.
+            We tackle complex challenges and drive growth for our clients,
+            including renowned brands such as Take a Swing at Cancer, Procter &
+            Gamble, Dun & Bradstreet, and Dollar Shave Club.
           </p>
         </div>
       </div>

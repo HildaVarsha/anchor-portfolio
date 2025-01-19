@@ -3,18 +3,18 @@ import { PageHeaderText } from "../shared";
 
 const sections = [
   {
-    header: "Flexibility and balance",
+    header: "Flexibility and Balance",
     paragraphs: [
-      "We believe in hard work. That means you honestly give your best effort. It doesn’t mean you give every waking hour.",
-      "Our crew is motivated and accountable, so they earn a lot of trust. Flexible and remote working arrangements are no problem.",
-      "If you’re so stuck on a hard problem that you need to switch gears, head to the gym to work out, or to the Playstation to shoot bad guys.",
+      "We believe in hard work, which means giving your best effort without sacrificing every waking hour.",
+      "Our team is motivated and accountable, earning a lot of trust. Flexible and remote working arrangements are fully supported.",
+      "If you're stuck on a tough problem, feel free to switch gears—head to the gym for a workout or to the PlayStation to blow off some steam.",
     ],
   },
   {
-    header: "Opportunity and growth",
+    header: "Opportunity and Growth",
     paragraphs: [
-      "We expect you to work hard on difficult challenges, among high-level professionals who support you. You will take hard decisions, with permission to make mistakes and learn from them. If you have the attitude to make this work, your skills will level up fast and you’ll feel proud of how you grow.",
-      "We offer language classes and career progression tracks too.",
+      "We expect you to tackle difficult challenges alongside high-level professionals who will support you. You'll make tough decisions, with the freedom to make mistakes and learn from them. If you're ready for the challenge, your skills will grow rapidly, and you'll take pride in your progress.",
+      "We also offer language classes and career development tracks to help you advance.",
     ],
   },
 ];

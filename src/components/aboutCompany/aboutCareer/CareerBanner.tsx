@@ -16,12 +16,12 @@ const CareerBanner = () => {
           data-aos="fade-up"
         >
           <span className="text-amber-400 ">
-            Create things you can be proud of.
+            Build things you can take pride in.
           </span>
         </p>
         <p data-aos="fade-up">
-          Join a team as driven as you. Create exciting things for global
-          brands. Level up, learn, and grow.
+          Be part of a team as passionate as you. Craft innovative solutions for
+          global brands. Elevate your skills, expand your knowledge, and thrive.
         </p>
       </div>
     </div>

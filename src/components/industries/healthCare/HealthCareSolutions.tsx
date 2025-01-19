@@ -3,26 +3,27 @@ import React from "react";
 
 const services = [
   {
-    title: "Turnkey projects",
+    title: "Comprehensive project execution",
     description:
-      "Our healthcare software development company takes over medical software development projects from start to finish, from the discovery phase and proof of concept up to organization-wide deployment and ongoing maintenance—all under one roof",
+      "Our healthcare software development firm manages the entire lifecycle of medical software projects, from the initial discovery phase and proof of concept to full-scale deployment and continuous support—everything under one roof.",
   },
   {
-    title: "Expert advice on next-gen tech",
+    title: "Consulting on next-generation technologies",
     description:
-      "We consult our clients on best practices around digital transformation, cloud computing, DevOps, artificial intelligence implementation, data management, data analytics.",
+      "We provide expert guidance to our clients on digital transformation strategies, cloud services, DevOps practices, AI implementation, data management, and analytics to help them stay ahead of the curve.",
   },
   {
-    title: "Third-party solutions integration",
+    title: "Integration of third-party solutions",
     description:
-      "We help medical practices seamlessly integrate third-party applications and make sure they are secure and interoperable with their existing workflows. Our healthcare software development services also include customizing ready-made solutions to fit our clients’ business needs.",
+      "We assist medical practices in smoothly integrating third-party applications into their existing systems, ensuring security and seamless interoperability. Additionally, we offer customization of off-the-shelf solutions to meet our clients' specific business requirements.",
   },
   {
-    title: "Legacy systems modernization",
+    title: "Modernization of legacy systems",
     description:
-      "Our healthcare software solutions development company can revamp your legacy applications or fully rebuild them from scratch using a modern tech stack. Regardless of the approach you choose, we will deliver a more secure, compliant, and user-friendly version of your legacy system.",
+      "Our healthcare software development company specializes in updating or completely rebuilding outdated legacy systems with modern technologies. No matter the approach, we ensure a more secure, compliant, and user-friendly version of your legacy platform.",
   },
 ];
+
 const HealthCareSolutions = () => {
   return (
     <div className="bg-white ">
@@ -48,12 +49,12 @@ const HealthCareSolutions = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          We provide a wide range of medical software engineering services,
-          including prototyping, development, deployment, post-launch
-          maintenance, upgrade of medical apps, and integration with third-party
-          systems. We offer different types of engagement models, from taking
-          full charge of your project to allocating a dedicated team that
-          operates under your supervision.
+          Our medical software engineering services cover a comprehensive
+          spectrum, including prototyping, development, deployment, ongoing
+          maintenance, app upgrades, and third-party system integrations. We
+          offer flexible engagement models, whether you need us to fully manage
+          your project or provide a dedicated team that works under your
+          direction.
         </p>
       </div>
       <div className="px-4 md:px-0 md:container mx-auto text-slate-800">

@@ -5,17 +5,17 @@ const services = [
   {
     title: "Virtual try-on solutions",
     description:
-      "Our retail software development services include implementing VR and AR-powered solutions, like virtual fitting rooms and product catalogs, for buyers to get a sense of how a particular product looks or fits without touching it.",
+      "We offer retail software development services that implement VR and AR-powered solutions, such as virtual fitting rooms and interactive product catalogs, allowing customers to see how a product looks or fits without physically touching it.",
   },
   {
     title: "Self-checkout solutions",
     description:
-      "Our retail software company develops software for self-service kiosks, shopping carts, and self-checkout systems with secure contactless payments to let your customers pay for the goods fast and without queueing.",
+      "Our team develops self-checkout systems, including kiosks and smart shopping carts, with secure, contactless payment options to enable faster, queue-free purchases for your customers.",
   },
   {
     title: "AI-powered video analytics and foot traffic analysis",
     description:
-      "We develop AI-powered software for CCTV cameras and sensor-based IoT systems that can analyze customer flow and foot traffic patterns in real time to detect and prevent crowding.",
+      "We build AI-driven software for CCTV cameras and sensor-based IoT systems to analyze customer flow and foot traffic patterns in real time, helping detect crowding and improve store operations.",
   },
 ];
 

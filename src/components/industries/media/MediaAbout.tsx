@@ -6,27 +6,27 @@ const services = [
   {
     title: "Broadcasting",
     description:
-      "Create personalized experiences at scale, deep dive into your audience’s preferences, and gain more value from your content portfolio",
+      "Create tailored experiences at scale, dive deep into your audience's preferences, and maximize the value of your content portfolio.",
   },
   {
     title: "Publishing",
     description:
-      "Enhance reading experience with tech-powered interactive elements, optimize content creation, proofreading, and translation, and reach more minds with new distribution channels",
+      "Enhance the reading experience with interactive tech, streamline content creation, proofreading, and translation, and expand reach through new distribution channels.",
   },
   {
     title: "New media",
     description:
-      "Get the audience to notice and engage with your content, optimize monetization strategies, and stay ahead of the increasing competition",
+      "Attract and engage your audience, optimize monetization strategies, and stay ahead of the rising competition in the media landscape.",
   },
   {
     title: "Sports & entertainment",
     description:
-      "Deliver content to fans around the world and uncover new opportunities for engagement, insight, and revenue generation",
+      "Deliver captivating content to global fans and uncover new opportunities for engagement, insights, and revenue generation.",
   },
   {
     title: "Gaming",
     description:
-      "Drive game design, engage players, and improve player retention and monetization",
+      "Enhance game design, boost player engagement, and optimize retention and monetization strategies for a more immersive gaming experience.",
   },
 ];
 
@@ -39,12 +39,14 @@ const MediaAbout = () => {
 media and entertainment solutions company"
         />
         <p data-aos="fade-up">
-          Marrying a decade of experience crafting custom software solutions and
-          innovative thinking, we help you connect with your audiences, build
-          interactive experiences, and boost content production — no matter the
-          segment you’re in. We’ve helped a few media and entertainment tycoons
-          to win audiences’ hearts and want to help you do just that.
+          With a decade of experience in developing custom software solutions
+          and fostering innovative thinking, we help you engage with your
+          audience, create interactive experiences, and enhance content
+          production — regardless of your industry. We've helped top media and
+          entertainment leaders win the hearts of their audiences, and we're
+          eager to help you do the same.
         </p>
+
         <div className="py-6">
           {services?.map((service, index) => (
             <div

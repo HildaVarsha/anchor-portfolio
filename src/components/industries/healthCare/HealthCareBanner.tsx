@@ -6,7 +6,7 @@ const HealthCareBanner = () => {
     <Banner
       headerLabel={"Healthcare software development services"}
       description={
-        "Experience the impact of our healthcare software development services to improve health outcomes, educate patients, and automate workflows, all while meeting the industry-specific data and security standards"
+        "Discover how our healthcare software development services can enhance health outcomes, educate patients, and automate workflows, all while adhering to industry-specific data security standards and regulations."
       }
       imageSrc={"/health-care.webp"}
     />

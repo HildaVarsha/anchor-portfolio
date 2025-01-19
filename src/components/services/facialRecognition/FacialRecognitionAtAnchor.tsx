@@ -5,37 +5,37 @@ const FacialRecognitionAtAnchor = () => {
     {
       title: "Requirements Analysis",
       content:
-        "We start by identifying specific objectives, including environmental factors (indoor/outdoor), lighting conditions, hardware setup, and regulatory requirements. A proof of concept field test is conducted to validate your idea.",
+        "We begin by identifying specific objectives, such as environmental factors (indoor/outdoor), lighting conditions, hardware setup, and regulatory needs. A proof of concept field test is conducted to validate your idea.",
     },
     {
       title: "Architecture Design",
       content:
-        "Our developers collaborate with architects to design the system’s foundation, focusing on data capture and processing, algorithm selection, and integration needs.",
+        "Our developers collaborate with architects to design the system's foundation, focusing on data capture, algorithm selection, and integration requirements.",
     },
     {
       title: "Data Collection",
       content:
-        "We create high-quality datasets for training algorithms. When data is limited or privacy concerns arise, we apply data augmentation techniques or generate synthetic data.",
+        "We gather high-quality datasets for training the algorithms. When data is scarce or privacy concerns arise, we apply data augmentation techniques or generate synthetic data.",
     },
     {
       title: "Model Training",
       content:
-        "We iteratively train and refine the model to ensure accurate facial feature identification and database matching, optimizing performance through rigorous testing.",
+        "We iteratively train and refine the model to ensure accurate facial feature identification and database matching, optimizing its performance through thorough testing.",
     },
     {
       title: "System Integration",
       content:
-        "We integrate the model with your IT systems, including CRM, ERP, and payment solutions, setting up cost-effective cloud, on-premises, or hybrid infrastructure. Expertise in edge AI is also available.",
+        "We integrate the model into your IT infrastructure, including CRM, ERP, and payment systems, while setting up cost-effective cloud, on-premises, or hybrid solutions. Expertise in edge AI deployment is also available.",
     },
     {
       title: "Model Deployment",
       content:
-        "We assist with deploying models in production environments, recommending effective deployment strategies while ensuring continuous testing, validation, and improvement.",
+        "We support the deployment of models in production environments, recommending the most effective strategies and ensuring continuous testing, validation, and improvement.",
     },
     {
       title: "Maintenance",
       content:
-        "Post-deployment, we support ongoing model improvement, integrating new data and features, and expanding the system to accommodate additional use cases.",
+        "After deployment, we provide ongoing support for model enhancement, incorporating new data and features, and expanding the system to accommodate additional use cases.",
     },
   ];
 

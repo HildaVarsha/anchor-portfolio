@@ -19,34 +19,35 @@ const CustomComputerServices = () => {
           <span className="text-amber-400">{""} computer vision services</span>
         </p>
       </div>
-      <div className="mt-12 p-4  md:p-12 md:container mx-auto text-slate-800 bg-amber-100 flex flex-col md:flex-row gap-4 md:gap-16">
+      <div className="mt-12 p-4 md:p-12 md:container mx-auto text-slate-800 bg-amber-100 flex flex-col md:flex-row gap-4 md:gap-16">
         <div>
           <p className="" data-aos="fade-up">
-            <strong>Cross-industry experience.</strong> {""} With over a decade
-            of experience providing computer vision services across various
-            industries, our team has a deep understanding of your
-            industry&apos;s challenges and the nature of your data, allowing us
-            to create the ideal solution for your business.
+            <strong>Cross-industry experience.</strong> With over a decade of
+            expertise delivering computer vision services across multiple
+            sectors, our team possesses a deep understanding of the unique
+            challenges and data intricacies within your industry, enabling us to
+            tailor the perfect solution for your business.
           </p>
           <p className="pt-4" data-aos="fade-up">
-            <strong>Broad expertise.</strong> {""} We stay at the forefront of
-            innovation and continuously strive for improvement. Both established
-            companies and ambitious startups have trusted us to turn their ideas
-            into successful computer vision solutions.
+            <strong>Extensive expertise.</strong> We remain at the cutting edge
+            of innovation and are constantly working towards improvement.
+            Trusted by both established enterprises and emerging startups, we
+            help transform ideas into successful computer vision solutions.
           </p>
         </div>
         <div>
           <p data-aos="fade-up">
-            <strong>WTech agnostic.</strong> {""} We don&apos;t settle for
-            average. We carefully choose the computer vision techniques,
-            platforms, and libraries that are best suited for your specific
-            task. We also ensure full compliance with regulatory requirements.
+            <strong>Technology-agnostic approach.</strong> We refuse to settle
+            for mediocrity. We thoughtfully select the most suitable computer
+            vision techniques, platforms, and libraries for your specific
+            requirements. Additionally, we ensure full compliance with industry
+            regulations.
           </p>
           <p className="pt-4" data-aos="fade-up">
-            <strong>R&D. {""}</strong> In our specialized R&D lab, we explore
-            new computer vision concepts and experiment with the latest
-            technologies. By building prototypes based on key insights, we
-            proactively address your challenges.
+            <strong>Research and Development.</strong> In our dedicated R&D lab,
+            we explore cutting-edge computer vision concepts and experiment with
+            emerging technologies. By developing prototypes based on valuable
+            insights, we proactively address and solve your challenges.
           </p>
         </div>
       </div>

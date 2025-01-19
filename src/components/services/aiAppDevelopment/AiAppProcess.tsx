@@ -5,22 +5,22 @@ const AiAppProcess = () => {
     {
       title: "Machine Learning",
       description:
-        "We build intelligent predictive systems using supervised, semi-supervised, and unsupervised learning algorithms to support data-driven decision-making and enable personalized experiences.",
+        "We create intelligent predictive systems using supervised, semi-supervised, and unsupervised learning algorithms to drive data-informed decisions and deliver personalized experiences.",
     },
     {
       title: "Deep Learning",
       description:
-        "Tackling complex tasks with brain-like algorithmic structures for a wide range of applications, including virtual assistants, visual recognition, fraud detection, deep video analysis, and beyond.",
+        "We address complex challenges with brain-inspired algorithms, applying them across various fields, including virtual assistants, image recognition, fraud detection, deep video analysis, and more.",
     },
     {
       title: "Computer Vision",
       description:
-        "Tackling any computer vision challenge, including image processing, object recognition, live video analysis, pose estimation, biometric authentication, and more.",
+        "We tackle any computer vision problem, from image processing and object recognition to live video analysis, pose estimation, biometric authentication, and beyond.",
     },
     {
-      title: "NLP",
+      title: "NLP (Natural Language Processing)",
       description:
-        "Providing real-time speech recognition and conversational AI solutions that significantly enhance the user experience while reducing staffing costs.",
+        "We provide real-time speech recognition and conversational AI solutions that enhance user experiences while reducing staffing needs.",
     },
   ];
 

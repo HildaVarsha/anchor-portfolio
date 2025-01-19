@@ -12,22 +12,22 @@ const accordionItems = [
   {
     title: "What is an AI proof of concept?",
     content:
-      "An AI proof of concept (PoC) is a small-scale project designed to demonstrate the feasibility, functionality, and potential value of an AI solution. It serves as a test case to validate that the AI model addresses specific business challenges effectively before committing to full-scale implementation.",
+      "An AI proof of concept (PoC) is a small-scale initiative aimed at showcasing the feasibility, functionality, and potential value of an AI solution. It acts as a pilot project to verify that the AI model can effectively address specific business challenges before moving to full-scale deployment.",
   },
   {
     title: "What purposes does an AI PoC serve?",
     content:
-      "An AI PoC helps organizations evaluate the technical viability of a solution, estimate ROI, and identify potential roadblocks. It allows stakeholders to make informed decisions about scaling the solution, minimizing risks, and optimizing resource allocation.",
+      "An AI PoC allows organizations to assess the technical viability of a solution, estimate its ROI, and identify any potential obstacles. It provides stakeholders with the insights needed to make informed decisions about scaling the solution, reducing risks, and optimizing resource allocation.",
   },
   {
-    title: "What mistakes can an AI PoC help avoid further down the road?",
+    title: "What mistakes can an AI PoC help avoid in the future?",
     content:
-      "By conducting an AI PoC, you can avoid costly mistakes such as selecting unsuitable algorithms, underestimating data preparation needs, or overlooking infrastructure requirements. It ensures the solution is well-aligned with business goals and technical capabilities.",
+      "An AI PoC helps prevent costly errors, such as choosing inappropriate algorithms, underestimating data preparation needs, or neglecting infrastructure requirements. It ensures that the solution is aligned with both business objectives and technical capabilities.",
   },
   {
-    title: "How can you sail through AI PoC development smoothly?",
+    title: "How can you ensure smooth AI PoC development?",
     content:
-      "To ensure smooth PoC development, start with clear objectives, engage stakeholders early, and leverage high-quality data. Partnering with experienced AI experts and maintaining a flexible, iterative approach can also help navigate challenges effectively.",
+      "To ensure a seamless PoC development process, begin with well-defined goals, engage stakeholders from the start, and use high-quality data. Collaborating with skilled AI experts and adopting a flexible, iterative approach will help address challenges effectively.",
   },
 ];
 

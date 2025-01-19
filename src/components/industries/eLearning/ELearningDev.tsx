@@ -5,24 +5,25 @@ const services = [
   {
     title: "Back-end development",
     description:
-      "We are well-versed in custom web development, cloud computing, and DevOps, as well as data acquisition, management, and analysis, and deliver functional and high-performing educational software solutions that run without glitches",
+      "We specialize in custom web development, cloud computing, and DevOps, as well as data acquisition, management, and analysis. We deliver functional, high-performing educational software solutions that run smoothly without glitches.",
   },
   {
     title: "Front-end development",
     description:
-      "We craft all kinds of interfaces, including cloud dashboards, voice interfaces, as well as educational web and mobile apps, so you can reach out to more learners with highly accessible and easy-to-use software",
+      "We create intuitive and user-friendly interfaces, including cloud dashboards, voice interfaces, and educational web and mobile apps. This ensures your software reaches more learners and is accessible to all.",
   },
   {
     title: "Reliable integration",
     description:
-      "We focus on creating coherent learning environments and connect your education technology solutions with other applications and devices within your IT infrastructure, as well as third-party tools and service",
+      "We focus on integrating your education technology solutions with other applications, devices, and third-party tools within your IT infrastructure. This helps create a cohesive and efficient learning environment.",
   },
   {
     title: "End-to-end software testing",
     description:
-      "We build visualizations that tell stories in a simple way, enabling informed decision-making and solid ad-hoc data analysis. Take your next big step forward with AR/VR or voice assistants that will deliver convenient access to all of your data",
+      "We conduct thorough testing to ensure your educational software is flawless. Our services include visualizations that simplify data analysis, and we also offer AR/VR or voice assistant integration for easy access to your data.",
   },
 ];
+
 const ELearningDev = () => {
   return (
     <div className="bg-white ">
