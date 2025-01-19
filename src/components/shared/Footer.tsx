@@ -30,10 +30,13 @@ const Footer = () => {
   useEffect(() => {
     // Initialize AOS when the component mounts
     AOS.init({
-      duration: 300, // Set default animation duration
+      duration: 200, // Set default animation duration
       easing: "ease-in-out", // Set easing function
       once: false, // Ensures animation happens only once
     });
+  }, []);
+  useEffect(() => {
+    AOS.refresh(); // Refresh AOS animations
   }, []);
 
   return (
@@ -43,7 +46,7 @@ const Footer = () => {
         label="A software development company specializing in scalable AI and data solutions that drive lasting impact."
       />
 
-      <div className="flex items-center gap-4" data-aos="fade-right">
+      <div className="flex items-center gap-4">
         <Image src={"/footer-phone.png"} alt="Phone" width={40} height={40} />
         <div className="flex flex-col gap-2">
           {phoneNumbers.map(({ label, href }) => (
@@ -57,7 +60,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="flex items-center gap-4 mt-8" data-aos="fade-left">
+      <div className="flex items-center gap-4 mt-8">
         <Image src={"/footer-email.png"} alt="Phone" width={40} height={40} />
         <div className="flex flex-col gap-2">
           {emails?.map(({ label, href }) => (
@@ -78,11 +81,7 @@ const Footer = () => {
           </Link>
           <p className="text-sm text-gray-500 pt-1">©2026 Anchor Infromatics</p>
         </div>
-        <div
-          className="flex items-center gap-4"
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-bottom"
-        >
+        <div className="flex items-center gap-4">
           <Link href={"/"}>
             <FacebookIcon className="w-6 h-6" />
           </Link>
