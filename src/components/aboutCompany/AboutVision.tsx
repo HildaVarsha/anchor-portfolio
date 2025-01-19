@@ -3,25 +3,17 @@ import { PageHeaderText } from "../shared";
 
 const AboutVision = () => {
   const visionText = `
-    Our objective is to assist businesses in accelerating the adoption of 
-    new technologies, resolving difficult issues that arise frequently 
-    throughout digital transformation, and orchestrating continuous 
-    innovation. Whether it&apos;s a consumer-facing app or a game-changing 
-    enterprise-class solution, the company oversees the entire process 
-    from conception to delivery and provides continuous support.
-  `;
+  Our goal is to help businesses speed up the integration of new technologies, tackle common challenges faced during digital transformation, 
+  and drive ongoing innovation. Whether it’s a consumer app or a transformative enterprise solution, we manage the entire journey 
+  from ideation to delivery, providing continuous support throughout.
+`;
 
   const missionText = `
-    We have a mission to provide the finest service possible to our 
-    customers, to keep them safe, and to provide the greatest website 
-    design and development possible. We must support our valued clients 
-    in promoting their businesses, services, and products using the 
-    fantastic medium of the internet in order for them to gain the most 
-    exposure, results, and benefits. Our development teams are extremely 
-    skilled and experienced, and they can offer the best solutions and 
-    ideas. As a result, we can assist you in expanding your reach and 
-    effecting positive change.
-  `;
+  Our mission is to deliver exceptional service to our clients, ensuring their security while offering top-tier website design 
+  and development. We are committed to helping our clients promote their businesses, services, and products online, maximizing their exposure, 
+  results, and benefits. With our skilled and experienced development teams, we provide the best solutions and ideas to help you expand your reach 
+  and create positive change.
+`;
 
   return (
     <div className="bg-white py-12">

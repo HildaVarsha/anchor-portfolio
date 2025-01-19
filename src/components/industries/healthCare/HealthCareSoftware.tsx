@@ -3,67 +3,67 @@ import React from "react";
 
 const services = [
   {
-    title: "mHealths",
+    title: "mHealth Apps",
     description:
-      "Mobile healthcare applications facilitating appointment scheduling, prescription refills, remote consultations, and patient education",
+      "Mobile healthcare applications that enable appointment scheduling, prescription refills, remote consultations, and patient education, enhancing accessibility and convenience for patients.",
   },
   {
-    title: "EHR/EMR development and integration",
+    title: "EHR/EMR Development & Integration",
     description:
-      "Electronic health records and medical records software that improves organizational interoperability and allows clinics to securely exchange patient information",
+      "Electronic Health Records (EHR) and Medical Records (EMR) software that improves organizational interoperability, enabling clinics to securely exchange patient information and streamline workflow.",
   },
   {
-    title: "Pharmacy management solutions",
+    title: "Pharmacy Management Solutions",
     description:
-      "Pharmaceutical software that facilitates day-to-day operations at pharmacies, including supply chain management, contracting, analytics, and reporting",
+      "Pharmaceutical software designed to optimize day-to-day operations in pharmacies, covering supply chain management, contracting, analytics, and reporting to improve efficiency and service delivery.",
   },
   {
-    title: "Patient engagement",
+    title: "Patient Engagement Solutions",
     description:
-      "Healthcare software solutions leveraging state-of-the-art media streaming, content delivery, and communication technologies for remote doctor-patient interactions and patient education",
+      "Healthcare software utilizing advanced media streaming, content delivery, and communication technologies to enhance remote doctor-patient interactions and promote patient education.",
   },
   {
-    title: "Hospital management software",
+    title: "Hospital Management Software",
     description:
-      "Software solutions covering hospitals' needs like inventory, insurance claims, ePrescriptions, patient, and contract management",
+      "Comprehensive software solutions addressing hospital needs such as inventory management, insurance claims, ePrescriptions, patient records, and contract management, improving hospital operations.",
   },
   {
-    title: "Veterinary practice management software",
+    title: "Veterinary Practice Management Software",
     description:
-      "Software that helps veterinary professionals manage their daily workflows, including inventory tracking, accounting, and communications with patients, or rather, their owners",
+      "Software tailored for veterinary professionals to streamline daily workflows, including inventory tracking, accounting, and communication with patients and their owners.",
   },
   {
-    title: "Medical device software",
+    title: "Medical Device Software",
     description:
-      "Healthcare software solutions to power strictly regulated medical equipment, such as blood collection devices, medical wearables, and inhalers",
+      "Custom healthcare software solutions to support regulated medical equipment, including blood collection devices, medical wearables, and inhalers, ensuring compliance and functionality.",
   },
   {
-    title: "Telehealth and telemedicine",
+    title: "Telehealth & Telemedicine Solutions",
     description:
-      "Medical software solutions for remote consultations, diagnostics, and treatment where patients can securely share their information via video calls and instant chats",
-  },
-
-  {
-    title: "Healthcare data analytics",
-    description:
-      "Medical software solutions harnessing the power of AI and predictive analytics to derive actionable insights and promote data-driven decisions",
+      "Medical software platforms for remote consultations, diagnostics, and treatment, enabling secure video calls and instant chats for patients to share information with healthcare providers.",
   },
   {
-    title: "Patient portals",
+    title: "Healthcare Data Analytics",
     description:
-      "Feature-rich software encouraging patients to be proactive in their health care and have access to their health data analytics, online consultations, educational material, and much more",
+      "AI-powered medical software solutions that leverage predictive analytics to derive actionable insights and promote data-driven decisions in healthcare practices.",
   },
   {
-    title: "Remote patient monitoring",
+    title: "Patient Portals",
     description:
-      "Medical applications that collect and process patient data coming from remote devices, allowing healthcare professionals to watch over patients at home and swiftly interfere if needed",
+      "Feature-rich software empowering patients to take a proactive role in their healthcare by providing access to health data analytics, online consultations, educational resources, and more.",
   },
   {
-    title: "HL7/FHIR interface software",
+    title: "Remote Patient Monitoring",
     description:
-      "Custom interface solutions compatible with healthcare interoperability standards enabling medical practices to securely integrate with third-party applications",
+      "Medical applications that collect and analyze patient data from remote devices, enabling healthcare professionals to monitor patients at home and intervene promptly if necessary.",
+  },
+  {
+    title: "HL7/FHIR Interface Software",
+    description:
+      "Custom interface solutions designed to meet healthcare interoperability standards, ensuring secure integration with third-party applications and facilitating data exchange across systems.",
   },
 ];
+
 const HealthCareSoftware = () => {
   return (
     <div className="bg-white ">
@@ -89,11 +89,12 @@ const HealthCareSoftware = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Our medical software solutions portfolio features powerful tools
-          driving patient engagement and automating fastidious tasks associated
-          with inpatient and outpatient care. To secure patient data and protect
-          your IT infrastructure against cyberattacks, we create medical
-          software in line with healthcare IT standards.
+          Our collection of healthcare software solutions offers advanced tools
+          that enhance patient engagement while automating the repetitive tasks
+          involved in both inpatient and outpatient care. To ensure the safety
+          of patient data and safeguard your IT infrastructure from cyber
+          threats, we develop medical software in full compliance with
+          healthcare IT regulations.
         </p>
       </div>
       <div className="px-4 md:px-0 md:container mx-auto text-slate-800">

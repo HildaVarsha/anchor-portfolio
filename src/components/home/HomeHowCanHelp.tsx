@@ -15,44 +15,44 @@ const services = [
   {
     id: 1,
     imageSrc: "/help-web-dev.png",
-    title: "Web Development and Redesigning",
+    title: "Web Development and Redesign",
     description:
-      "Enhance your online presence with tailored web development and redesigning services. We ensure your website is modern, responsive, and optimized for user engagement.",
+      "Elevate your online presence with our custom web development and redesign services. We ensure your website is up-to-date, responsive, and optimized for a great user experience.",
   },
   {
     id: 2,
     imageSrc: "/help-design.png",
-    title: "Designing",
+    title: "Creative Design Services",
     description:
-      "Create impactful designs that resonate with your brand. From UI/UX to graphic design, we deliver visually stunning and user-friendly solutions.",
+      "Craft powerful designs that reflect your brand identity. From UI/UX design to graphic design, we offer visually appealing and intuitive solutions.",
   },
   {
     id: 3,
     imageSrc: "/help-digital.png",
-    title: "Digital Marketing",
+    title: "Online Marketing Solutions",
     description:
-      "Boost your brand visibility and engagement with our digital marketing strategies. We specialize in SEO, social media marketing, and content creation.",
+      "Increase your brand’s visibility and interaction through our digital marketing strategies. We specialize in SEO, social media marketing, and content development.",
   },
   {
     id: 4,
     imageSrc: "/help-re-dev.png",
-    title: "Software Development and Redevelopment",
+    title: "Software Development and Updates",
     description:
-      "Develop or upgrade software solutions tailored to your needs. Our expertise ensures reliable, scalable, and efficient software products.",
+      "Create or enhance software solutions tailored to your specific requirements. Our team ensures the development of reliable, scalable, and high-performance software products.",
   },
   {
     id: 5,
     imageSrc: "/help-hosting.png",
-    title: "Hosting Service",
+    title: "Reliable Hosting Solutions",
     description:
-      "Enjoy secure and reliable hosting services to keep your website running smoothly with minimal downtime.",
+      "Experience dependable and secure hosting services designed to keep your website running efficiently with minimal downtime.",
   },
   {
     id: 6,
     imageSrc: "/help-app.png",
-    title: "App Development",
+    title: "Mobile App Development",
     description:
-      "Bring your app ideas to life with our end-to-end app development services, ensuring functionality, performance, and user satisfaction.",
+      "Transform your app concepts into reality with our comprehensive app development services, focusing on performance, usability, and user satisfaction.",
   },
 ];
 

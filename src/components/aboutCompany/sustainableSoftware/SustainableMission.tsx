@@ -6,37 +6,36 @@ const SustainableMission = () => {
     <div className="bg-white pt-4 md:py-16 text-slate-800">
       <div className="md:container px-4 mx-auto">
         <PageHeaderText label="Mission Statement" />
-        <p className="py-6 " data-aos="fade-up">
+        <p className="py-6" data-aos="fade-up">
           Welcome to Anchor Informatics, where innovation and sustainability
-          come together.
+          converge.
         </p>
         <p data-aos="fade-up">
-          Our commitment to sustainability resonates in every aspect of our
-          business, from empowering our employees and contractors to providing
-          eco-friendly solutions for our clients, all while reducing our impact
-          on the planet.
+          Our commitment to sustainability is reflected in every aspect of our
+          business. From empowering our employees and contractors to providing
+          eco-friendly solutions for our clients, we strive to minimize our
+          impact on the planet.
         </p>
         <p className="py-6" data-aos="fade-up">
-          Our commitment to sustainability is deeply embedded in our core
-          values, guiding every interaction and decision. Our team, made up of
-          honest, respectful, constantly learning, and dedicated individuals,
-          drives innovation with a strong focus on prioritizing the environment.
+          Sustainability is deeply embedded in our core values, guiding each
+          interaction and decision. Our team, made up of honest, respectful, and
+          dedicated individuals, continuously drives innovation while
+          prioritizing the environment.
         </p>
         <p data-aos="fade-up">
-          Our commitment to sustainability promotes collaboration with clients,
-          working together to create a cleaner future for all. We recognize that
-          environmental stewardship is a shared responsibility.
+          We view sustainability as a shared responsibility and actively
+          collaborate with our clients to build a cleaner, greener future. We
+          believe that environmental stewardship requires collective effort.
         </p>
         <p className="py-6" data-aos="fade-up">
-          Our commitment to sustainability drives us to embrace eco-conscious
-          practices and help clients do the same. By evaluating the
+          Our commitment to sustainability encourages us to adopt eco-conscious
+          practices and inspire our clients to do the same. By considering the
           environmental impact of our decisions, we integrate sustainability
-          into our daily operations to fulfill our mission and foster a greener
-          future.
+          into our daily operations, aiming to foster a greener future.
         </p>
         <p data-aos="fade-up">
-          When we develop software with the environment in mind, everyone
-          benefits – businesses, individuals, and the planet.
+          When we develop software with sustainability in mind, the benefits are
+          far-reaching – for businesses, individuals, and the planet alike.
         </p>
       </div>
     </div>

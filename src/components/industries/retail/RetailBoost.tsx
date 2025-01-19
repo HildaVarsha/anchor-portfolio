@@ -5,22 +5,22 @@ const services = [
   {
     title: "Order management solutions",
     description:
-      "Our retail software company creates applications that help align inventory and orders across multiple channels, set up compound shipping schedules, manage order profiles, and tap into insightful reporting and analytics.",
+      "Our retail software solutions help align inventory and orders across multiple channels, set up complex shipping schedules, manage order profiles, and provide valuable reporting and analytics.",
   },
   {
     title: "On-demand delivery solutions",
     description:
-      "Our retail software development services will help you make delivery a seamless part of the customer experience. We develop delivery apps featuring route planning, real-time order tracking, fleet capacity optimization, and other competitive functionality.",
+      "We develop seamless delivery apps that enhance the customer experience, featuring route planning, real-time order tracking, fleet capacity optimization, and other advanced features.",
   },
   {
     title: "Supply chain management solutions",
     description:
-      "We’ll help you handle the flow of goods from suppliers all the way to end customers, optimize purchasing and procurement, tendering and acquisition, fleet and warehouse management, as well as product distribution and merchandise.",
+      "We assist in managing the flow of goods from suppliers to customers, optimizing purchasing, procurement, tendering, fleet and warehouse management, as well as product distribution and merchandising.",
   },
   {
     title: "Billing and accounting solutions",
     description:
-      "Upgrade payment processing with software that allows fast handling of point-of-sale transactions, supports automated invoicing and configurable discount schemes, and integrates smoothly with CRM, SCM, and other essential retail systems.",
+      "We upgrade payment processing with software that enables quick point-of-sale transactions, automated invoicing, configurable discount schemes, and smooth integration with CRM, SCM, and other retail systems.",
   },
 ];
 

@@ -2,36 +2,40 @@ import { ServicesCard } from "@/components/componentShared";
 import React from "react";
 const services = [
   {
-    title: "ERP integration",
-    description: "for streamlined catalog management",
+    title: "ERP Integration",
+    description: "Streamline catalog management for better efficiency.",
   },
   {
-    title: "CRM integration",
-    description: "to get instant access to customer information",
+    title: "CRM Integration",
+    description:
+      "Gain instant access to customer information for personalized service.",
   },
   {
-    title: "Payment gateways",
-    description: "to process payments swiftly and securely",
+    title: "Payment Gateways",
+    description:
+      "Process payments quickly and securely for smooth transactions.",
   },
   {
-    title: "Analytics and reporting",
-    description: "for immediate business insights",
+    title: "Analytics and Reporting",
+    description: "Get immediate business insights to inform decision-making.",
   },
   {
-    title: "Marketing automation",
-    description: "to expand your reach",
+    title: "Marketing Automation",
+    description: "Expand your reach and automate marketing efforts.",
   },
   {
     title: "POS",
-    description: "to eliminate manual entry of data while reducing errors",
+    description:
+      "Eliminate manual data entry while reducing errors with efficient point-of-sale systems.",
   },
   {
-    title: "Online chats and help desks",
-    description: "for real-world support of customers",
+    title: "Online Chats and Help Desks",
+    description:
+      "Provide real-time support for customers through integrated chat and help desk solutions.",
   },
   {
-    title: "Other third party apps",
-    description: "to meet your unique business needs",
+    title: "Other Third-Party Apps",
+    description: "Customize solutions to meet your unique business needs.",
   },
 ];
 
@@ -63,11 +67,12 @@ const EComIntegrate = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Seamless integration of your ecommerce website with the right mix of
-          back-office systems is what makes or breaks customer experience and
-          real-time analytics. We have helped dozens of brands to build top
-          digital ecosystems where apps work happily together, and are here to
-          guide you in the right direction.
+          Seamless integration of your ecommerce website with the right blend of
+          back-office systems is crucial to delivering exceptional customer
+          experiences and real-time analytics. We have assisted numerous brands
+          in building top-tier digital ecosystems, where applications work
+          harmoniously together, and we're here to guide you in the right
+          direction.
         </p>
       </div>
       <div className="px-4 md:px-0 md:container mx-auto text-slate-800">

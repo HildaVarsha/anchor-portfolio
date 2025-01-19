@@ -8,23 +8,20 @@ const Flexibility = () => {
       <div className="md:container mx-auto px-4 ">
         <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16">
           <div className="w-full">
-            <PageHeaderText
-              label="Flexibility and
-balance"
-            />
+            <PageHeaderText label="Flexibility and balance" />
             <p className="font-semibold" data-aos="fade-up">
               We believe in hard work, which means giving your best effort
               honestly—not sacrificing every waking hour.
             </p>
           </div>
           <p className="w-full" data-aos="fade-up">
-            Our team is driven and accountable, earning a high level of trust.
-            Flexible and remote work arrangements are fully supported.
+            Our team is motivated and accountable, earning a strong sense of
+            trust. We fully support flexible and remote work arrangements.
           </p>
           <p className="w-full" data-aos="fade-up">
-            If you&apos;re stuck on a tough problem and need a break, head to
-            the gym for a workout or grab the Playstation to unwind and take on
-            some bad guys.
+            If you're facing a challenging problem and need a break, hit the gym
+            for a workout or relax with the PlayStation and take on some bad
+            guys.
           </p>
         </div>
         <Image
@@ -39,14 +36,14 @@ balance"
           <PageHeaderText label="Opportunity and growth" className="w-full" />
           <div className="w-full">
             <p data-aos="fade-up">
-              We expect you to tackle challenging problems alongside skilled
-              professionals who will support you. You’ll make tough decisions,
-              with the freedom to learn from mistakes. With the right attitude,
-              your skills will rapidly grow, and you’ll take pride in your
-              development. 4o mini
+              We expect you to take on challenging problems with the support of
+              skilled professionals. You’ll make tough decisions, with the
+              freedom to learn from your mistakes. With the right mindset, your
+              skills will grow quickly, and you’ll take pride in your progress.
             </p>
             <p className="pt-6" data-aos="fade-up">
-              We also offer language classes and clear career progression paths.
+              We also provide language classes and clear career advancement
+              opportunities.
             </p>
           </div>
         </div>

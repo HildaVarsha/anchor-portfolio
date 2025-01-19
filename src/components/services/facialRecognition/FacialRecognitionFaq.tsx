@@ -17,15 +17,17 @@ const accordionItems = [
   {
     title: "What purposes does an AI PoC serve?",
     content:
-      "Our team consists of highly skilled professionals with years of experience.",
+      "An AI PoC serves to test the feasibility of an AI solution in addressing a business problem, assess its impact, and determine if it can scale successfully. It helps in making informed decisions before committing to a full-scale deployment, saving resources and time.",
   },
   {
     title: "What mistakes can an AI PoC help avoid further down the road?",
-    content: "We ensure high-quality standards in all our deliverables.",
+    content:
+      "An AI PoC helps identify potential issues early, such as incorrect assumptions about data, algorithm limitations, or unforeseen implementation challenges. By addressing these in the early stages, the PoC reduces the risk of costly mistakes and project failure later on.",
   },
   {
     title: "How can you sail through AI PoC development smoothly?",
-    content: "We ensure high-quality standards in all our deliverables.",
+    content:
+      "To ensure a smooth AI PoC development, it’s important to clearly define objectives, engage the right experts, and focus on data quality. Establishing a clear timeline, maintaining flexible plans, and ensuring continuous testing and feedback throughout the process also help to avoid delays and unforeseen challenges.",
   },
 ];
 

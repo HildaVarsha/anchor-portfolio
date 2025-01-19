@@ -29,20 +29,21 @@ const FinTechTrust = () => {
         <div className="p-12  md:container mx-auto text-slate-800 bg-amber-100">
           <div className="py-6 flex flex-col md:flex-row gap-4 md:gap-16">
             <div className="w-full">
-              <div className="flex  gap-4">
+              <div className="flex gap-4">
                 <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
                 <p data-aos="fade-up">
-                  <strong>Vendor-agnostic:</strong> We are not tied to any
-                  providers, so we only recommend technologies that we believe
-                  are right for you
+                  <strong>Vendor-Agnostic:</strong> We are independent of any
+                  single provider, allowing us to recommend only the best
+                  technologies suited to your unique needs.
                 </p>
               </div>
               <div className="flex gap-4 pt-12">
                 <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
                 <p data-aos="fade-up">
-                  <strong>Top developers with niche skills:</strong>With our
-                  350-strong team, we bring in best BA, development, and R&D
-                  talent
+                  <strong>Top Developers with Niche Skills:</strong> With a
+                  talented team of 350+ experts, we provide the best business
+                  analysts, developers, and R&D professionals to bring your
+                  vision to life.
                 </p>
               </div>
             </div>
@@ -50,18 +51,18 @@ const FinTechTrust = () => {
               <div className="flex gap-4">
                 <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
                 <p data-aos="fade-up">
-                  <strong>Diverse expertise: </strong>Financial software
-                  development company with a decade of experience, we have
-                  delivered hundreds of successful solutions to businesses from
-                  across sectors.
+                  <strong>Diverse Expertise:</strong> With over a decade of
+                  experience in financial software development, we’ve
+                  successfully delivered hundreds of solutions across various
+                  industries.
                 </p>
               </div>
-              <div className="flex  gap-4 pt-12">
+              <div className="flex gap-4 pt-12">
                 <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />
                 <p data-aos="fade-up">
-                  <strong>Proven track record:</strong>
-                  We have successfully completed 600+ projects and served 200+
-                  clients across the globe
+                  <strong>Proven Track Record:</strong> We’ve completed over 600
+                  projects and served 200+ clients worldwide, demonstrating our
+                  ability to deliver impactful, high-quality solutions.
                 </p>
               </div>
             </div>

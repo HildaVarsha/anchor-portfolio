@@ -8,34 +8,35 @@ const LogisticsCustom = () => {
     {
       title: "Transportation software solutions",
       description:
-        "Handle your fleet operations with ease with our transportation software solutions. From legislation-compliant logging and fuel tracking apps to GPS-based telematics systems, route planning solutions, dispatch management software, and beyond, we have you fully covered",
+        "Streamline your fleet operations with our transportation software solutions. From compliance-driven logging and fuel tracking apps to GPS-enabled telematics, route planning, and dispatch management systems, we offer comprehensive solutions to meet your needs.",
     },
     {
       title: "Enterprise-level supply chain management systems",
       description:
-        "Our logistics software development company crafts integrated supply chain management solutions to provide robust management across the supply chain, from order processing to shipping. We can also modernize and incorporate your existing logistics software solutions",
+        "We develop integrated supply chain management systems to help you oversee and manage your entire supply chain, from order processing to shipping. We can also update and enhance your existing logistics solutions for greater efficiency.",
     },
     {
       title: "Logistics for ecommerce",
       description:
-        "Empower ecommerce operations with our logistics software development, automating multi-channel inventory management, centralizing order fulfillment, and simplifying shipping. If you need to integrate logistics software solutions with your storefront, ITRex will help you too.",
+        "Boost your ecommerce operations with our logistics software, which automates multi-channel inventory management, centralizes order fulfillment, and simplifies shipping processes. If you need seamless integration with your storefront, ITRex is here to assist.",
     },
     {
       title: "Warehouse management systems",
       description:
-        "Boost your warehouse performance with custom software for inventory tracking, documentation automation, and more accurate reporting. We can integrate your WMS with other logistics software solutions or emerging tech like IoT sensors and AI enabling smarter operations",
+        "Optimize your warehouse operations with custom software that improves inventory tracking, automates documentation, and enhances reporting accuracy. We can integrate your WMS with other logistics solutions or next-gen technologies like IoT and AI for smarter operations.",
     },
     {
       title: "Smart logistics software solutions",
       description:
-        "Apply innovations, from cloud-based platforms to handle deep-dive data analytics to IoT-enabled tracking solutions and AI for automated warehousing, intelligent forecasting, order planning, and smart reporting. We also build RPA bots that can take over labor-intensive tasks.",
+        "Harness cutting-edge innovations such as cloud platforms for data analytics, IoT-based tracking, and AI-driven solutions for automated warehousing, intelligent forecasting, order planning, and advanced reporting. We also develop RPA bots to handle repetitive tasks and improve operational efficiency.",
     },
     {
       title: "Self-service BI and reporting tools",
       description:
-        "Get a holistic picture of your operations and power decision-making with top-notch data analytics and automated day-to-day reporting. We create custom BI and reporting software that helps monitor KPIs, identify bottlenecks, predict demand, manage resources, and much more.",
+        "Gain a comprehensive view of your operations and enhance decision-making with advanced data analytics and automated daily reporting. We build custom BI and reporting tools to track KPIs, identify bottlenecks, forecast demand, manage resources, and more.",
     },
   ];
+
   return (
     <div className="bg-white pb-16">
       <div
@@ -62,12 +63,12 @@ const LogisticsCustom = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Tell us about your idea or challenge, simple or complex. Together we
-          will figure out the best-fit logistics software solution that will
-          take your business to a new strategic level. With us, your
-          transformation will be smooth, fast, and safe. We can also take a
-          modular design approach to focus on your critical needs first while
-          allowing you to scale as you grow.
+          Share your idea or challenge with us, whether simple or complex.
+          Together, we will identify the ideal logistics software solution to
+          elevate your business strategically. With our expertise, your
+          transformation will be seamless, quick, and secure. We also offer a
+          modular design approach, addressing your most urgent needs first while
+          providing the flexibility to scale as your business grows.
         </p>
       </div>
       <div className="py-12 bg-white">

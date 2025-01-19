@@ -6,27 +6,52 @@ const FinTechIndustry = () => {
     {
       title: "Healthcare",
       description:
-        "We embed advanced analytics, intelligent automation , and the security of distributed environments into healthcare payment and insurance workflows to help elevate the quality and accessibility of care",
+        "We integrate advanced analytics, intelligent automation, and secure distributed systems into healthcare payment and insurance processes. Our goal is to elevate care quality, improve patient accessibility, and streamline operations to ensure better outcomes for both providers and patients.",
+      additionalPoints: [
+        "Optimizing healthcare billing and claims management",
+        "Enhancing patient data security and compliance",
+        "Improving patient engagement through digital tools",
+      ],
     },
     {
       title: "Banking",
       description:
-        "We architect back-office automation and consumer applications for banks to shape new business models, sustain revenues, and create amazing customer experiences",
+        "We design back-office automation systems and customer-facing applications that empower banks to redefine business models, ensure revenue stability, and deliver exceptional customer experiences. Our solutions enable financial institutions to stay competitive in the digital age and enhance operational efficiency.",
+      additionalPoints: [
+        "Streamlining loan processing and customer service",
+        "Boosting fraud detection with AI-powered systems",
+        "Personalizing banking experiences through data-driven insights",
+      ],
     },
     {
       title: "Insurance",
       description:
-        "We craft software that helps insurance companies track commissions, manage tasks, process claims, create invoices, make payments, and automate other administrative tasks",
+        "We create custom software solutions to assist insurance companies with tracking commissions, managing tasks, processing claims, generating invoices, making payments, and automating other critical administrative functions. Our technology helps reduce costs, improve accuracy, and speed up the entire insurance process.",
+      additionalPoints: [
+        "Automating claims processing to reduce human error",
+        "Enhancing customer self-service portals for better engagement",
+        "Leveraging AI for risk assessment and fraud prevention",
+      ],
     },
     {
-      title: "Retail & ecommerce",
+      title: "Retail & Ecommerce",
       description:
-        "We help retail and ecommerce businesses reset sourcing and supply chains, tap into predictive insights, meet shifting consumer expectations, and transform shopping experience across digital channels",
+        "We support retail and ecommerce businesses by transforming their sourcing and supply chain strategies, utilizing predictive analytics, and adapting to changing consumer demands. Our solutions help businesses create personalized shopping experiences across digital platforms, driving customer loyalty and increasing sales.",
+      additionalPoints: [
+        "Optimizing inventory management for real-time tracking",
+        "Personalizing product recommendations and offers",
+        "Enhancing the customer journey with seamless omnichannel experiences",
+      ],
     },
     {
-      title: "Logistics & transportation",
+      title: "Logistics & Transportation",
       description:
-        "We architect software that enhances supply finance and payment management, letting supply chain leaders be responsive to demand and resilient to change, optimize costs, and ensure sustainable growth",
+        "We develop software that streamlines finance and payment management within the supply chain, enabling logistics leaders to respond swiftly to demand fluctuations, control costs, and foster sustainable growth. Our solutions ensure operational resilience and efficiency across the entire transportation network.",
+      additionalPoints: [
+        "Optimizing route planning and fuel consumption",
+        "Improving supply chain visibility and tracking",
+        "Reducing operational delays and enhancing fleet management",
+      ],
     },
   ];
 
@@ -53,10 +78,10 @@ const FinTechIndustry = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Our financial software development services integrate tech-savviness
-          and industry-specific expertise. We deep dive into the peculiarities
-          of your sector to architect a financial software solution that is
-          tailored to your needs.
+          Our financial software development services combine technical
+          expertise with a deep understanding of industry-specific needs. We
+          thoroughly explore the unique challenges of your sector to design a
+          custom financial solution that meets your precise requirements.
         </div>
       </div>
       <div className="px-4 md:px-0 md:container mx-auto py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 text-slate-800">

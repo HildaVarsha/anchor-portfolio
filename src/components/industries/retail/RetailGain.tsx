@@ -7,22 +7,22 @@ const services = [
   {
     title: "Customer analytics",
     description:
-      "AI-powered solutions that draw in data from siloed data sets and external information on demographics, psychographics, and more to create a complete understanding of the customer experience, anticipate customer needs, incept at-risk buyers, and increase sales and customer satisfaction.",
+      "Leveraging AI-powered solutions, we aggregate data from various sources, including demographic and psychographic information, to gain a holistic understanding of the customer journey. This enables us to predict customer needs, identify at-risk buyers, and enhance sales and satisfaction.",
   },
   {
     title: "In-store analytics",
     description:
-      "We implement intelligent retail solutions that allow measuring the number of visits, the share of new versus known customers, the effectiveness of marketing campaigns and their influence on shopping behavior, and more to increase shop performance, optimize customer experience, and drive sales.",
+      "We implement advanced retail solutions to track key metrics such as visit frequency, new versus returning customers, marketing campaign effectiveness, and the influence of campaigns on shopping behavior. This helps optimize store performance, enhance customer experience, and drive sales.",
   },
   {
     title: "Sales and demand forecasting",
     description:
-      "AI-powered analytics tools that allow analyzing historical sales, inventory, and pricing data against seasonality, competitor activity, consumer trends, special events, and other factors in order to predict demand for specific SKUs and optimize procurement, inventory management, and marketing strategies.",
+      "Our AI-powered analytics tools analyze historical sales, inventory, pricing data, and factors like seasonality, competitor activity, and consumer trends to forecast demand for specific SKUs. This aids in optimizing procurement, inventory management, and marketing strategies.",
   },
   {
     title: "Inventory and product assortment analysis",
     description:
-      "We develop custom retail solutions that analyze historical inventory data, assortment depth, and product segments to align supply and demand, increase inventory turnover, reduce inventory holding costs, improve stock availability and lead times, and minimize the risk of overstocking and stock-outs.",
+      "We develop tailored retail solutions that assess historical inventory data, product assortment depth, and segment performance to better align supply and demand. This reduces stockouts, minimizes excess inventory, improves turnover, and optimizes lead times.",
   },
 ];
 
@@ -54,12 +54,12 @@ const RetailGain = () => {
           className="px-4 md:px-0 md:container mx-auto bg-amber-400 p-4 text-slate-800"
           data-aos="fade-up"
         >
-          Specializing in artificial intelligence, we put it to use when
-          developing software solutions for retail. Our retail data analytics
-          solutions merge data from retail ERPs, CRMs, vendor portals,
-          customer-facing mobile apps, social media, and other sources to create
-          data ecosystems that provide a 360-degree look into your customers and
-          business operations.
+          Specializing in artificial intelligence, we leverage it to build
+          retail software solutions. Our retail data analytics solutions
+          integrate data from various sources, including retail ERPs, CRMs,
+          vendor portals, customer-facing apps, social media, and more, creating
+          data ecosystems that offer a comprehensive 360-degree view of your
+          customers and business operations.
         </div>
       </div>
       <div className="py-12 bg-white">

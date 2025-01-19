@@ -13,14 +13,16 @@ const SustainablePillers = () => {
           and Our Planet. These pillars guide us in making the software
           development industry more responsible, inclusive, and eco-friendly.
         </p>
+
         <p className="font-semibold text-2xl" data-aos="fade-up">
           Our People — Social Responsibility
         </p>
+
         <div>
           <p className="font-semibold py-4" data-aos="fade-up">
             Diversity & Inclusion
           </p>
-          <p className="" data-aos="fade-up">
+          <p data-aos="fade-up">
             Our exceptional and diverse team is our greatest asset, and we are
             dedicated to fostering a workplace where everyone feels welcome and
             has an equal opportunity to succeed. By prioritizing inclusion, we
@@ -29,37 +31,43 @@ const SustainablePillers = () => {
             where all ideas are valued, driving greater creativity and
             delivering better results for us, our clients, and the world.
           </p>
+
           <div className="md:pl-4 py-4">
-            <li data-aos="fade-up">
-              <strong>Gender equality -</strong> We&apos;re striving for a
-              balanced workforce.Through recruitment, mentorship, and targeted
-              support, we strive to increase female representation in executive
-              leadership, fostering a more inclusive digital economy.
-            </li>
-            <li className="py-4" data-aos="fade-up">
-              <strong>LGBT+ friendly culture - </strong> We celebrate
-              authenticity and encourage people to be themselves, fostering an
-              LGBT+ friendly workplace where everyone feels safe, respected, and
-              valued, regardless of their sexual orientation or gender identity.
-            </li>
-            <li data-aos="fade-up">
-              <strong>Integration of persons with disabilities - </strong>{" "}
-              Enhancing the inclusion Supporting individuals with disabilities
-              is a key priority for us as we strive to create an accessible and
-              inclusive environment where everyone feels a sense of belonging.
-            </li>
-            <li className="py-4" data-aos="fade-up">
-              <strong>Eradicating racism - </strong> We take action to establish
-              an equitable fostering an environment that supports professionals
-              from underrepresented minorities, while actively working to
-              eliminate racism in the workplace.
-            </li>
-            <li data-aos="fade-up">
-              <strong>Mental health & wellness - </strong> Emphasizing mental
-              Wellness is a priority at our company, driving a culture of
-              equality that empowers all individuals to thrive. health and
-            </li>
+            <ul>
+              <li data-aos="fade-up">
+                <strong>Gender equality -</strong> We&apos;re striving for a
+                balanced workforce. Through recruitment, mentorship, and
+                targeted support, we aim to increase female representation in
+                executive leadership, fostering a more inclusive digital
+                economy.
+              </li>
+              <li className="py-4" data-aos="fade-up">
+                <strong>LGBT+ friendly culture - </strong> We celebrate
+                authenticity and encourage people to be themselves, fostering an
+                LGBT+ friendly workplace where everyone feels safe, respected,
+                and valued, regardless of their sexual orientation or gender
+                identity.
+              </li>
+              <li data-aos="fade-up">
+                <strong>Integration of persons with disabilities - </strong>{" "}
+                Supporting individuals with disabilities is a key priority for
+                us as we strive to create an accessible and inclusive
+                environment where everyone feels a sense of belonging.
+              </li>
+              <li className="py-4" data-aos="fade-up">
+                <strong>Eradicating racism - </strong> We take action to
+                establish an equitable environment that supports professionals
+                from underrepresented minorities, while actively working to
+                eliminate racism in the workplace.
+              </li>
+              <li data-aos="fade-up">
+                <strong>Mental health & wellness - </strong> Emphasizing mental
+                health and wellness is a priority at our company, driving a
+                culture of equality that empowers all individuals to thrive.
+              </li>
+            </ul>
           </div>
+
           <div>
             <p className="font-semibold" data-aos="fade-up">
               Health & Safety
@@ -72,6 +80,7 @@ const SustainablePillers = () => {
               potential risks to prevent accidents and promote well-being.
             </p>
           </div>
+
           <div>
             <p className="font-semibold" data-aos="fade-up">
               Responsible Procurement
@@ -86,6 +95,7 @@ const SustainablePillers = () => {
               discrimination, and support human rights.
             </p>
           </div>
+
           <div>
             <p className="font-semibold" data-aos="fade-up">
               Support of Communities
@@ -98,41 +108,38 @@ const SustainablePillers = () => {
               enhance the operations of NGOs worldwide.
             </p>
           </div>
-          <div>
-            <p className="font-bold text-3xl py-4" data-aos="fade-up">
-              Our Stakeholders — Governance
-            </p>
-            <p data-aos="fade-up">
-              We specialize in creating high-quality software solutions that
-              drive sustainability and produce tangible results. By helping
-              companies navigate the digital landscape, we use our expertise to
-              ensure compliance with industry regulations while maintaining
-              eco-friendly and socially responsible practices.
-            </p>
-            <p className="py-4" data-aos="fade-up">
-              By collaborating with clients, we identify opportunities for
-              sustainable innovation and leverage technology to address key
-              environmental and social challenges. Our partnerships are founded
-              on transparency, trust, and common objectives, allowing us to work
-              together toward a cleaner and more prosperous future.
-            </p>
-          </div>
-          <div>
-            <p className="font-bold text-3xl py-4" data-aos="fade-up">
-              Our Planet — Environment
-            </p>
-            <p data-aos="fade-up">
-              Caring for the environment is central to our mission. We are
-              committed to reducing our environmental impact by minimizing
-              energy and water consumption and managing waste responsibly.
-              Through technology, we develop energy-saving software and
-              integrate environmental, social, and governance (ESG) criteria
-              into our decision-making. Our ultimate goal is to create a world
-              where technology improves life for everyone, both now and for
-              future generations.
-            </p>
-          </div>
         </div>
+
+        <p className="font-bold text-3xl py-4" data-aos="fade-up">
+          Our Stakeholders — Governance
+        </p>
+        <p data-aos="fade-up">
+          We specialize in creating high-quality software solutions that drive
+          sustainability and produce tangible results. By helping companies
+          navigate the digital landscape, we use our expertise to ensure
+          compliance with industry regulations while maintaining eco-friendly
+          and socially responsible practices.
+        </p>
+        <p className="py-4" data-aos="fade-up">
+          By collaborating with clients, we identify opportunities for
+          sustainable innovation and leverage technology to address key
+          environmental and social challenges. Our partnerships are founded on
+          transparency, trust, and common objectives, allowing us to work
+          together toward a cleaner and more prosperous future.
+        </p>
+
+        <p className="font-bold text-3xl py-4" data-aos="fade-up">
+          Our Planet — Environment
+        </p>
+        <p data-aos="fade-up">
+          Caring for the environment is central to our mission. We are committed
+          to reducing our environmental impact by minimizing energy and water
+          consumption and managing waste responsibly. Through technology, we
+          develop energy-saving software and integrate environmental, social,
+          and governance (ESG) criteria into our decision-making. Our ultimate
+          goal is to create a world where technology improves life for everyone,
+          both now and for future generations.
+        </p>
       </div>
     </div>
   );

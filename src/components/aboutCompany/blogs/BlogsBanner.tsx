@@ -15,7 +15,7 @@ const BlogsBanner = () => {
           Thinking
         </p>
         <p className="font-semibold pt-6" data-aos="fade-up">
-          Useful. Relevant. Challenging.
+          Valuable. Pertinent. Stimulating.
         </p>
       </div>
     </div>

@@ -4,30 +4,30 @@ import { PageHeaderText } from "../shared";
 const values = [
   {
     number: 1,
-    title: "Strategy",
+    title: "Planning",
     description:
-      "We begin our journey by analyzing your business objectives and end-user requirements to create a draft of Low-Fidelity Wireframes.",
+      "We start by analyzing your business goals and user needs, creating initial Low-Fidelity Wireframes as a blueprint.",
     reverse: false,
   },
   {
     number: 2,
-    title: "Design",
+    title: "Creative Design",
     description:
-      "We design and draft the appearance, feel, and functionality of your product.",
+      "We design and define the look, feel, and functionality of your product to align with your vision.",
     reverse: true,
   },
   {
     number: 3,
-    title: "Develop",
+    title: "Development",
     description:
-      "We use Agile methodology to collaborate and iterate on the product design and development until we achieve flawless UX/UI functionality and experience.",
+      "We apply Agile practices to collaborate and refine the design and development, ensuring an exceptional UX/UI experience.",
     reverse: false,
   },
   {
     number: 4,
-    title: "Support",
+    title: "Ongoing Support",
     description:
-      "We provide maintenance and support if required. We monitor the performance of your website/application, fix bugs, and develop new functionalities.",
+      "We offer continued maintenance and support, monitoring performance, fixing bugs, and introducing new features as needed.",
     reverse: true,
   },
 ];

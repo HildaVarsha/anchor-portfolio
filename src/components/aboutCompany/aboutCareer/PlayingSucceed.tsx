@@ -12,22 +12,22 @@ const PlayingSucceed = () => {
             Does this sound too idealistic?
           </p>
           <p className="font-semibold py-6" data-aos="fade-up">
-            We’re certainly not perfect.
+            We’re definitely not perfect.
           </p>
           <p className="font-semibold" data-aos="fade-up">
             We do make mistakes.
           </p>
           <p className="py-6" data-aos="fade-up">
-            You&apos;re allowed to make mistakes – even big ones. As long as
-            you&apos;re honest enough to own them, you&apos;ll be fine.
+            You’re allowed to make mistakes—big ones included. As long as you’re
+            honest enough to take responsibility, you’ll be fine.
           </p>
           <p data-aos="fade-up">
-            At Anchor Informatics, you&apos;ll see us own up to our mistakes
-            regularly. That’s what initiative and transparency look like.
+            At Anchor Informatics, we regularly own up to our mistakes. That’s
+            what transparency and initiative truly look like.
           </p>
           <p className="pt-4" data-aos="fade-up">
-            We are all dedicated to each other’s success. All we ask in return
-            is the same level of commitment.
+            We’re all committed to each other’s success. In return, we ask for
+            the same level of dedication.
           </p>
         </div>
         <Image

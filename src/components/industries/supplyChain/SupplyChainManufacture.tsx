@@ -5,32 +5,32 @@ const services = [
   {
     title: "Artificial Intelligence",
     description:
-      "As a company with expert knowledge of machine learning, deep learning, computer vision, and NLP, ITRex will not only develop an AI solution but also scale it across multiple processes and use cases and ensure it brings tangible value from day one. Whether you need to prepare quality data for custom model training or eradicate algorithmic bias, we’re here to help!",
+      "ITRex specializes in AI solutions, leveraging expertise in machine learning, deep learning, computer vision, and NLP. We not only build tailored AI systems but also scale them across multiple functions and ensure they deliver measurable benefits right from the start. Whether it’s preparing data for custom model development or addressing algorithmic biases, we’re ready to assist!",
   },
   {
     title: "Internet of Things",
     description:
-      "Our IoT know-how includes sensors and development boards, data and network protocols —from MQTT to Zigbee and LoRaWAN — and custom IoT platforms based on AWS, Microsoft Azure, and Google Cloud. Additionally, we’ll develop embedded software and robust user interfaces to turn your machinery and assets into a wealth of data — and a wealth of insights.",
+      "Our IoT expertise spans sensors, development boards, data protocols, and network standards — including MQTT, Zigbee, and LoRaWAN. We design custom IoT platforms built on AWS, Microsoft Azure, and Google Cloud. Additionally, we create embedded software and intuitive user interfaces to turn your equipment and assets into valuable data sources, unlocking new insights.",
   },
   {
     title: "Advanced Data Analytics",
     description:
-      "To combat data deluge and tap into predictive and prescriptive analytics, we use deep data — high-quality, contextualized, and actionable operational data aggregated from multiple sources within your IT infrastructure. Contact ITRex to develop integrated data ecosystems that are accessible and empower intelligent decision-making across your enterprise.",
+      "To harness the power of predictive and prescriptive analytics, we focus on deep, high-quality data — contextualized and actionable insights drawn from various sources within your IT ecosystem. Work with ITRex to build integrated data environments that are user-friendly and enable data-driven decisions across your entire organization.",
   },
   {
     title: "Intelligent Automation",
     description:
-      "From creating embedded apps and back-office systems supporting the smooth functioning of industrial robots to infusing your eProcurement and order management software with RPA bots, we know how to take the complexity out of manufacturing and supply chain operations. And this translates into lower operating costs, improved delivery time, and greater resilience.",
+      "From creating embedded applications and back-office systems for industrial robots to enhancing your eProcurement and order management systems with RPA bots, we simplify manufacturing and supply chain processes. The result is reduced operational costs, faster delivery times, and enhanced operational resilience.",
   },
   {
     title: "Extended Reality",
     description:
-      "Operating at the intersection of digital and physical worlds, ITRex has a knack for metaverse-enabling technologies, including virtual and augmented reality. We can assist you in developing and implementing industrial AR solutions for product design and assembly, remote guidance systems, and complete immersive training environments.",
+      "At the crossroads of the digital and physical worlds, ITRex excels in metaverse technologies, including virtual and augmented reality. We help you develop and implement AR solutions for industrial applications such as product design, assembly, remote assistance, and immersive training environments.",
   },
   {
     title: "Digital Twins",
     description:
-      "Collaborate with ITRex to create digital replicas of your high-value assets and model complex scenarios before revamping your operations and adopting new technologies! Digital twins feed off your operational data to simulate the flow of goods across the supply chain — from manufacturing facilities to warehouses and transportation networks.",
+      "Partner with ITRex to create digital replicas of your critical assets and model complex scenarios before transforming your operations or adopting new technologies. Our digital twins leverage real-time operational data to simulate the movement of goods across the entire supply chain — from manufacturing plants to warehouses and transportation systems.",
   },
 ];
 
@@ -62,11 +62,10 @@ const SupplyChainManufacture = () => {
           className="px-4 md:px-0 md:container mx-auto bg-amber-400 p-4 text-slate-800"
           data-aos="fade-up"
         >
-          We do not merely digitalize processes — we completely reimagine
-          manufacturing and supply chain operations. To help you balance the
-          evolving stakeholder expectations while cutting down operational costs
-          and maintaining operational efficiency, ITRex utilizes a set of
-          innovative technologies, including:
+          We don’t just digitalize processes — we fully transform manufacturing
+          and supply chain operations. To help you navigate shifting stakeholder
+          demands while reducing operational costs and maintaining efficiency,
+          ITRex leverages a range of cutting-edge technologies, including:
         </div>
       </div>
       <div className="py-12 bg-white">

@@ -24,12 +24,11 @@ const AiAppExpertise = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Stay ahead of early adopters by leveraging our unmatched AI expertise.
-          With a track record of providing AI app development services since
-          2009, we understand how to help you achieve success with artificial
-          intelligence. Our team is ready to swiftly integrate market-tested AI
-          capabilities or collaborate with you to spark breakthrough
-          innovations—and bring them to life.
+          Stay ahead of the curve by leveraging our unparalleled AI expertise.
+          With over a decade of experience in AI app development since 2009, we
+          know how to drive success with artificial intelligence. Our team is
+          ready to quickly implement proven AI capabilities or work alongside
+          you to ignite innovative breakthroughs—and turn them into reality.
         </p>
       </div>
     </div>

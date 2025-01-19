@@ -3,35 +3,34 @@ import React from "react";
 
 const services = [
   {
-    title: "Healthcare & biotech",
+    title: "Healthcare & Biotech",
     description:
-      "Leverage AI-powered healthcare solutions to enhance diagnostics, elevate patient care, streamline doctor-patient communication, and optimize hospital operations and population health management.",
+      "Harness AI-powered healthcare solutions to improve diagnostics, enhance patient care, streamline doctor-patient communication, and optimize hospital operations and population health management.",
   },
   {
-    title: "Life sciences",
+    title: "Life Sciences",
     description:
-      "Speed up drug development, explore drug repurposing opportunities, identify better drug candidates, targets, and biomarkers, and optimize clinical trials with our advanced, user-friendly AI solutions.",
+      "Accelerate drug development, explore drug repurposing opportunities, identify promising drug candidates, targets, and biomarkers, and optimize clinical trials with our advanced, user-friendly AI solutions.",
   },
   {
-    title: "Finance & banking",
+    title: "Finance & Banking",
     description:
-      "Streamline banking and financial processes, reduce operational costs, enhance security, and unlock the full potential of intelligent banking and financial management.",
+      "Streamline banking and financial processes, reduce operational costs, enhance security, and unlock the full potential of intelligent financial management and banking solutions.",
   },
-
   {
     title: "Retail & eCommerce",
     description:
-      "Speed up decision-making, enhance demand forecasting, streamline inventory management, optimize product flow, and gain valuable insights into customer behavior with AI-powered retail solutions.",
+      "Accelerate decision-making, improve demand forecasting, streamline inventory management, optimize product flow, and gain valuable customer insights with AI-powered retail solutions.",
   },
   {
-    title: "Supply Chain & logistics",
+    title: "Supply Chain & Logistics",
     description:
-      "Gain complete control over shipments, reduce paperwork, and optimize vendor communication, deliveries, and warehousing operations with AI-driven software.",
+      "Achieve complete control over shipments, reduce paperwork, and optimize vendor communication, deliveries, and warehousing operations with AI-driven software solutions.",
   },
   {
     title: "Education & eLearning",
     description:
-      "Leverage AI to personalize learning programs, develop engaging educational content, automate administrative tasks, and improve access to quality education for students with special needs.",
+      "Leverage AI to personalize learning experiences, create engaging educational content, automate administrative tasks, and improve access to quality education for students with special needs.",
   },
 ];
 
@@ -72,10 +71,10 @@ const AiDevIndustry = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Whether you&apos;re looking to automate back-office processes, enhance
-          customer experience, boost security, or create an innovative software
-          product, our AI developers are ready to help. Explore Anchor AI
-          development services tailored to your industry:
+          Whether you're aiming to automate back-office operations, improve
+          customer experience, enhance security, or develop an innovative
+          software product, our AI developers are here to assist. Discover
+          Anchor's AI development services, customized for your industry:
         </p>
       </div>
       <div className="px-4 md:px-0 md:container mx-auto text-slate-800 py-6">

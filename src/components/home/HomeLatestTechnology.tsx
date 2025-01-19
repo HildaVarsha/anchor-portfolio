@@ -15,27 +15,27 @@ const HomeLatestTechnology = () => {
   const technologies = [
     {
       src: "https://images.pexels.com/photos/17485657/pexels-photo-17485657/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-how-ai-could-adapt-to-an-infinite-amount-of-uses-it-was-created-by-nidia-dias-as-part-of-the-visualising-ai-pr.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "AI-powered Retail Solutions",
+      title: "AI-Driven Retail Solutions",
       description:
-        "A cutting-edge AI system delivering seamless integration and data aggregation, enabling a global retailer to process 13 million requests daily and make informed decisions efficiently.",
+        "An advanced AI system that seamlessly integrates and aggregates data, enabling global retailers to handle 13 million daily requests and make efficient, data-driven decisions.",
     },
     {
       src: "https://images.pexels.com/photos/17486102/pexels-photo-17486102/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-visualises-artificial-general-intelligence-or-agi-it-was-created-by-wes-cockx-as-part-of-the-visualising-ai-project-l.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "General AI Innovations",
+      title: "Innovations in General AI",
       description:
-        "Empowering businesses with advanced AGI technologies designed to tackle versatile challenges, ensuring efficiency and scalability in their operations.",
+        "Equipping businesses with cutting-edge AGI technologies designed to solve a wide range of challenges, ensuring scalable and efficient operations.",
     },
     {
       src: "https://images.pexels.com/photos/17483874/pexels-photo-17483874/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-was-inspired-by-neural-networks-used-in-deep-learning-it-was-created-by-novoto-studio-as-part-of-the-visualising-ai-pr.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "Neural Network Excellence",
+      title: "Excellence in Neural Networks",
       description:
-        "Leveraging neural network technologies inspired by human cognition to deliver intelligent and adaptive solutions tailored for deep learning applications.",
+        "Harnessing the power of neural network technologies, inspired by human cognitive processes, to deliver adaptive, intelligent solutions for deep learning applications.",
     },
     {
       src: "https://images.pexels.com/photos/17483869/pexels-photo-17483869/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-represents-how-machine-learning-is-inspired-by-neuroscience-and-the-human-brain-it-was-created-by-novoto-studio-as-par.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "AI in Neuroscience",
+      title: "AI and Neuroscience Integration",
       description:
-        "Pioneering machine learning solutions influenced by neuroscience principles, providing groundbreaking insights and capabilities.",
+        "Developing pioneering machine learning solutions based on neuroscience principles, offering innovative insights and advanced capabilities.",
     },
   ];
 

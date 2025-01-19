@@ -6,22 +6,22 @@ const services = [
   {
     title: "K-12",
     description:
-      "We help K-12 leaders unleash the power of technology-assisted learning with R&D and consulting services and deliver turnkey educational software that automates workflows, simplifies student performance management, and makes knowledge delivery more efficient and interactive",
+      "We help K-12 leaders unlock the potential of technology-assisted learning through R&D and consulting services, delivering turnkey educational software that automates workflows, simplifies student performance management, and enhances knowledge delivery, making it more efficient and interactive.",
   },
   {
-    title: "EdTech and eLearning companies",
+    title: "EdTech and eLearning Companies",
     description:
-      "We can fill in the skills gap in your knowledge-intensive project and enrich your eLearning software with AI-driven data analytics, natural language processing, teleconferencing, as well as augmented and virtual reality capabilities to attract more customers with stellar functionality and user experience",
+      "We bridge the skills gap in your knowledge-intensive projects by enriching your eLearning software with AI-driven data analytics, natural language processing, teleconferencing, and augmented/virtual reality capabilities. These enhancements attract more customers through improved functionality and user experience.",
   },
   {
-    title: "Colleges and universities",
+    title: "Colleges and Universities",
     description:
-      "Along with educational technology consulting services, we craft innovative educational software solutions from scratch, so that you can attract the right students, personalize learning materials, optimize daily operations, and tap into useful insights about the school’s academic performance",
+      "In addition to educational technology consulting, we develop innovative educational software solutions from scratch, helping you attract the right students, personalize learning materials, optimize daily operations, and gain valuable insights into the school’s academic performance.",
   },
   {
-    title: "Corporations and nonprofits",
+    title: "Corporations and Nonprofits",
     description:
-      "We can enhance your existing learning management software or develop a corporate eLearning solution from scratch. We deep dive into the specifics of your business and tailor our eLearning solutions to match them, supporting your corporate training programs with the right tech",
+      "We enhance your existing learning management software or develop corporate eLearning solutions from the ground up. By deeply understanding your business needs, we tailor eLearning solutions to match, supporting your corporate training programs with the right technology.",
   },
 ];
 
@@ -31,12 +31,13 @@ const ELearningAbout = () => {
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="We craft educational software for every need" />
         <p data-aos="fade-up">
-          We help our clients in K-12, postsecondary, and corporate segments to
-          redefine the way they teach, learn, communicate, and operate. EdTech
-          startups and educational software companies, in turn, use our
-          eLearning software development expertise to win the market with
-          next-gen features that drive online education way forward.
+          We assist clients in K-12, postsecondary, and corporate sectors to
+          transform how they teach, learn, communicate, and operate. EdTech
+          startups and educational software companies leverage our eLearning
+          software development expertise to capture the market with cutting-edge
+          features that propel online education to the next level.
         </p>
+
         <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
           {services.map((service, index) => (
             <ServicesCard

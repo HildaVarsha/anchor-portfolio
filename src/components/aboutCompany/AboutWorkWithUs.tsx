@@ -9,29 +9,29 @@ import {
 
 const accordionItems = [
   {
-    title: "Full-cycle services",
-    content: "We provide end-to-end solutions for your business needs.",
+    title: "Comprehensive services",
+    content: "We offer complete solutions to address all your business needs.",
   },
   {
-    title: "Top expertise",
+    title: "Expert professionals",
+    content: "Our team is composed of highly experienced and skilled experts.",
+  },
+  {
+    title: "Excellence in quality",
+    content: "We uphold strict quality standards across all our deliverables.",
+  },
+  {
+    title: "Adaptability",
+    content: "We quickly adjust to meet evolving business demands.",
+  },
+  {
+    title: "Creative solutions",
+    content: "We prioritize innovation to stay ahead in the market.",
+  },
+  {
+    title: "Maximum flexibility",
     content:
-      "Our team consists of highly skilled professionals with years of experience.",
-  },
-  {
-    title: "Quality management",
-    content: "We ensure high-quality standards in all our deliverables.",
-  },
-  {
-    title: "Agility",
-    content: "We adapt quickly to meet changing business requirements.",
-  },
-  {
-    title: "Innovation",
-    content: "We focus on innovative solutions to stay ahead in the industry.",
-  },
-  {
-    title: "Utmost flexibility",
-    content: "We offer flexible approaches tailored to your specific needs.",
+      "We provide customized approaches that cater to your unique requirements.",
   },
 ];
 

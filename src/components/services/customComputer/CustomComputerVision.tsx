@@ -27,10 +27,10 @@ const CustomComputerVision = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          With over a decade of experience and top-tier talent, we help our
-          clients leverage rapidly advancing computer vision technology to
-          create value. Our computer vision solutions not only address unique
-          business challenges but also drive transformation across key
+          With over a decade of experience and a team of top-tier talent, we
+          help our clients harness the power of rapidly advancing computer
+          vision technology to create lasting value. Our solutions address
+          unique business challenges while driving transformation across key
           industries.
         </p>
       </div>

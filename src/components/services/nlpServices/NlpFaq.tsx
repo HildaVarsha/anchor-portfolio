@@ -12,20 +12,22 @@ const accordionItems = [
   {
     title: "What is an AI proof of concept?",
     content:
-      "An AI proof of concept is a small-scale, experimental project that evaluates the feasibility and potential impact of an artificial intelligence solution prior to full-scale deployment. AI proof of concept development involves creating prototypes to validate that an AI model effectively addresses specific business problems, ensuring that the proposed solution is viable and aligns with business objectives.",
+      "An AI proof of concept is a small-scale, experimental project designed to evaluate the feasibility and potential impact of an artificial intelligence solution before full-scale deployment. It involves creating prototypes to confirm that an AI model addresses specific business problems effectively, ensuring the solution is viable and aligns with business goals.",
   },
   {
     title: "What purposes does an AI PoC serve?",
     content:
-      "Our team consists of highly skilled professionals with years of experience.",
+      "Our team comprises highly skilled professionals with years of experience, dedicated to ensuring the success of AI PoC implementations.",
   },
   {
-    title: "What mistakes can an AI PoC help avoid further down the road?",
-    content: "We ensure high-quality standards in all our deliverables.",
+    title: "What mistakes can an AI PoC help avoid in the future?",
+    content:
+      "We uphold high-quality standards in all our deliverables, preventing costly mistakes in your AI journey.",
   },
   {
     title: "How can you sail through AI PoC development smoothly?",
-    content: "We ensure high-quality standards in all our deliverables.",
+    content:
+      "We ensure high-quality standards in all our deliverables, helping you navigate AI PoC development with ease.",
   },
 ];
 

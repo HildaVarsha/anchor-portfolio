@@ -17,34 +17,35 @@ const AiDevAtAnchor = () => {
     {
       title: "Machine Learning",
       description:
-        "Leveraging our expertise in supervised, unsupervised, and reinforcement machine learning, we develop intelligent systems that make accurate decisions with minimal to no human intervention.",
+        "Using our expertise in supervised, unsupervised, and reinforcement learning, we build intelligent systems that make precise decisions with little to no human involvement.",
     },
     {
-      title: "Deep learning",
+      title: "Deep Learning",
       description:
-        "We harness the power of multi-layered neural networks to create AI business solutions that replicate, and often exceed, human intelligence.",
+        "We leverage multi-layered neural networks to create AI-driven business solutions that mimic and often surpass human intelligence.",
     },
     {
       title: "Natural Language Processing",
       description:
-        "We develop real-time speech recognition and conversational AI solutions that enhance the user experience.",
+        "We develop real-time speech recognition and conversational AI technologies that significantly enhance user interactions.",
     },
     {
       title: "Computer Vision",
       description:
-        "We create AI solutions that analyze visual data, including biometric authentication, CCTV monitoring, real-time video analysis, and more. ",
+        "We build AI systems capable of analyzing visual data, including biometric authentication, CCTV monitoring, real-time video analysis, and more.",
     },
     {
       title: "Generative AI",
       description:
-        "We develop generative AI solutions for automation, data analytics, and creative tasks. Whether you need Gen AI to write code, manage customer inquiries, or craft compelling content, our AI developers are here to assist!",
+        "We create generative AI solutions for automation, data analysis, and creative tasks. Whether you need Gen AI to write code, handle customer queries, or produce engaging content, our AI developers are here to help.",
     },
     {
       title: "Robotics",
       description:
-        "We design software components for robotic solutions that enhance operations and boost efficiency both on the factory floor and in other settings.",
+        "We develop software for robotic systems that improve operations and increase efficiency in factories and other environments.",
     },
   ];
+
   return (
     <div>
       <div
@@ -70,10 +71,11 @@ const AiDevAtAnchor = () => {
       <div className="py-12  bg-white">
         <div className=" px-4 md:px-0 md:container mx-auto text-slate-800">
           <p className="" data-aos="fade-up">
-            Anchor Informatics is an AI development company with more than a
-            decade of experience. We empower you to harness cutting-edge AI
-            tools and technologies to drive exponential growth.
+            Anchor Informatics is an AI development company with over a decade
+            of experience. We enable you to leverage advanced AI tools and
+            technologies to fuel exceptional growth.
           </p>
+
           <div className="py-6 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
             {services.map((service, index) => (
               <ServiceCard

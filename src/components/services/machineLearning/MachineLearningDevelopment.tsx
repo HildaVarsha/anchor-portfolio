@@ -76,9 +76,9 @@ const MachineLearningDevelopment = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          As a machine learning services provider with over 230 cross-functional
-          experts, we stay ahead of your industry challenges and leverage
-          emerging ML opportunities to benefit your business.
+          As a machine learning services provider with a team of over 230
+          cross-functional experts, we stay ahead of industry challenges and
+          leverage emerging ML opportunities to drive success for your business.
         </p>
       </div>
       <div className="mt-12 px-4 md:px-0 md:p-12 md:container mx-auto text-slate-800 bg-white grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-16">

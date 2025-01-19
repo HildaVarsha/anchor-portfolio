@@ -5,22 +5,22 @@ const industryContent: Record<
   string,
   { description: string; points: string[] }
 > = {
-  "Data preprocessing": {
+  "Data Preprocessing": {
     description:
       "To clean and process raw text data, using techniques like tokenization, stemming, lemmatization, stop word removal, and more, our toolkit includes:",
     points: [
       "NLTK, SpaCy, TextBlob, and other libraries for specific NLP tasks",
       "Data normalization, data cleaning, and data transformation techniques",
-      "Pandas, NumPy, and Scikit-learn general-purpose libraries for data manipulation, analysis, and ML",
+      "Pandas, NumPy, and Scikit-learn for general-purpose data manipulation, analysis, and ML",
       "Theft prevention",
       "Personalized product recommendations",
       "Visual inventory inspections",
       "Counterfeit detection",
     ],
   },
-  "Feature extraction": {
+  "Feature Extraction": {
     description:
-      "Extract important features from raw text for further processing and modeling. We utilize tools like:",
+      "Extract essential features from raw text for further processing and modeling. We utilize tools like:",
     points: [
       "TF-IDF and Bag-of-Words",
       "Word2Vec and GloVe embeddings",
@@ -28,7 +28,7 @@ const industryContent: Record<
       "Feature engineering for domain-specific applications",
     ],
   },
-  "Text embedding": {
+  "Text Embedding": {
     description:
       "Convert text data into dense vectors for machine learning models. Our expertise includes:",
     points: [
@@ -37,7 +37,7 @@ const industryContent: Record<
       "Dimensionality reduction techniques like PCA and t-SNE",
     ],
   },
-  "Language models": {
+  "Language Models": {
     description:
       "Develop language models for natural language understanding and generation. We specialize in:",
     points: [

@@ -3,36 +3,37 @@ import React from "react";
 
 const services = [
   {
-    title: "Machine learning",
+    title: "Machine Learning",
     description:
-      "In our AI PoC development services, we build and rigorously test ML models for tasks such as predictive analytics, anomaly detection, and recommendations. Utilizing technologies like Scikit-learn, TensorFlow, and PyTorch, we develop initial prototypes that showcase the feasibility and potential impact of ML solutions customized to meet your business requirements.",
+      "In our AI PoC development services, we build and rigorously test ML models for tasks such as predictive analytics, anomaly detection, and recommendations. By leveraging technologies like Scikit-learn, TensorFlow, and PyTorch, we develop prototypes that demonstrate the feasibility and potential impact of ML solutions, customized to meet your business requirements.",
   },
   {
-    title: "Facial recognition",
+    title: "Facial Recognition",
     description:
-      "Our facial recognition PoC services focus on developing prototypes that identify and verify individuals using facial features. We design systems for access control, identity verification, and customer analytics, utilizing technologies such as OpenCV, Dlib, and Amazon Rekognition. These PoCs guarantee accuracy, security, and adherence to privacy regulations.",
+      "Our facial recognition PoC services focus on developing prototypes that identify and verify individuals using facial features. We design systems for access control, identity verification, and customer analytics, utilizing technologies such as OpenCV, Dlib, and Amazon Rekognition. These PoCs ensure accuracy, security, and compliance with privacy regulations.",
   },
   {
-    title: "Deep learning",
+    title: "Deep Learning",
     description:
-      "Our deep learning PoC development focuses on building prototypes powered by advanced neural networks for tasks like image and speech recognition. Anchor leverages frameworks such as TensorFlow, Keras, and PyTorch to create models that demonstrate the power of deep learning in automating complex processes and enhancing decision-making within your organization.",
+      "Our deep learning PoC development specializes in building prototypes powered by advanced neural networks for tasks like image and speech recognition. We use frameworks like TensorFlow, Keras, and PyTorch to create models that showcase the power of deep learning in automating complex processes and enhancing decision-making within your organization.",
   },
   {
-    title: "Natural language processing",
+    title: "Natural Language Processing",
     description:
-      "Our AI PoC development team uses tools like NLTK, SpaCy, and BERT to build models for text analysis, sentiment analysis, translation tasks, and intelligent chatbots. Through PoC, we test the potential of artificial intelligence to help your company improve customer service, streamline content moderation, and enhance internal communications.",
+      "Our AI PoC development team employs tools like NLTK, SpaCy, and BERT to build models for text analysis, sentiment analysis, translation tasks, and intelligent chatbots. Through PoCs, we test the potential of AI to help improve customer service, streamline content moderation, and enhance internal communications.",
   },
   {
     title: "Computer Vision",
     description:
-      "As part of our AI PoC development, we train algorithms to effectively interpret visual data. Anchor Informatics creates initial models for image classification, object detection, and video analysis using tools like OpenCV, YOLO, TensorFlow, and Monitor MindAI, our proprietary computer vision service. Our goal is to demonstrate how AI can be applied across various industries, from security to marketing.",
+      "As part of our AI PoC development, we train algorithms to effectively interpret visual data. Anchor Informatics creates initial models for image classification, object detection, and video analysis using tools like OpenCV, YOLO, TensorFlow, and Monitor MindAI—our proprietary computer vision service. These PoCs demonstrate how AI can be applied across industries like security, marketing, and more.",
   },
   {
     title: "Generative AI",
     description:
-      "Our generative AI PoC development services involve creating prototypes that leverage existing data to generate new content. We utilize both proprietary and open-source foundational models, including transformers, GANs, and diffusion models. When developing Gen AI PoCs, Anchor takes into account your current and future scalability objectives, as well as the related infrastructure costs.",
+      "Our generative AI PoC development services involve creating prototypes that leverage existing data to generate new content. We use both proprietary and open-source foundational models, including transformers, GANs, and diffusion models. When developing Gen AI PoCs, Anchor considers your current and future scalability objectives, as well as the infrastructure costs involved.",
   },
 ];
+
 const AiProofExplore = () => {
   return (
     <div>
@@ -56,11 +57,12 @@ const AiProofExplore = () => {
           className="pb-6 px-4 md:px-0 md:container mx-auto"
           data-aos="fade-up"
         >
-          Having embraced AI early on, long before it became mainstream, Anchor
-          has gained extensive expertise across various AI types and subsets. We
-          leverage this knowledge to tackle real-world challenges that arise
+          Having embraced AI long before it became mainstream, Anchor has
+          acquired extensive expertise across various AI types and subsets. We
+          apply this deep knowledge to address real-world challenges that emerge
           during AI PoC development.
         </p>
+
         <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
           <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
             {services.map((service, index) => (

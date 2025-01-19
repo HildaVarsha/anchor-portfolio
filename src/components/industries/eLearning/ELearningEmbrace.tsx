@@ -34,6 +34,7 @@ const accordionItems = [
     content: "We offer flexible approaches tailored to your specific needs.",
   },
 ];
+
 const ELearningEmbrace = () => {
   return (
     <div className="bg-white ">

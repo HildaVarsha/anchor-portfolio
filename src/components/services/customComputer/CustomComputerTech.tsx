@@ -9,15 +9,14 @@ const CustomComputerTech = () => {
             Frameworks
           </p>
           <li className="py-4" data-aos="fade-up">
-            Language: Python
+            Programming Language: Python
           </li>
-          <li data-aos="fade-up">CV libraries: OpenCV</li>
+          <li data-aos="fade-up">Computer Vision libraries: OpenCV</li>
           <li className="py-4" data-aos="fade-up">
             Python libraries: SciPy, Scikit-learn, Seaborn, Pandas
           </li>
           <li data-aos="fade-up">
-            {" "}
-            Deep learning platforms: TensorFlow, Keras, PyTorch
+            Deep learning frameworks: TensorFlow, Keras, PyTorch
           </li>
         </div>
         <div className="w-full">
@@ -25,13 +24,13 @@ const CustomComputerTech = () => {
             Feature Extraction
           </p>
           <li className="py-4" data-aos="fade-up">
-            Neural Networks: CNN, LSTM, innovative neural networks for feature
+            Neural Networks: CNN, LSTM, advanced neural networks for feature
             extraction (e.g., ResNet, VGG, CRAFT), neural networks for real-time
             object detection (e.g., Yolo), networks for face mesh prediction and
             pose estimation, GANs, Autoencoder/Variational Autoencoder models
           </li>
           <li data-aos="fade-up">
-            Traditional approaches: optical flow estimation and the SIFT, SURF,
+            Conventional methods: optical flow estimation and the SIFT, SURF,
             and ORB feature descriptors
           </li>
         </div>
@@ -40,14 +39,14 @@ const CustomComputerTech = () => {
             Feature Analysis
           </p>
           <li className="py-4" data-aos="fade-up">
-            Probabilistic models like Hidden Markov Model or Bayesian networks
+            Probabilistic models such as Hidden Markov Model or Bayesian
+            networks
           </li>
-          <li data-aos="fade-up">Transfer learning techniques</li>
+          <li data-aos="fade-up">Techniques for transfer learning</li>
           <li className="py-4" data-aos="fade-up">
-            {" "}
             Algorithms: optimization (e.g., the Metropolis-Hastings algorithm
             and the Nelder-Mead method), genetic algorithms, SLAM, clustering
-            (e.g., K- means and DBScan), classification (e.g., support vector
+            (e.g., K-means and DBScan), classification (e.g., support vector
             machines, SGD, decision trees, random forests), segmentation, and
             traditional algorithms (e.g., 3-P, homography estimation, edge
             detection)

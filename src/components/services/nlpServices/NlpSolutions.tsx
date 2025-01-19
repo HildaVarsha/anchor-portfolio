@@ -6,42 +6,42 @@ const services = [
   {
     title: "Document Mining",
     description:
-      "Extract valuable insights from unstructured documents like emails, social media posts, or PDFs.",
+      "Extract valuable insights from unstructured documents such as emails, social media posts, or PDFs.",
   },
   {
     title: "Insightful Text Analytics",
     description:
-      "Harness machine learning for keyword extraction, named entity recognition, part-of-speech tagging, classification, and more to enhance document management or spam detection.",
+      "Leverage machine learning for keyword extraction, named entity recognition, part-of-speech tagging, classification, and more to improve document management or spam detection.",
   },
   {
     title: "Summarization",
     description:
-      "Convert large datasets into actionable summaries for simpler analysis and understanding.",
+      "Transform large datasets into concise, actionable summaries for easier analysis and understanding.",
   },
   {
-    title: "Intelligent search",
+    title: "Intelligent Search",
     description:
-      "Transform search with semantic technology that goes beyond keywords, comprehending user intent and context.",
+      "Enhance search functionality with semantic technology that goes beyond keywords, understanding user intent and context.",
   },
   {
-    title: "Speech recognition",
+    title: "Speech Recognition",
     description:
-      "Enable your app to respond to voice commands and answer spoken questions.",
+      "Enable your application to respond to voice commands and answer spoken questions.",
   },
   {
     title: "Conversational UI",
     description:
-      "Create a chatbot to establish a new distribution channel, improve customer service, or enhance brand promotion.",
+      "Develop a chatbot to create a new distribution channel, improve customer service, or boost brand promotion.",
   },
   {
     title: "Sentiment Analysis",
     description:
-      "Gain insights into the attitudes and emotions expressed in messages from various sources, including social media feeds, reviews, responses, and more.",
+      "Analyze the attitudes and emotions expressed in messages from various sources, including social media feeds, reviews, responses, and more.",
   },
   {
     title: "Natural Language Generation",
     description:
-      "Generate consistent, high-quality language throughout your communications, while automating reporting and the creation of repetitive content.",
+      "Produce consistent, high-quality language in your communications while automating reporting and creating repetitive content.",
   },
 ];
 

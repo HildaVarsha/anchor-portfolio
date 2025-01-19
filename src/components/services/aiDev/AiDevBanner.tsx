@@ -13,12 +13,12 @@ const AiDevBanner = () => {
           className="w-full md:max-w-2xl"
         />
         <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
-          At Anchor Informatics, our AI development services are designed to
-          complement your in-house IT team by addressing knowledge gaps,
-          tailoring commercially available AI products and foundation models to
-          your specific needs, or crafting bespoke AI solutions from the ground
-          up.
+          At Anchor Informatics, our AI development services are crafted to
+          support your in-house IT team by filling knowledge gaps, customizing
+          off-the-shelf AI products and foundation models to suit your specific
+          requirements, or creating custom AI solutions from scratch.
         </p>
+
         <Button className="w-fit z-10" data-aos="fade-up">
           Get In Touch
           <ArrowRight />

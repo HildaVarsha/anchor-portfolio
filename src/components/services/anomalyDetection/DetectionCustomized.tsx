@@ -1,29 +1,29 @@
 import { Button } from "@/components/ui";
 import Link from "next/link";
 import React from "react";
-
 const services = [
   {
     title: "Healthcare",
     description:
-      "We will set up your healthcare, pharmaceutical, and life science technology systems to automatically detect changes in patient vital signs, adverse drug reactions, high-risk patients, equipment malfunctions, and outbreaks of infectious diseases.",
+      "We set up healthcare, pharmaceutical, and life sciences technology systems to automatically detect changes in patient vital signs, adverse drug reactions, high-risk patients, equipment malfunctions, and outbreaks of infectious diseases.",
   },
   {
     title: "Manufacturing",
     description:
-      "Our tailored anomaly solutions focus on assembly verification, surface inspection, process monitoring, and root cause analysis, enabling you to improve equipment uptime, quality control, energy efficiency, and accident prevention.",
+      "Our tailored anomaly detection solutions focus on assembly verification, surface inspection, process monitoring, and root cause analysis. This helps improve equipment uptime, quality control, energy efficiency, and accident prevention.",
   },
   {
     title: "Retail",
     description:
-      "As an anomaly detection company, we assist retail and eCommerce businesses in identifying credit card fraud, enhancing security in physical stores, analyzing unexpected changes in product demand, detecting pricing errors, measuring customer satisfaction, and much more!",
+      "As an anomaly detection company, we help retail and eCommerce businesses identify credit card fraud, enhance security in physical stores, analyze unexpected changes in product demand, detect pricing errors, measure customer satisfaction, and much more!",
   },
   {
-    title: "Smart cities",
+    title: "Smart Cities",
     description:
-      "Anchors Informatics will assist you in integrating anomaly detection solutions into technology systems for smart city deployments. This includes traffic monitoring with sensors and cameras, public safety, energy and waste management, and animal control systems.",
+      "Anchor Informatics helps integrate anomaly detection solutions into smart city systems, including traffic monitoring with sensors and cameras, public safety, energy and waste management, and animal control systems.",
   },
 ];
+
 const DetectionCustomized = () => {
   const ServiceCard = ({
     title,
@@ -63,11 +63,11 @@ const DetectionCustomized = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Whether you&apos;re involved in supply chain management or operate a
-          BioTech laboratory, we&apos;ll collect data you didn&apos;t know
-          existed, distill it into valuable insights, and present the results
-          through intuitive user interfaces — from cloud dashboards to voice
-          assistants. Our expertise in anomaly detection software includes:
+          Whether you're involved in supply chain management or operate a
+          BioTech laboratory, we'll collect data you didn’t know existed,
+          distill it into valuable insights, and present the results through
+          intuitive user interfaces — from cloud dashboards to voice assistants.
+          Our expertise in anomaly detection software spans:
         </p>
       </div>
       <div className="py-12 bg-white">

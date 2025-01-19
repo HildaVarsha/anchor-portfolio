@@ -12,17 +12,17 @@ const MachineSolutions = () => {
     {
       title: "Financial services",
       content:
-        "We deliver intelligent ML solutions for fraud detection, risk assessment, algorithmic trading, and customer insights. Streamline operations and enhance decision-making with our custom-built financial tools.",
+        "We provide intelligent ML solutions for fraud detection, risk assessment, algorithmic trading, and customer insights. Streamline operations and enhance decision-making with our custom-built financial tools.",
     },
     {
       title: "Healthcare",
       content:
-        "Our ML solutions in healthcare include predictive analytics, personalized patient care, medical imaging analysis, and operational optimization. Enhance outcomes and reduce costs with AI-powered innovations.",
+        "Our ML solutions in healthcare include predictive analytics, personalized patient care, medical imaging analysis, and operational optimization. Enhance patient outcomes and reduce costs with AI-powered innovations.",
     },
     {
       title: "Transportation & Logistics",
       content:
-        "Optimize routes, improve fleet management, and enhance supply chain visibility with our ML-driven transportation and logistics solutions. We help businesses reduce costs and improve efficiency.",
+        "Optimize routes, improve fleet management, and enhance supply chain visibility with our ML-driven solutions in transportation and logistics. We help businesses reduce costs and improve operational efficiency.",
     },
     {
       title: "Media & Entertainment",
@@ -32,12 +32,12 @@ const MachineSolutions = () => {
     {
       title: "Retail",
       content:
-        "Revolutionize the retail experience with ML solutions for demand forecasting, personalized shopping, inventory management, and dynamic pricing. Enhance customer engagement and drive sales growth.",
+        "Transform the retail experience with ML solutions for demand forecasting, personalized shopping, inventory management, and dynamic pricing. Boost customer engagement and drive sales growth.",
     },
     {
       title: "Education",
       content:
-        "Empower educators and learners with intelligent tutoring systems, automated grading, adaptive learning platforms, and sentiment analysis to foster a personalized and engaging educational environment.",
+        "Empower educators and learners with intelligent tutoring systems, automated grading, adaptive learning platforms, and sentiment analysis, fostering a personalized and engaging educational environment.",
     },
     {
       title: "Insurance",
@@ -47,7 +47,7 @@ const MachineSolutions = () => {
     {
       title: "Automotive",
       content:
-        "Accelerate innovation in the automotive industry with ML-powered autonomous driving systems, predictive maintenance, supply chain optimization, and customer behavior analysis.",
+        "Drive innovation in the automotive industry with ML-powered autonomous driving systems, predictive maintenance, supply chain optimization, and customer behavior analysis.",
     },
   ];
 
@@ -76,7 +76,7 @@ const MachineSolutions = () => {
         >
           As a machine learning services provider with over 230 cross-functional
           experts, we stay ahead of your industry challenges and leverage
-          emerging ML opportunities to benefit your business.
+          emerging ML opportunities to drive success for your business.
         </p>
       </div>
       <div className="mt-12 px-4 md:px-0 md:p-12 md:container mx-auto text-slate-800 bg-white flex flex-col gap-8">

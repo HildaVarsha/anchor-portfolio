@@ -1,22 +1,21 @@
 import { ServicesCard } from "@/components/componentShared";
 import { PageHeaderText } from "@/components/shared";
 import React from "react";
-
 const services = [
   {
     title: "Custom retail solutions",
     description:
-      "We’ll help you embrace omnichannel with a tailored solution that integrates seamlessly into your tech infrastructure and fully supports your retail, wholesale, and dealership management operations.",
+      "We help you embrace omnichannel retail with a customized solution that seamlessly integrates into your existing tech infrastructure, fully supporting your retail, wholesale, and dealership management operations.",
   },
   {
     title: "Platform-based retail solutions",
     description:
-      "We’ll help you choose the right platform to address your business’ pain points, implement all the needed customizations, and integrate the solution with the available corporate software.",
+      "We assist in selecting the right platform to address your business challenges, implement necessary customizations, and integrate the solution with your existing corporate software.",
   },
   {
     title: "Integration of custom solutions",
     description:
-      "We’ll leverage our expertise in retail software development and integration to make sure your retail ecosystem is consistent and interoperable, bringing together multiple systems and apps.",
+      "With our expertise in retail software development and integration, we ensure your retail ecosystem is cohesive and interoperable, bringing together various systems and applications.",
   },
 ];
 
@@ -26,13 +25,14 @@ const RetailAbout = () => {
       <div className="md:container mx-auto px-4">
         <PageHeaderText label="Flexible retail software development services" />
         <p data-aos="fade-up">
-          A retail software development company with 13+ years of experience, we
-          have full-stack capabilities to help you ride the crest of digital
-          transformation in retail. Whether you’re about to develop a custom
-          retail solution, customize an existing retail platform, or integrate
-          several disparate solutions into a coherent retail ecosystem, we’re up
-          for the challenge.
+          With over 13 years of experience in retail software development, we
+          offer full-stack capabilities to help you navigate the wave of digital
+          transformation in retail. Whether you’re looking to develop a custom
+          retail solution, customize an existing platform, or integrate various
+          solutions into a unified retail ecosystem, we’re ready to take on the
+          challenge.
         </p>
+
         <div className="py-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
           {services?.map((service, index) => (
             <ServicesCard

@@ -5,21 +5,21 @@ import Image from "next/image";
 const workProgressData = [
   {
     imgSrc: "/work-progress-1.png",
-    title: "Ownership",
+    title: "Accountability",
     description:
-      "We take full responsibility for our actions. We apologize for our mistakes and work with more sincerity and dedication to delight our customers.",
+      "We take full accountability for our actions, acknowledging our mistakes and working with greater dedication and sincerity to exceed customer expectations.",
   },
   {
     imgSrc: "/work-progress-2.png",
-    title: "Think Smarter and Bigger",
+    title: "Innovative Thinking",
     description:
-      "We constantly strive for improvement and growth. We embrace change, adopt it, and find solutions to improve ourselves.",
+      "We are committed to continuous improvement and growth. We embrace change, leverage it, and seek innovative solutions to better ourselves.",
   },
   {
     imgSrc: "/work-progress-3.png",
-    title: "Work Ethic",
+    title: "Professionalism",
     description:
-      "We are proactive, organized, result-driven, and prompt because we expect high performance from ourselves. Consequently, we regularly invest in training to create a highly skilled and efficient talent pool.",
+      "We are proactive, organized, results-oriented, and responsive, expecting high performance from ourselves. To maintain this, we consistently invest in training to build a highly skilled and effective team.",
   },
 ];
 

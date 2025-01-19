@@ -5,17 +5,17 @@ const services = [
   {
     title: "ML Consulting",
     description:
-      "With experience in dozens of ML projects, our expert consultants can guide you toward an ML solution that delivers maximum impact for your business. From assessing your data and selecting the optimal ML approach to ensure the highest ROI, to scoping, developing PoCs, and creating user-facing prototypes, we provide comprehensive support every step of the way.",
+      "With extensive experience in numerous ML projects, our expert consultants will help guide you to the ML solution that brings maximum impact to your business. From assessing your data and selecting the best ML approach for the highest ROI, to scoping, developing PoCs, and creating user-facing prototypes, we offer full support throughout the entire process.",
   },
   {
     title: "ML Development",
     description:
-      "As part of our comprehensive full-stack machine learning development services, our data scientists manage all data-related tasks, including labeling. We design and validate custom ML models, ensuring seamless deployment. Additionally, we integrate ML algorithms into infrastructure—whether cloud, mobile, or edge—to deliver a fully operational ML solution.",
+      "As part of our comprehensive full-stack machine learning development services, our data scientists handle all data-related tasks, including labeling. We design and validate custom ML models, ensuring smooth deployment. We also integrate ML algorithms into various infrastructures—cloud, mobile, or edge—delivering a fully operational ML solution.",
   },
   {
     title: "ML Integration",
     description:
-      "Our experienced machine learning developers specialize in seamlessly integrating neural networks and advanced ML algorithms into your business applications, enterprise systems, or workflows. Tap into our expertise to deploy ML solutions that transform experiences and optimize operations.",
+      "Our seasoned machine learning developers specialize in seamlessly incorporating neural networks and advanced ML algorithms into your business applications, enterprise systems, or workflows. Leverage our expertise to deploy ML solutions that transform user experiences and optimize business operations.",
   },
 ];
 
@@ -26,9 +26,10 @@ const MachineLearningAbout = () => {
         <PageHeaderText label="Comprehensive ML Development Services" />
         <p data-aos="fade-up">
           As a leading machine learning development company, Anchor combines
-          robust ML expertise and engineering capabilities to help your business
-          innovate with a cutting-edge machine learning solution.
+          strong ML expertise and engineering capabilities to help your business
+          innovate with a state-of-the-art machine learning solution.
         </p>
+
         <div className="py-6 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
           {services.map((service, index) => (
             <ServicesCard

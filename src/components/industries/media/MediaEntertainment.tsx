@@ -46,9 +46,9 @@ const MediaEntertainment = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          As audiences have more choice than ever, media and entertainment
-          companies need an edge. We craft powerful media and entertainment
-          solutions that win you a competitive advantage.
+          With audiences having more choices than ever, media and entertainment
+          companies must stay ahead. We create innovative media and
+          entertainment solutions that give you a competitive edge.
         </p>
       </div>
       <div className="py-12 bg-white">

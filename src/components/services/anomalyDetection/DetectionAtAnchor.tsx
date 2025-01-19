@@ -24,35 +24,35 @@ const DetectionAtAnchor = () => {
       <div className="mt-12 p-4  md:p-12 md:container mx-auto text-slate-800 bg-blue-100 flex flex-col md:flex-row gap-4 md:gap-16">
         <div>
           <p className="" data-aos="fade-up">
-            <strong> We know your business inside and out.</strong> {""} With
-            our extensive expertise across various domains, including
-            healthcare, banking, and commerce technology, we comprehend the
-            unique challenges your business encounters and develop tailored
-            anomaly detection solutions to effectively tackle them.
+            <strong>We know your business inside and out.</strong> With our
+            extensive expertise across various domains, including healthcare,
+            banking, and commerce technology, we understand the unique
+            challenges your business faces and develop tailored anomaly
+            detection solutions to effectively address them.
           </p>
           <p className="pt-4" data-aos="fade-up">
-            <strong>We take the custom route.</strong> {""} Our team develops
-            tailored anomaly detection solutions using powerful cloud services
-            and open-source machine learning technologies. Unlike SaaS tools,
-            these solutions are fully customizable, precisely meet your needs,
-            and can scale with your business growth.
+            <strong>We take the custom route.</strong> Our team creates tailored
+            anomaly detection solutions using powerful cloud services and
+            open-source machine learning technologies. Unlike SaaS tools, these
+            solutions are fully customizable, precisely meeting your needs, and
+            designed to scale with your business growth.
           </p>
         </div>
         <div>
           <p data-aos="fade-up">
-            <strong>We breathe AI.</strong> {""} Anchor’s Informative has been
-            developing custom machine learning models, ranging from supervised
+            <strong>We breathe AI.</strong> Anchor Informatics has been
+            developing custom machine learning models, from supervised
             algorithms to deep neural networks, long before they became
             mainstream. We specialize in gathering and preparing training data,
             and creating AI-driven anomaly detection solutions that are
             accurate, transparent, and ethically sound.
           </p>
           <p className="pt-4" data-aos="fade-up">
-            <strong>We strive for your success.{""}</strong> With a customer
+            <strong>We strive for your success.</strong> With a customer
             satisfaction index of 83%, our results speak for themselves. Our
             anomaly detection service team is dedicated to ensuring that your
             connected palette changer or Holter monitor consistently detects
-            abnormalities and alerts staff before incidents happen.
+            abnormalities and alerts staff before incidents occur.
           </p>
         </div>
       </div>

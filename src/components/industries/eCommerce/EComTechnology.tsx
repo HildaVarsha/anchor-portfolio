@@ -4,7 +4,7 @@ import { useState } from "react";
 const industryContent: any = {
   Consulting: {
     description:
-      "Provide expert guidance and strategic advice to optimize business operations and technology implementation. We develop solutions for:",
+      "We provide expert guidance and strategic advice to optimize business operations and technology implementation. Our solutions include:",
     points: [
       "Business process analysis",
       "Technology roadmap development",
@@ -16,7 +16,7 @@ const industryContent: any = {
   },
   Design: {
     description:
-      "Craft user-centered designs that enhance usability and deliver exceptional experiences. We develop solutions for:",
+      "We craft user-centered designs that enhance usability and deliver exceptional experiences. Our solutions include:",
     points: [
       "User interface design",
       "User experience optimization",
@@ -28,7 +28,7 @@ const industryContent: any = {
   },
   Development: {
     description:
-      "Build robust and scalable applications tailored to meet your business needs. We develop solutions for:",
+      "We build robust and scalable applications tailored to meet your business needs. Our solutions include:",
     points: [
       "Custom software development",
       "Mobile application development",
@@ -40,7 +40,7 @@ const industryContent: any = {
   },
   Testing: {
     description:
-      "Ensure the reliability and performance of your applications through rigorous testing processes. We develop solutions for:",
+      "We ensure the reliability and performance of your applications through rigorous testing processes. Our solutions include:",
     points: [
       "Functional testing",
       "Performance testing",
@@ -52,7 +52,7 @@ const industryContent: any = {
   },
   "Maintenance and Support": {
     description:
-      "Provide ongoing support and maintenance to ensure the smooth operation of your systems. We develop solutions for:",
+      "We provide ongoing support and maintenance to ensure the smooth operation of your systems. Our solutions include:",
     points: [
       "System monitoring",
       "Bug fixes and updates",

@@ -13,10 +13,11 @@ const NlpBanner = () => {
           className="w-full md:max-w-2xl"
         />
         <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
-          Collaborate with Anchor&apos;s Informative for advanced NLP services
-          to automate your business and capitalize on the opportunities that
-          recent NLP breakthroughs are creating.
+          Partner with Anchor&apos;s Informative for cutting-edge NLP services
+          to automate your business and take advantage of the opportunities
+          created by recent advancements in NLP.
         </p>
+
         <Button className="w-fit z-10" data-aos="fade-up">
           Get In Touch
           <ArrowRight />

@@ -10,22 +10,21 @@ const HowWeDoCollaboration = () => {
       <div className="px-4 md:container mx-auto">
         <PageHeaderText label="Our Collaboration Models" />
         <p data-aos="fade-up">
-          When choosing the ideal engagement model for our clients, we consider
-          numerous factors, including their core business objectives, project
-          scope, and the desired level of flexibility and control. Our goal is
-          to deliver a solution that perfectly balances cost efficiency,
-          performance, and adaptability.
+          When selecting the ideal engagement model for our clients, we
+          carefully evaluate various factors, including core business goals,
+          project scope, and the desired level of flexibility and control. Our
+          objective is to deliver a solution that strikes the perfect balance
+          between cost-effectiveness, performance, and adaptability.
         </p>
         <div className="py-6">
           <div className="flex justify-between border-b border-slate-300 pb-4">
             <p className="font-semibold text-lg w-full">Time & Materials</p>
             <div className="w-full">
               <p data-aos="fade-up">
-                Under the Time & Materials model, we can develop your software
-                product either sequentially, stage by stage, or incrementally,
-                maintaining constant communication with you. You only pay for
-                the actual work completed, based on daily or hourly rates per
-                specialist.
+                The Time & Materials model allows us to develop your software
+                product either sequentially or incrementally, ensuring constant
+                communication with you. You only pay for the actual work done,
+                based on daily or hourly rates per specialist.
               </p>
               <Button
                 variant={"link"}
@@ -41,10 +40,9 @@ const HowWeDoCollaboration = () => {
             <p className="font-semibold text-lg w-full">Fixed Price</p>
             <div className="w-full">
               <p data-aos="fade-up">
-                With this model, we develop your software product for a fixed
-                price agreed upon upfront for the entire project. This typically
-                requires detailed planning and estimation of the project scope
-                before development begins.
+                With the Fixed Price model, we agree on a fixed price for the
+                entire project before development starts. This approach requires
+                detailed planning and project scope estimation upfront.
               </p>
               <Button
                 variant={"link"}
@@ -62,12 +60,12 @@ const HowWeDoCollaboration = () => {
             </p>
             <div className="w-full">
               <p data-aos="fade-up">
-                Alternatively, you can hire our highly skilled engineers to
-                address specific in-house skill gaps or opt for a fully
-                dedicated, self-managed team. Our professionals integrate
-                seamlessly into your environment, bringing fresh perspectives
-                and ideas, while delivering exceptional results with
-                in-house-like commitment.
+                The Dedicated Team model allows you to hire our skilled
+                engineers to fill specific in-house skill gaps, or to create a
+                fully dedicated, self-managed team. Our professionals integrate
+                seamlessly into your environment, offering fresh perspectives
+                and ideas, while delivering exceptional results with the same
+                level of commitment as an in-house team.
               </p>
               <Button
                 variant={"link"}

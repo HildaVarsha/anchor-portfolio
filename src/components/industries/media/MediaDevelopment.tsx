@@ -4,24 +4,25 @@ const services = [
   {
     title: "Discovery",
     description:
-      "Diving deep into your business challenges, we define business requirements for your future entertainment and media software solution and draft a high-level project management plan.",
+      "We dive deep into your business challenges to define the key requirements for your future entertainment and media software solution, and develop a high-level project management plan.",
   },
   {
     title: "Design",
     description:
-      "We design the architecture of your solution for the media or entertainment industry, followed by crafting an intuitive and engaging look and feel.",
+      "We design the architecture of your solution for the media and entertainment sector, followed by creating an intuitive and engaging user interface.",
   },
   {
     title: "Development and testing",
     description:
-      "Relying on Agile and DevOps best practices, we engineer your media software solution and run thorough testing.",
+      "Using Agile and DevOps best practices, we build your media software solution and conduct comprehensive testing to ensure quality and performance.",
   },
   {
     title: "Maintenance and support",
     description:
-      "We keep an eye on the solution's performance and implement changes to respond to the evolving needs of your users.",
+      "We monitor your solution's performance and make necessary adjustments to meet the evolving needs of your users, ensuring continuous improvement.",
   },
 ];
+
 const MediaDevelopment = () => {
   return (
     <div className="bg-white pb-16">
@@ -46,12 +47,12 @@ const MediaDevelopment = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Partnering with ITRex, you collaborate with a team of experienced
-          media & entertainment software developers who can guide your project
-          from ideation to realization. We put field-tested workflows and
-          transparent reporting in place to take the burden of managing the
-          development process off your shoulders. As soon as we get your
-          request, our collaboration unfolds in the following way:
+          By partnering with ITRex, you work alongside a team of experienced
+          media and entertainment software developers who will guide your
+          project from concept to completion. We implement proven workflows and
+          transparent reporting to relieve you of the complexities of managing
+          the development process. Once we receive your request, our
+          collaboration will proceed as follows:
         </p>
       </div>
       <div className="py-12 bg-white">

@@ -27,13 +27,12 @@ const CustomComputerSolutions = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Whether you&apos;re looking to upgrade your existing computer vision
-          solution or build one from the ground up, our team has the expertise
-          to help you overcome any challenges.
-          <span className="text-blue-600">{""} go with deep learning</span> {""}{" "}
-          or traditional techniques. Tell us your challenge.Our computer vision
-          consultants will figure out what approach you should take to build
-          exactly what you need.
+          Whether you're looking to upgrade an existing computer vision solution
+          or build one from the ground up, our team has the expertise to help
+          you overcome any challenges.
+          <span className="text-blue-600">Go with deep learning</span> or
+          traditional techniques—our computer vision consultants will help you
+          choose the best approach to meet your needs.
         </p>
       </div>
     </div>

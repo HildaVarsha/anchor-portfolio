@@ -9,8 +9,7 @@ const HowWeDoMethodologies = () => {
       <div className="px-4 md:px-0 md:container mx-auto py-16 ">
         <div className="flex items-center justify-between">
           <PageHeaderText
-            label="Software development
-methodologies"
+            label="Software development methodologies"
             className="w-full"
           />
           <p className="w-full" data-aos="fade-up">
@@ -32,60 +31,58 @@ methodologies"
             <TabsContent value="agile">
               <div className="py-8 flex flex-col md:flex-row justify-between gap-4 md:gap-12">
                 <div className="w-full" data-aos="fade-up">
-                  The Agile approach focuses on an evolving project scope and
-                  iterative development, where the team delivers a work
-                  product—such as a new feature or significant improvement—at
-                  the end of each iteration. This method enables rapid
-                  initiation and allows for decision-making based on real-time
-                  feedback.
+                  The Agile approach emphasizes flexibility and iterative
+                  development, with teams delivering a work product—such as a
+                  new feature or key improvement—at the end of each iteration.
+                  This method enables quick initiation and decision-making based
+                  on real-time feedback.
                 </div>
                 <div className="w-full">
                   <p className="font-semibold" data-aos="fade-up">
-                    Agile is your go-to methodology when:
+                    Agile is the ideal methodology when:
                   </p>
                   <li className="py-4" data-aos="fade-up">
-                    Your vision for the end product is likely to evolve
-                    throughout the development process.
+                    Your vision for the final product is expected to evolve
+                    throughout development.
                   </li>
                   <li data-aos="fade-up">
-                    It’s difficult to detail all the requirements at the project
-                    onset, for instance, because of its complexity
+                    Detailing all requirements at the project's start is
+                    difficult, particularly due to its complexity.
                   </li>
                   <li className="pt-4" data-aos="fade-up">
-                    It can be challenging to outline all the requirements at the
-                    start of the project, especially due to its complexity.
+                    It's challenging to define all project requirements upfront
+                    because of its complexity.
                   </li>
                 </div>
               </div>
             </TabsContent>
+
             <TabsContent value="water-fall">
               <div className="py-8 flex flex-col md:flex-row justify-between gap-4 md:gap-12">
                 <div className="w-full" data-aos="fade-up">
-                  The Waterfall approach follows a linear and sequential design
-                  process, where each phase must be completed before the next
-                  phase begins. This method is highly structured and works best
-                  when project requirements are clearly defined and unlikely to
-                  change.
+                  The Waterfall approach follows a structured, linear process,
+                  where each phase is completed before moving to the next. This
+                  methodology is most effective when project requirements are
+                  clearly defined and unlikely to change.
                 </div>
                 <div className="w-full">
                   <p className="font-semibold" data-aos="fade-up">
-                    Waterfall is your go-to methodology when:
+                    Waterfall is the ideal methodology when:
                   </p>
                   <li className="py-4" data-aos="fade-up">
-                    The project scope, requirements, and deliverables are
-                    well-defined and unlikely to change.
+                    The project’s scope, requirements, and deliverables are
+                    well-defined and stable.
                   </li>
                   <li data-aos="fade-up">
-                    There is a clear understanding of the project&apos;s goals,
-                    and the sequence of tasks can be laid out in advance.
+                    There is a clear understanding of the project’s goals, and
+                    the tasks can be planned sequentially.
                   </li>
                   <li className="pt-4" data-aos="fade-up">
-                    The project involves critical, high-stakes deliverables
-                    where thorough documentation and formal processes are
-                    necessary.
+                    The project involves high-priority deliverables that require
+                    detailed documentation and formal processes.
                   </li>
                   <li className="pt-4" data-aos="fade-up">
-                    Stakeholders require a predictable timeline with specific
+                    Stakeholders need a predictable timeline with specific
                     milestones.
                   </li>
                 </div>

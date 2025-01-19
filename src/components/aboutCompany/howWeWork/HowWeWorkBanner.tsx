@@ -17,14 +17,14 @@ const HowWeWorkBanner = () => {
         </p>
         <div className="flex flex-col md:flex-row items-center gap-4 md:gap-12 md:w-[700px] ">
           <p data-aos="fade-up">
-            Partner with Anchor Informatics at any stage of your project,
-            selecting the engagement model that best aligns with your project
-            scope and business objectives.
+            Collaborate with Anchor Informatics at any stage of your project,
+            choosing the engagement model that aligns best with your project
+            scope and business goals.
           </p>
           <p data-aos="fade-up">
-            We can develop your product using the Time & Materials, Fixed Price,
-            or Dedicated Team models, applying either agile or waterfall
-            methodologies based on your project requirements.
+            We can develop your product using Time & Materials, Fixed Price, or
+            Dedicated Team models, and apply agile or waterfall methodologies
+            depending on your project needs.
           </p>
 
           <ConsultationButton />

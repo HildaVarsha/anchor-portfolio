@@ -7,34 +7,35 @@ const services = [
   {
     title: "Finance",
     description:
-      "We assist banks, financial services firms, and insurance companies in monitoring client-manager interactions, enhancing and securing payment transactions, and personalizing the customer experience with face recognition software development. Contact us to discuss your project!",
+      "We support banks, financial institutions, and insurance companies by monitoring client-manager interactions, securing payment transactions, and personalizing customer experiences through custom face recognition software development. Contact us to discuss your project!",
   },
   {
     title: "Retail",
     description:
-      "We collaborate with both online and offline retailers on a variety of facial recognition software development projects. Partner with Anchor’s  to incorporate facial recognition into CCTV systems, enable cashless and cardless payments, gain valuable insights through behavioral analytics, and enhance customer service.",
+      "We work with both online and offline retailers on various facial recognition software development projects. Partner with Anchor to integrate facial recognition into CCTV systems, enable cashless and cardless payments, gain insights from behavioral analytics, and enhance customer service.",
   },
   {
     title: "Education",
     description:
-      "We offer tailored facial recognition software development services to educational institutions and EdTech startups. Our expertise assists clients in preventing unauthorized access to school premises, monitoring student engagement, personalizing learning paths, preventing exam cheating, and automating administrative tasks such as roll calls.",
+      "We provide tailored facial recognition software development services for educational institutions and EdTech startups. Our expertise helps prevent unauthorized access to school premises, monitor student engagement, personalize learning paths, prevent exam cheating, and automate administrative tasks like roll calls.",
   },
   {
     title: "Healthcare",
     description:
-      "Through recognition software development, Anchor's Informativs helps clients minimize medical errors, accelerate patient registration and admissions, prevent safety incidents, and improve the evaluation of patients' conditions.",
+      "Through face recognition software development, Anchor's Informativs helps healthcare clients reduce medical errors, speed up patient registration and admissions, prevent safety incidents, and improve patient condition assessments.",
   },
   {
     title: "Manufacturing",
     description:
-      "We assist manufacturing and supply chain management companies in restricting access to production sites, automating workforce attendance and time tracking, and ensuring consistent PPE usage. Reach out to our custom face recognition development company for more details.",
+      "We help manufacturing and supply chain management companies restrict access to production areas, automate workforce attendance and time tracking, and ensure proper PPE usage. Reach out to our custom face recognition development company for more details.",
   },
   {
-    title: "Media and entertainment",
+    title: "Media and Entertainment",
     description:
-      "We collaborate with video production, broadcasting, and family entertainment companies to revolutionize their products through face recognition software development services. This includes personalizing marketing campaigns, improving safety in public spaces, and training digital avatars to replicate facial expressions.",
+      "We collaborate with video production, broadcasting, and family entertainment companies to enhance their products using face recognition software. Our services include personalizing marketing campaigns, improving public space safety, and training digital avatars to replicate facial expressions.",
   },
 ];
+
 const FacialRecognitionSoutions = () => {
   return (
     <div className="bg-white pb-16">
@@ -63,9 +64,9 @@ const FacialRecognitionSoutions = () => {
           data-aos="fade-up"
         >
           Our facial recognition software development services stand out due to
-          end-to-end application integration and adherence to industry-specific
-          requirements. We have successfully delivered face recognition
-          development projects for clients across the following sectors:
+          seamless end-to-end application integration and strict adherence to
+          industry-specific requirements. We have successfully delivered face
+          recognition projects for clients across the following sectors:
         </p>
       </div>
       <div className="py-12 bg-white">

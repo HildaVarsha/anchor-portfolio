@@ -10,12 +10,14 @@ const WhoShouldApply = () => {
           <PageHeaderText label="Who should apply" />
           <p className="font-semibold py-6">Look, this isn’t for everyone.</p>
           <p className="" data-aos="fade-up">
-            If you&apos;re only interested in a salary and don&apos;t care much
-            about the quality of your projects, you’ll probably dislike it here.{" "}
+            If you’re solely focused on the salary and don’t prioritize the
+            quality of the projects you work on, this may not be the right place
+            for you.
           </p>
           <p className="pt-6" data-aos="fade-up">
-            If you rely on policies and processes to avoid owning ideas or
-            decisions, you&apos;ll probably find it frustrating here as well.
+            If you prefer relying on policies and processes to avoid taking
+            ownership of ideas or decisions, you may find it challenging here
+            too.
           </p>
         </div>
         <Image
