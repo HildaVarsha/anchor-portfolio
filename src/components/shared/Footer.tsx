@@ -45,33 +45,60 @@ const Footer = () => {
         className="text-center text-xl md:text-5xl  md:max-w-5xl mx-auto"
         label="A software development company specializing in scalable AI and data solutions that drive lasting impact."
       />
-
-      <div className="flex items-center gap-4">
-        <Image src={"/footer-phone.png"} alt="Phone" width={40} height={40} />
-        <div className="flex flex-col gap-2">
-          {phoneNumbers.map(({ label, href }) => (
-            <Link
-              key={href}
-              href={href}
-              className="text-xs md:text-sm text-white"
-            >
-              {label}
-            </Link>
-          ))}
+      <div className="flex flex-col md:flex-row gap-4 md:gap-16 py-4">
+        <div className="flex items-center gap-4">
+          <Image src={"/footer-phone.png"} alt="Phone" width={40} height={40} />
+          <div className="flex flex-col gap-2">
+            {phoneNumbers.map(({ label, href }) => (
+              <Link
+                key={href}
+                href={href}
+                className="text-xs md:text-sm text-white"
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
+        </div>
+        <div className="flex items-center gap-4 mt-8 md:mt-0">
+          <Image src={"/footer-email.png"} alt="Phone" width={40} height={40} />
+          <div className="flex flex-col gap-2">
+            {emails?.map(({ label, href }) => (
+              <Link
+                key={href}
+                href={href}
+                className="text-xs md:text-sm text-white"
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
-      <div className="flex items-center gap-4 mt-8">
-        <Image src={"/footer-email.png"} alt="Phone" width={40} height={40} />
-        <div className="flex flex-col gap-2">
-          {emails?.map(({ label, href }) => (
-            <Link
-              key={href}
-              href={href}
-              className="text-xs md:text-sm text-white"
-            >
-              {label}
-            </Link>
-          ))}
+
+      <div className="pt-6">
+        <p className="font-semibold text-2xl"> Our Locations</p>
+        <div className="pt-4 flex flex-col md:flex-row justify-between gap-4 md:gap-8">
+          <div className="w-full">
+            <p className="font-semibold">London</p>
+            <p className="pt-2 text-slate-400 text-sm">
+              292-294 Plashet Grove,London,England,E6 1DQ
+            </p>
+          </div>
+          <div className="w-full">
+            <p className="font-semibold">Dubai</p>
+            <p className="pt-2 text-slate-400 text-sm">
+              AI Saaha Offices C Old Town,Downtown Dubai Level 2 Office no.W202
+              PO BOX 282615,Dubai.
+            </p>
+          </div>
+          <div className="w-full">
+            <p className="font-semibold">India</p>
+            <p className="pt-2 text-slate-400 text-sm">
+              2-48/5/6,Hyshnavi's Cynosure,Gachibowli Road,Hyderabad,Telangana
+              500032,India.
+            </p>
+          </div>
         </div>
       </div>
       <div className="flex justify-between w-full mt-8">
