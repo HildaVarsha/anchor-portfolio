@@ -30,8 +30,7 @@ const HomeBanner = () => {
         className="absolute inset-0 w-screen h-screen object-cover"
       >
         <source
-          // src="https://videos.pexels.com/video-files/2611250/2611250-uhd_2560_1440_30fps.mp4"
-          src="https://videos.pexels.com/video-files/3125448/3125448-uhd_2560_1440_25fps.mp4"
+          src="https://videos.pexels.com/video-files/4146815/4146815-hd_1920_1080_25fps.mp4"
           type="video/mp4"
         />
       </video>

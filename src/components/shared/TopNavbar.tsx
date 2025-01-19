@@ -168,7 +168,7 @@ const TopNavbar = () => {
 
   const NavigationLinks = () => {
     return (
-      <ul className="flex flex-col md:flex-row md:items-center gap-6 mt-6 md:mt-0">
+      <ul className="flex flex-col md:flex-row md:items-center gap-4 mt-6 md:mt-0">
         <Link
           href="/"
           className={`${
