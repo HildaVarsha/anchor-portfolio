@@ -53,7 +53,7 @@ const Footer = () => {
               <Link
                 key={href}
                 href={href}
-                className="text-xs md:text-sm text-white"
+                className="text-xs md:text-sm text-white cursor-pointer"
               >
                 {label}
               </Link>
@@ -67,7 +67,7 @@ const Footer = () => {
               <Link
                 key={href}
                 href={href}
-                className="text-xs md:text-sm text-white"
+                className="text-xs md:text-sm text-white cursor-pointer"
               >
                 {label}
               </Link>
@@ -81,41 +81,55 @@ const Footer = () => {
         <div className="pt-4 flex flex-col md:flex-row justify-between gap-4 md:gap-8">
           <div className="w-full">
             <p className="font-semibold">London</p>
-            <p className="pt-2 text-slate-400 text-sm">
+            <p className="pt-2 text-slate-400 text-xs">
               292-294 Plashet Grove,London,England,E6 1DQ
             </p>
           </div>
           <div className="w-full">
             <p className="font-semibold">Dubai</p>
-            <p className="pt-2 text-slate-400 text-sm">
+            <p className="pt-2 text-slate-400 text-xs">
               AI Saaha Offices C Old Town,Downtown Dubai Level 2 Office no.W202
               PO BOX 282615,Dubai.
             </p>
           </div>
           <div className="w-full">
             <p className="font-semibold">India</p>
-            <p className="pt-2 text-slate-400 text-sm">
+            <p className="pt-2 text-slate-400 text-xs">
               2-48/5/6,Hyshnavi's Cynosure,Gachibowli Road,Hyderabad,Telangana
               500032,India.
             </p>
           </div>
         </div>
       </div>
-      <div className="flex justify-between w-full mt-8">
+      <div className="flex flex-col md:flex-row justify-between w-full mt-8">
         <div>
-          <Link href={"/"} className="text-sm text-gray-500">
-            Privacy Policy
-          </Link>
-          <p className="text-sm text-gray-500 pt-1">©2026 Anchor Infromatics</p>
+          <div className="flex items-center gap-4">
+            <Link
+              href={"/privacy"}
+              className="text-sm text-gray-500 cursor-pointer"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              href={"/terms"}
+              className="text-sm text-gray-500 cursor-pointer"
+            >
+              Terms and Conditions
+            </Link>
+          </div>
+
+          <p className="text-sm text-gray-500 pt-1">
+            © 2026 Anchor Informatics. All rights reserved
+          </p>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 mt-8 md:mt-0">
           <Link href={"/"}>
             <FacebookIcon className="w-6 h-6" />
           </Link>
           <Link href={"/"}>
             <Instagram className="w-6 h-6" />
           </Link>
-          <Link href={"/"}>
+          <Link href={"https://www.linkedin.com/company/anchorinformatics/"}>
             <LinkedinIcon className="w-6 h-6" />
           </Link>
           <Link href={"/"}>
