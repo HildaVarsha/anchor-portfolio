@@ -23,8 +23,8 @@ const Footer = () => {
       href: "mailto:rafi@anchorinformatics.co.uk",
     },
     {
-      label: "contact@anchorinformatics.co.uk",
-      href: "mailto:contact@anchorinformatics.co.uk",
+      label: "info@anchorinformatics.co.uk",
+      href: "mailto:info@anchorinformatics.co.uk",
     },
   ];
   useEffect(() => {
