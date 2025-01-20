@@ -217,10 +217,10 @@ const TermsConditions: React.FC = () => {
           <p data-aos="fade-up" className="text-lg">
             For questions or concerns regarding these terms, contact us at
             <a
-              href="mailto:contact@anchorinformatics.co.uk"
+              href="mailto:info@anchorinformatics.co.uk"
               className="text-amber-400 hover:underline pl-2"
             >
-              contact@anchorinformatics.co.uk
+              info@anchorinformatics.co.uk
             </a>
             .
           </p>

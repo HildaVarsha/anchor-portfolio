@@ -269,10 +269,10 @@ const PrivacyContent: React.FC = () => {
             For questions or concerns regarding this Privacy Policy, contact us
             at{" "}
             <a
-              href="mailto:privacy@anchorinformatics.co.uk"
+              href="mailto:info@anchorinformatics.co.uk"
               className="text-amber-400 hover:underline"
             >
-              privacy@anchorinformatics.co.uk
+              info@anchorinformatics.co.uk
             </a>
             .
           </p>

@@ -8,3 +8,4 @@ export * from "./checkbox";
 export * from "./form";
 export * from "./sheet";
 export * from "./tabs";
+export * from "./toast";
