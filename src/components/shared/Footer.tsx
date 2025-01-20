@@ -95,7 +95,7 @@ const Footer = () => {
           <div className="w-full">
             <p className="font-semibold">India</p>
             <p className="pt-2 text-slate-400 text-xs">
-              2-48/5/6,Hyshnavi's Cynosure,Gachibowli Road,Hyderabad,Telangana
+              2-48/5/6,Vyshnavi's Cynosure,Gachibowli Road,Hyderabad,Telangana
               500032,India.
             </p>
           </div>

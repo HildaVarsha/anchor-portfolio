@@ -39,7 +39,13 @@ const ExpertiseItem = ({
     data-aos="zoom-out"
     className="flex flex-col md:flex-row items-center gap-4 md:gap-8"
   >
-    <Image src={src} alt={title} width={220} height={188} />
+    <Image
+      src={src}
+      alt={title}
+      width={220}
+      height={188}
+      className="md:w-44 md:h-44"
+    />
     <div>
       <p
         data-aos="fade-up"

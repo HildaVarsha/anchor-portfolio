@@ -61,7 +61,6 @@ const ContactUs = () => {
       });
       form.reset();
     } else {
-      // alert("");
       toast({
         variant: "destructive",
         title: "Uh oh! Something went wrong.",
@@ -92,7 +91,7 @@ const ContactUs = () => {
                 control={form.control}
                 name="name"
                 render={({ field }) => (
-                  <FormItem>
+                  <FormItem className="w-full">
                     <FormLabel>Name*</FormLabel>
                     <FormControl>
                       <Input placeholder="Your Name" {...field} />
@@ -105,7 +104,7 @@ const ContactUs = () => {
                 control={form.control}
                 name="phone"
                 render={({ field }) => (
-                  <FormItem>
+                  <FormItem className="w-full">
                     <FormLabel>Phone*</FormLabel>
                     <FormControl>
                       <Input placeholder="Your Phone" {...field} />
@@ -122,7 +121,7 @@ const ContactUs = () => {
                 control={form.control}
                 name="email"
                 render={({ field }) => (
-                  <FormItem>
+                  <FormItem className="w-full">
                     <FormLabel>Email*</FormLabel>
                     <FormControl>
                       <Input placeholder="Your Email" {...field} />
@@ -135,7 +134,7 @@ const ContactUs = () => {
                 control={form.control}
                 name="projectInfo"
                 render={({ field }) => (
-                  <FormItem>
+                  <FormItem className="w-full">
                     <FormLabel>Your Message*</FormLabel>
                     <FormControl>
                       <Input placeholder="Project Info" {...field} />
@@ -146,12 +145,10 @@ const ContactUs = () => {
               />
             </div>
 
-            {/* Checkbox and File Upload */}
-
             {/* Submit Button */}
             <Button
               type="submit"
-              className="bg-zinc-700 w-full"
+              className="bg-zinc-700 w-full cursor-pointer"
               disabled={loading}
             >
               {loading && <Loader2 className="animate-spin" />}
