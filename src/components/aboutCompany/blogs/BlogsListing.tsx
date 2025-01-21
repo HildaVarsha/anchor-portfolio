@@ -1,6 +1,8 @@
 "use client";
-import React, { useState } from "react";
-import Link from "next/link";
+"use client";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
 
 const categories = ["All", "Strategy", "Trending", "Development"];
@@ -117,6 +119,17 @@ const blogs = Array.from({ length: 50 }, (_, i) => ({
 const BlogsListing = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
+  useEffect(() => {
+    // Initialize AOS when the component mounts
+    AOS.init({
+      duration: 1500, // Set default animation duration
+      easing: "ease-in-out", // Set easing function
+      once: false, // Ensures animation happens only once
+    });
+  }, []);
+  useEffect(() => {
+    AOS.refresh(); // Refresh AOS animations
+  }, []);
   // Filter blogs based on the selected category
   const filteredBlogs =
     selectedCategory === "All"
@@ -143,16 +156,18 @@ const BlogsListing = () => {
         </div>
 
         {/* Blogs Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 pt-8">
+        <div
+          className="grid grid-cols-1 md:grid-cols-2 gap-16 pt-8"
+          data-aos="fade-up"
+        >
           {filteredBlogs.map((item, index) => (
-            <div key={index}>
+            <div key={index} data-aos="fade-up">
               <Image
                 src={item.image}
                 alt={item.title}
                 width={300}
                 height={300}
                 className="w-full rounded-md"
-                data-aos="flip-left"
               />
               <p className="py-4 font-semibold" data-aos="fade-up">
                 {item.title}
