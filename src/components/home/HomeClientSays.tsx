@@ -17,7 +17,7 @@ const HomeClientSays = () => {
     <div className="px-8 md:px-0 md:container mx-auto py-12" data-aos="fade-up">
       <Carousel className="w-full">
         <div
-          data-aos="fade-up-left"
+          data-aos="fade-up"
           className="flex items-center justify-between gap-4"
         >
           <PageHeaderText label={"What clients say about us"} />
@@ -28,21 +28,23 @@ const HomeClientSays = () => {
               <div className="p-4 flex  flex-col md:flex-row items-center justify-between gap-12">
                 <div
                   data-aos="fade-up"
-                  data-aos-delay="400"
                   className="flex items-center gap-6 w-full"
                 >
                   <Avatar>
                     <AvatarImage src="https://github.com/shadcn.png" />
-                    <AvatarFallback>{item.avatar}</AvatarFallback>
+                    <AvatarFallback data-aos="fade-up">
+                      {item.avatar}
+                    </AvatarFallback>
                   </Avatar>
                   <div>
-                    <p className="text-sm">{item.name}</p>
-                    <p>{item.company}</p>
+                    <p className="text-sm" data-aos="fade-up">
+                      {item.name}
+                    </p>
+                    <p data-aos="fade-up">{item.company}</p>
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up-right"
-                  data-aos-delay="600"
+                  data-aos="fade-up"
                   className="text-lg font-semibold w-full"
                 >
                   {item.text}
@@ -51,8 +53,8 @@ const HomeClientSays = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className=" -left-1 md:-left-12" />
-        <CarouselNext className="right-1 md:-right-12" />
+        <CarouselPrevious data-aos="fade-up" className=" -left-1 md:-left-12" />
+        <CarouselNext data-aos="fade-up" className="right-1 md:-right-12" />
       </Carousel>
     </div>
   );

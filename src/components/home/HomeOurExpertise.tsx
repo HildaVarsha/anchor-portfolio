@@ -35,8 +35,7 @@ const ExpertiseItem = ({
   description: string;
 }) => (
   <div
-    data-aos-delay={(index + 1) * 200}
-    data-aos="zoom-out"
+    data-aos="fade-up"
     className="flex flex-col md:flex-row items-center gap-4 md:gap-8"
   >
     <Image
@@ -47,18 +46,10 @@ const ExpertiseItem = ({
       className="md:w-44 md:h-44"
     />
     <div>
-      <p
-        data-aos="fade-up"
-        data-aos-delay="400"
-        className="font-semibold text-center md:text-start"
-      >
+      <p data-aos="fade-up" className="font-semibold text-center md:text-start">
         {title}
       </p>
-      <p
-        data-aos="fade-up"
-        data-aos-delay="600"
-        className="pt-3 text-center md:text-start"
-      >
+      <p data-aos="fade-up" className="pt-3 text-center md:text-start">
         {description}
       </p>
     </div>

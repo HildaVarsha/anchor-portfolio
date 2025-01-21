@@ -82,11 +82,16 @@ const ContactUs = () => {
       className="py-12"
     >
       <div className="px-4 md:px-0 md:container mx-auto">
-        <h1 className="text-4xl font-bold text-white mb-8">Contact Us</h1>
+        <h1 className="text-4xl font-bold text-white mb-8" data-aos="fade-up">
+          Contact Us
+        </h1>
         <FormProvider {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
             {/* Name and Phone */}
-            <div className="flex flex-col md:flex-row gap-4 md:gap-16">
+            <div
+              className="flex flex-col md:flex-row gap-4 md:gap-16"
+              data-aos="fade-up"
+            >
               <FormField
                 control={form.control}
                 name="name"
@@ -116,7 +121,10 @@ const ContactUs = () => {
             </div>
 
             {/* Email and Project Info */}
-            <div className="flex flex-col md:flex-row gap-4 md:gap-16">
+            <div
+              className="flex flex-col md:flex-row gap-4 md:gap-16"
+              data-aos="fade-up"
+            >
               <FormField
                 control={form.control}
                 name="email"
@@ -148,6 +156,7 @@ const ContactUs = () => {
             {/* Submit Button */}
             <Button
               type="submit"
+              data-aos="fade-up"
               className="bg-zinc-700 w-full cursor-pointer"
               disabled={loading}
             >

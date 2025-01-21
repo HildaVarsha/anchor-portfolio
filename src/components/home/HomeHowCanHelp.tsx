@@ -79,18 +79,21 @@ const HomeHowCanHelp = () => {
                 alt={service.title}
                 width={50}
                 height={38}
-                data-aos="fade-left"
+                data-aos="fade-up"
                 className=""
               />
             </div>
-            <div data-aos="fade-right" className="w-full flex gap-8">
+            <div data-aos="fade-up" className="w-full flex gap-8">
               <p>{service.id < 10 ? `0${service.id}.` : `${service.id}.`}</p>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value={`item-${service.id}`}>
-                  <AccordionTrigger className="text-lg font-semibold w-full">
+                  <AccordionTrigger
+                    className="text-lg font-semibold w-full"
+                    data-aos="fade-up"
+                  >
                     {service.title}
                   </AccordionTrigger>
-                  <AccordionContent className="pt-6">
+                  <AccordionContent className="pt-6" data-aos="fade-up">
                     {service.description}
                   </AccordionContent>
                 </AccordionItem>
@@ -98,7 +101,7 @@ const HomeHowCanHelp = () => {
             </div>
           </div>
         ))}
-        <div data-aos="flip-down" data-aos-delay="400" className="mt-8">
+        <div data-aos="fade-up" className="mt-8">
           <Link href={"/contact-us"}>
             <Button>
               Discuss my project

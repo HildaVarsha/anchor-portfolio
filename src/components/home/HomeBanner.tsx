@@ -1,30 +1,18 @@
 "use client";
 import { Button } from "@/components/ui";
 import Link from "next/link";
-import { useEffect } from "react";
-import AOS from "aos";
+
 import "aos/dist/aos.css";
 import { MoveRight } from "lucide-react";
 
 const HomeBanner = () => {
-  useEffect(() => {
-    // Initialize AOS when the component mounts
-    AOS.init({
-      duration: 300, // Set default animation duration
-      easing: "ease-in-out", // Set easing function
-      once: false, // Ensures animation happens only once
-    });
-  }, []);
-  useEffect(() => {
-    AOS.refresh(); // Refresh AOS animations
-  }, []);
   return (
     <div className="relative flex flex-col justify-center h-screen overflow-hidden">
       {/* Fullscreen Video */}
       <video
         autoPlay
         loop
-        data-aos="zoom-in"
+        data-aos="fade-up"
         muted
         playsInline
         className="absolute inset-0 w-screen h-screen object-cover"
@@ -38,23 +26,19 @@ const HomeBanner = () => {
       {/* Content */}
       <div className="relative md:container mx-auto text-white px-4 md:px-0 z-10 text-center">
         <p
-          data-aos="fade-left"
+          data-aos="fade-up"
           className="text-3xl md:text-5xl font-bold text-amber-400"
         >
           We Drive Digital
         </p>
-        <p
-          data-aos="fade-left"
-          data-aos-delay="500"
-          className="text-3xl md:text-5xl font-bold py-4"
-        >
+        <p data-aos="fade-up" className="text-3xl md:text-5xl font-bold py-4">
           Transformation, Globally.
         </p>
-        <div data-aos="flip-down" data-aos-delay="800">
+        <div data-aos="fade-up">
           <Link href={"/contact-us"} className="mt-4">
             <Button className="w-64">
               Let&apos;s Talk
-              <MoveRight data-aos="fade-right" data-aos-delay="500" />
+              <MoveRight data-aos="fade-up" />
             </Button>
           </Link>
         </div>

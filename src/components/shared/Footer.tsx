@@ -30,7 +30,7 @@ const Footer = () => {
   useEffect(() => {
     // Initialize AOS when the component mounts
     AOS.init({
-      duration: 200, // Set default animation duration
+      duration: 1500, // Set default animation duration
       easing: "ease-in-out", // Set easing function
       once: false, // Ensures animation happens only once
     });
@@ -53,6 +53,7 @@ const Footer = () => {
               <Link
                 key={href}
                 href={href}
+                data-aos="fade-up"
                 className="text-xs md:text-sm text-white cursor-pointer"
               >
                 {label}
@@ -67,6 +68,7 @@ const Footer = () => {
               <Link
                 key={href}
                 href={href}
+                data-aos="fade-up"
                 className="text-xs md:text-sm text-white cursor-pointer"
               >
                 {label}
@@ -77,24 +79,33 @@ const Footer = () => {
       </div>
 
       <div className="pt-6">
-        <p className="font-semibold text-2xl"> Our Locations</p>
+        <p className="font-semibold text-2xl" data-aos="fade-up">
+          {" "}
+          Our Locations
+        </p>
         <div className="pt-4 flex flex-col md:flex-row justify-between gap-4 md:gap-8">
           <div className="w-full">
-            <p className="font-semibold">London</p>
-            <p className="pt-2 text-slate-400 text-xs">
+            <p className="font-semibold" data-aos="fade-up">
+              London
+            </p>
+            <p className="pt-2 text-slate-400 text-xs" data-aos="fade-up">
               292-294 Plashet Grove,London,England,E6 1DQ
             </p>
           </div>
           <div className="w-full">
-            <p className="font-semibold">Dubai</p>
-            <p className="pt-2 text-slate-400 text-xs">
+            <p className="font-semibold" data-aos="fade-up">
+              Dubai
+            </p>
+            <p className="pt-2 text-slate-400 text-xs" data-aos="fade-up">
               AI Saaha Offices C Old Town,Downtown Dubai Level 2 Office no.W202
               PO BOX 282615,Dubai.
             </p>
           </div>
           <div className="w-full">
-            <p className="font-semibold">India</p>
-            <p className="pt-2 text-slate-400 text-xs">
+            <p className="font-semibold" data-aos="fade-up">
+              India
+            </p>
+            <p className="pt-2 text-slate-400 text-xs" data-aos="fade-up">
               2-48/5/6,Vyshnavi's Cynosure,Gachibowli Road,Hyderabad,Telangana
               500032,India.
             </p>

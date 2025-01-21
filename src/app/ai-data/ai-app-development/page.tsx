@@ -15,7 +15,7 @@ const AiApp = () => {
   useEffect(() => {
     // Initialize AOS when the component mounts
     AOS.init({
-      duration: 300, // Set default animation duration
+      duration: 1500, // Set default animation duration
       easing: "ease-in-out", // Set easing function
       once: false, // Ensures animation happens only once
     });
