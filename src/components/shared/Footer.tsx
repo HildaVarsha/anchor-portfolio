@@ -88,26 +88,33 @@ const Footer = () => {
             <p className="font-semibold" data-aos="fade-up">
               London
             </p>
-            <p className="pt-2 text-slate-400 text-xs" data-aos="fade-up">
-              292-294 Plashet Grove,London,England,E6 1DQ
+            <p className="pt-2 text-sm" data-aos="fade-up">
+              {"292-294 Plashet Grove,London,England,E6 1DQ".replace(
+                /,/g,
+                ", "
+              )}
             </p>
           </div>
           <div className="w-full">
             <p className="font-semibold" data-aos="fade-up">
               Dubai
             </p>
-            <p className="pt-2 text-slate-400 text-xs" data-aos="fade-up">
-              AI Saaha Offices C Old Town,Downtown Dubai Level 2 Office no.W202
-              PO BOX 282615,Dubai.
+            <p className="pt-2 text-sm" data-aos="fade-up">
+              {"AI Saaha Offices C Old Town,Downtown Dubai Level 2 Office no.W202 PO BOX 282615,Dubai.".replace(
+                /,/g,
+                ", "
+              )}
             </p>
           </div>
           <div className="w-full">
             <p className="font-semibold" data-aos="fade-up">
               India
             </p>
-            <p className="pt-2 text-slate-400 text-xs" data-aos="fade-up">
-              2-48/5/6,Vyshnavi's Cynosure,Gachibowli Road,Hyderabad,Telangana
-              500032,India.
+            <p className="pt-2  text-sm" data-aos="fade-up">
+              {"2-48/5/6,Vyshnavi's Cynosure,Gachibowli Road,Hyderabad,Telangana 500032,India.".replace(
+                /,/g,
+                ", "
+              )}
             </p>
           </div>
         </div>
