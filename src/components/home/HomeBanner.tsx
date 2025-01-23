@@ -34,7 +34,10 @@ const HomeBanner = () => {
         <p data-aos="fade-up" className="text-3xl md:text-5xl font-bold py-4">
           Transformation, Globally.
         </p>
-        <div className="flex items-center gap-16 mt-12" data-aos="fade-up">
+        <div
+          className="flex flex-col md:flex-row items-center gap-16 mt-12"
+          data-aos="fade-up"
+        >
           <div className="flex items-center gap-2 font-semibold text-3xl w-full">
             We think
             <TypeAnimation
