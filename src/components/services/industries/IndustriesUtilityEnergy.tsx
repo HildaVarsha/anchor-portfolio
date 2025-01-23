@@ -17,8 +17,8 @@ const IndustriesUtilityEnergy = () => {
           data-aos="fade-up"
         >
           Digital transformation is at the heart of the future for energy and
-          utility companies. Anchor Informatics works with electricity, gas, and
-          water providers, helping them harness digital innovation to drive
+          utility companies. Anchor Informatics Ltd works with electricity, gas,
+          and water providers, helping them harness digital innovation to drive
           efficiency and growth. From generation to distribution, we support our
           clients in adopting new technologies to enhance value creation,
           positioning them for long-term success.

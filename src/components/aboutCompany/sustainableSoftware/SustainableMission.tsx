@@ -7,7 +7,7 @@ const SustainableMission = () => {
       <div className="md:container px-4 mx-auto">
         <PageHeaderText label="Mission Statement" />
         <p className="py-6" data-aos="fade-up">
-          Welcome to Anchor Informatics, where innovation and sustainability
+          Welcome to Anchor Informatics Ltd, where innovation and sustainability
           converge.
         </p>
         <p data-aos="fade-up">

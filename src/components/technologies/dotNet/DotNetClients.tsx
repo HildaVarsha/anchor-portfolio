@@ -44,7 +44,7 @@ const DotNetClients = () => {
                     className="text-2xl font-semibold w-full"
                     data-aos="fade-up"
                   >
-                    Anchor Informatics is an outstanding partner. They
+                    Anchor Informatics Ltd is an outstanding partner. They
                     don&apos;t even feel like a contractor, but more like a
                     fully integrated team.”
                   </div>

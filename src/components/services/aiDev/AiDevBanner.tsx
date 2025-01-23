@@ -13,7 +13,7 @@ const AiDevBanner = () => {
           className="w-full md:max-w-2xl"
         />
         <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
-          At Anchor Informatics, our AI development services are crafted to
+          At Anchor Informatics Ltd, our AI development services are crafted to
           support your in-house IT team by filling knowledge gaps, customizing
           off-the-shelf AI products and foundation models to suit your specific
           requirements, or creating custom AI solutions from scratch.
@@ -26,7 +26,7 @@ const AiDevBanner = () => {
       </div>
       <Image
         src="/artificial-dev.png"
-        alt="About Anchor Informatics"
+        alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
         className="absolute md:flex top-24 right-32 animate-rotate"

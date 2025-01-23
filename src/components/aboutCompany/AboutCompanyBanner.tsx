@@ -32,7 +32,7 @@ const AboutCompanyBanner = () => {
 
       <Image
         src={"/about-banner-img.png"}
-        alt="About Anchor Informatics"
+        alt="About Anchor Informatics Ltd"
         height={800}
         width={800}
         className="absolute top-4 md:top-0 right-8"

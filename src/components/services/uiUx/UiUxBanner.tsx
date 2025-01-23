@@ -13,7 +13,7 @@ const UiUxBanner = () => {
           className="w-full md:max-w-2xl"
         />
         <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
-          Anchor informatics offers a full suite of UI/UX design services,
+          Anchor Informatics Ltd offers a full suite of UI/UX design services,
           transforming mobile apps, websites, dashboards, and cyber-physical
           systems into standout solutions that captivate users and drive
           tangible business results.
@@ -25,7 +25,7 @@ const UiUxBanner = () => {
       </div>
       <Image
         src="/ui-ux.png"
-        alt="About Anchor Informatics"
+        alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
         className="absolute hidden  md:flex top-24 right-32  animate-rotate"

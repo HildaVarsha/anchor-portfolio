@@ -25,7 +25,7 @@ const services = [
   {
     title: "Computer Vision",
     description:
-      "As part of our AI PoC development, we train algorithms to effectively interpret visual data. Anchor Informatics creates initial models for image classification, object detection, and video analysis using tools like OpenCV, YOLO, TensorFlow, and Monitor MindAI—our proprietary computer vision service. These PoCs demonstrate how AI can be applied across industries like security, marketing, and more.",
+      "As part of our AI PoC development, we train algorithms to effectively interpret visual data. Anchor Informatics Ltd creates initial models for image classification, object detection, and video analysis using tools like OpenCV, YOLO, TensorFlow, and Monitor MindAI—our proprietary computer vision service. These PoCs demonstrate how AI can be applied across industries like security, marketing, and more.",
   },
   {
     title: "Generative AI",

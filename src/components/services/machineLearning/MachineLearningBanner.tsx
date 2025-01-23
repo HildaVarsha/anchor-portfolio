@@ -14,8 +14,8 @@ const MachineLearningBanner = () => {
         />
         <p className="w-full md:max-w-2xl pt-4 pb-6 z-10" data-aos="fade-up">
           Harness the power of machine learning to drive tangible business value
-          with Anchor Informatics. With over 13 years of industry expertise, we
-          provide specialized machine learning development and consulting
+          with Anchor Informatics Ltd. With over 13 years of industry expertise,
+          we provide specialized machine learning development and consulting
           services.
         </p>
 
@@ -26,7 +26,7 @@ const MachineLearningBanner = () => {
       </div>
       <Image
         src="/machine-learning.png"
-        alt="About Anchor Informatics"
+        alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
         className="absolute  md:flex top-24 right-32 animate-rotate"

@@ -18,7 +18,7 @@ const services = [
   {
     title: "Dashboards",
     description:
-      "A UI/UX Design company with valid data visualization, expertise, Anchor Informatics We create sleek cloud dashboards and interfaces for self-service BI and data analytics tools that stand out from the rest. Our team will integrate custom logic, filters, charts, and collaboration features to help you analyze business data and make more informed decisions.",
+      "A UI/UX Design company with valid data visualization, expertise, Anchor Informatics Ltd We create sleek cloud dashboards and interfaces for self-service BI and data analytics tools that stand out from the rest. Our team will integrate custom logic, filters, charts, and collaboration features to help you analyze business data and make more informed decisions.",
   },
   {
     title: "Immersive tech solutions",
@@ -28,7 +28,7 @@ const services = [
   {
     title: "Embedded interfaces",
     description:
-      "We augment our Iot and AI deveopment  efforts with professional UI/UX services. To that end, we create robust embedded solutions, including Whether it’s human-machine interfaces (HMIs), voice user interfaces (VUIs), or software enabling cross-device interactions, the Anchor Informatics team excels at eliminating friction across all user journey touchpoints. We know how to streamline the user experience for maximum ease and efficiency.",
+      "We augment our Iot and AI deveopment  efforts with professional UI/UX services. To that end, we create robust embedded solutions, including Whether it’s human-machine interfaces (HMIs), voice user interfaces (VUIs), or software enabling cross-device interactions, the Anchor Informatics Ltd team excels at eliminating friction across all user journey touchpoints. We know how to streamline the user experience for maximum ease and efficiency.",
   },
 ];
 const UiUxDesign = () => {

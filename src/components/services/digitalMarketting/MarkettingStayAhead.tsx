@@ -25,10 +25,10 @@ const MarkettingStayAhead = () => {
           data-aos="fade-up"
         >
           Our mission is to elevate businesses like yours to new heights. At
-          Anchor Informatics, we’re not just experts in digital marketing; we’re
-          innovators committed to turning the latest marketing strategies and
-          technologies into real business growth. Let us help you outpace the
-          competition with data-driven, cutting-edge digital marketing
+          Anchor Informatics Ltd, we’re not just experts in digital marketing;
+          we’re innovators committed to turning the latest marketing strategies
+          and technologies into real business growth. Let us help you outpace
+          the competition with data-driven, cutting-edge digital marketing
           solutions.
         </p>
       </div>

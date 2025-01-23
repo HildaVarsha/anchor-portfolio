@@ -1,7 +1,7 @@
 "use client";
 import { Button } from "@/components/ui";
 import Link from "next/link";
-
+import { TypeAnimation } from "react-type-animation";
 import "aos/dist/aos.css";
 import { MoveRight } from "lucide-react";
 
@@ -18,7 +18,7 @@ const HomeBanner = () => {
         className="absolute inset-0 w-screen h-screen object-cover"
       >
         <source
-          src="https://videos.pexels.com/video-files/4146815/4146815-hd_1920_1080_25fps.mp4"
+          src="https://cdn.pixabay.com/video/2017/12/20/13495-248644905_large.mp4"
           type="video/mp4"
         />
       </video>
@@ -34,13 +34,32 @@ const HomeBanner = () => {
         <p data-aos="fade-up" className="text-3xl md:text-5xl font-bold py-4">
           Transformation, Globally.
         </p>
-        <div data-aos="fade-up">
-          <Link href={"/contact-us"} className="mt-4">
-            <Button className="w-64">
-              Let&apos;s Talk
-              <MoveRight data-aos="fade-up" />
-            </Button>
-          </Link>
+        <div className="flex items-center gap-16 mt-12" data-aos="fade-up">
+          <div className="flex items-center gap-2 font-semibold text-3xl w-full">
+            We think
+            <TypeAnimation
+              sequence={[
+                "innovation",
+                1000,
+                "bright",
+                1000,
+                "creatively",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+              className="text-amber-400 "
+            />
+          </div>
+          <div className="w-full">
+            <Link href={"/contact-us"} className="mt-4">
+              <Button className="w-64">
+                Let&apos;s Talk
+                <MoveRight data-aos="fade-up" />
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

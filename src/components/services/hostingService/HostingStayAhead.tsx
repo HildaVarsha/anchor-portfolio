@@ -25,11 +25,12 @@ const HostingStayAhead = () => {
           data-aos="fade-up"
         >
           Our mission is to elevate businesses like yours to new heights. At
-          Anchor Informatics, we’re not just experts in website hosting; we’re
-          innovators dedicated to transforming the latest hosting technologies
-          into a reliable and scalable foundation for your online growth. Let us
-          help you stay ahead of the competition with secure, high-performance
-          hosting solutions designed to support your business at every stage.
+          Anchor Informatics Ltd, we’re not just experts in website hosting;
+          we’re innovators dedicated to transforming the latest hosting
+          technologies into a reliable and scalable foundation for your online
+          growth. Let us help you stay ahead of the competition with secure,
+          high-performance hosting solutions designed to support your business
+          at every stage.
         </p>
       </div>
     </div>

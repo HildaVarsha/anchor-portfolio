@@ -21,7 +21,7 @@ development"
       </div>
       <Image
         src="/logistics.webp"
-        alt="About Anchor Informatics"
+        alt="About Anchor Informatics Ltd"
         height={400}
         width={600}
         data-aos="fade-up"

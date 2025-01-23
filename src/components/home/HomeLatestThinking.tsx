@@ -58,14 +58,16 @@ const HomeLatestThinkings = () => {
             {technologies?.map((tech, index) => (
               <CarouselItem key={index} className="md:basis-1/1 lg:basis-1/3">
                 <div data-aos="fade-up" className="p-1 w-full">
-                  <Image
-                    data-aos="zoom-in"
-                    src={tech.src}
-                    alt={tech.title}
-                    width={400}
-                    height={400}
-                    className="max-h-72 oject-contain"
-                  />
+                  <div className="group">
+                    <Image
+                      src={tech.src}
+                      alt={tech.title}
+                      width={400}
+                      height={400}
+                      className="max-h-72 object-cover transform transition-transform duration-300 ease-in-out group-hover:scale-110"
+                    />
+                  </div>
+
                   <p
                     data-aos="fade-up"
                     className="py-3 font-semibold text-gray-700"

@@ -16,8 +16,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Anchor Informatics",
-  description: "Anchor Informatics Pvt Ltd",
+  title: "Anchor Informatics Ltd",
+  description: "Anchor Informatics Ltd Pvt Ltd",
 };
 
 export default function RootLayout({

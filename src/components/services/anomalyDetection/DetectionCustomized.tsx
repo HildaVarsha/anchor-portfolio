@@ -20,7 +20,7 @@ const services = [
   {
     title: "Smart Cities",
     description:
-      "Anchor Informatics helps integrate anomaly detection solutions into smart city systems, including traffic monitoring with sensors and cameras, public safety, energy and waste management, and animal control systems.",
+      "Anchor Informatics Ltd helps integrate anomaly detection solutions into smart city systems, including traffic monitoring with sensors and cameras, public safety, energy and waste management, and animal control systems.",
   },
 ];
 

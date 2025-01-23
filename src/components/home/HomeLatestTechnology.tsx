@@ -14,28 +14,28 @@ import { MoveRight } from "lucide-react";
 const HomeLatestTechnology = () => {
   const technologies = [
     {
-      src: "https://images.pexels.com/photos/17485657/pexels-photo-17485657/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-how-ai-could-adapt-to-an-infinite-amount-of-uses-it-was-created-by-nidia-dias-as-part-of-the-visualising-ai-pr.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "AI-Driven Retail Solutions",
+      src: "https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      title: "AI-Powered Data Analytics",
       description:
-        "An advanced AI system that seamlessly integrates and aggregates data, enabling global retailers to handle 13 million daily requests and make efficient, data-driven decisions.",
+        "Leverage AI-driven tools to analyze vast amounts of business data, uncover actionable insights, and optimize decision-making processes.",
     },
     {
-      src: "https://images.pexels.com/photos/17486102/pexels-photo-17486102/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-visualises-artificial-general-intelligence-or-agi-it-was-created-by-wes-cockx-as-part-of-the-visualising-ai-project-l.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "Innovations in General AI",
+      src: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      title: "AI in Cybersecurity",
       description:
-        "Equipping businesses with cutting-edge AGI technologies designed to solve a wide range of challenges, ensuring scalable and efficient operations.",
+        "Advanced AI systems that detect and prevent cybersecurity threats in real-time, safeguarding sensitive data and infrastructure.",
     },
     {
-      src: "https://images.pexels.com/photos/17483874/pexels-photo-17483874/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-was-inspired-by-neural-networks-used-in-deep-learning-it-was-created-by-novoto-studio-as-part-of-the-visualising-ai-pr.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "Excellence in Neural Networks",
+      src: "https://images.pexels.com/photos/260581/pexels-photo-260581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      title: "Cloud-Based AI Solutions",
       description:
-        "Harnessing the power of neural network technologies, inspired by human cognitive processes, to deliver adaptive, intelligent solutions for deep learning applications.",
+        "Scalable cloud-based AI platforms designed to integrate seamlessly with IT infrastructures, providing cost-efficient and high-performance solutions.",
     },
     {
-      src: "https://images.pexels.com/photos/17483869/pexels-photo-17483869/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-represents-how-machine-learning-is-inspired-by-neuroscience-and-the-human-brain-it-was-created-by-novoto-studio-as-par.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "AI and Neuroscience Integration",
+      src: "https://images.pexels.com/photos/5474294/pexels-photo-5474294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      title: "AI-Driven DevOps Automation",
       description:
-        "Developing pioneering machine learning solutions based on neuroscience principles, offering innovative insights and advanced capabilities.",
+        "Automate IT operations with AI, ensuring faster deployments, real-time monitoring, and reduced downtime for critical systems.",
     },
   ];
 
@@ -64,17 +64,18 @@ const HomeLatestTechnology = () => {
                 <div
                   data-aos-delay={(index + 1) * 200}
                   data-aos="fade-up"
-                  className="p-1 w-full"
+                  className="p-1 w-full group"
                 >
                   <Image
                     src={tech.src}
                     alt={tech.title}
                     width={400}
                     height={400}
+                    className="transform transition-transform duration-300 ease-in-out group-hover:scale-110"
                   />
                   <p
                     data-aos="fade-up"
-                    className="py-3 font-semibold text-gray-700"
+                    className="py-4 font-semibold text-gray-700"
                   >
                     {tech.title}
                   </p>

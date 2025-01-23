@@ -23,7 +23,7 @@ const PrivacyBanner = () => {
           data-aos-delay="200"
         >
           <p>
-            At Anchor Informatics, your privacy is our priority. We are
+            At Anchor Informatics Ltd, your privacy is our priority. We are
             committed to safeguarding your personal information and ensuring
             compliance with all applicable data protection laws.
           </p>

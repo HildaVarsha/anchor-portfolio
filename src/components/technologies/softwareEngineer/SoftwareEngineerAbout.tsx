@@ -25,7 +25,7 @@ const softwareServices = [
   {
     title: "Deployment & Maintenance",
     description:
-      "The Anchor Informatics software engineering service team will follow best practices to establish a comprehensive cloud infrastructure for your software solution, ensure faster updates, and monitor application performance. We provide:",
+      "The Anchor Informatics Ltd software engineering service team will follow best practices to establish a comprehensive cloud infrastructure for your software solution, ensure faster updates, and monitor application performance. We provide:",
   },
   {
     title: "UI/UX Design",

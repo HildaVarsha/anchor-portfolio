@@ -29,8 +29,8 @@ const WebAppStayAhead = () => {
           data-aos="fade-up"
         >
           Our mission is to elevate businesses like yours to new heights. At
-          Anchor Informatics, we&apos;re more than just experts in custom web
-          development; we&apos;re innovators committed to turning the latest
+          Anchor Informatics Ltd, we&apos;re more than just experts in custom
+          web development; we&apos;re innovators committed to turning the latest
           tech advancements into real business value. Let us help you stay ahead
           of the competition.
         </p>

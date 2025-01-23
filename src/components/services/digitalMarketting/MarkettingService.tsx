@@ -26,7 +26,7 @@ const MarkettingService = () => {
           data-aos="fade-up"
         >
           As a leading provider of digital marketing services for enterprises,
-          Anchor Informatics can meet any marketing need, regardless of
+          Anchor Informatics Ltd can meet any marketing need, regardless of
           industry. Develop a high-impact, innovative marketing strategy with
           the ideal tools and platforms for fast results. Our digital campaigns
           are crafted for maximum engagement, scalability, and cross-platform

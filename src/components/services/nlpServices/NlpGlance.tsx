@@ -21,7 +21,7 @@ const NlpGlance = () => {
   return (
     <div className="pb-16 bg-white">
       <div className="container mx-auto p-6 md:p-16 bg-black">
-        <PageHeaderText label="Anchor Informatics in numbersp-" />
+        <PageHeaderText label="Anchor Informatics Ltd in numbersp-" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-16">
           {stats.map((stat, index) => (
             <StatCard key={index} value={stat.value} label={stat.label} />

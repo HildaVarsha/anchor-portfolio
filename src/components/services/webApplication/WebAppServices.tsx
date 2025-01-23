@@ -28,7 +28,7 @@ const WebAppServices = () => {
           data-aos="fade-up"
         >
           As a leading provider of custom web application development services
-          for enterprises, Anchor Informatics can meet any digital need,
+          for enterprises, Anchor Informatics Ltd can meet any digital need,
           regardless of industry. Build a high-performance, innovative web
           application with the ideal front and back-end technologies for fast
           results. Our web apps are crafted for maximum usability, scalability,

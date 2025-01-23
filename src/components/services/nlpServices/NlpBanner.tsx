@@ -25,7 +25,7 @@ const NlpBanner = () => {
       </div>
       <Image
         src="/nlp-services.png"
-        alt="About Anchor Informatics"
+        alt="About Anchor Informatics Ltd"
         height={700}
         width={600}
         className="absolute md:flex top-24 right-32 animate-rotate"

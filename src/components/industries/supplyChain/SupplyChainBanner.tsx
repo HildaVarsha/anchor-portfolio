@@ -21,7 +21,7 @@ and supply chain"
       </div>
       <Image
         src="/manufacture.webp"
-        alt="About Anchor Informatics"
+        alt="About Anchor Informatics Ltd"
         height={400}
         width={600}
         data-aos="fade-up"

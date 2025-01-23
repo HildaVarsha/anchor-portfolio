@@ -25,7 +25,7 @@ const MobileAppServices = () => {
           data-aos="fade-up"
         >
           As a leading provider of Mobile App application development services
-          for enterprises, Anchor Informatics can meet any digital need,
+          for enterprises, Anchor Informatics Ltd can meet any digital need,
           regardless of industry. Build a high-performance, innovative mobile
           application with the ideal front and back-end technologies for fast
           results. Our Mobile apps are crafted for maximum usability,

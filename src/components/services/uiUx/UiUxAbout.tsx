@@ -21,7 +21,7 @@ const services = [
   {
     title: "UI design",
     description:
-      "Anchor Informatics provides a comprehensive range of UI design services, covering everything from typography and color schemes to layouts, UI elements, and custom imagery—handling it all with expertise. Our UI/UX specialists work closely with software engineers to deliver solutions tailored to your requirements, within budget, and optimized to speed up your time to market.",
+      "Anchor Informatics Ltd provides a comprehensive range of UI design services, covering everything from typography and color schemes to layouts, UI elements, and custom imagery—handling it all with expertise. Our UI/UX specialists work closely with software engineers to deliver solutions tailored to your requirements, within budget, and optimized to speed up your time to market.",
   },
   {
     title: "UI/UX audit and consulting",

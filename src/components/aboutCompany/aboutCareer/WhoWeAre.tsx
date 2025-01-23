@@ -17,10 +17,10 @@ const WhoWeAre = () => {
         <div className="w-full h-full">
           <PageHeaderText label="Who we are" />
           <p className="pb-6 md:py-6" data-aos="fade-up">
-            Anchor Informatics is a diverse team of over 300 technology experts
-            across Poland, Georgia, Ukraine, Armenia, and the USA. We specialize
-            in software development, strategy creation, and offering expert
-            consultation.
+            Anchor Informatics Ltd is a diverse team of over 300 technology
+            experts across Poland, Georgia, Ukraine, Armenia, and the USA. We
+            specialize in software development, strategy creation, and offering
+            expert consultation.
           </p>
           <p data-aos="fade-up">
             We tackle complex challenges and drive growth for our clients,

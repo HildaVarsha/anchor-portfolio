@@ -28,7 +28,7 @@ const SoftwareDevServices = () => {
           data-aos="fade-up"
         >
           As a leading provider of software development solutions for
-          enterprises, Anchor Informatics can meet any technical need,
+          enterprises, Anchor Informatics Ltd can meet any technical need,
           regardless of industry. Build high-performance, scalable applications
           with tailored development strategies and tools for seamless, reliable
           results. Our software services are designed for maximum flexibility,

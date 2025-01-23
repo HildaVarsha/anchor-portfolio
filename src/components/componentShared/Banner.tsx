@@ -27,7 +27,7 @@ const Banner = ({
       </div>
       <Image
         src={imageSrc}
-        alt="About Anchor Informatics"
+        alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
         data-aos="fade-up"

@@ -49,8 +49,8 @@ const PrivacyContent: React.FC = () => {
             Privacy Policy
           </h1>
           <p data-aos="fade-up" className="mt-4 text-white text-lg md:text-xl">
-            Welcome to Anchor Informatics' Privacy Policy. Your privacy is at
-            the heart of our business.
+            Welcome to Anchor Informatics Ltd' Privacy Policy. Your privacy is
+            at the heart of our business.
           </p>
         </div>
       </div>
@@ -85,7 +85,7 @@ const PrivacyContent: React.FC = () => {
             Purpose
           </h3>
           <p data-aos="fade-up" className="text-lg">
-            At Anchor Informatics, we are committed to safeguarding your
+            At Anchor Informatics Ltd, we are committed to safeguarding your
             personal information. This Privacy Policy explains how we collect,
             use, and protect your data, ensuring compliance with applicable data
             protection laws.

@@ -13,7 +13,7 @@ const AiAppBanner = () => {
           className="w-full md:max-w-2xl"
         />
         <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
-          Revolutionize your business with Anchor Informatics' AI app
+          Revolutionize your business with Anchor Informatics Ltd' AI app
           development solutions. We build innovative, AI-driven applications
           that empower you to reach new heights.
         </p>
@@ -25,7 +25,7 @@ const AiAppBanner = () => {
       </div>
       <Image
         src="/ai-app.png"
-        alt="About Anchor Informatics"
+        alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
         className="absolute  md:flex top-20 right-32 animate-rotate"

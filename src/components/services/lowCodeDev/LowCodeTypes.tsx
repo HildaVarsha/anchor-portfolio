@@ -4,17 +4,17 @@ const services = [
   {
     title: "Cross-platform mobile applications",
     description:
-      "Anchor Informatics helps clients develop low-code solutions using FlutterFlow. By utilizing the platform's pre-built widgets, templates, and backend integration tools, we build fully functional cross-platform mobile applications, providing a solid foundation for custom development.",
+      "Anchor Informatics Ltd helps clients develop low-code solutions using FlutterFlow. By utilizing the platform's pre-built widgets, templates, and backend integration tools, we build fully functional cross-platform mobile applications, providing a solid foundation for custom development.",
   },
   {
     title: "Web applications",
     description:
-      "Anchor Informatics will help you develop no-code and low-code web solutions using Retool and Bubble.io. Retool is the perfect low-code solution for creating internal applications and business tools that require seamless integration and customization.",
+      "Anchor Informatics Ltd will help you develop no-code and low-code web solutions using Retool and Bubble.io. Retool is the perfect low-code solution for creating internal applications and business tools that require seamless integration and customization.",
   },
   {
     title: "Workflow automation solutions",
     description:
-      "Our offering includes AirOps-powered low-code workflow automation solutions. With the platform’s drag-and-drop development interface, pre-built integrations with services like Google Workspace and Slack, along with conditional logic and reporting features, Anchor Informatics creates custom workflows that scale seamlessly with your business.",
+      "Our offering includes AirOps-powered low-code workflow automation solutions. With the platform’s drag-and-drop development interface, pre-built integrations with services like Google Workspace and Slack, along with conditional logic and reporting features, Anchor Informatics Ltd creates custom workflows that scale seamlessly with your business.",
   },
 ];
 const LowCodeTypes = () => {
