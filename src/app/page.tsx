@@ -4,6 +4,7 @@ import {
   HomeClients,
   HomeClientSays,
   HomeHowCanHelp,
+  HomeHowWeCollaborate,
   HomeLatestTechnology,
   HomeLatestThinking,
   HomeOurExpertise,
@@ -30,6 +31,7 @@ const Home = () => {
       <HomeClients />
       <HomeClientSays />
       <HomeHowCanHelp />
+      <HomeHowWeCollaborate />
       <HomeLatestTechnology />
       <HomeOurExpertise />
       <HomeLatestThinking />
