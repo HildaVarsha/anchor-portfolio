@@ -23,9 +23,9 @@ const SoftwareEngineerServices = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Anchor Informatics has evolved from a software engineering outsourcing
-          company to a specialized technology vendor with niche expertise,
-          offering flexible solutions tailored to your needs.
+          Anchor Informatics Ltd has evolved from a software engineering
+          outsourcing company to a specialized technology vendor with niche
+          expertise, offering flexible solutions tailored to your needs.
         </p>
       </div>
     </div>

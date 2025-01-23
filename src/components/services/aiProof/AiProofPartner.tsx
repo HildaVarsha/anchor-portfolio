@@ -15,16 +15,16 @@ const AiProofPartner = () => {
           className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
           data-aos="fade-up"
         >
-          Why partner with Anchor Informatics for
+          Why partner with Anchor Informatics Ltd for
           <span className="text-amber-400">{""} AI PoC development?</span>
         </p>
       </div>
       <div className="mt-12 p-4 md:p-12 md:container mx-auto text-slate-800 bg-amber-100 flex flex-col md:flex-row gap-4 md:gap-16">
         <div data-aos="fade-up">
           <p>
-            <strong>In-house R&D expertise.</strong> At Anchor Informatics, we
-            have a dedicated in-house R&D team focused on driving innovation and
-            excellence in AI PoC development. Our experts bring extensive
+            <strong>In-house R&D expertise.</strong> At Anchor Informatics Ltd,
+            we have a dedicated in-house R&D team focused on driving innovation
+            and excellence in AI PoC development. Our experts bring extensive
             experience in creating customized AI solutions tailored to meet the
             needs of clients across various sectors, including healthcare,
             retail, and education.

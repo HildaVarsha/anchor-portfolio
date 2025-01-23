@@ -21,7 +21,7 @@ const FacialRecognitionGlance = () => {
   return (
     <div className="pb-16 bg-white">
       <div className="container mx-auto p-6 md:p-16 bg-black">
-        <PageHeaderText label="Anchor Informatics at a glance" />
+        <PageHeaderText label="Anchor Informatics Ltd at a glance" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-16">
           {stats.map((stat, index) => (
             <StatCard key={index} value={stat.value} label={stat.label} />

@@ -7,7 +7,7 @@ const SustainablePillers = () => {
       <div className="md:container px-4 mx-auto">
         <PageHeaderText label="Our Pillars" />
         <p className="py-4" data-aos="fade-up">
-          At Anchor Informatics, we are dedicated to shaping a sustainable
+          At Anchor Informatics Ltd, we are dedicated to shaping a sustainable
           future through innovation and collaboration. Our sustainability
           strategy is built on three core pillars: Our People, Our Stakeholders,
           and Our Planet. These pillars guide us in making the software
@@ -73,8 +73,8 @@ const SustainablePillers = () => {
               Health & Safety
             </p>
             <p className="py-4" data-aos="fade-up">
-              Health and safety are top priorities at Anchor Informatics, and we
-              are dedicated to creating a safe work environment for our
+              Health and safety are top priorities at Anchor Informatics Ltd,
+              and we are dedicated to creating a safe work environment for our
               employees, whether in-house or remote. We provide ongoing
               training, implement robust safety policies, and regularly assess
               potential risks to prevent accidents and promote well-being.
@@ -89,9 +89,9 @@ const SustainablePillers = () => {
               Our Social Pillar also focuses on responsible procurement. We
               carefully select suppliers who align with our values, ensuring
               they prioritize ethical labor practices, eco-friendly sourcing,
-              and comply with the Anchor Informatics Supplier Code of Conduct.
-              By committing to responsible procurement, we promote fair working
-              conditions across our supply chain, actively combat
+              and comply with the Anchor Informatics Ltd Supplier Code of
+              Conduct. By committing to responsible procurement, we promote fair
+              working conditions across our supply chain, actively combat
               discrimination, and support human rights.
             </p>
           </div>
@@ -101,7 +101,7 @@ const SustainablePillers = () => {
               Support of Communities
             </p>
             <p className="py-4" data-aos="fade-up">
-              At Anchor Informatics, we are proud to financially support
+              At Anchor Informatics Ltd, we are proud to financially support
               organizations that drive positive change globally. This includes
               our Support Ukraine campaign [LINK]. Our contributions help expand
               community networks, support skill-building initiatives, and

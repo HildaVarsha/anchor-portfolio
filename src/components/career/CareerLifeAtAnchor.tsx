@@ -8,14 +8,14 @@ const CareerLifeAtAnchor = () => {
       <div className="px-4 md:px-0 md:container mx-auto flex flex-col md:flex-row items-center justify-between text-slate-800 gap-12">
         <Image
           src={"/your-life-at.png"}
-          alt="Anchor Informatics Life"
+          alt="Anchor Informatics Ltd Life"
           width={400}
           height={400}
           className="object-cover w-full h-[400px]"
         />
         <div className="w-full">
           <PageHeaderText
-            label="Your life at Anchor Informatics"
+            label="Your life at Anchor Informatics Ltd"
             className="text-slate-800"
           />
           <p className="py-4 text-xl font-semibold" data-aos="fade-up">

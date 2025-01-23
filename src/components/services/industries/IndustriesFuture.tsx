@@ -10,7 +10,7 @@ const IndustriesFuture = () => {
           className="text-center"
         />
         <p className="pt-4" data-aos="fade-up">
-          At Anchor Informatics, we believe in turning challenges into
+          At Anchor Informatics Ltd, we believe in turning challenges into
           opportunities through cutting-edge solutions. Our mission is to bridge
           the gap between vision and execution, delivering excellence at every
           step. By combining innovation with sustainability, we help businesses

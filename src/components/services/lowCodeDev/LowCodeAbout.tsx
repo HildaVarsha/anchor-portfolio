@@ -28,7 +28,7 @@ const LowCodeAbout = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
       <div className="md:container mx-auto px-4">
-        <PageHeaderText label="What Anchor Informatics offers as part of low-code development services" />
+        <PageHeaderText label="What Anchor Informatics Ltd offers as part of low-code development services" />
         <p data-aos="fade-up">
           Our low-code company empowers you to develop proof of concepts (PoCs),
           prototypes, and minimum viable products (MVPs) for your technology

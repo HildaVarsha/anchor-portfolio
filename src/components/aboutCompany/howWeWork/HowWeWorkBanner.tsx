@@ -17,9 +17,9 @@ const HowWeWorkBanner = () => {
         </p>
         <div className="flex flex-col md:flex-row items-center gap-4 md:gap-12 md:w-[700px] ">
           <p data-aos="fade-up">
-            Collaborate with Anchor Informatics at any stage of your project,
-            choosing the engagement model that aligns best with your project
-            scope and business goals.
+            Collaborate with Anchor Informatics Ltd at any stage of your
+            project, choosing the engagement model that aligns best with your
+            project scope and business goals.
           </p>
           <p data-aos="fade-up">
             We can develop your product using Time & Materials, Fixed Price, or

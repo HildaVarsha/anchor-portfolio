@@ -73,16 +73,19 @@ const HomeHowCanHelp = () => {
               index === 0 ? "border-y" : "border-b"
             } border-[#00000026] flex flex-col md:flex-row justify-between w-full py-4`}
           >
-            <div className="w-full mb-4 md:mb-0">
-              <Image
-                src={service.imageSrc}
-                alt={service.title}
-                width={50}
-                height={38}
-                data-aos="fade-up"
-                className=""
-              />
+            {/* Image with Animation */}
+            <div className="w-full mb-4 md:mb-0 image-draw-container">
+              <div className="image-mask">
+                <Image
+                  src={service.imageSrc}
+                  alt={service.title}
+                  width={50}
+                  height={38}
+                  className="image-draw"
+                />
+              </div>
             </div>
+
             <div data-aos="fade-up" className="w-full flex gap-8">
               <p>{service.id < 10 ? `0${service.id}.` : `${service.id}.`}</p>
               <Accordion type="single" collapsible className="w-full">

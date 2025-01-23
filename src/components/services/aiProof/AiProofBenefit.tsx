@@ -63,7 +63,7 @@ const AiProofBenefit = () => {
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
-          Anchor Informatics offers comprehensive AI Proof of Concept (PoC)
+          Anchor Informatics Ltd offers comprehensive AI Proof of Concept (PoC)
           development services that cater to businesses of all sizes—from AI
           startups seeking seed funding to mid-sized companies and large
           enterprises navigating AI-driven transformations. Partnering with us

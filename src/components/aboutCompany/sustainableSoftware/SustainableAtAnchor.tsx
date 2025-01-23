@@ -5,7 +5,7 @@ const SustainableAtAnchor = () => {
   return (
     <div className="bg-white py-8 md:pb-16 md:pt-1 text-slate-800">
       <div className="md:container px-4 mx-auto">
-        <PageHeaderText label="Anchor Informatics Sustainability Framework" />
+        <PageHeaderText label="Anchor Informatics Ltd Sustainability Framework" />
         <ul>
           <li data-aos="fade-up">
             <strong>Go Green:</strong> Reducing our environmental footprint at

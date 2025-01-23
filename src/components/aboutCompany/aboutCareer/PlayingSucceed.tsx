@@ -22,8 +22,8 @@ const PlayingSucceed = () => {
             honest enough to take responsibility, you’ll be fine.
           </p>
           <p data-aos="fade-up">
-            At Anchor Informatics, we regularly own up to our mistakes. That’s
-            what transparency and initiative truly look like.
+            At Anchor Informatics Ltd, we regularly own up to our mistakes.
+            That’s what transparency and initiative truly look like.
           </p>
           <p className="pt-4" data-aos="fade-up">
             We’re all committed to each other’s success. In return, we ask for

@@ -23,7 +23,7 @@ software solutions"
       </div>
       <Image
         src="/media-entertainment.jpg"
-        alt="About Anchor Informatics"
+        alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
         data-aos="fade-up"

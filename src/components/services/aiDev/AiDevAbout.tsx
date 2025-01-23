@@ -25,7 +25,7 @@ const services = [
   {
     title: "Post-launch support",
     description:
-      "At Anchor Informatics, our AI development services extend beyond deployment. We provide ongoing post-launch support to monitor your AI systems, ensuring they evolve with your business needs and maintain peak performance. If you choose to expand AI to other use cases, our expert developers are ready to assist!",
+      "At Anchor Informatics Ltd, our AI development services extend beyond deployment. We provide ongoing post-launch support to monitor your AI systems, ensuring they evolve with your business needs and maintain peak performance. If you choose to expand AI to other use cases, our expert developers are ready to assist!",
   },
   {
     title: "AIOps",

@@ -21,7 +21,7 @@ const AngularBanner = () => {
       </div>
       <Image
         src="/angular-banner.png"
-        alt="About Anchor Informatics"
+        alt="About Anchor Informatics Ltd"
         height={500}
         width={600}
         className="absolute  md:flex top-24 right-32"

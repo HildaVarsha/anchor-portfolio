@@ -1,6 +1,7 @@
 "use client";
 import {
   HomeBanner,
+  HomeClients,
   HomeClientSays,
   HomeHowCanHelp,
   HomeLatestTechnology,
@@ -26,6 +27,7 @@ const Home = () => {
   return (
     <>
       <HomeBanner />
+      <HomeClients />
       <HomeClientSays />
       <HomeHowCanHelp />
       <HomeLatestTechnology />

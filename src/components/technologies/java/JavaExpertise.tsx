@@ -6,7 +6,7 @@ const JavaExpertise = () => {
   return (
     <div className="bg-white py-16">
       <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
-        <PageHeaderText label="Anchor Informatics — Experts by your side" />
+        <PageHeaderText label="Anchor Informatics Ltd — Experts by your side" />
 
         <div className=" bg-blue-100 p-16 flex flex-col md:flex-row gap-4 md:gap-12 mt-6">
           <div className="w-full">

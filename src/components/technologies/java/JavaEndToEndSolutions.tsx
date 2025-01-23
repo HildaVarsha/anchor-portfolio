@@ -43,8 +43,8 @@ const JavaEndToEndSolutions: React.FC = () => {
       <Section className="bg-amber-400 text-slate-800" data-aos="fade-up">
         <p data-aos="fade-up">
           With extensive experience delivering both simple and highly complex
-          Java projects across various industries, the Anchor Informatics Java
-          community offers unmatched expertise. Here are some examples of
+          Java projects across various industries, the Anchor Informatics Ltd
+          Java community offers unmatched expertise. Here are some examples of
           successful Java solutions we’ve developed for our satisfied clients,
           including leading global companies:
         </p>

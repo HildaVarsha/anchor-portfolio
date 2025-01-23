@@ -44,7 +44,7 @@ const TermsConditions: React.FC = () => {
             Terms and Conditions
           </h1>
           <p data-aos="fade-up" className="mt-4 text-white text-lg md:text-xl">
-            Welcome to Anchor Informatics. Please read these terms and
+            Welcome to Anchor Informatics Ltd. Please read these terms and
             conditions carefully before using our services.
           </p>
         </div>
@@ -140,8 +140,8 @@ const TermsConditions: React.FC = () => {
           </h3>
           <p data-aos="fade-up" className="text-lg">
             All content on our platform, including text, graphics, and code, is
-            owned by Anchor Informatics and protected by intellectual property
-            laws.
+            owned by Anchor Informatics Ltd and protected by intellectual
+            property laws.
           </p>
         </div>
 
@@ -183,9 +183,9 @@ const TermsConditions: React.FC = () => {
             Indemnification
           </h3>
           <p data-aos="fade-up" className="text-lg">
-            You agree to indemnify and hold harmless Anchor Informatics from any
-            claims, damages, or liabilities resulting from your breach of these
-            terms.
+            You agree to indemnify and hold harmless Anchor Informatics Ltd from
+            any claims, damages, or liabilities resulting from your breach of
+            these terms.
           </p>
         </div>
 

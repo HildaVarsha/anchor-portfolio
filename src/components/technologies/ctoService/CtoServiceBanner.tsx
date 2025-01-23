@@ -20,7 +20,7 @@ const CtoServiceBanner = () => {
       </div>
       <Image
         src="/cto-service.png"
-        alt="About Anchor Informatics"
+        alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
         className="absolute md:flex hidden md:top-24 right-32"

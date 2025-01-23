@@ -15,7 +15,7 @@ const DotNetWhyChooseAnchor = () => {
           className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container"
           data-aos="fade-up"
         >
-          Why choose Anchor Informatics as your
+          Why choose Anchor Informatics Ltd as your
           <span className="text-amber-400"> .NET development company?</span>.
         </p>
       </div>

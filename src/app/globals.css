@@ -89,3 +89,36 @@ body {
   animation: rotate 10s linear infinite; /* 10 seconds for a full rotation */
   display: inline-block;
 }
+.image-draw-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-mask {
+  position: relative;
+  width: 100%;
+  height: auto;
+  animation: drawEffect 2s ease-in-out forwards;
+  transform-origin: left;
+}
+
+@keyframes drawEffect {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+@keyframes continuousAnimation {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.image-draw {
+  animation: continuousAnimation 3s infinite ease-in-out;
+}

@@ -326,7 +326,7 @@ const TopNavbar = () => {
             <SheetContent side={"left"} className="bg-black overflow-auto">
               <Image
                 src="/logo.png"
-                alt="Anchor Informatics Pvt Ltd"
+                alt="Anchor Informatics Ltd Pvt Ltd"
                 width={200}
                 height={100}
               />
@@ -335,7 +335,7 @@ const TopNavbar = () => {
           </Sheet>
           <Image
             src="/logo.png"
-            alt="Anchor Informatics Pvt Ltd"
+            alt="Anchor Informatics Ltd Pvt Ltd"
             width={200}
             height={100}
           />
@@ -343,7 +343,7 @@ const TopNavbar = () => {
         {/* Logo */}
         <Image
           src="/logo.png"
-          alt="Anchor Informatics Pvt Ltd"
+          alt="Anchor Informatics Ltd Pvt Ltd"
           width={200}
           height={100}
           className="hidden md:flex"

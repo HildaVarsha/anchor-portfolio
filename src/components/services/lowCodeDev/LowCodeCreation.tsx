@@ -60,10 +60,10 @@ const LowCodeCreation = () => {
       <div className="bg-white py-16 text-slate-800">
         <div className="md:container mx-auto px-4">
           <p data-aos="fade-up">
-            The Anchor Informatics team leverages our deep expertise in business
-            analysis and software engineering to provide exceptional low-code
-            development services to both innovative startups and established
-            enterprises. Here’s how our collaboration process works:
+            The Anchor Informatics Ltd team leverages our deep expertise in
+            business analysis and software engineering to provide exceptional
+            low-code development services to both innovative startups and
+            established enterprises. Here’s how our collaboration process works:
           </p>
           <div className="p-4 md:p-12 grid grid-cols-1 md:grid-cols-2  gap-4 md:gap-8 bg-blue-100 mt-12">
             {services.map((service, index) => (

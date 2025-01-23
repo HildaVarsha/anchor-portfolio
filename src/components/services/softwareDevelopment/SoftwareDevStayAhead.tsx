@@ -29,12 +29,12 @@ const SoftwareDevStayAhead = () => {
           data-aos="fade-up"
         >
           Our mission is to elevate businesses like yours to new heights. At
-          Anchor Informatics, we’re not just experts in software development;
-          we’re innovators dedicated to transforming the latest technologies
-          into powerful and scalable solutions for your brand. Let us help you
-          stay ahead of the competition with custom software development and
-          redevelopment services designed to support your business at every
-          stage of growth.
+          Anchor Informatics Ltd, we’re not just experts in software
+          development; we’re innovators dedicated to transforming the latest
+          technologies into powerful and scalable solutions for your brand. Let
+          us help you stay ahead of the competition with custom software
+          development and redevelopment services designed to support your
+          business at every stage of growth.
         </p>
       </div>
     </div>

@@ -40,7 +40,7 @@ const DetectionAtAnchor = () => {
         </div>
         <div>
           <p data-aos="fade-up">
-            <strong>We breathe AI.</strong> Anchor Informatics has been
+            <strong>We breathe AI.</strong> Anchor Informatics Ltd has been
             developing custom machine learning models, from supervised
             algorithms to deep neural networks, long before they became
             mainstream. We specialize in gathering and preparing training data,

@@ -3,12 +3,12 @@ const services = [
   {
     title: "Faster project execution",
     description:
-      "With Anchor Informatics low-code development services, you can move from concept to a testable prototype and from an MVP to a pilot app in just weeks, rather than months.",
+      "With Anchor Informatics Ltd low-code development services, you can move from concept to a testable prototype and from an MVP to a pilot app in just weeks, rather than months.",
   },
   {
     title: "Flexibility",
     description:
-      "At Anchor Informatics, our approach to building low-code solutions is inherently agile, allowing you to adjust application functionality or pivot your project based on user feedback or changing business requirements.",
+      "At Anchor Informatics Ltd, our approach to building low-code solutions is inherently agile, allowing you to adjust application functionality or pivot your project based on user feedback or changing business requirements.",
   },
   {
     title: "Cost efficiency",
