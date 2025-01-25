@@ -1,6 +1,5 @@
 "use client";
 import {
-  HomeBanner,
   HomeClients,
   HomeClientSays,
   HomeHowCanHelp,
@@ -8,6 +7,7 @@ import {
   HomeLatestTechnology,
   HomeLatestThinking,
   HomeOurExpertise,
+  HomeSwiper,
 } from "@/components/home";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -27,7 +27,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <HomeBanner />
+      <HomeSwiper />
       <HomeClients />
       <HomeClientSays />
       <HomeHowCanHelp />

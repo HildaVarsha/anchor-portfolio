@@ -22,7 +22,7 @@ const collaborationSteps = [
     title: "Creating Value Fast",
     image: "/creating.png",
     description:
-      "We develop a Minimum Viable Product (MVP) to swiftly test the initial use cases and gather valuable user feedback. Throughout this iterative process, we continually refine and enhance the solution to perfectly align with your business goals and add new, impactful use cases.",
+      "We develop a Minimum Viable Product (MVP) to swiftly test the initial use cases and gather valuable user feedback. Throughout this iterative process, we continually refine and enhance the solution .",
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ const HomeHowWeCollaborate = () => {
                 alt={step.title}
                 width={100}
                 height={100}
-                className="h-40 w-40"
+                className="h-44 w-44 object-cover"
                 data-aos="fade-up"
               />
               <div className="w-full">

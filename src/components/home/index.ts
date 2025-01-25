@@ -6,3 +6,4 @@ export { default as HomeOurExpertise } from "./HomeOurExpertise";
 export { default as HomeLatestThinking } from "./HomeLatestThinking";
 export { default as HomeClients } from "./HomeClients";
 export { default as HomeHowWeCollaborate } from "./HomeHowWeCollaborate";
+export { default as HomeSwiper } from "./HomeSwiper";
