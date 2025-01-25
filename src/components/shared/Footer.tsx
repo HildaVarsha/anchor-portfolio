@@ -40,7 +40,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className="py-12 px-4 md:px-0 md:container mx-auto">
+    <div className="pt-12 px-4 md:px-0 md:container mx-auto">
       <PageHeaderText
         className="text-center text-xl md:text-5xl  md:max-w-5xl mx-auto"
         label="A software development company specializing in scalable AI and data solutions that drive lasting impact."
@@ -155,6 +155,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
+      <div data-aos="fade-up" className="mt-8 md:mt-32"></div>
     </div>
   );
 };

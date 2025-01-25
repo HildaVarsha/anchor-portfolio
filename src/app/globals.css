@@ -8,9 +8,7 @@ body {
   color: white;
   font-size: large;
 }
-* {
-  cursor: url("/logo.png"), auto !important; /* Path to your logo image */
-}
+
 
 @layer base {
   :root {
