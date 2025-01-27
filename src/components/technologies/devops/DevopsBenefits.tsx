@@ -13,7 +13,7 @@ const DevopsBenefits = () => {
       >
         <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
           <p data-aos="fade-up">Benefits you get with our</p>
-          <p className="text-amber-400" data-aos="fade-up">
+          <p className="text-green-500" data-aos="fade-up">
             DevOps Solutions{" "}
           </p>
         </div>

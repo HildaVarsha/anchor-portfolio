@@ -51,15 +51,15 @@ const SupplyChainManufacture = () => {
             data-aos="fade-up"
           >
             Our manufacturing and supply
-            <span className="text-amber-400 text-5xl mx-auto font-bold max-w-4xl">
+            <span className="text-green-500 text-5xl mx-auto font-bold max-w-4xl">
               chain software development capabilities
             </span>
           </p>
         </div>
       </div>
-      <div className="py-12 bg-amber-400">
+      <div className="py-12 bg-green-500">
         <div
-          className="px-4 md:px-0 md:container mx-auto bg-amber-400 p-4 text-slate-800"
+          className="px-4 md:px-0 md:container mx-auto bg-green-500 p-4 text-slate-800"
           data-aos="fade-up"
         >
           We don’t just digitalize processes — we fully transform manufacturing

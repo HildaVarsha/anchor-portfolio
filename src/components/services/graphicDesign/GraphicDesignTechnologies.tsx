@@ -40,7 +40,7 @@ const GraphicDesignTechnologies = () => (
           Technologies
         </p>
         <p
-          className="text-amber-400 px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold max-w-4xl"
+          className="text-green-500 px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold max-w-4xl"
           data-aos="fade-up"
         >
           we work with

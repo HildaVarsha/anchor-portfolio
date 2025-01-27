@@ -51,7 +51,7 @@ const CtoTailored = () => {
           data-aos="fade-up"
         >
           <p data-aos="fade-up">Our CTO as a Service: Tailored</p>{" "}
-          <p className="text-amber-400" data-aos="fade-up">
+          <p className="text-green-500" data-aos="fade-up">
             Solutions for Your Business Needs
           </p>
         </div>

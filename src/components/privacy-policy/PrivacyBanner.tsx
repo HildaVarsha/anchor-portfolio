@@ -14,7 +14,7 @@ const PrivacyBanner = () => {
     >
       <div className="px-4 md:px-0 md:container mx-auto h-full flex flex-col justify-center gap-12">
         <p className="text-2xl md:text-8xl font-semibold" data-aos="fade-up">
-          <span className="text-amber-400"> Privacy Policy</span>
+          <span className="text-green-500"> Privacy Policy</span>
         </p>
 
         <div

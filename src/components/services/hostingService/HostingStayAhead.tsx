@@ -16,7 +16,7 @@ const HostingStayAhead = () => {
           data-aos="fade-up"
         >
           Stay Ahead of the Curve with Our Custom
-          <span className="text-amber-400"> Hosting Services</span>.
+          <span className="text-green-500"> Hosting Services</span>.
         </p>
       </div>
       <div className="py-12  bg-white">

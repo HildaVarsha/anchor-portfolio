@@ -76,7 +76,7 @@ const MachineLearningAdvance = () => {
           data-aos="fade-up"
         >
           Our Strategy for Advancing Future-Ready
-          <span className="text-amber-400 px-2">ML Development</span>
+          <span className="text-green-500 px-2">ML Development</span>
         </p>
       </div>
       <div className="mt-12 p-4 md:p-12 md:container mx-auto text-slate-800 flex flex-col md:flex-row gap-4 md:gap-16">

@@ -20,7 +20,7 @@ const DotNetTechnology = () => {
           data-aos="fade-up"
         >
           Our .NET
-          <p className="text-amber-400 pr-2 px-4 md:px-0 text-2xl md:text-5xl  font-bold container">
+          <p className="text-green-500 pr-2 px-4 md:px-0 text-2xl md:text-5xl  font-bold container">
             technology stack
           </p>
         </p>

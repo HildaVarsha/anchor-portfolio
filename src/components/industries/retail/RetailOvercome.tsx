@@ -36,14 +36,14 @@ const RetailOvercome = () => {
             data-aos="fade-up"
           >
             Overcome the aftermath of the pandemic
-            <span className="text-amber-400 text-5xl mx-auto font-bold pl-2">
+            <span className="text-green-500 text-5xl mx-auto font-bold pl-2">
               and reopen safely
             </span>
           </p>
         </div>
       </div>
-      <div className="py-12 bg-amber-400">
-        <div className="px-4 md:px-0 md:container mx-auto bg-amber-400 p-4 text-slate-800">
+      <div className="py-12 bg-green-500">
+        <div className="px-4 md:px-0 md:container mx-auto bg-green-500 p-4 text-slate-800">
           <p data-aos="fade-up">
             With brick-and-mortar stores reopening, retailers need to make sure
             offline shopping is safe and enjoyable. We empower the retail

@@ -15,11 +15,11 @@ const GraphicDesignServices = () => {
           className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold max-w-4xl"
           data-aos="fade-up"
         >
-          &quot;<span className="text-amber-400">Design services</span> to
+          &quot;<span className="text-green-500">Design services</span> to
           elevate your brand to the next level.&quot;
         </p>
       </div>
-      <div className="py-12 bg-amber-400">
+      <div className="py-12 bg-green-500">
         <p
           className="px-4 md:px-0 md:max-w-4xl mx-auto text-slate-800"
           data-aos="fade-up"

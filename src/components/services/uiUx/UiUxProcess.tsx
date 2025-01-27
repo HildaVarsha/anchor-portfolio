@@ -18,14 +18,14 @@ const UiUxProcess = () => {
         >
           Our Process for
           <p
-            className="text-amber-400 pr-2 px-4 pt-3 md:px-0 text-2xl md:text-5xl  font-bold container"
+            className="text-green-500 pr-2 px-4 pt-3 md:px-0 text-2xl md:text-5xl  font-bold container"
             data-aos="fade-up"
           >
             Delivering Outstanding UI/UX Design
           </p>
         </p>
       </div>
-      <div className="bg-amber-400 text-slate-800">
+      <div className="bg-green-500 text-slate-800">
         <div className=" text-slate-800 p-16 container mx-auto flex flex-col md:flex-row gap-12">
           <p data-aos="fade-up">
             Designers don’t need to juggle multiple roles on a project. Instead,

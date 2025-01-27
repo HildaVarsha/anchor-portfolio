@@ -59,10 +59,10 @@ const UiUxDesign = () => {
           data-aos="fade-up"
         >
           Our UI/UX Design Company’s
-          <span className="text-amber-400 px-2">Core Strengths</span>
+          <span className="text-green-500 px-2">Core Strengths</span>
         </p>
       </div>
-      <div className="bg-amber-400 py-16 text-slate-800">
+      <div className="bg-green-500 py-16 text-slate-800">
         <div className="md:container mx-auto px-4">
           <p data-aos="fade-up">
             While your software solution may be complex behind the scenes, its

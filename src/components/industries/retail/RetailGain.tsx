@@ -43,15 +43,15 @@ const RetailGain = () => {
             data-aos="fade-up"
           >
             Gain efficiency and exceed customer
-            <span className="text-amber-400 text-5xl mx-auto font-bold pl-2">
+            <span className="text-green-500 text-5xl mx-auto font-bold pl-2">
               expectations with AI-powered intelligence
             </span>
           </p>
         </div>
       </div>
-      <div className="py-12 bg-amber-400">
+      <div className="py-12 bg-green-500">
         <div
-          className="px-4 md:px-0 md:container mx-auto bg-amber-400 p-4 text-slate-800"
+          className="px-4 md:px-0 md:container mx-auto bg-green-500 p-4 text-slate-800"
           data-aos="fade-up"
         >
           Specializing in artificial intelligence, we leverage it to build

@@ -7,12 +7,12 @@ const AboutCompanyFacts = () => {
         className="text-2xl md:text-5xl font-semibold pb-6 text-center"
         data-aos="fade-up"
       >
-        <span className="text-amber-400">Key facts</span> about us
+        <span className="text-green-500">Key facts</span> about us
       </p>
       <div className="flex items-center justify-between pt-8">
         <div>
           <p
-            className="text-5xl font-semibold text-amber-400"
+            className="text-5xl font-semibold text-green-500"
             data-aos="fade-up"
           >
             560
@@ -21,7 +21,7 @@ const AboutCompanyFacts = () => {
         </div>
         <div>
           <p
-            className="text-5xl font-semibold text-amber-400"
+            className="text-5xl font-semibold text-green-500"
             data-aos="fade-up"
           >
             5<span className="text-green-500">+</span>
@@ -32,7 +32,7 @@ const AboutCompanyFacts = () => {
       <div className="flex items-center justify-between pt-8">
         <div>
           <p
-            className="text-5xl font-semibold text-amber-400"
+            className="text-5xl font-semibold text-green-500"
             data-aos="fade-up"
           >
             20<span className="text-green-500">+</span>
@@ -41,7 +41,7 @@ const AboutCompanyFacts = () => {
         </div>
         <div>
           <p
-            className="text-5xl font-semibold text-amber-400 text-end"
+            className="text-5xl font-semibold text-green-500 text-end"
             data-aos="fade-up"
           >
             500<span className="text-green-500">+</span>
@@ -52,7 +52,7 @@ const AboutCompanyFacts = () => {
       <div className="flex items-center justify-between pt-8">
         <div className="w-full">
           <p
-            className="text-5xl font-semibold text-amber-400"
+            className="text-5xl font-semibold text-green-500"
             data-aos="fade-up"
           >
             90<span className="text-green-500">%</span>
@@ -61,7 +61,7 @@ const AboutCompanyFacts = () => {
         </div>
         <div className="w-full">
           <p
-            className="text-5xl font-semibold text-amber-400 text-end"
+            className="text-5xl font-semibold text-green-500 text-end"
             data-aos="fade-up"
           >
             95<span className="text-green-500">%</span>

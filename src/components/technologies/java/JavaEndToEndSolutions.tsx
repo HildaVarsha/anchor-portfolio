@@ -33,14 +33,14 @@ const JavaEndToEndSolutions: React.FC = () => {
           data-aos="fade-up"
         >
           End-to-end Java solutions to{" "}
-          <span className="text-amber-400 font-bold">
+          <span className="text-green-500 font-bold">
             transform your business.
           </span>
         </p>
       </Section>
 
       {/* Expertise Section */}
-      <Section className="bg-amber-400 text-slate-800" data-aos="fade-up">
+      <Section className="bg-green-500 text-slate-800" data-aos="fade-up">
         <p data-aos="fade-up">
           With extensive experience delivering both simple and highly complex
           Java projects across various industries, the Anchor Informatics Ltd

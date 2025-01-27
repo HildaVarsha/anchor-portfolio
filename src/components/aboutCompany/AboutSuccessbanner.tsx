@@ -18,7 +18,7 @@ const AboutSuccessbanner = () => {
 "
         />
         <p
-          className="text-2xl md:text-5xl font-semibold text-amber-400"
+          className="text-2xl md:text-5xl font-semibold text-green-500"
           data-aos="fade-up"
         >
           for your success

@@ -37,7 +37,7 @@ const MarkettingTechnology = () => {
             Technologies
           </p>
           <p
-            className="text-amber-400 text-5xl mx-auto font-bold max-w-4xl"
+            className="text-green-500 text-5xl mx-auto font-bold max-w-4xl"
             data-aos="fade-up"
           >
             we work with

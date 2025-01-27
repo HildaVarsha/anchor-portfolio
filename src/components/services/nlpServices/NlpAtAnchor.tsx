@@ -16,7 +16,7 @@ const NlpAtAnchor = () => {
           data-aos="fade-up"
         >
           Why Choose Anchor for
-          <span className="text-amber-400">{""} NLP Services</span>
+          <span className="text-green-500">{""} NLP Services</span>
         </p>
       </div>
       <div className="mt-12 p-4 md:p-12 md:container mx-auto text-slate-800 bg-amber-100 flex flex-col md:flex-row gap-4 md:gap-16">

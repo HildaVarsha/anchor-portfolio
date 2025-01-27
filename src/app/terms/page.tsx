@@ -35,7 +35,7 @@ const TermsConditions: React.FC = () => {
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* Header Section */}
-      <div className="bg-blue-400 py-16 h-96 flex flex-col justify-center items-center">
+      <div className="bg-green-500 py-16 h-96 flex flex-col justify-center items-center">
         <div className="container mx-auto px-4 text-center">
           <h1
             data-aos="fade-up"
@@ -58,7 +58,7 @@ const TermsConditions: React.FC = () => {
             <li key={section.id} data-aos="fade-up">
               <a
                 href={`#${section.id}`}
-                className="text-amber-400 hover:underline"
+                className="text-green-500 hover:underline"
               >
                 {section.title}
               </a>
@@ -218,7 +218,7 @@ const TermsConditions: React.FC = () => {
             For questions or concerns regarding these terms, contact us at
             <a
               href="mailto:info@anchorinformatics.co.uk"
-              className="text-amber-400 hover:underline pl-2"
+              className="text-green-500 hover:underline pl-2"
             >
               info@anchorinformatics.co.uk
             </a>

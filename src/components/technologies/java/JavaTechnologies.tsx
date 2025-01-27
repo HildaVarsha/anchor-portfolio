@@ -94,7 +94,7 @@ const JavaTechnologies: React.FC = () => {
             Technologies
           </p>
           <p
-            className="text-amber-400 px-4 md:px-0 text-2xl md:text-5xl font-bold"
+            className="text-green-500 px-4 md:px-0 text-2xl md:text-5xl font-bold"
             data-aos="fade-up"
           >
             we use
