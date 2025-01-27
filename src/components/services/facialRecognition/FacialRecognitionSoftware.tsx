@@ -51,7 +51,7 @@ const FacialRecognitionSoftware = () => {
           data-aos="fade-up"
         >
           Computer Vision
-          <span className="text-amber-400">
+          <span className="text-green-500">
             {" "}
             {""} Solutions Revolutionizing Industries
           </span>

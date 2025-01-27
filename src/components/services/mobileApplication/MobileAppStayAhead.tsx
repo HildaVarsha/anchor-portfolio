@@ -16,7 +16,7 @@ const MobileAppStayAhead = () => {
           data-aos="fade-up"
         >
           Stay ahead of the curve with our custom
-          <span className="text-amber-400"> App development services</span>.
+          <span className="text-green-500"> App development services</span>.
         </p>
       </div>
       <div className="py-12  bg-white">

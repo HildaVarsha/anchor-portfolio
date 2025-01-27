@@ -33,7 +33,7 @@ const LowCodeTypes = () => {
           data-aos="fade-up"
         >
           Types of low-code solutions
-          <span className="text-amber-400 px-2">we create</span>
+          <span className="text-green-500 px-2">we create</span>
         </p>
       </div>
       <div className="bg-white pt-16 text-slate-800">

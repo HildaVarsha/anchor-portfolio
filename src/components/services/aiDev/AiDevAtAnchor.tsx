@@ -61,7 +61,7 @@ const AiDevAtAnchor = () => {
           data-aos="fade-up"
         >
           At Anchor Informatics Ltd, an AI Development
-          <span className="text-amber-400">
+          <span className="text-green-500">
             {" "}
             Company with Unparalleled Expertise
           </span>

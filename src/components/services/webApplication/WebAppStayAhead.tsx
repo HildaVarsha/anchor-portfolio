@@ -16,7 +16,7 @@ const WebAppStayAhead = () => {
           data-aos="fade-up"
         >
           Stay Ahead of the Curve with Our
-          <span className="text-amber-400">
+          <span className="text-green-500">
             {" "}
             custom web development services
           </span>

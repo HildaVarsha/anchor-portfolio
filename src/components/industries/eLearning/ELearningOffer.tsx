@@ -19,7 +19,7 @@ const ELearningOffer = () => {
             data-aos="fade-up"
           >
             Offering flexible
-            <span className="text-amber-400 text-3xl md:text-5xl mx-auto font-bold pl-2">
+            <span className="text-green-500 text-3xl md:text-5xl mx-auto font-bold pl-2">
               engagement models
             </span>
           </p>

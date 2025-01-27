@@ -41,15 +41,15 @@ const RetailBoost = () => {
             data-aos="fade-up"
           >
             Boost retail and wholesale
-            <span className="text-amber-400 text-5xl mx-auto font-bold container pl-2">
+            <span className="text-green-500 text-5xl mx-auto font-bold container pl-2">
               operations
             </span>
           </p>
         </div>
       </div>
-      <div className="py-12 bg-amber-400">
+      <div className="py-12 bg-green-500">
         <div
-          className="px-4 md:px-0 md:container mx-auto bg-amber-400 p-4 text-slate-800"
+          className="px-4 md:px-0 md:container mx-auto bg-green-500 p-4 text-slate-800"
           data-aos="fade-up"
         >
           With our retail software development services, you can empower your

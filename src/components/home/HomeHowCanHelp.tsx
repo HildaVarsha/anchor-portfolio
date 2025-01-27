@@ -58,7 +58,7 @@ const services = [
 
 const HomeHowCanHelp = () => {
   return (
-    <div className="bg-amber-400 py-12" data-aos="fade-up">
+    <div className="bg-green-500 py-12" data-aos="fade-up">
       <div className="px-4 md:px-0 md:container mx-auto text-slate-900">
         <PageHeaderText
           label="How we can help you"

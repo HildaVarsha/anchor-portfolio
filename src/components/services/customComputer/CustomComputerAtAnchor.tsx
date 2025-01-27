@@ -20,7 +20,7 @@ const StatCard = ({ value, label }: { value: string; label: string }) => {
   return (
     <div data-aos="fade-up">
       <p
-        className="font-bold text-5xl text-amber-400 pb-2"
+        className="font-bold text-5xl text-green-500 pb-2"
         dangerouslySetInnerHTML={{ __html: formattedValue }}
       />
       <p>{label}</p>

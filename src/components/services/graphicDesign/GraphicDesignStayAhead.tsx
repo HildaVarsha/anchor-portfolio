@@ -16,7 +16,7 @@ const GraphicDesignStayAhead = () => {
           data-aos="fade-up"
         >
           Stay ahead of the curve with our custom{" "}
-          <span className="text-amber-400"> digital marketing services</span>.
+          <span className="text-green-500"> digital marketing services</span>.
         </p>
       </div>
       <div className="py-12  bg-white">

@@ -17,14 +17,14 @@ const AngularPartner = () => {
           data-aos="fade-up"
         >
           How our Angular development company
-          <span className="text-amber-400">
+          <span className="text-green-500">
             {" "}
             How our Angular development company can partner with you
           </span>
           .
         </p>
       </div>
-      <div className="py-12  bg-amber-400">
+      <div className="py-12  bg-green-500">
         <p
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"

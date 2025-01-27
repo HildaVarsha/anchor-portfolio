@@ -16,7 +16,7 @@ const HealthcareSecurity = () => {
           data-aos="fade-up"
         >
           Healthcare software security standards
-          <span className="text-amber-400 ml-2">
+          <span className="text-green-500 ml-2">
             and certifications we work with
           </span>
         </p>

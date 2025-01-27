@@ -19,13 +19,13 @@ const AboutVision = () => {
     <div className="bg-white py-12">
       <div className="px-4 md:px-0 md:container mx-auto">
         <PageHeaderText label="Vision" className="text-slate-800" />
-        <p className="text-amber-400 pt-4" data-aos="fade-up">
+        <p className="text-green-500 pt-4" data-aos="fade-up">
           {visionText}
         </p>
 
         <div className="pt-8">
           <PageHeaderText label="Mission" className="text-slate-800" />
-          <p className="text-amber-400 pt-4" data-aos="fade-up">
+          <p className="text-green-500 pt-4" data-aos="fade-up">
             {missionText}
           </p>
         </div>

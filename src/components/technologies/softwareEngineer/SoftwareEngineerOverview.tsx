@@ -29,7 +29,7 @@ const SoftwareEngineerOverview = () => {
       >
         <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
           <p data-aos="fade-up">Overview of Our Software </p>
-          <p className="text-amber-400" data-aos="fade-up">
+          <p className="text-green-500" data-aos="fade-up">
             Engineering Company
           </p>
         </div>

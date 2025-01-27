@@ -15,7 +15,7 @@ const CareerBanner = () => {
           className="text-2xl md:text-8xl font-semibold text-center"
           data-aos="fade-up"
         >
-          <span className="text-amber-400 ">
+          <span className="text-green-500 ">
             Build things you can take pride in.
           </span>
         </p>

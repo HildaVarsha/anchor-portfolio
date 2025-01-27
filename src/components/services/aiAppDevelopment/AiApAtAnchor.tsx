@@ -16,7 +16,7 @@ const AiApAtAnchor = () => {
           data-aos="fade-up"
         >
           360-degree
-          <span className="text-amber-400">Comprehensive AI Expertise</span>
+          <span className="text-green-500">Comprehensive AI Expertise</span>
         </p>
       </div>
       <div className="py-12 bg-white text-slate-800">

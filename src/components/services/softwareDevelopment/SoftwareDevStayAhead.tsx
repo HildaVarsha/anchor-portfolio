@@ -16,7 +16,7 @@ const SoftwareDevStayAhead = () => {
           data-aos="fade-up"
         >
           Stay Ahead of the Curve with Our Custom
-          <span className="text-amber-400">
+          <span className="text-green-500">
             {" "}
             Software Development and Redevelopment Services
           </span>

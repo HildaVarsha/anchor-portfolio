@@ -31,7 +31,7 @@ const stats = [
 const StatCard = ({ value, label }: { value: string; label: string }) => (
   <div data-aos="fade-up">
     <p
-      className="font-bold text-5xl text-amber-400 pb-2"
+      className="font-bold text-5xl text-green-500 pb-2"
       data-aos="fade-up"
       dangerouslySetInnerHTML={{ __html: value }}
     />

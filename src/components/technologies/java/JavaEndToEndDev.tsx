@@ -59,7 +59,7 @@ const JavaEndToEndDev = () => {
             data-aos="fade-up"
           >
             End-to-end Java development services to{" "}
-            <span className="text-amber-400 text-2xl md:text-5xl  font-bold ">
+            <span className="text-green-500 text-2xl md:text-5xl  font-bold ">
               fulfill your needs.
             </span>
           </p>
