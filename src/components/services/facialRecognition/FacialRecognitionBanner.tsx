@@ -2,6 +2,7 @@ import { PageHeaderText } from "@/components/shared";
 import { Button } from "@/components/ui";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const FacialRecognitionBanner = () => {
@@ -17,10 +18,12 @@ const FacialRecognitionBanner = () => {
           services to build next-generation solutions for security, compliance
           monitoring, and behavior analytics.
         </p>
-        <Button className="w-fit z-10" data-aos="fade-up">
-          Get In Touch
-          <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="w-fit z-10" data-aos="fade-up">
+            Get In Touch
+            <ArrowRight />
+          </Button>
+        </Link>
       </div>
       <Image
         src="/facial-recognition.png"

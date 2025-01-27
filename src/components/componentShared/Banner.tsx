@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Button } from "../ui";
 import { ArrowRight } from "lucide-react";
 import { PageHeaderText } from "../shared";
+import Link from "next/link";
 
 const Banner = ({
   headerLabel,
@@ -20,10 +21,12 @@ const Banner = ({
         <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
           {description}
         </p>
-        <Button className="w-fit z-10" data-aos="fade-up">
-          Get In Touch
-          <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="w-fit z-10" data-aos="fade-up">
+            Get In Touch
+            <ArrowRight />
+          </Button>
+        </Link>
       </div>
       <Image
         src={imageSrc}

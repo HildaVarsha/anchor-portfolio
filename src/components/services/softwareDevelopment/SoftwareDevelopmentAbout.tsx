@@ -2,6 +2,7 @@ import React from "react";
 import { PageHeaderText } from "../../shared";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const softwareServices = [
   {
@@ -53,9 +54,11 @@ const SoftwareDevelopmentAbout = () => {
             </div>
           ))}
         </div>
-        <Button className="mt-4" data-aos="fade-up">
-          Request our Software development services <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="mt-4" data-aos="fade-up">
+            Request our Software development services <ArrowRight />
+          </Button>
+        </Link>
       </div>
     </div>
   );

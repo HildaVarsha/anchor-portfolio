@@ -3,6 +3,7 @@ import { Button } from "@/components/ui";
 import { ArrowRight } from "lucide-react";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const NlpBanner = () => {
   return (
@@ -17,18 +18,19 @@ const NlpBanner = () => {
           to automate your business and take advantage of the opportunities
           created by recent advancements in NLP.
         </p>
-
-        <Button className="w-fit z-10" data-aos="fade-up">
-          Get In Touch
-          <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="w-fit z-10" data-aos="fade-up">
+            Get In Touch
+            <ArrowRight />
+          </Button>
+        </Link>
       </div>
       <Image
         src="/nlp-services.png"
         alt="About Anchor Informatics Ltd"
         height={700}
         width={600}
-        className="absolute md:flex top-24 right-32 animate-rotate"
+        className="absolute md:flex top-12 right-32 animate-rotate"
       />
     </div>
   );

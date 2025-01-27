@@ -3,6 +3,7 @@ import Image from "next/image";
 import { PageHeaderText } from "../../shared";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const AiDevBanner = () => {
   return (
@@ -18,18 +19,19 @@ const AiDevBanner = () => {
           off-the-shelf AI products and foundation models to suit your specific
           requirements, or creating custom AI solutions from scratch.
         </p>
-
-        <Button className="w-fit z-10" data-aos="fade-up">
-          Get In Touch
-          <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="w-fit z-10" data-aos="fade-up">
+            Get In Touch
+            <ArrowRight />
+          </Button>
+        </Link>
       </div>
       <Image
         src="/artificial-dev.png"
         alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
-        className="absolute md:flex top-24 right-32 animate-rotate"
+        className="absolute md:flex top-24 right-32"
       />
     </div>
   );

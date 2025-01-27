@@ -2,6 +2,7 @@ import React from "react";
 import { PageHeaderText } from "../../shared";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const webServices = [
   {
@@ -54,9 +55,11 @@ const WebAppAbout = () => {
             </div>
           ))}
         </div>
-        <Button data-aos="fade-up">
-          Request our custom web services <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button data-aos="fade-up">
+            Request our custom web services <ArrowRight />
+          </Button>
+        </Link>
       </div>
     </div>
   );

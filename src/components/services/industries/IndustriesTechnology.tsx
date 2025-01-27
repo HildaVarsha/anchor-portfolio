@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const industries = [
   {
@@ -75,9 +76,11 @@ const IndustriesTechnology = () => {
             </p>
           </div>
         ))}
-        <Button className="w-fit" data-aos="fade-up">
-          Talk to tech consultants <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="w-fit" data-aos="fade-up">
+            Talk to tech consultants <ArrowRight />
+          </Button>
+        </Link>
       </div>
     </div>
   );

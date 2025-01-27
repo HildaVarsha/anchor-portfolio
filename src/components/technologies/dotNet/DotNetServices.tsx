@@ -2,6 +2,7 @@ import React from "react";
 import { PageHeaderText } from "../../shared";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const dotnetServices = [
   {
@@ -57,9 +58,11 @@ const DotNetServices = () => {
             </div>
           ))}
         </div>
-        <Button className="mt-4">
-          Consult on a best-fit option <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="mt-4">
+            Consult on a best-fit option <ArrowRight />
+          </Button>
+        </Link>
       </div>
     </div>
   );

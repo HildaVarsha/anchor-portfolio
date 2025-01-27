@@ -25,7 +25,7 @@ services"
         height={400}
         width={600}
         data-aos="fade-up"
-        className="absolute  md:flex top-24 right-32 animate-rotate "
+        className="absolute  md:flex top-24 right-32 "
       />
     </div>
   );

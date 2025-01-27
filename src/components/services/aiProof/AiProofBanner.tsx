@@ -3,6 +3,7 @@ import { Button } from "@/components/ui";
 import { ArrowRight } from "lucide-react";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const AiProofBanner = () => {
   return (
@@ -16,10 +17,12 @@ const AiProofBanner = () => {
           Quickly test, validate, and bring your AI ideas to life affordably
           with Anchor AI&apos;s proof-of-concept development services.
         </p>
-        <Button className="w-fit z-10" data-aos="fade-up">
-          Get In Touch
-          <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="w-fit z-10" data-aos="fade-up">
+            Get In Touch
+            <ArrowRight />
+          </Button>
+        </Link>
       </div>
       <Image
         src="/ai-proof.png"

@@ -1,5 +1,6 @@
 import { PageHeaderText } from "@/components/shared";
 import React from "react";
+
 const stats = [
   { value: "13+", label: "years of hands-on experience" },
   { value: "230+", label: "top-tier experts" },
@@ -9,17 +10,29 @@ const stats = [
   { value: "90%", label: "hold BS, MS or PhD in math and computer science" },
 ];
 
-const StatCard = ({ value, label }: { value: string; label: string }) => (
-  <div data-aos="fade-up">
-    <p className="font-bold text-5xl text-amber-400 pb-2">{value}</p>
-    <p>{label}</p>
-  </div>
-);
+const StatCard = ({ value, label }: { value: string; label: string }) => {
+  // Format the value to highlight `+` and `%` with green color
+  const formattedValue = value.replace(
+    /(\+|%)/g,
+    (match) => `<span class="text-green-500">${match}</span>`
+  );
+
+  return (
+    <div data-aos="fade-up">
+      <p
+        className="font-bold text-5xl text-amber-400 pb-2"
+        dangerouslySetInnerHTML={{ __html: formattedValue }}
+      />
+      <p>{label}</p>
+    </div>
+  );
+};
+
 const CustomComputerAtAnchor = () => {
   return (
     <div className="py-16 bg-white">
       <div className="container mx-auto p-6 md:p-16 bg-black">
-        <PageHeaderText label="Anchor’s Informativein numbers" />
+        <PageHeaderText label="Anchor’s Informative in Numbers" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-16">
           {stats.map((stat, index) => (
             <StatCard key={index} value={stat.value} label={stat.label} />

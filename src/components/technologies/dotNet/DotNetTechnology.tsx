@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const DotNetTechnology = () => {
   return (
@@ -64,11 +65,13 @@ const DotNetTechnology = () => {
             </li>
           </div>
         </div>
-        <div className="flex items-center justify-center">
-          <Button className="mt-4" data-aos="fade-up">
-            Hire .NET developers <ArrowRight />
-          </Button>
-        </div>
+        <Link href={"/contact-us"}>
+          <div className="flex items-center justify-center">
+            <Button className="mt-4" data-aos="fade-up">
+              Hire .NET developers <ArrowRight />
+            </Button>
+          </div>
+        </Link>
       </div>
     </div>
   );
