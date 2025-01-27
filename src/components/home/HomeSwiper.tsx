@@ -111,7 +111,7 @@ const HomeSwiper = () => {
 
             {/* Content */}
             <div className="absolute z-10 text-center text-white px-4 md:px-0 md:container mx-auto top-64">
-              <p className="text-3xl md:text-5xl font-bold text-green-500">
+              <p className="text-3xl md:text-5xl font-bold text-lime-500">
                 {slide.heading}
               </p>
               <p className="text-3xl md:text-5xl font-bold py-4">
@@ -120,7 +120,7 @@ const HomeSwiper = () => {
               <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16 mt-12 px-4 md:px-24">
                 <div className="flex items-center gap-2 font-semibold text-3xl w-full">
                   We think
-                  <span className="text-green-500">
+                  <span className="text-lime-500">
                     <TypeAnimation
                       sequence={slide.animationSequence}
                       wrapper="span"

@@ -13,7 +13,7 @@ const HowWeWorkBanner = () => {
     >
       <div className="px-4 md:px-0 md:container mx-auto h-full flex flex-col justify-center gap-12">
         <p className="text-2xl md:text-8xl font-semibold" data-aos="fade-up">
-          How we can work <span className="text-green-500">with you</span>
+          How we can work <span className="text-lime-500">with you</span>
         </p>
         <div className="flex flex-col md:flex-row items-center gap-4 md:gap-12 md:w-[700px] ">
           <p data-aos="fade-up">

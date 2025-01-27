@@ -50,7 +50,7 @@ const DevopsTechnology = () => {
       >
         <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container">
           <p data-aos="fade-up">The Technology Stack Behind</p>
-          <p className="text-green-500" data-aos="fade-up">
+          <p className="text-lime-500" data-aos="fade-up">
             Our DevOps Solutions
           </p>
         </div>

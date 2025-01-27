@@ -40,7 +40,7 @@ const PrivacyContent: React.FC = () => {
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* Header Section */}
-      <div className="bg-green-500 py-16 h-96 flex flex-col justify-center items-center">
+      <div className="bg-lime-500 py-16 h-96 flex flex-col justify-center items-center">
         <div className="container mx-auto px-4 text-center">
           <h1
             data-aos="fade-up"
@@ -69,7 +69,7 @@ const PrivacyContent: React.FC = () => {
               <a
                 href={`#${section.id}`}
                 data-aos="fade-up"
-                className="text-green-500 hover:underline"
+                className="text-lime-500 hover:underline"
               >
                 {section.title}
               </a>
@@ -270,7 +270,7 @@ const PrivacyContent: React.FC = () => {
             at{" "}
             <a
               href="mailto:info@anchorinformatics.co.uk"
-              className="text-green-500 hover:underline"
+              className="text-lime-500 hover:underline"
             >
               info@anchorinformatics.co.uk
             </a>

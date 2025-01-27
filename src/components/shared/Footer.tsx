@@ -142,16 +142,16 @@ const Footer = () => {
         </div>
         <div className="flex items-center gap-4 mt-8 md:mt-0">
           <Link href={"/"}>
-            <FacebookIcon className="w-6 h-6 text-green-500" />
+            <FacebookIcon className="w-6 h-6 text-lime-500" />
           </Link>
           <Link href={"/"}>
-            <Instagram className="w-6 h-6 text-green-500" />
+            <Instagram className="w-6 h-6 text-lime-500" />
           </Link>
           <Link href={"https://www.linkedin.com/company/anchorinformatics/"}>
-            <LinkedinIcon className="w-6 h-6 text-green-500" />
+            <LinkedinIcon className="w-6 h-6 text-lime-500" />
           </Link>
           <Link href={"/"}>
-            <TwitterIcon className="w-6 h-6 text-green-500" />
+            <TwitterIcon className="w-6 h-6 text-lime-500" />
           </Link>
         </div>
       </div>

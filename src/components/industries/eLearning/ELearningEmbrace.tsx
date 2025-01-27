@@ -52,12 +52,12 @@ const ELearningEmbrace = () => {
           data-aos="fade-up"
         >
           Embracing the possibilities
-          <span className="text-green-500 pl-2">
+          <span className="text-lime-500 pl-2">
             of educational technology to the fullest
           </span>
         </p>
       </div>
-      <div className="py-12 bg-green-500">
+      <div className="py-12 bg-lime-500">
         <p
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"

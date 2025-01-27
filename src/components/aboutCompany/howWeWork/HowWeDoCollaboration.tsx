@@ -34,7 +34,7 @@ const HowWeDoCollaboration = () => {
                   data-aos="fade-up"
                 >
                   Show More{" "}
-                  <PlusCircleIcon className="bg-green-500 text-white rounded-full" />
+                  <PlusCircleIcon className="bg-lime-500 text-white rounded-full" />
                 </Button>
               </Link>
             </div>
@@ -54,7 +54,7 @@ const HowWeDoCollaboration = () => {
                   data-aos="fade-up"
                 >
                   Show More{" "}
-                  <PlusCircleIcon className="bg-green-500 text-white rounded-full" />
+                  <PlusCircleIcon className="bg-lime-500 text-white rounded-full" />
                 </Button>
               </Link>
             </div>
@@ -79,7 +79,7 @@ const HowWeDoCollaboration = () => {
                   data-aos="fade-up"
                 >
                   Show More{" "}
-                  <PlusCircleIcon className="bg-green-500 text-white rounded-full" />
+                  <PlusCircleIcon className="bg-lime-500 text-white rounded-full" />
                 </Button>
               </Link>
             </div>

@@ -36,7 +36,7 @@ const UiUXAtAnchor = () => {
           data-aos="fade-up"
         >
           Why work with our
-          <span className="text-green-500 px-2"> UI/UX design company?</span>
+          <span className="text-lime-500 px-2"> UI/UX design company?</span>
         </p>
       </div>
       <div className="bg-white py-16 text-slate-800">

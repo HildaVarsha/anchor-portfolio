@@ -7,12 +7,12 @@ const AboutCompanyFacts = () => {
         className="text-2xl md:text-5xl font-semibold pb-6 text-center"
         data-aos="fade-up"
       >
-        <span className="text-green-500">Key facts</span> about us
+        <span className="text-lime-500">Key facts</span> about us
       </p>
       <div className="flex items-center justify-between pt-8">
         <div>
           <p
-            className="text-5xl font-semibold text-green-500"
+            className="text-5xl font-semibold text-lime-500"
             data-aos="fade-up"
           >
             560
@@ -21,10 +21,10 @@ const AboutCompanyFacts = () => {
         </div>
         <div>
           <p
-            className="text-5xl font-semibold text-green-500"
+            className="text-5xl font-semibold text-lime-500"
             data-aos="fade-up"
           >
-            5<span className="text-green-500">+</span>
+            5<span className="text-lime-500">+</span>
           </p>
           <p data-aos="fade-up">Partners</p>
         </div>
@@ -32,19 +32,19 @@ const AboutCompanyFacts = () => {
       <div className="flex items-center justify-between pt-8">
         <div>
           <p
-            className="text-5xl font-semibold text-green-500"
+            className="text-5xl font-semibold text-lime-500"
             data-aos="fade-up"
           >
-            20<span className="text-green-500">+</span>
+            20<span className="text-lime-500">+</span>
           </p>
           <p data-aos="fade-up">Companies</p>
         </div>
         <div>
           <p
-            className="text-5xl font-semibold text-green-500 text-end"
+            className="text-5xl font-semibold text-lime-500 text-end"
             data-aos="fade-up"
           >
-            500<span className="text-green-500">+</span>
+            500<span className="text-lime-500">+</span>
           </p>
           <p data-aos="fade-up">Happy Clients</p>
         </div>
@@ -52,19 +52,19 @@ const AboutCompanyFacts = () => {
       <div className="flex items-center justify-between pt-8">
         <div className="w-full">
           <p
-            className="text-5xl font-semibold text-green-500"
+            className="text-5xl font-semibold text-lime-500"
             data-aos="fade-up"
           >
-            90<span className="text-green-500">%</span>
+            90<span className="text-lime-500">%</span>
           </p>
           <p data-aos="fade-up">Quality Services</p>
         </div>
         <div className="w-full">
           <p
-            className="text-5xl font-semibold text-green-500 text-end"
+            className="text-5xl font-semibold text-lime-500 text-end"
             data-aos="fade-up"
           >
-            95<span className="text-green-500">%</span>
+            95<span className="text-lime-500">%</span>
           </p>
           <p className="text-end" data-aos="fade-up">
             Our Software Makes Your Life Easier

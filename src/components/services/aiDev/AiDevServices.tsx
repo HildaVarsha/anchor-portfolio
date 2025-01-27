@@ -50,7 +50,7 @@ const AiDevServices = () => {
           data-aos="fade-up"
         >
           The Core pillars
-          <span className="text-green-500">
+          <span className="text-lime-500">
             {" "}
             of our AI development services.
           </span>

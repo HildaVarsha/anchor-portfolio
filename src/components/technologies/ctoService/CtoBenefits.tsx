@@ -51,7 +51,7 @@ const CtoBenefits = () => {
           data-aos="fade-up"
         >
           <p data-aos="fade-up">Benefit from our broad </p>{" "}
-          <p className="text-green-500" data-aos="fade-up">
+          <p className="text-lime-500" data-aos="fade-up">
             technology capabilities.
           </p>
         </div>

@@ -172,7 +172,7 @@ const TopNavbar = () => {
         <Link
           href="/"
           className={`${
-            pathname === "/" ? "text-green-500" : "hover:text-green-500"
+            pathname === "/" ? "text-lime-500" : "hover:text-lime-500"
           }`}
         >
           Home
@@ -183,8 +183,8 @@ const TopNavbar = () => {
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuTrigger
-                  className={`p-2 hover:text-green-500 w-full cursor-pointer flex items-center gap-2 ${
-                    pathname.includes(menu.baseUrl) ? "text-green-500" : ""
+                  className={`p-2 hover:text-lime-500 w-full cursor-pointer flex items-center gap-2 ${
+                    pathname.includes(menu.baseUrl) ? "text-lime-500" : ""
                   }`}
                 >
                   {menu.title}
@@ -193,10 +193,10 @@ const TopNavbar = () => {
                   {menu.links.map((link) => (
                     <NavigationMenuLink
                       key={link.href}
-                      className={`p-2 hover:text-green-500 w-full cursor-pointer flex items-center gap-2 ${
-                        pathname.includes(link.href) ? "text-green-500" : ""
+                      className={`p-2 hover:text-lime-500 w-full cursor-pointer flex items-center gap-2 ${
+                        pathname.includes(link.href) ? "text-lime-500" : ""
                       }`}
-                      // className="p-2 hover:text-green-500 w-full cursor-pointer flex items-center gap-2"
+                      // className="p-2 hover:text-lime-500 w-full cursor-pointer flex items-center gap-2"
                     >
                       <ChevronsRight className="w-4 h-4" />
                       <Link href={link.href}>{link.label}</Link>
@@ -211,7 +211,7 @@ const TopNavbar = () => {
         <Link
           href="/career"
           className={`${
-            pathname === "/career" ? "text-green-500" : "hover:text-green-500"
+            pathname === "/career" ? "text-lime-500" : "hover:text-lime-500"
           }`}
         >
           Career
@@ -236,8 +236,8 @@ const TopNavbar = () => {
 
           <Link
             href="/"
-            className={`hover:text-green-500 block p-2 font-semibold ${
-              pathname === "/" ? "text-green-500" : ""
+            className={`hover:text-lime-500 block p-2 font-semibold ${
+              pathname === "/" ? "text-lime-500" : ""
             }`}
             onClick={handleLinkClick}
           >
@@ -247,10 +247,10 @@ const TopNavbar = () => {
           {/* Dynamic Sections */}
           {menus?.map((section) => (
             <details className="group" key={section?.title}>
-              <summary className="py-2 hover:text-green-500 cursor-pointer font-semibold flex items-center gap-2">
+              <summary className="py-2 hover:text-lime-500 cursor-pointer font-semibold flex items-center gap-2">
                 <p
-                  className={`p-2 w-24 hover:text-green-500  cursor-pointer flex items-center gap-2 ${
-                    pathname.includes(section.baseUrl) ? "text-green-500" : ""
+                  className={`p-2 w-24 hover:text-lime-500  cursor-pointer flex items-center gap-2 ${
+                    pathname.includes(section.baseUrl) ? "text-lime-500" : ""
                   }`}
                 >
                   {section.title}
@@ -267,13 +267,13 @@ const TopNavbar = () => {
                 {section.links.map((link) => (
                   <div
                     key={link.href}
-                    className="flex items-center gap-2 hover:text-green-500"
+                    className="flex items-center gap-2 hover:text-lime-500"
                   >
                     <SendHorizontal className="w-4 h-4" />
                     <Link
                       href={link.href}
-                      className={`p-2 hover:text-green-500 w-full cursor-pointer flex items-center gap-2 ${
-                        pathname.includes(link.href) ? "text-green-500" : ""
+                      className={`p-2 hover:text-lime-500 w-full cursor-pointer flex items-center gap-2 ${
+                        pathname.includes(link.href) ? "text-lime-500" : ""
                       }`}
                       onClick={handleLinkClick}
                     >
@@ -289,9 +289,7 @@ const TopNavbar = () => {
               href="/career"
               onClick={handleLinkClick}
               className={` px-2 font-semibold ${
-                pathname === "/career"
-                  ? "text-green-500"
-                  : "hover:text-green-500"
+                pathname === "/career" ? "text-lime-500" : "hover:text-lime-500"
               }`}
             >
               Career

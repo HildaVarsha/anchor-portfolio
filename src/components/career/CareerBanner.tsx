@@ -12,13 +12,13 @@ const CareerBanner = () => {
     >
       <div className="px-4 md:px-0 md:container mx-auto flex flex-col items-center justify-center h-full">
         <p
-          className="text-2xl md:text-8xl font-semibold text-green-500"
+          className="text-2xl md:text-8xl font-semibold text-lime-500"
           data-aos="fade-up"
         >
           Build things you’re
         </p>
         <p
-          className="text-2xl md:text-8xl font-semibold text-green-500"
+          className="text-2xl md:text-8xl font-semibold text-lime-500"
           data-aos="fade-up"
         >
           proud of

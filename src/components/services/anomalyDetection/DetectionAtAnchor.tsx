@@ -16,7 +16,7 @@ const DetectionAtAnchor = () => {
           data-aos="fade-up"
         >
           Why Choose Anchor&apos;s Informatics Over Other
-          <span className="text-green-500">
+          <span className="text-lime-500">
             {""} Anomaly Detection Companies?
           </span>
         </p>

@@ -37,7 +37,7 @@ const AboutValues = () => {
     <div className="px-4 md:px-0 md:max-w-xl mx-auto py-12">
       <PageHeaderText
         label="We live by powerful values:"
-        className="text-green-500"
+        className="text-lime-500"
       />
       {values.map(({ number, title, description, reverse }, index) => (
         <div
@@ -47,11 +47,11 @@ const AboutValues = () => {
           }`}
           data-aos="fade-up"
         >
-          <p className="text-green-500 w-full" data-aos="fade-up">
+          <p className="text-lime-500 w-full" data-aos="fade-up">
             {description}
           </p>
           <div className="w-full text-center">
-            <p className="text-9xl text-green-500 font-bold" data-aos="fade-up">
+            <p className="text-9xl text-lime-500 font-bold" data-aos="fade-up">
               {number}
             </p>
             <p className="font-semibold text-3xl" data-aos="fade-up">

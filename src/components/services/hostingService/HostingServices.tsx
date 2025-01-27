@@ -16,11 +16,11 @@ const HostingServices = () => {
           data-aos="fade-up"
         >
           &quot;
-          <span className="text-green-500">Hosting services</span> to elevate
+          <span className="text-lime-500">Hosting services</span> to elevate
           your business to the next level.&quot;
         </p>
       </div>
-      <div className="py-12 bg-green-500">
+      <div className="py-12 bg-lime-500">
         <p
           className="px-4 md:px-0 md:max-w-4xl mx-auto text-slate-800"
           data-aos="fade-up"

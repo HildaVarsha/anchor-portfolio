@@ -11,7 +11,7 @@ const IndustrialRetail = () => {
         height={500}
         className="w-full"
       />
-      <div className="bg-green-500 text-slate-800">
+      <div className="bg-lime-500 text-slate-800">
         <div
           className="px-4 md:px-0 md:max-w-2xl mx-auto py-12"
           data-aos="fade-up"

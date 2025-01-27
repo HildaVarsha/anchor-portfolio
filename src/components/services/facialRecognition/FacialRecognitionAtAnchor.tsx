@@ -54,7 +54,7 @@ const FacialRecognitionAtAnchor = () => {
           data-aos="fade-up"
         >
           Anchor’s Informative for Face Recognition
-          <span className="text-green-500"> Software Development.</span>
+          <span className="text-lime-500"> Software Development.</span>
         </p>
       </div>
       <div className="mt-12 p-4 md:p-12 md:container mx-auto text-slate-800 bg-white flex flex-col gap-8">

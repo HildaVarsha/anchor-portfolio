@@ -16,12 +16,12 @@ const DevopsServices = () => {
           data-aos="fade-up"
         >
           <p data-aos="fade-up">Our DevOps Services and </p>
-          <p className="text-green-500" data-aos="fade-up">
+          <p className="text-lime-500" data-aos="fade-up">
             Solutions
           </p>
         </div>
       </div>
-      <div className="py-12 bg-green-500">
+      <div className="py-12 bg-lime-500">
         <p
           className="px-4 md:px-0 md:container mx-auto text-slate-800"
           data-aos="fade-up"

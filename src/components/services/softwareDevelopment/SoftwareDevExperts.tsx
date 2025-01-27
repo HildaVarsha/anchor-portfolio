@@ -15,12 +15,12 @@ const SoftwareDevExperts = () => {
           className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold max-w-4xl"
           data-aos="fade-up"
         >
-          &quot;<span className="text-green-500">Experts guiding</span>
+          &quot;<span className="text-lime-500">Experts guiding</span>
           you through every step of your software development and redevelopment
           journey.&quot;
         </p>
       </div>
-      <div className="py-12 bg-green-500">
+      <div className="py-12 bg-lime-500">
         <p
           className="px-4 md:px-0 md:max-w-4xl mx-auto text-slate-800"
           data-aos="fade-up"

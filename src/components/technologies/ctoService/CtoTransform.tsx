@@ -33,7 +33,7 @@ const CtoTransform = () => {
           data-aos="fade-up"
         >
           <p data-aos="fade-up">See how CTO as a Service can</p>{" "}
-          <p className="text-green-500" data-aos="fade-up">
+          <p className="text-lime-500" data-aos="fade-up">
             transform your technology leadership.
           </p>
         </div>
