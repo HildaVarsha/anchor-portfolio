@@ -1,15 +1,16 @@
 import React from "react";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const HireButton = ({ label }: { label?: string }) => {
   return (
-    <div>
+    <Link href={"/contact-us"}>
       <Button className="w-fit mt-4 z-10" data-aos="fade-up">
         {label ? label : "Hire a virtual CTO"}
         <ArrowRight />
       </Button>
-    </div>
+    </Link>
   );
 };
 

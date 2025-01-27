@@ -3,6 +3,7 @@ import Image from "next/image";
 import { PageHeaderText } from "../../shared";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const GraphicDesignBanner = () => (
   <div className="h-screen bg-[#02132B] relative py-16">
@@ -16,10 +17,12 @@ const GraphicDesignBanner = () => (
         comprehensive graphic design and marketing solutions from Anchor
         Informatics.
       </p>
-      <Button className="w-fit z-10" data-aos="fade-up">
-        Get In Touch
-        <ArrowRight />
-      </Button>
+      <Link href={"/contact-us"}>
+        <Button className="w-fit z-10" data-aos="fade-up">
+          Get In Touch
+          <ArrowRight />
+        </Button>
+      </Link>
     </div>
     <Image
       src="/service-banner.png"

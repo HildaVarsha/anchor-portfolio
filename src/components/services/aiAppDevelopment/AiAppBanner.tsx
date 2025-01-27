@@ -3,6 +3,7 @@ import Image from "next/image";
 import { PageHeaderText } from "../../shared";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const AiAppBanner = () => {
   return (
@@ -17,11 +18,12 @@ const AiAppBanner = () => {
           development solutions. We build innovative, AI-driven applications
           that empower you to reach new heights.
         </p>
-
-        <Button className="w-fit z-10" data-aos="fade-up">
-          Get In Touch
-          <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="w-fit z-10" data-aos="fade-up">
+            Get In Touch
+            <ArrowRight />
+          </Button>
+        </Link>
       </div>
       <Image
         src="/ai-app.png"

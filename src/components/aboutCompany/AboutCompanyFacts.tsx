@@ -9,7 +9,7 @@ const AboutCompanyFacts = () => {
       >
         <span className="text-amber-400">Key facts</span> about us
       </p>
-      <div className="flex  items-center justify-between pt-8">
+      <div className="flex items-center justify-between pt-8">
         <div>
           <p
             className="text-5xl font-semibold text-amber-400"
@@ -24,7 +24,7 @@ const AboutCompanyFacts = () => {
             className="text-5xl font-semibold text-amber-400"
             data-aos="fade-up"
           >
-            5+
+            5<span className="text-green-500">+</span>
           </p>
           <p data-aos="fade-up">Partners</p>
         </div>
@@ -35,7 +35,7 @@ const AboutCompanyFacts = () => {
             className="text-5xl font-semibold text-amber-400"
             data-aos="fade-up"
           >
-            20+
+            20<span className="text-green-500">+</span>
           </p>
           <p data-aos="fade-up">Companies</p>
         </div>
@@ -44,7 +44,7 @@ const AboutCompanyFacts = () => {
             className="text-5xl font-semibold text-amber-400 text-end"
             data-aos="fade-up"
           >
-            500+
+            500<span className="text-green-500">+</span>
           </p>
           <p data-aos="fade-up">Happy Clients</p>
         </div>
@@ -55,7 +55,7 @@ const AboutCompanyFacts = () => {
             className="text-5xl font-semibold text-amber-400"
             data-aos="fade-up"
           >
-            90%
+            90<span className="text-green-500">%</span>
           </p>
           <p data-aos="fade-up">Quality Services</p>
         </div>
@@ -64,7 +64,7 @@ const AboutCompanyFacts = () => {
             className="text-5xl font-semibold text-amber-400 text-end"
             data-aos="fade-up"
           >
-            95%
+            95<span className="text-green-500">%</span>
           </p>
           <p className="text-end" data-aos="fade-up">
             Our Software Makes Your Life Easier

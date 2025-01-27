@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 const dotnetAppServices = [
   {
     title: "Web",
@@ -51,9 +52,11 @@ const DotNetProcess = () => {
             </div>
           ))}
         </div>
-        <Button className="mt-4" data-aos="fade-up">
-          Develop your .NET app <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="mt-4" data-aos="fade-up">
+            Develop your .NET app <ArrowRight />
+          </Button>
+        </Link>
       </div>
     </div>
   );

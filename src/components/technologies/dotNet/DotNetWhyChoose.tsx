@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const DotNetWhyChoose = () => {
   return (
@@ -38,11 +39,13 @@ const DotNetWhyChoose = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-center px-4 md:px-0 md:container mx-auto">
-        <Button className="mt-4" data-aos="fade-up">
-          Hire .NET developers <ArrowRight />
-        </Button>
-      </div>
+      <Link href={"/contact-us"}>
+        <div className="flex items-center px-4 md:px-0 md:container mx-auto">
+          <Button className="mt-4" data-aos="fade-up">
+            Hire .NET developers <ArrowRight />
+          </Button>
+        </div>
+      </Link>
     </div>
   );
 };

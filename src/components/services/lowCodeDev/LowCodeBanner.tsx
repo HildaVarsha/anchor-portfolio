@@ -3,6 +3,7 @@ import Image from "next/image";
 import { PageHeaderText } from "../../shared";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 const LowCodeBanner = () => {
   return (
     <div className="h-screen bg-[#031931] relative">
@@ -16,10 +17,12 @@ development services"
           Speed up time to market and cut application development costs by up to
           50% with ITRex&apos;s low-code and no-code development services.
         </p>
-        <Button className="w-fit z-10" data-aos="fade-up">
-          Get In Touch
-          <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="w-fit z-10" data-aos="fade-up">
+            Get In Touch
+            <ArrowRight />
+          </Button>
+        </Link>
       </div>
       <Image
         src="/low-code-banner.png"

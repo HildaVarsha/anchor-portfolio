@@ -10,12 +10,23 @@ const stats = [
   { value: "90%", label: "hold BS, MS or PhD in math and computer science" },
 ];
 
-const StatCard = ({ value, label }: { value: string; label: string }) => (
-  <div data-aos="fade-up">
-    <p className="font-bold text-5xl text-amber-400 pb-2">{value}</p>
-    <p>{label}</p>
-  </div>
-);
+const StatCard = ({ value, label }: { value: string; label: string }) => {
+  // Format the value to highlight + and % in green
+  const formattedValue = value.replace(
+    /(\+|%)/g,
+    (match) => `<span class="text-green-500">${match}</span>`
+  );
+
+  return (
+    <div data-aos="fade-up">
+      <p
+        className="font-bold text-5xl text-amber-400 pb-2"
+        dangerouslySetInnerHTML={{ __html: formattedValue }}
+      />
+      <p>{label}</p>
+    </div>
+  );
+};
 
 const LowCodeGlance = () => {
   return (

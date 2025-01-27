@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 const mobileAppServices = [
   {
     title: "UX/UI Design",
@@ -46,9 +47,11 @@ const MobileAppProcess = () => {
             </div>
           ))}
         </div>
-        <Button className="mt-4" data-aos="fade-up">
-          Tell us your web development needs <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="mt-4" data-aos="fade-up">
+            Tell us your web development needs <ArrowRight />
+          </Button>
+        </Link>
       </div>
     </div>
   );

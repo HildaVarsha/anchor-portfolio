@@ -3,6 +3,7 @@ import Image from "next/image";
 import { PageHeaderText } from "../../shared";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const IndustriesBanner = () => {
   return (
@@ -12,9 +13,11 @@ const IndustriesBanner = () => {
           label="Empowering Industries with Innovation"
           className="w-full md:max-w-2xl"
         />
-        <Button className="w-fit z-10" data-aos="fade-up">
-          Tap in digital finance <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="w-fit z-10" data-aos="fade-up">
+            Tap in digital finance <ArrowRight />
+          </Button>
+        </Link>
       </div>
       <Image
         src={"/industries.png"}

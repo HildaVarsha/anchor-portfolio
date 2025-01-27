@@ -3,6 +3,7 @@ import { Button } from "@/components/ui";
 import { PlusCircleIcon } from "lucide-react";
 import React from "react";
 import ConsultationButton from "./ConsultationButton";
+import Link from "next/link";
 
 const HowWeDoCollaboration = () => {
   return (
@@ -26,14 +27,16 @@ const HowWeDoCollaboration = () => {
                 communication with you. You only pay for the actual work done,
                 based on daily or hourly rates per specialist.
               </p>
-              <Button
-                variant={"link"}
-                className="px-0 font-semibold"
-                data-aos="fade-up"
-              >
-                Show More{" "}
-                <PlusCircleIcon className="bg-blue-600 text-white rounded-full" />
-              </Button>
+              <Link href={"/contact-us"}>
+                <Button
+                  variant={"link"}
+                  className="px-0 font-semibold"
+                  data-aos="fade-up"
+                >
+                  Show More{" "}
+                  <PlusCircleIcon className="bg-green-500 text-white rounded-full" />
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="flex justify-between border-b border-slate-300 py-4">
@@ -44,14 +47,16 @@ const HowWeDoCollaboration = () => {
                 entire project before development starts. This approach requires
                 detailed planning and project scope estimation upfront.
               </p>
-              <Button
-                variant={"link"}
-                className="px-0 font-semibold"
-                data-aos="fade-up"
-              >
-                Show More{" "}
-                <PlusCircleIcon className="bg-blue-600 text-white rounded-full" />
-              </Button>
+              <Link href={"/contact-us"}>
+                <Button
+                  variant={"link"}
+                  className="px-0 font-semibold"
+                  data-aos="fade-up"
+                >
+                  Show More{" "}
+                  <PlusCircleIcon className="bg-green-500 text-white rounded-full" />
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="flex justify-between border-b border-slate-300 py-4">
@@ -67,14 +72,16 @@ const HowWeDoCollaboration = () => {
                 and ideas, while delivering exceptional results with the same
                 level of commitment as an in-house team.
               </p>
-              <Button
-                variant={"link"}
-                className="px-0 font-semibold"
-                data-aos="fade-up"
-              >
-                Show More{" "}
-                <PlusCircleIcon className="bg-blue-600 text-white rounded-full" />
-              </Button>
+              <Link href={"/contact-us"}>
+                <Button
+                  variant={"link"}
+                  className="px-0 font-semibold"
+                  data-aos="fade-up"
+                >
+                  Show More{" "}
+                  <PlusCircleIcon className="bg-green-500 text-white rounded-full" />
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="mt-8">

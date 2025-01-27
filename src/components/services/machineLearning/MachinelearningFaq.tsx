@@ -50,6 +50,7 @@ const MachinelearningFaq = () => {
             </AccordionItem>
           ))}
         </Accordion>
+
         <Link href={"/contact-us"} className="pt-6">
           <Button>Tell us about your project</Button>
         </Link>

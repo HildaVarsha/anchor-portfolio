@@ -10,18 +10,29 @@ const stats = [
   { value: "90%", label: "hold BS, MS or PhD in math and computer science" },
 ];
 
-const StatCard = ({ value, label }: { value: string; label: string }) => (
-  <div data-aos="fade-up">
-    <p className="font-bold text-5xl text-amber-400 pb-2">{value}</p>
-    <p>{label}</p>
-  </div>
-);
+const StatCard = ({ value, label }: { value: string; label: string }) => {
+  // Highlight + and % symbols in green
+  const formattedValue = value.replace(
+    /(\+|%)/g,
+    (match) => `<span class="text-green-500">${match}</span>`
+  );
+
+  return (
+    <div data-aos="fade-up">
+      <p
+        className="font-bold text-5xl text-amber-400 pb-2"
+        dangerouslySetInnerHTML={{ __html: formattedValue }}
+      />
+      <p>{label}</p>
+    </div>
+  );
+};
 
 const MachineLearningGlance = () => {
   return (
     <div className="pb-16 bg-white">
       <div className="container mx-auto p-6 md:p-16 bg-black">
-        <PageHeaderText label="What makes  Anchor’s Informative stand out" />
+        <PageHeaderText label="What makes Anchor’s Informative stand out" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-16">
           {stats.map((stat, index) => (
             <StatCard key={index} value={stat.value} label={stat.label} />

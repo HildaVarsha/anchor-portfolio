@@ -3,6 +3,7 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui";
 import { PageHeaderText } from "@/components/shared";
+import Link from "next/link";
 
 const DetectionBanner = () => {
   return (
@@ -17,10 +18,12 @@ const DetectionBanner = () => {
           address issues proactively, preventing potential disruptions to your
           processes, customer satisfaction, revenue, or brand reputation.
         </p>
-        <Button className="w-fit z-10" data-aos="fade-up">
-          Partner with our anomaly detection company
-          <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="w-fit z-10" data-aos="fade-up">
+            Partner with our anomaly detection company
+            <ArrowRight />
+          </Button>
+        </Link>
       </div>
       <Image
         src="/anomaly-detection.png"

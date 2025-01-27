@@ -2,6 +2,7 @@ import React from "react";
 import { PageHeaderText } from "../../shared";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const designServices = [
   {
@@ -51,9 +52,11 @@ const GraphicDesignAbout = () => (
           </div>
         ))}
       </div>
-      <Button>
-        Request our Graphic Designing services <ArrowRight />
-      </Button>
+      <Link href={"/contact-us"}>
+        <Button>
+          Request our Graphic Designing services <ArrowRight />
+        </Button>
+      </Link>
     </div>
   </div>
 );

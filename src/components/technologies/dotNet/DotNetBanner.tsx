@@ -3,6 +3,7 @@ import Image from "next/image";
 import { PageHeaderText } from "../../shared";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const DotNetBanner = () => {
   return (
@@ -18,10 +19,12 @@ const DotNetBanner = () => {
           enterprise with a tailor-made .NET solution that is robust, scalable,
           and secure.
         </p>
-        <Button className="w-fit z-10" data-aos="fade-up">
-          Hire .NET developers
-          <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="w-fit z-10" data-aos="fade-up">
+            Hire .NET developers
+            <ArrowRight />
+          </Button>
+        </Link>
       </div>
       <Image
         src="/dot-net.png"

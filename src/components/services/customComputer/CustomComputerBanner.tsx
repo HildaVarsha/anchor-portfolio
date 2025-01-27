@@ -3,6 +3,7 @@ import Image from "next/image";
 import { PageHeaderText } from "../../shared";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const CustomComputerBanner = () => {
   return (
@@ -16,11 +17,12 @@ const CustomComputerBanner = () => {
           Develop a cutting-edge computer vision solution to revolutionize your
           business, driving innovation and enhancing efficiency.
         </p>
-
-        <Button className="w-fit z-10" data-aos="fade-up">
-          Get In Touch
-          <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="w-fit z-10" data-aos="fade-up">
+            Get In Touch
+            <ArrowRight />
+          </Button>
+        </Link>
       </div>
       <Image
         src="/custom-computer.png"

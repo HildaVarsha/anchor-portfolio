@@ -2,6 +2,7 @@ import React from "react";
 import { PageHeaderText } from "../../shared";
 import { Button } from "../../ui";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 const markettingServices = [
   {
     title: "Adaptive and Responsive Digital Marketing Strategy",
@@ -50,9 +51,11 @@ const MarkettingAbout = () => {
             </div>
           ))}
         </div>
-        <Button className="mt-4" data-aos="fade-up">
-          Request our custom web services <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="mt-4" data-aos="fade-up">
+            Request our custom web services <ArrowRight />
+          </Button>
+        </Link>
       </div>
     </div>
   );

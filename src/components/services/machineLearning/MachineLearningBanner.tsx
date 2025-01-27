@@ -3,6 +3,7 @@ import { Button } from "@/components/ui";
 import { ArrowRight } from "lucide-react";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const MachineLearningBanner = () => {
   return (
@@ -18,11 +19,12 @@ const MachineLearningBanner = () => {
           we provide specialized machine learning development and consulting
           services.
         </p>
-
-        <Button className="w-fit z-10" data-aos="fade-up">
-          Talk to our ML consultant
-          <ArrowRight />
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button className="w-fit z-10" data-aos="fade-up">
+            Talk to our ML consultant
+            <ArrowRight />
+          </Button>
+        </Link>
       </div>
       <Image
         src="/machine-learning.png"

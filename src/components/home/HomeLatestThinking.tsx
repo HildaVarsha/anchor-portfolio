@@ -10,6 +10,7 @@ import {
 import Image from "next/image";
 import { Button } from "../ui";
 import { MoveRight } from "lucide-react";
+import Link from "next/link";
 
 const HomeLatestThinkings = () => {
   const technologies = [
@@ -95,10 +96,12 @@ const HomeLatestThinkings = () => {
           data-aos-delay="800"
           className="flex items-center justify-center mt-4"
         >
-          <Button>
-            Start your innovation journey{" "}
-            <MoveRight data-aos="fade-right" data-aos-delay="500" />
-          </Button>
+          <Link href={"/contact-us"}>
+            <Button>
+              Start your innovation journey{" "}
+              <MoveRight data-aos="fade-right" data-aos-delay="500" />
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

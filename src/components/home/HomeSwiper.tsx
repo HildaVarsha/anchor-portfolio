@@ -67,7 +67,7 @@ const slides = [
       1000,
     ],
     buttonText: "Discover AI",
-    link: "/ai-solutions",
+    link: "/ai-data/ai-dev",
   },
   {
     videoSrc:
@@ -76,7 +76,7 @@ const slides = [
     subheading: "Through Local Solutions.",
     animationSequence: ["global", 1000, "inclusive", 1000, "resilient", 1000],
     buttonText: "Join Us",
-    link: "/join-us",
+    link: "/contact-us",
   },
 ];
 

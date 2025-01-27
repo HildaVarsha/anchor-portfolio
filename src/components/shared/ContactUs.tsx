@@ -157,7 +157,7 @@ const ContactUs = () => {
             <Button
               type="submit"
               data-aos="fade-up"
-              className="bg-zinc-700 w-full cursor-pointer"
+              className=" w-full cursor-pointer"
               disabled={loading}
             >
               {loading && <Loader2 className="animate-spin" />}
