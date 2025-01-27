@@ -25,7 +25,7 @@ const IndustriesBanner = () => {
         height={500}
         width={500}
         data-aos="fade-up"
-        className="absolute  md:flex top-24 right-32 animate-rotate"
+        className="absolute  md:flex top-16 right-32 animate-rotate"
       />
     </div>
   );

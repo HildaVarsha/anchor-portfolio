@@ -25,7 +25,7 @@ and supply chain"
         height={400}
         width={600}
         data-aos="fade-up"
-        className="absolute  md:flex top-16 right-32 animate-rotate"
+        className="absolute  md:flex top-12 right-32"
       />
     </div>
   );

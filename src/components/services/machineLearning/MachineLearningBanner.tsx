@@ -31,7 +31,7 @@ const MachineLearningBanner = () => {
         alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
-        className="absolute  md:flex top-24 right-32 animate-rotate"
+        className="absolute  md:flex top-24 right-32"
       />
     </div>
   );
