@@ -41,7 +41,7 @@ const SoftwareDevTechnologies = () => {
             Technologies
           </p>
           <p
-            className="text-green-500 px-4 md:px-0 text-2xl  md:text-5xl mx-auto font-bold max-w-4xl"
+            className="text-lime-500 px-4 md:px-0 text-2xl  md:text-5xl mx-auto font-bold max-w-4xl"
             data-aos="fade-up"
           >
             we work with

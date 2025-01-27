@@ -16,7 +16,7 @@ const DotNetWhyChooseAnchor = () => {
           data-aos="fade-up"
         >
           Why choose Anchor Informatics Ltd as your
-          <span className="text-green-500"> .NET development company?</span>.
+          <span className="text-lime-500"> .NET development company?</span>.
         </p>
       </div>
       <div className="py-12  bg-white text-slate-800">

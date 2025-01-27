@@ -17,7 +17,7 @@ const LogisticsTransport = () => {
           data-aos="fade-up"
         >
           Anchor: Top transportation & logistics
-          <span className="text-green-500">
+          <span className="text-lime-500">
             {" "}
             {""} software development company
           </span>

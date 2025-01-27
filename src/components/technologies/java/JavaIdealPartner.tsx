@@ -59,9 +59,7 @@ const JavaIdealPartner = () => {
           data-aos="fade-up"
         >
           What makes our Java development company the{" "}
-          <span className="text-green-500">
-            ideal partner for your project.
-          </span>
+          <span className="text-lime-500">ideal partner for your project.</span>
         </p>
       </div>
       <div className="py-12 bg-white">

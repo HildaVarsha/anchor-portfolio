@@ -47,13 +47,13 @@ const FinTechPower = () => {
       >
         <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
           <p data-aos="fade-up">Leverage the power of innovative techs</p>
-          <p className="text-green-500" data-aos="fade-up">
+          <p className="text-lime-500" data-aos="fade-up">
             {" "}
             to redefine finance
           </p>
         </div>
       </div>
-      <div className="py-12 bg-green-500">
+      <div className="py-12 bg-lime-500">
         <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
           <p data-aos="fade-up">
             At our core, we are innovators, driven by the transformative power

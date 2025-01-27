@@ -16,7 +16,7 @@ const MarkettingStayAhead = () => {
           data-aos="fade-up"
         >
           Stay Ahead of the Curve with Our Custom
-          <span className="text-green-500"> digital marketing services.</span>.
+          <span className="text-lime-500"> digital marketing services.</span>.
         </p>
       </div>
       <div className="py-12  bg-white">

@@ -45,7 +45,7 @@ const AiDevTechnology = () => {
           data-aos="fade-up"
         >
           Our
-          <span className="text-green-500">
+          <span className="text-lime-500">
             {""} AI Development Technology {""}
           </span>
           Portfolio

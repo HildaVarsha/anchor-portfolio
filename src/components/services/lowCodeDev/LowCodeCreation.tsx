@@ -51,7 +51,7 @@ const LowCodeCreation = () => {
           data-aos="fade-up"
         >
           How we create
-          <span className="text-green-500 px-2">
+          <span className="text-lime-500 px-2">
             {" "}
             low-code & no-code solutions
           </span>

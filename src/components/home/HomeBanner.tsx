@@ -27,7 +27,7 @@ const HomeBanner = () => {
       <div className="relative md:container mx-auto text-white px-4 md:px-0 z-10 text-center">
         <p
           data-aos="fade-up"
-          className="text-3xl md:text-5xl font-bold text-green-500"
+          className="text-3xl md:text-5xl font-bold text-lime-500"
         >
           We Drive Digital
         </p>
@@ -52,7 +52,7 @@ const HomeBanner = () => {
               wrapper="span"
               speed={50}
               repeat={Infinity}
-              className="text-green-500 "
+              className="text-lime-500 "
             />
           </div>
           <div className="w-full">

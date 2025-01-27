@@ -89,11 +89,11 @@ const HomeLatestTechnology = () => {
           </CarouselContent>
           <CarouselPrevious
             data-aos="fade-left"
-            className="bg-green-500 w-12 h-12 text-white top-32 left-4"
+            className="bg-lime-500 w-12 h-12 text-white top-32 left-4"
           />
           <CarouselNext
             data-aos="fade-right"
-            className="bg-green-500  w-12 h-12 text-white top-32 right-4"
+            className="bg-lime-500  w-12 h-12 text-white top-32 right-4"
           />
         </Carousel>
         <div

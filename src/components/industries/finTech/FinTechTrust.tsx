@@ -19,7 +19,7 @@ const FinTechTrust = () => {
             data-aos="fade-up"
           >
             ITRex: a trusted financial software
-            <span className="text-green-500 text-3xl md:text-5xl mx-auto font-bold pl-2">
+            <span className="text-lime-500 text-3xl md:text-5xl mx-auto font-bold pl-2">
               development company
             </span>
           </p>

@@ -49,7 +49,7 @@ const LowCodeAtAnchor = () => {
           data-aos="fade-up"
         >
           Why choose to collaborate with
-          <span className="text-green-500 px-2">our low-code company?</span>
+          <span className="text-lime-500 px-2">our low-code company?</span>
         </p>
       </div>
       <div className="bg-white pt-16 text-slate-800">

@@ -30,7 +30,7 @@ const CtoBuildProject = () => {
           data-aos="fade-up"
         >
           <p data-aos="fade-up">Build your project with the support</p>{" "}
-          <p className="text-green-500" data-aos="fade-up">
+          <p className="text-lime-500" data-aos="fade-up">
             of a virtual CTO and a top-tier team.
           </p>
         </div>
