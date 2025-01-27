@@ -19,7 +19,7 @@ const AiDevBanner = () => {
           off-the-shelf AI products and foundation models to suit your specific
           requirements, or creating custom AI solutions from scratch.
         </p>
-        <Link href={"/contact-us"}>
+        <Link href={"/contact-us"} className="z-10">
           <Button className="w-fit z-10" data-aos="fade-up">
             Get In Touch
             <ArrowRight />
