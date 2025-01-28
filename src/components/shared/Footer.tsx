@@ -137,7 +137,7 @@ const Footer = () => {
           </div>
 
           <p className="text-sm text-gray-500 pt-1">
-            © 2026 Anchor Informatics Ltd. All rights reserved
+            © 2025 Anchor Informatics Ltd. All rights reserved
           </p>
         </div>
         <div className="flex items-center gap-4 mt-8 md:mt-0">
