@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Marquee } from "../ui/marquee";
+import ImageServer from "../ImageServer";
 
 const HomeClients = () => {
   return (
@@ -10,7 +11,8 @@ const HomeClients = () => {
           {[1, 2, 3, 4, 5]?.map((item: number) => {
             return (
               <div className="flex items-center gap-4 px-8" key={item}>
-                <Image
+                <ImageServer
+                  loading="lazy"
                   className="rounded-md"
                   src={
                     "https://images.pexels.com/photos/258174/pexels-photo-258174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -20,6 +22,7 @@ const HomeClients = () => {
                   height={70}
                 />
 
+                {/* <ImageServer /> */}
                 <p className="font-semibold text-xl">Google Client</p>
               </div>
             );

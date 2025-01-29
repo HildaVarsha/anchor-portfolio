@@ -1,6 +1,7 @@
 import React from "react";
 import { PageHeaderText } from "../shared";
 import Image from "next/image";
+import ImageServer from "../ImageServer";
 
 const expertiseData = [
   {
@@ -38,7 +39,8 @@ const ExpertiseItem = ({
     data-aos="fade-up"
     className="flex flex-col md:flex-row items-center gap-4 md:gap-8"
   >
-    <Image
+    <ImageServer
+      loading="lazy"
       src={src}
       alt={title}
       width={220}

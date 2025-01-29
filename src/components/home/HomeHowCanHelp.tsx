@@ -10,6 +10,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { MoveRight } from "lucide-react";
+import ImageServer from "../ImageServer";
 
 const services = [
   {
@@ -76,7 +77,8 @@ const HomeHowCanHelp = () => {
             {/* Image with Animation */}
             <div className="w-full mb-4 md:mb-0 image-draw-container">
               <div className="image-mask">
-                <Image
+                <ImageServer
+                  loading="lazy"
                   src={service.imageSrc}
                   alt={service.title}
                   width={50}

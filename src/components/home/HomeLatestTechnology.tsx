@@ -11,6 +11,7 @@ import Image from "next/image";
 import { Button } from "../ui";
 import { MoveRight } from "lucide-react";
 import Link from "next/link";
+import ImageServer from "../ImageServer";
 
 const HomeLatestTechnology = () => {
   const technologies = [
@@ -67,7 +68,8 @@ const HomeLatestTechnology = () => {
                   data-aos="fade-up"
                   className="p-1 w-full group"
                 >
-                  <Image
+                  <ImageServer
+                    loading="lazy"
                     src={tech.src}
                     alt={tech.title}
                     width={400}

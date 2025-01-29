@@ -11,6 +11,7 @@ import Image from "next/image";
 import { Button } from "../ui";
 import { MoveRight } from "lucide-react";
 import Link from "next/link";
+import ImageServer from "../ImageServer";
 
 const HomeLatestThinkings = () => {
   const technologies = [
@@ -60,7 +61,8 @@ const HomeLatestThinkings = () => {
               <CarouselItem key={index} className="md:basis-1/1 lg:basis-1/3">
                 <div data-aos="fade-up" className="p-1 w-full">
                   <div className="group">
-                    <Image
+                    <ImageServer
+                      loading="lazy"
                       src={tech.src}
                       alt={tech.title}
                       width={400}

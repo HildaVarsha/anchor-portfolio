@@ -1,6 +1,7 @@
 import React from "react";
 import { PageHeaderText } from "../shared";
 import Image from "next/image";
+import ImageServer from "../ImageServer";
 
 const collaborationSteps = [
   {
@@ -45,7 +46,8 @@ const HomeHowWeCollaborate = () => {
               className="flex flex-col md:flex-row items-center gap-8"
               data-aos="fade-up"
             >
-              <Image
+              <ImageServer
+                loading="lazy"
                 src={step.image}
                 alt={step.title}
                 width={100}
