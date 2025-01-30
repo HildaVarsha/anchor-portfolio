@@ -1,3 +1,4 @@
+"use client";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -10,12 +11,13 @@ import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 import { Button } from "../ui";
 import { MoveRight } from "lucide-react";
+import { useEffect, useState } from "react";
 
 // Array of slides
 const slides = [
   {
     videoSrc:
-      "https://cdn.pixabay.com/video/2023/07/21/172528-847499874_large.mp4",
+      "https://cdn.pixabay.com/video/2023/07/21/172528-847499874_small.mp4",
     heading: "We Drive Digital",
     subheading: "Transformation, Globally.",
     animationSequence: ["innovation", 1000, "bright", 1000, "creatively", 1000],
@@ -24,7 +26,7 @@ const slides = [
   },
   {
     videoSrc:
-      "https://cdn.pixabay.com/video/2016/07/23/3975-176000797_medium.mp4",
+      "https://cdn.pixabay.com/video/2016/07/23/3975-176000797_small.mp4",
     heading: "Unleashing the Future",
     subheading: "One Idea at a Time.",
     animationSequence: [
@@ -40,7 +42,7 @@ const slides = [
   },
   {
     videoSrc:
-      "https://cdn.pixabay.com/video/2023/07/19/172170-846731303_large.mp4",
+      "https://cdn.pixabay.com/video/2023/07/19/172170-846731303_small.mp4",
     heading: "Empowering Businesses",
     subheading: "Through Technology.",
     animationSequence: [
@@ -55,7 +57,7 @@ const slides = [
     link: "/services",
   },
   {
-    videoSrc: "https://cdn.pixabay.com/video/2024/04/25/209409_large.mp4",
+    videoSrc: "https://cdn.pixabay.com/video/2024/04/25/209409_small.mp4",
     heading: "AI-Driven Insights",
     subheading: "For Smarter Decisions.",
     animationSequence: [
@@ -71,7 +73,7 @@ const slides = [
   },
   {
     videoSrc:
-      "https://cdn.pixabay.com/video/2022/07/16/124333-730771399_large.mp4",
+      "https://cdn.pixabay.com/video/2022/07/16/124333-730771399_small.mp4",
     heading: "Global Impact",
     subheading: "Through Local Solutions.",
     animationSequence: ["global", 1000, "inclusive", 1000, "resilient", 1000],
@@ -81,6 +83,13 @@ const slides = [
 ];
 
 const HomeSwiper = () => {
+  const [ActiveIndex, setActiveIndex] = useState<number>(0);
+  const [loadedIndex, setloadedIndex] = useState<number[]>([]);
+  useEffect(() => {
+    if (!loadedIndex.includes(ActiveIndex)) {
+      setloadedIndex((prev) => [...prev, ActiveIndex]);
+    }
+  }, [ActiveIndex]);
   return (
     <Swiper
       modules={[Autoplay]}
@@ -91,23 +100,37 @@ const HomeSwiper = () => {
         disableOnInteraction: false,
       }}
       loop
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
+      onSwiper={(swiper) => {
+        console.log(swiper);
+      }}
+      onBeforeTransitionStart={(event) => {
+        // debugger;
+      }}
+      onSlideChange={(event) => {
+        setActiveIndex(event.activeIndex);
+        console.log("slide change");
+      }}
       className="relative flex justify-center h-screen overflow-hidden"
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index}>
           <div className="relative h-full">
             {/* Video Background */}
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className=" relative inset-0 w-full h-full object-cover"
-            >
-              <source src={slide.videoSrc} type="video/mp4" />
-            </video>
+            {ActiveIndex == index ||
+            ActiveIndex + 1 == index ||
+            loadedIndex.includes(index) ? (
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className=" relative inset-0 w-full h-full object-cover"
+              >
+                <source src={slide.videoSrc} type="video/mp4" />
+              </video>
+            ) : (
+              <></>
+            )}
 
             {/* Content */}
             <div className="absolute z-10 text-center text-white px-4 md:px-0 md:container mx-auto top-64">

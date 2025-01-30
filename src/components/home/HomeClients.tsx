@@ -1,26 +1,74 @@
 import Image from "next/image";
 import React from "react";
 import { Marquee } from "../ui/marquee";
+import ImageServer from "../ImageServer";
 
 const HomeClients = () => {
+  const clients = [
+    {
+      id: 1,
+      logo: "/hsbc-logo.svg",
+      name: "HSBC Ltd",
+    },
+    {
+      id: 2,
+      logo: "/Lloyds-Bank-Logo.png",
+      name: "Lloyd's Ltd",
+    },
+    {
+      id: 3,
+      logo: "/metro-bank.png",
+      name: "Metro Bank Ltd",
+    },
+    {
+      id: 4,
+      logo: "/daiwa-logo.png",
+      name: "Daiwa Capital Ltd",
+    },
+    {
+      id: 5,
+      logo: "/ge-capital.png",
+      name: "GE Capital Ltd",
+    },
+    {
+      id: 6,
+      logo: "/KBC-logo.svg",
+      name: "KBC Bank Ltd",
+    },
+    {
+      id: 7,
+      logo: "/rabobank-logo.png",
+      name: "Rabo Bank Ltd",
+    },
+    {
+      id: 8,
+      logo: "/abn-logo.png",
+      name: "ABN AMRO Bank Ltd",
+    },
+    {
+      id: 9,
+      logo: "/Investec-logo.svg",
+      name: "Investec Ltd",
+    },
+  ];
   return (
-    <div className="py-16 bg-black">
-      <div className="px-4 md:px-0 md:container ms-auto">
+    <div className="py-16 bg-lime-500 text-slate-800">
+      <div className="px-4 md:px-0 md:container mx-auto">
         <Marquee pauseOnHover className="[--duration:20s]">
-          {[1, 2, 3, 4, 5]?.map((item: number) => {
+          {clients?.map((item: any) => {
             return (
-              <div className="flex items-center gap-4 px-8" key={item}>
-                <Image
+              <div className="flex items-center gap-4 px-8" key={item?.id}>
+                <ImageServer
+                  loading="lazy"
                   className="rounded-md"
-                  src={
-                    "https://images.pexels.com/photos/258174/pexels-photo-258174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  }
+                  src={item?.logo}
                   alt="Logo"
                   width={70}
                   height={70}
                 />
 
-                <p className="font-semibold text-xl">Google Client</p>
+                {/* <ImageServer /> */}
+                <p className="font-semibold text-xl">{item?.name}</p>
               </div>
             );
           })}
