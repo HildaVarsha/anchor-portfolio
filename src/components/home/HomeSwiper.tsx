@@ -17,7 +17,7 @@ import { useEffect, useState } from "react";
 const slides = [
   {
     videoSrc:
-      "https://cdn.pixabay.com/video/2023/07/21/172528-847499874_small.mp4",
+      "https://videos.pexels.com/video-files/8721923/8721923-uhd_2732_1440_25fps.mp4",
     heading: "We Drive Digital",
     subheading: "Transformation, Globally.",
     animationSequence: ["innovation", 1000, "bright", 1000, "creatively", 1000],
@@ -26,7 +26,7 @@ const slides = [
   },
   {
     videoSrc:
-      "https://cdn.pixabay.com/video/2016/07/23/3975-176000797_small.mp4",
+      "https://videos.pexels.com/video-files/4389357/4389357-uhd_2732_1440_30fps.mp4",
     heading: "Unleashing the Future",
     subheading: "One Idea at a Time.",
     animationSequence: [
@@ -42,7 +42,7 @@ const slides = [
   },
   {
     videoSrc:
-      "https://cdn.pixabay.com/video/2023/07/19/172170-846731303_small.mp4",
+      "https://videos.pexels.com/video-files/9783952/9783952-uhd_2732_1440_25fps.mp4",
     heading: "Empowering Businesses",
     subheading: "Through Technology.",
     animationSequence: [
@@ -57,7 +57,8 @@ const slides = [
     link: "/services",
   },
   {
-    videoSrc: "https://cdn.pixabay.com/video/2024/04/25/209409_small.mp4",
+    videoSrc:
+      "https://videos.pexels.com/video-files/5495784/5495784-uhd_2560_1080_30fps.mp4",
     heading: "AI-Driven Insights",
     subheading: "For Smarter Decisions.",
     animationSequence: [
@@ -73,7 +74,7 @@ const slides = [
   },
   {
     videoSrc:
-      "https://cdn.pixabay.com/video/2022/07/16/124333-730771399_small.mp4",
+      "https://videos.pexels.com/video-files/3141208/3141208-uhd_2560_1440_25fps.mp4",
     heading: "Global Impact",
     subheading: "Through Local Solutions.",
     animationSequence: ["global", 1000, "inclusive", 1000, "resilient", 1000],
