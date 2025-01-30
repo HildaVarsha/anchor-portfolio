@@ -58,14 +58,20 @@ const HomeClients = () => {
           {clients?.map((item: any) => {
             return (
               <div className="flex items-center gap-4 px-8" key={item?.id}>
-                <ImageServer
-                  loading="lazy"
-                  className="rounded-md"
-                  src={item?.logo}
-                  alt="Logo"
-                  width={70}
-                  height={70}
-                />
+                <div
+                  className={`${
+                    item?.name == "Metro Bank" ? "bg-green-600" : ""
+                  }`}
+                >
+                  <ImageServer
+                    loading="lazy"
+                    className="rounded-md"
+                    src={item?.logo}
+                    alt="Logo"
+                    width={70}
+                    height={70}
+                  />
+                </div>
 
                 {/* <ImageServer /> */}
                 <p className="font-semibold text-xl">{item?.name}</p>
