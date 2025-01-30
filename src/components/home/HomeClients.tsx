@@ -8,17 +8,17 @@ const HomeClients = () => {
     {
       id: 1,
       logo: "/hsbc-logo.svg",
-      name: "HSBC Ltd",
+      name: "HSBC Bank",
     },
     {
       id: 2,
       logo: "/Lloyds-Bank-Logo.png",
-      name: "Lloyd's Ltd",
+      name: "Lloyd's Bank",
     },
     {
       id: 3,
       logo: "/metro-bank.png",
-      name: "Metro Bank Ltd",
+      name: "Metro Bank",
     },
     {
       id: 4,
@@ -33,26 +33,26 @@ const HomeClients = () => {
     {
       id: 6,
       logo: "/KBC-logo.svg",
-      name: "KBC Bank Ltd",
+      name: "KBC Bank",
     },
     {
       id: 7,
       logo: "/rabobank-logo.png",
-      name: "Rabo Bank Ltd",
+      name: "Rabo Bank",
     },
     {
       id: 8,
       logo: "/abn-logo.png",
-      name: "ABN AMRO Bank Ltd",
+      name: "ABN AMRO Bank",
     },
     {
       id: 9,
-      logo: "/Investec-logo.svg",
+      logo: "/investec-logo.png",
       name: "Investec Ltd",
     },
   ];
   return (
-    <div className="py-16 bg-lime-500 text-slate-800">
+    <div className="py-16 bg-white text-slate-800">
       <div className="px-4 md:px-0 md:container mx-auto">
         <Marquee pauseOnHover className="[--duration:20s]">
           {clients?.map((item: any) => {
