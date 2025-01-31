@@ -39,9 +39,9 @@ const TopNavbar = () => {
   const navbarBackground =
     pathname !== "/about-company"
       ? isScrolled
-        ? "bg-black text-white shadow-lg"
+        ? "bg-white text-slate-800 shadow-lg"
         : "bg-transparent"
-      : "bg-black text-white";
+      : "bg-white text-slate-800";
   const menus = [
     {
       title: "AI Data",
