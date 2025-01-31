@@ -321,18 +321,22 @@ const TopNavbar = () => {
             <SheetTrigger>
               <MenuIcon />
             </SheetTrigger>
-            <SheetContent side={"left"} className="bg-black overflow-auto">
-              <Image
-                src="/anchor-informatics-logo.png"
-                alt="Anchor Informatics Ltd Pvt Ltd"
-                width={200}
-                height={100}
-              />
-              <MobileMenu />
+            <SheetContent side={"left"} className="bg-black overflow-auto p-0">
+              <div className="bg-white p-3">
+                <Image
+                  src="/anchor-logo.png"
+                  alt="Anchor Informatics Ltd Pvt Ltd"
+                  width={200}
+                  height={100}
+                />
+              </div>
+              <div className="p-6">
+                <MobileMenu />
+              </div>
             </SheetContent>
           </Sheet>
           <Image
-            src="/anchor-informatics-logo.png"
+            src="/anchor-logo.png"
             alt="Anchor Informatics Ltd Pvt Ltd"
             width={200}
             height={100}
@@ -340,7 +344,7 @@ const TopNavbar = () => {
         </div>
         {/* Logo */}
         <Image
-          src="/anchor-informatics-logo.png"
+          src="/anchor-logo.png"
           alt="Anchor Informatics Ltd Pvt Ltd"
           width={200}
           height={100}
