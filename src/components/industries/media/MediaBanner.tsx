@@ -22,12 +22,12 @@ software solutions"
         <GetHireButton />
       </div>
       <Image
-        src="/media-entertainment.jpg"
+        src="/media-entertainment.png"
         alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
         data-aos="fade-up"
-        className="absolute md:flex top-16 right-32 animate-rotate"
+        className="absolute md:flex top-32 right-32 animate-rotate"
       />
     </div>
   );

@@ -30,7 +30,7 @@ const NlpBanner = () => {
         alt="About Anchor Informatics Ltd"
         height={700}
         width={600}
-        className="absolute md:flex top-12 right-32 animate-rotate"
+        className="absolute md:flex top-28 right-32 animate-rotate"
       />
     </div>
   );

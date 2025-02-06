@@ -24,7 +24,7 @@ const CareerBuildNewLife = () => {
               alt="Build new Life"
               width={300}
               height={300}
-              className="w-full"
+              className="w-full aspect-square"
               data-aos="fade-up"
             />
           ))}

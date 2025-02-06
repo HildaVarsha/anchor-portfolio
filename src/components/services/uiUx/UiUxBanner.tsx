@@ -31,7 +31,7 @@ const UiUxBanner = () => {
         alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
-        className="absolute hidden  md:flex top-24 right-32"
+        className="absolute hidden  md:flex top-32 right-32"
       />
     </div>
   );
