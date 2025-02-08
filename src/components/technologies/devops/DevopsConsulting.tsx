@@ -12,7 +12,7 @@ const DevopsConsulting = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
+        <div className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold  lg:container">
           <p data-aos="fade-up">DevOps Consulting Services and Solutions:</p>
           <p className="text-lime-500" data-aos="fade-up">
             We truly make the difference{" "}
@@ -21,13 +21,13 @@ const DevopsConsulting = () => {
       </div>
 
       <div className="py-12 bg-white">
-        <div className="py-12  text-slate-800 px-4 md:px-0 md:container mx-auto">
+        <div className="py-12  text-slate-800 px-4 lg:px-0 lg:container mx-auto">
           <p className="pb-8" data-aos="fade-up">
             Our tech veterans dive in and establish elite practices that you can
             own. We&apos;ve helped numerous companies foster a top-tier DevOps
             culture, and we&apos;re eager to help you do the same.
           </p>
-          <div className="flex flex-col md:flex-row gap-4 md:gap-12 bg-blue-100 p-8">
+          <div className="flex flex-col lg:flex-row gap-4 lg:gap-12 bg-blue-100 p-8">
             <div>
               <p className="pb-8" data-aos="fade-up">
                 <strong>Experience.</strong> With over a decade of experience

@@ -48,7 +48,7 @@ const FacialRecognitionSoutions = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl font-bold lg:container mx-auto"
           data-aos="fade-up"
         >
           Develop Industry-Specific
@@ -60,7 +60,7 @@ const FacialRecognitionSoutions = () => {
       </div>
       <div className="py-12 bg-lime-500">
         <p
-          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
           Our facial recognition software development services stand out due to
@@ -70,8 +70,8 @@ const FacialRecognitionSoutions = () => {
         </p>
       </div>
       <div className="py-12 bg-white">
-        <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
-          <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <div className="px-4 lg:px-0 lg:container mx-auto text-slate-800">
+          <div className="py-6 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
             {services.map((service, index) => (
               <ServicesCard
                 key={index}

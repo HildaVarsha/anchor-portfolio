@@ -11,7 +11,7 @@ const SoftwareEngineerHighlight = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
+        <div className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold  lg:container">
           <p data-aos="fade-up">Highlighting Our</p>
           <p className="text-lime-500" data-aos="fade-up">
             Software Engineering Solutions
@@ -20,7 +20,7 @@ const SoftwareEngineerHighlight = () => {
       </div>
       <div className="py-12 bg-lime-500">
         <p
-          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
           Our software engineering company partners with businesses across

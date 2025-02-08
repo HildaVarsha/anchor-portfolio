@@ -5,7 +5,7 @@ import React from "react";
 const LogisticsAbout = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         <PageHeaderText label="Transportation and logistics software development company to serve your innovation needs" />
         <p data-aos="fade-up">
           We understand that the pandemic has brought about unprecedented
@@ -17,7 +17,7 @@ const LogisticsAbout = () => {
           chain resilience.
         </p>
 
-        <div className="py-12 flex flex-col md:flex-row gap-4 md:gap-8">
+        <div className="py-12 flex flex-col lg:flex-row gap-4 lg:gap-8">
           <div className="w-full">
             <p
               className="font-semibold text-blue-600 flex items-center gap-4"

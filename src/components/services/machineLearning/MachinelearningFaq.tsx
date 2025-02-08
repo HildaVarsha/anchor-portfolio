@@ -34,7 +34,7 @@ const accordionItems = [
 const MachinelearningFaq = () => {
   return (
     <div className="bg-white">
-      <div className="px-4 md:px-0 md:container mx-auto pb-12 text-slate-800">
+      <div className="px-4 lg:px-0 lg:container mx-auto pb-12 text-slate-800">
         <Accordion type="single" collapsible className="w-full pb-6">
           {accordionItems.map(({ title, content }, index) => (
             <AccordionItem

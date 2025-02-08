@@ -12,7 +12,7 @@ const LogisticsPotential = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl font-bold lg:container mx-auto"
           data-aos="fade-up"
         >
           Unleashing the potential
@@ -21,7 +21,7 @@ const LogisticsPotential = () => {
       </div>
       <div className="py-12 bg-lime-500">
         <p
-          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
           With more than 5 years of experience in transportation and logistics
@@ -32,8 +32,8 @@ const LogisticsPotential = () => {
         </p>
       </div>
       <div className="py-12 bg-white">
-        <div className="p-12  md:container mx-auto text-slate-800 bg-blue-100">
-          <div className="py-6 flex flex-col md:flex-row gap-4 md:gap-16">
+        <div className="p-12  lg:container mx-auto text-slate-800 bg-blue-100">
+          <div className="py-6 flex flex-col lg:flex-row gap-4 lg:gap-16">
             <div className="w-full">
               <li data-aos="fade-up">
                 <strong>Optimize route planning</strong> to reduce delivery

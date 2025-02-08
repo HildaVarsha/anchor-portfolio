@@ -37,7 +37,7 @@ const RetailGain = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 md:container mx-auto">
+        <div className="px-4 lg:px-0 lg:container mx-auto">
           <p
             className="text-5xl mx-auto font-bold container"
             data-aos="fade-up"
@@ -51,7 +51,7 @@ const RetailGain = () => {
       </div>
       <div className="py-12 bg-lime-500">
         <div
-          className="px-4 md:px-0 md:container mx-auto bg-lime-500 p-4 text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto bg-lime-500 p-4 text-slate-800"
           data-aos="fade-up"
         >
           Specializing in artificial intelligence, we leverage it to build
@@ -63,7 +63,7 @@ const RetailGain = () => {
         </div>
       </div>
       <div className="py-12 bg-white">
-        <div className="px-4 md:px-0 md:container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-12 text-slate-800">
+        <div className="px-4 lg:px-0 lg:container mx-auto grid grid-cols-1 lg:grid-cols-2 lg:grid-cols-4  gap-12 text-slate-800">
           {services?.map((service, index) => (
             <ServicesCard
               key={index}
@@ -75,9 +75,9 @@ const RetailGain = () => {
         </div>
       </div>
       <div className="py-12 bg-white">
-        <div className="p-12  md:container mx-auto text-slate-800 bg-amber-100">
+        <div className="p-12  lg:container mx-auto text-slate-800 bg-amber-100">
           <PageHeaderText label="ITRex — retail software development company you can trust" />
-          <div className="py-6 flex flex-col md:flex-row gap-4 md:gap-16">
+          <div className="py-6 flex flex-col lg:flex-row gap-4 lg:gap-16">
             <div className="w-full">
               <div className="flex  gap-4">
                 <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />

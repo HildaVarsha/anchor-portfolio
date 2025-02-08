@@ -27,7 +27,7 @@ const SoftwareEngineerOverview = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
+        <div className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold  lg:container">
           <p data-aos="fade-up">Overview of Our Software </p>
           <p className="text-lime-500" data-aos="fade-up">
             Engineering Company
@@ -37,7 +37,7 @@ const SoftwareEngineerOverview = () => {
 
       <div className="py-12 bg-white">
         <div className="py-12 bg-blue-100 p-8 text-slate-800 container mx-auto">
-          <div className="flex flex-col md:flex-row gap-4 md:gap-12">
+          <div className="flex flex-col lg:flex-row gap-4 lg:gap-12">
             <RoleColumn
               roles={[
                 "Maturity: on the market since 2009",

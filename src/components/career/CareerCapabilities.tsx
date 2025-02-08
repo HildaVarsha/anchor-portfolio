@@ -24,12 +24,12 @@ const capabilities = [
 const CareerCapabilities = () => {
   return (
     <div className="bg-white">
-      <div className="px-4 md:px-0 md:container mx-auto py-16">
+      <div className="px-4 lg:px-0 lg:container mx-auto py-16">
         <PageHeaderText
           label="Our capabilities include:"
           className="text-slate-800"
         />
-        <div className="flex flex-col md:flex-row items-center justify-between w-full text-slate-800 gap-8 pt-4">
+        <div className="flex flex-col lg:flex-row items-center justify-between w-full text-slate-800 gap-8 pt-4">
           {capabilities.map((capability, index) => (
             <div key={index} data-aos="fade-up">
               <Image

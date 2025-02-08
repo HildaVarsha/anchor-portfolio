@@ -168,7 +168,7 @@ const TopNavbar = () => {
 
   const NavigationLinks = () => {
     return (
-      <ul className="flex flex-col md:flex-row md:items-center gap-4 mt-6 md:mt-0">
+      <ul className="flex flex-col lg:flex-row lg:items-center gap-4 mt-6 lg:mt-0">
         <Link
           href="/"
           className={`${
@@ -316,7 +316,7 @@ const TopNavbar = () => {
       className={`fixed top-0 left-0 w-full z-50 p-4 transition-colors  ${navbarBackground}`}
     >
       <div className="container mx-auto flex justify-between items-center">
-        <div className="md:hidden flex items-center gap-4">
+        <div className="lg:hidden flex items-center gap-4">
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger>
               <MenuIcon />
@@ -348,10 +348,10 @@ const TopNavbar = () => {
           alt="Anchor Informatics Ltd Pvt Ltd"
           width={200}
           height={100}
-          className="hidden md:flex"
+          className="hidden lg:flex"
         />
         {/* Navigation Links */}
-        <div className="hidden md:flex">
+        <div className="hidden lg:flex">
           <NavigationLinks />
         </div>
       </div>

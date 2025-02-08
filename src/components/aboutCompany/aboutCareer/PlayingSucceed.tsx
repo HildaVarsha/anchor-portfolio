@@ -4,8 +4,8 @@ import React from "react";
 
 const PlayingSucceed = () => {
   return (
-    <div className="bg-white md:py-16 text-slate-800">
-      <div className="px-4 md:container mx-auto flex flex-col md:flex-row gap-4 md:gap-16">
+    <div className="bg-white lg:py-16 text-slate-800">
+      <div className="px-4 lg:container mx-auto flex flex-col lg:flex-row gap-4 lg:gap-16">
         <div className="w-full h-full">
           <PageHeaderText label="Do you play to succeed,or just to avoid taking the fall?" />
           <p className="font-semibold" data-aos="fade-up">

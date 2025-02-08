@@ -34,7 +34,7 @@ const hostingServices = [
 const HostingAbout = () => {
   return (
     <div className="bg-white text-slate-800">
-      <div className="px-4 md:px-0 md:container py-16 mx-auto">
+      <div className="px-4 lg:px-0 lg:container py-16 mx-auto">
         <PageHeaderText label="Our hosting services empower your website to perform at its best, helping you stand out from the competition." />
         <p className="py-4 text-lg" data-aos="fade-up">
           &quot;With over a decade of experience delivering reliable hosting
@@ -44,7 +44,7 @@ const HostingAbout = () => {
           services to ensure fast, secure, and scalable solutions tailored to
           your needs. The Anchor Hosting team provides:&quot;
         </p>
-        <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-12 mb-4">
+        <div className="pt-4 grid grid-cols-1 lg:grid-cols-3 gap-12 mb-4">
           {hostingServices?.map((service, index) => (
             <div key={index} data-aos="fade-up">
               <h3 className="font-semibold text-xl pb-4">{service.title}</h3>

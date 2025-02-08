@@ -4,9 +4,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui";
 const UiUxSteps = () => {
   return (
     <div className="bg-white text-slate-800">
-      <div className="px-4 md:px-0 md:container mx-auto py-16 ">
+      <div className="px-4 lg:px-0 lg:container mx-auto py-16 ">
         <Tabs defaultValue="agile" className="">
-          <TabsList className="flex gap-8 w-72 md:w-full overflow-auto overflow-y-hidden">
+          <TabsList className="flex gap-8 w-72 lg:w-full overflow-auto overflow-y-hidden">
             <TabsTrigger value="agile">Discover</TabsTrigger>
             <TabsTrigger value="water-fall">Validate</TabsTrigger>
             <TabsTrigger value="water-fall">Design</TabsTrigger>
@@ -14,7 +14,7 @@ const UiUxSteps = () => {
             <TabsTrigger value="water-fall">Improve</TabsTrigger>
           </TabsList>
           <TabsContent value="agile">
-            <div className="py-8 flex flex-col md:flex-row justify-between gap-4 md:gap-12">
+            <div className="py-8 flex flex-col lg:flex-row justify-between gap-4 lg:gap-12">
               <div className="w-full">
                 The Agile approach focuses on an evolving project scope and
                 iterative development, where the team delivers a work
@@ -42,7 +42,7 @@ const UiUxSteps = () => {
             </div>
           </TabsContent>
           <TabsContent value="water-fall">
-            <div className="py-8 flex flex-col md:flex-row justify-between gap-4 md:gap-12">
+            <div className="py-8 flex flex-col lg:flex-row justify-between gap-4 lg:gap-12">
               <div className="w-full">
                 The Waterfall approach follows a linear and sequential design
                 process, where each phase must be completed before the next

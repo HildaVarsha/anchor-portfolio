@@ -6,7 +6,7 @@ import ConsultationButton from "./ConsultationButton";
 const HowWeDoMethodologies = () => {
   return (
     <div className="bg-white text-slate-800">
-      <div className="px-4 md:px-0 md:container mx-auto py-16 ">
+      <div className="px-4 lg:px-0 lg:container mx-auto py-16 ">
         <div className="flex items-center justify-between">
           <PageHeaderText
             label="Software development methodologies"
@@ -20,7 +20,7 @@ const HowWeDoMethodologies = () => {
         </div>
         <div>
           <Tabs defaultValue="agile" className="" data-aos="fade-up">
-            <TabsList className="flex gap-8 w-72 md:w-full overflow-auto overflow-y-hidden">
+            <TabsList className="flex gap-8 w-72 lg:w-full overflow-auto overflow-y-hidden">
               <TabsTrigger value="agile" data-aos="fade-up">
                 Agile
               </TabsTrigger>
@@ -29,7 +29,7 @@ const HowWeDoMethodologies = () => {
               </TabsTrigger>
             </TabsList>
             <TabsContent value="agile">
-              <div className="py-8 flex flex-col md:flex-row justify-between gap-4 md:gap-12">
+              <div className="py-8 flex flex-col lg:flex-row justify-between gap-4 lg:gap-12">
                 <div className="w-full" data-aos="fade-up">
                   The Agile approach emphasizes flexibility and iterative
                   development, with teams delivering a work product—such as a
@@ -58,7 +58,7 @@ const HowWeDoMethodologies = () => {
             </TabsContent>
 
             <TabsContent value="water-fall">
-              <div className="py-8 flex flex-col md:flex-row justify-between gap-4 md:gap-12">
+              <div className="py-8 flex flex-col lg:flex-row justify-between gap-4 lg:gap-12">
                 <div className="w-full" data-aos="fade-up">
                   The Waterfall approach follows a structured, linear process,
                   where each phase is completed before moving to the next. This

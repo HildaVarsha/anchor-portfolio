@@ -27,7 +27,7 @@ const services = [
 const LowCodeAbout = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         <PageHeaderText label="What Anchor Informatics Ltd offers as part of low-code development services" />
         <p data-aos="fade-up">
           Our low-code company empowers you to develop proof of concepts (PoCs),
@@ -35,7 +35,7 @@ const LowCodeAbout = () => {
           solutions up to three times faster. A skilled team of business
           analysts and low-code/no-code developers is here to support you with:
         </p>
-        <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <div className="py-6 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
           {services.map((service, index) => (
             <ServicesCard
               key={index}

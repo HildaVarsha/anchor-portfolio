@@ -47,7 +47,7 @@ const softwareServices = [
 const SoftwareEngineerAbout = () => {
   return (
     <div className="bg-white text-slate-800">
-      <div className="px-4 md:px-0 md:container py-16 mx-auto">
+      <div className="px-4 lg:px-0 lg:container py-16 mx-auto">
         <PageHeaderText label="Custom software engineering services designed to deliver value from day one." />
         <p className="py-4 text-lg" data-aos="fade-up">
           We provide a comprehensive range of software engineering and
@@ -56,7 +56,7 @@ const SoftwareEngineerAbout = () => {
           analysis, and process automation. You can rely on our software
           engineering firm for:
         </p>
-        <div className="pt-4 grid grid-cols-1 md:grid-cols-4 gap-12 mb-4">
+        <div className="pt-4 grid grid-cols-1 lg:grid-cols-4 gap-12 mb-4">
           {softwareServices?.map((service, index) => (
             <div key={index} data-aos="fade-up">
               <h3 className="font-semibold text-xl pb-4" data-aos="fade-up">

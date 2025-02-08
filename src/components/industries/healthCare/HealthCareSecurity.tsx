@@ -12,7 +12,7 @@ const HealthcareSecurity = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl font-bold lg:container mx-auto"
           data-aos="fade-up"
         >
           Healthcare software security standards
@@ -23,14 +23,14 @@ const HealthcareSecurity = () => {
       </div>
       <div className="py-12 bg-white">
         <p
-          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
           At ITRex, safeguarding our clients' data privacy, security, and
           compliance is a top priority. As a leading medical software
           development company, we ensure:
         </p>
-        <div className="p-8 md:container mx-auto bg-blue-100 my-12 text-slate-800 flex flex-col md:flex-row gap-4 md:gap-16">
+        <div className="p-8 lg:container mx-auto bg-blue-100 my-12 text-slate-800 flex flex-col lg:flex-row gap-4 lg:gap-16">
           <div className="w-full">
             <ul>
               <li data-aos="fade-up">

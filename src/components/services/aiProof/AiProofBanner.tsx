@@ -8,12 +8,12 @@ import Link from "next/link";
 const AiProofBanner = () => {
   return (
     <div className="h-screen  relative py-16">
-      <div className="px-4 md:px-0 md:container mx-auto flex flex-col justify-center h-full">
+      <div className="px-4 lg:px-0 lg:container mx-auto flex flex-col justify-center h-full">
         <PageHeaderText
           label="Development Services for AI Proof of Concept"
-          className="w-full md:max-w-2xl"
+          className="w-full lg:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
+        <p className="w-full lg:max-w-2xl py-4 z-10" data-aos="fade-up">
           Quickly test, validate, and bring your AI ideas to life affordably
           with Anchor AI&apos;s proof-of-concept development services.
         </p>
@@ -29,7 +29,7 @@ const AiProofBanner = () => {
         alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
-        className="absolute md:flex top-28 right-32 animate-rotate"
+        className="absolute lg:flex top-28 right-32 animate-rotate"
       />
     </div>
   );

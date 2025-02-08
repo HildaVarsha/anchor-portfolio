@@ -5,7 +5,7 @@ import React from "react";
 const EComAbout = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         <PageHeaderText label="Ecommerce development services for online and brick-and-mortar retailers" />
         <p data-aos="fade-up">
           No matter what type of retail business you are, we have the right

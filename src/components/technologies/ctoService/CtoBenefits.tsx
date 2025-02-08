@@ -47,7 +47,7 @@ const CtoBenefits = () => {
         }}
       >
         <div
-          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold container"
           data-aos="fade-up"
         >
           <p data-aos="fade-up">Benefit from our broad </p>{" "}
@@ -57,8 +57,8 @@ const CtoBenefits = () => {
         </div>
       </div>
       <div className="bg-white text-slate-800">
-        <div className="px-4 md:px-0 md:container py-16 mx-auto">
-          <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-12 mb-4">
+        <div className="px-4 lg:px-0 lg:container py-16 mx-auto">
+          <div className="pt-4 grid grid-cols-1 lg:grid-cols-3 gap-12 mb-4">
             {ctoBenefits?.map((service, index) => (
               <div key={index} data-aos="fade-up">
                 <h3

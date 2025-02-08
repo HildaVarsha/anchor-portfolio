@@ -138,7 +138,7 @@ const BlogsListing = () => {
 
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         {/* Category Links */}
         <div className="flex flex-wrap gap-4 font-semibold">
           {categories.map((category) => (
@@ -157,7 +157,7 @@ const BlogsListing = () => {
 
         {/* Blogs Grid */}
         <div
-          className="grid grid-cols-1 md:grid-cols-2 gap-16 pt-8"
+          className="grid grid-cols-1 lg:grid-cols-2 gap-16 pt-8"
           data-aos="fade-up"
         >
           {filteredBlogs.map((item, index) => (

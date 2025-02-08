@@ -28,7 +28,7 @@ const services = [
 const FacialRecognitionAbout = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         <PageHeaderText label="Enhance Your Apps with Our Facial Recognition Software Development Services" />
         <p data-aos="fade-up">
           Anchor’s AI consultancy, with unmatched expertise in computer vision,
@@ -37,7 +37,7 @@ const FacialRecognitionAbout = () => {
           can enhance your IT solutions with the following features:
         </p>
 
-        <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <div className="py-6 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
           {services.map((service, index) => (
             <ServicesCard
               key={index}

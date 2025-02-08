@@ -26,7 +26,7 @@ const CtoBuildProject = () => {
         }}
       >
         <div
-          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold container"
           data-aos="fade-up"
         >
           <p data-aos="fade-up">Build your project with the support</p>{" "}
@@ -48,7 +48,7 @@ const CtoBuildProject = () => {
           </p>
 
           {/* Service Options */}
-          <div className="flex flex-col md:flex-row gap-4 md:gap-12 mb-6">
+          <div className="flex flex-col lg:flex-row gap-4 lg:gap-12 mb-6">
             <ServiceOption
               title="Standalone CTO"
               description="A virtual CTO will fulfill the agreed-upon scope, whether it's refining your product vision, crafting a compelling tech pitch deck, or guiding you through any other technology and product-related challenges."

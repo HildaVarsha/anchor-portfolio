@@ -40,7 +40,7 @@ const ServiceCard = ({
 const HealthCareAbout = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         <PageHeaderText label="Custom healthcare software development for every need" />
         <p data-aos="fade-up">
           With a proven track record, ITRex is a healthcare software development
@@ -51,7 +51,7 @@ const HealthCareAbout = () => {
           solutions that truly benefit your organization.
         </p>
 
-        <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <div className="py-6 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
           {services.map((service, index) => (
             <ServiceCard
               key={index}

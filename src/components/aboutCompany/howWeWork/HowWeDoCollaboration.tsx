@@ -8,7 +8,7 @@ import Link from "next/link";
 const HowWeDoCollaboration = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="px-4 md:container mx-auto">
+      <div className="px-4 lg:container mx-auto">
         <PageHeaderText label="Our Collaboration Models" />
         <p data-aos="fade-up">
           When selecting the ideal engagement model for our clients, we

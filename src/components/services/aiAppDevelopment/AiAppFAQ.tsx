@@ -27,7 +27,7 @@ const accordionItems = [
 const AiAppFAQ = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="px-4 md:container mx-auto">
+      <div className="px-4 lg:container mx-auto">
         <PageHeaderText label="FAQ about Anchorinformatics AI app development services" />
         <div className="pt-6">
           <Accordion type="single" collapsible className="w-full ">

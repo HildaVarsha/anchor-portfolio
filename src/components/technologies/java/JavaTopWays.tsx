@@ -14,7 +14,7 @@ const JavaTopWays: React.FC = () => {
         }}
       >
         <div className="container mx-auto px-4">
-          <p className="text-2xl md:text-5xl  font-bold" data-aos="fade-up">
+          <p className="text-2xl lg:text-5xl  font-bold" data-aos="fade-up">
             The top ways our Java development company can bring exceptional
             value to you.
           </p>
@@ -35,7 +35,7 @@ const JavaTopWays: React.FC = () => {
           </p>
 
           {/* Service Options */}
-          <div className="flex flex-col md:flex-row gap-4 md:gap-12 mb-6">
+          <div className="flex flex-col lg:flex-row gap-4 lg:gap-12 mb-6">
             <ServiceOption
               title="In-house team augmentation"
               description="Enhance your project with additional Java talent to fill
@@ -61,7 +61,7 @@ const JavaTopWays: React.FC = () => {
               with specific parts of your Java project, hire our dedicated team
               and leave the management and recruitment to us.
             </p>
-            <div className="flex flex-col md:flex-row gap-4 md:gap-12">
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-12">
               <RoleColumn
                 roles={[
                   "Java Architect",

@@ -16,17 +16,17 @@ const DotNetTechnology = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl  font-bold container mx-auto"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl  font-bold container mx-auto"
           data-aos="fade-up"
         >
           Our .NET
-          <p className="text-lime-500 pr-2 px-4 md:px-0 text-2xl md:text-5xl  font-bold container">
+          <p className="text-lime-500 pr-2 px-4 lg:px-0 text-2xl lg:text-5xl  font-bold container">
             technology stack
           </p>
         </p>
       </div>
       <div className="bg-white mt-16 text-slate-800">
-        <div className="bg-amber-50 p-16 container mx-auto flex flex-col md:flex-row gap-12">
+        <div className="bg-amber-50 p-16 container mx-auto flex flex-col lg:flex-row gap-12">
           <div>
             <li data-aos="fade-up">
               <strong>Platforms:</strong> .NET Framework | .NET Core

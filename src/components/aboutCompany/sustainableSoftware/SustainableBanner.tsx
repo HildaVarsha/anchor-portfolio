@@ -10,8 +10,8 @@ const SustainableBanner = () => {
       }}
       className="py-12 h-screen"
     >
-      <div className="px-4 md:px-0 md:container mx-auto flex flex-col  justify-center h-full">
-        <p className="text-2xl md:text-8xl font-semibold " data-aos="fade-up">
+      <div className="px-4 lg:px-0 lg:container mx-auto flex flex-col  justify-center h-full">
+        <p className="text-2xl lg:text-8xl font-semibold " data-aos="fade-up">
           Sustainable Software Development: Our Path Forward
         </p>
         <p className="font-semibold pt-6" data-aos="fade-up">

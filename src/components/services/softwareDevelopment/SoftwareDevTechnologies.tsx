@@ -35,13 +35,13 @@ const SoftwareDevTechnologies = () => {
       >
         <div className="container mx-auto">
           <p
-            className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold max-w-4xl"
+            className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold max-w-4xl"
             data-aos="fade-up"
           >
             Technologies
           </p>
           <p
-            className="text-lime-500 px-4 md:px-0 text-2xl  md:text-5xl mx-auto font-bold max-w-4xl"
+            className="text-lime-500 px-4 lg:px-0 text-2xl  lg:text-5xl mx-auto font-bold max-w-4xl"
             data-aos="fade-up"
           >
             we work with
@@ -49,7 +49,7 @@ const SoftwareDevTechnologies = () => {
         </div>
       </div>
       <div className="py-12 bg-white">
-        <div className="px-4 md:px-0 md:container mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-slate-800">
+        <div className="px-4 lg:px-0 lg:container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-12 text-slate-800">
           {technologies.map((tech, index) => (
             <div key={index} data-aos="fade-up">
               <p className="text-2xl font-semibold" data-aos="fade-up">

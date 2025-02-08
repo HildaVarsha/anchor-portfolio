@@ -11,12 +11,12 @@ const images = [
 const CareerBuildNewLife = () => {
   return (
     <div className="bg-white py-16">
-      <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
+      <div className="px-4 lg:px-0 lg:container mx-auto text-slate-800">
         <PageHeaderText
           label="Build a new life in a new city"
           className="max-w-lg mx-auto"
         />
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8 pt-8">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 pt-8">
           {images.map((src, index) => (
             <Image
               key={index}

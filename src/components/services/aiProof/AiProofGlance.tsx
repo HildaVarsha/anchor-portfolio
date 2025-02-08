@@ -31,9 +31,9 @@ const StatCard = ({ value, label }: { value: string; label: string }) => {
 const AiProofGlance = () => {
   return (
     <div className="pb-16 bg-white">
-      <div className="container mx-auto p-6 md:p-16 bg-black">
+      <div className="container mx-auto p-6 lg:p-16 bg-black">
         <PageHeaderText label="Anchor’s at a glance" />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-16">
           {stats.map((stat, index) => (
             <StatCard key={index} value={stat.value} label={stat.label} />
           ))}

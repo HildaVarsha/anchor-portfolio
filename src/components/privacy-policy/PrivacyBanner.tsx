@@ -12,13 +12,13 @@ const PrivacyBanner = () => {
       }}
       className="py-12 h-screen bg-opacity-60"
     >
-      <div className="px-4 md:px-0 md:container mx-auto h-full flex flex-col justify-center gap-12">
-        <p className="text-2xl md:text-8xl font-semibold" data-aos="fade-up">
+      <div className="px-4 lg:px-0 lg:container mx-auto h-full flex flex-col justify-center gap-12">
+        <p className="text-2xl lg:text-8xl font-semibold" data-aos="fade-up">
           <span className="text-lime-500"> Privacy Policy</span>
         </p>
 
         <div
-          className="max-w-2xl text-white text-lg md:text-xl bg-black bg-opacity-60 p-6 rounded-lg"
+          className="max-w-2xl text-white text-lg lg:text-xl bg-black bg-opacity-60 p-6 rounded-lg"
           data-aos="fade-up"
           data-aos-delay="200"
         >

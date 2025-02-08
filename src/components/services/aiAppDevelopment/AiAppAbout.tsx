@@ -11,7 +11,7 @@ const Section = ({
   points: string[];
 }) => (
   <div
-    className="py-6 flex flex-col md:flex-row gap-4 md:gap-16 border-b border-slate-200"
+    className="py-6 flex flex-col lg:flex-row gap-4 lg:gap-16 border-b border-slate-200"
     data-aos="fade-up"
   >
     <p className="font-semibold text-lg w-full">{title}</p>
@@ -105,7 +105,7 @@ const AiAppAbout = () => {
 
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         <PageHeaderText label="AI Application Development Services that Bring Your Vision to Life" />
         <p>
           Got an app idea? There's an AI solution to bring it to life, and we

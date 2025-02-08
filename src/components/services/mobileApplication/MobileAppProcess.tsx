@@ -38,8 +38,8 @@ const mobileAppServices = [
 const MobileAppProcess = () => {
   return (
     <div className="bg-white text-slate-800">
-      <div className="py-16 px-4 md:px-0 md:container mx-auto">
-        <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="py-16 px-4 lg:px-0 lg:container mx-auto">
+        <div className="pt-4 grid grid-cols-1 lg:grid-cols-3 gap-12">
           {mobileAppServices.map((service, index) => (
             <div key={index} data-aos="fade-up">
               <h3 className="font-semibold text-xl pb-4">{service.title}</h3>

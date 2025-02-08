@@ -17,7 +17,7 @@ const AboutVision = () => {
 
   return (
     <div className="bg-white py-12">
-      <div className="px-4 md:px-0 md:container mx-auto">
+      <div className="px-4 lg:px-0 lg:container mx-auto">
         <PageHeaderText label="Vision" className="text-slate-800" />
         <p className="text-lime-500 pt-4" data-aos="fade-up">
           {visionText}

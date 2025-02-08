@@ -4,9 +4,9 @@ import React from "react";
 const DetectionSolutions = () => {
   return (
     <div className="bg-white py-12">
-      <div className="mt-12 p-4  md:p-12 md:container mx-auto text-slate-800 bg-blue-100 ">
+      <div className="mt-12 p-4  lg:p-12 lg:container mx-auto text-slate-800 bg-blue-100 ">
         <PageHeaderText label="Our anomaly detection solutions will help you:" />
-        <div className="flex flex-col md:flex-row gap-4 md:gap-16">
+        <div className="flex flex-col lg:flex-row gap-4 lg:gap-16">
           <div>
             <li data-aos="fade-up">
               Transform Your Isolated IT Systems and Data Sources into a Unified

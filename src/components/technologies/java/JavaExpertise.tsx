@@ -5,10 +5,10 @@ import HireJavaDeveloperButton from "./HireJavaDeveloperButton";
 const JavaExpertise = () => {
   return (
     <div className="bg-white py-16">
-      <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
+      <div className="px-4 lg:px-0 lg:container mx-auto text-slate-800">
         <PageHeaderText label="Anchor Informatics Ltd — Experts by your side" />
 
-        <div className=" bg-blue-100 p-16 flex flex-col md:flex-row gap-4 md:gap-12 mt-6">
+        <div className=" bg-blue-100 p-16 flex flex-col lg:flex-row gap-4 lg:gap-12 mt-6">
           <div className="w-full">
             <p data-aos="fade-up">Mature in-house Java community</p>
             <p className="py-8" data-aos="fade-up">

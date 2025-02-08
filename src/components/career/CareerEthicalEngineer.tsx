@@ -5,7 +5,7 @@ import { PageHeaderText } from "../shared";
 const CareerEthicalEngineer = () => {
   return (
     <div className="bg-white py-16">
-      <div className="px-4 md:px-0 md:container mx-auto flex flex-col md:flex-row  justify-between gap-12 text-slate-800">
+      <div className="px-4 lg:px-0 lg:container mx-auto flex flex-col lg:flex-row  justify-between gap-12 text-slate-800">
         <div className="w-full">
           <PageHeaderText label="Truly Ethical Engineering" className="" />
           <p className="py-4" data-aos="fade-up">

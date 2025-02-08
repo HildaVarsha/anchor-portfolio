@@ -48,7 +48,7 @@ const ELearningEmbrace = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl font-bold lg:container mx-auto"
           data-aos="fade-up"
         >
           Embracing the possibilities
@@ -59,7 +59,7 @@ const ELearningEmbrace = () => {
       </div>
       <div className="py-12 bg-lime-500">
         <p
-          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
           We design feature-rich educational software solutions that help
@@ -68,7 +68,7 @@ const ELearningEmbrace = () => {
           experience.
         </p>
       </div>
-      <div className="px-4 md:px-0 md:container mx-auto text-slate-800 py-12">
+      <div className="px-4 lg:px-0 lg:container mx-auto text-slate-800 py-12">
         <Accordion type="single" collapsible className="w-full">
           {accordionItems.map(({ title, content }, index) => (
             <AccordionItem

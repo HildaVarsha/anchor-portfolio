@@ -72,7 +72,7 @@ const AiDevApproach = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl font-bold lg:container mx-auto"
           data-aos="fade-up"
         >
           Our Approach for
@@ -81,7 +81,7 @@ const AiDevApproach = () => {
       </div>
       <div className="py-12 bg-lime-500">
         <p
-          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
           We offer complete AI software development services, spanning
@@ -91,9 +91,9 @@ const AiDevApproach = () => {
           unique requirements.
         </p>
       </div>
-      <div className="text-slate-800 md:container px-4 md:px-0 mx-auto pt-6">
+      <div className="text-slate-800 lg:container px-4 lg:px-0 mx-auto pt-6">
         <Tabs defaultValue="Discovery">
-          <TabsList className="flex gap-8 w-72 md:w-full overflow-auto overflow-y-hidden">
+          <TabsList className="flex gap-8 w-72 lg:w-full overflow-auto overflow-y-hidden">
             {tabData.map((tab) => (
               <TabsTrigger key={tab.value} value={tab.value} data-aos="fade-up">
                 {tab.title}
@@ -102,7 +102,7 @@ const AiDevApproach = () => {
           </TabsList>
           {tabData.map((tab) => (
             <TabsContent key={tab.value} value={tab.value} data-aos="fade-up">
-              <div className="py-8 flex flex-col md:flex-row justify-between gap-4 md:gap-12">
+              <div className="py-8 flex flex-col lg:flex-row justify-between gap-4 lg:gap-12">
                 <div className="w-full">{tab.content.description}</div>
                 <div className="w-full">
                   <p className="font-semibold">Key Points:</p>

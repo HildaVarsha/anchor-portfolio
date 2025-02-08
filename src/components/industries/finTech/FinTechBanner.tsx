@@ -8,14 +8,14 @@ import { GetHireButton } from "@/components/componentShared";
 const FinTechBanner = () => {
   return (
     <div className="h-screen bg-[#00021B]">
-      <div className="px-4 md:px-0 md:container mx-auto  flex flex-col justify-center h-full z-50">
+      <div className="px-4 lg:px-0 lg:container mx-auto  flex flex-col justify-center h-full z-50">
         <PageHeaderText
           label="Financial software
 development
 services"
-          className="w-full md:max-w-2xl"
+          className="w-full lg:max-w-2xl"
         />
-        <p className="z-10 pb-8 md:max-w-2xl" data-aos="fade-up">
+        <p className="z-10 pb-8 lg:max-w-2xl" data-aos="fade-up">
           We help enterprises and startups tap into the new era of finance. The
           one where operations are automated, decisions are data-driven, and
           security is top-notch. Use our financial software development services
@@ -29,7 +29,7 @@ services"
         alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
-        className="absolute  md:flex top-32 right-32 animate-rotate"
+        className="absolute  lg:flex top-32 right-32 animate-rotate"
       />
     </div>
   );

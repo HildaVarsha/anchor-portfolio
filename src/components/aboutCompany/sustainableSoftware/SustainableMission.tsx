@@ -3,8 +3,8 @@ import React from "react";
 
 const SustainableMission = () => {
   return (
-    <div className="bg-white pt-4 md:py-16 text-slate-800">
-      <div className="md:container px-4 mx-auto">
+    <div className="bg-white pt-4 lg:py-16 text-slate-800">
+      <div className="lg:container px-4 mx-auto">
         <PageHeaderText label="Mission Statement" />
         <p className="py-6" data-aos="fade-up">
           Welcome to Anchor Informatics Ltd, where innovation and sustainability
