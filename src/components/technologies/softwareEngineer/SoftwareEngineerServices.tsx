@@ -11,7 +11,7 @@ const SoftwareEngineerServices = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
+        <div className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold  lg:container">
           <p data-aos="fade-up">Software engineering services provided</p>
           <p className="text-lime-500" data-aos="fade-up">
             exactly when and how you need them
@@ -20,7 +20,7 @@ const SoftwareEngineerServices = () => {
       </div>
       <div className="py-12 bg-lime-500">
         <p
-          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
           Anchor Informatics Ltd has evolved from a software engineering

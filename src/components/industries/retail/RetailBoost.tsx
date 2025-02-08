@@ -35,7 +35,7 @@ const RetailBoost = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 md:container mx-auto">
+        <div className="px-4 lg:px-0 lg:container mx-auto">
           <p
             className="text-5xl mx-auto font-bold container"
             data-aos="fade-up"
@@ -49,7 +49,7 @@ const RetailBoost = () => {
       </div>
       <div className="py-12 bg-lime-500">
         <div
-          className="px-4 md:px-0 md:container mx-auto bg-lime-500 p-4 text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto bg-lime-500 p-4 text-slate-800"
           data-aos="fade-up"
         >
           With our retail software development services, you can empower your
@@ -59,7 +59,7 @@ const RetailBoost = () => {
         </div>
       </div>
       <div className="py-12 bg-white">
-        <div className="px-4 md:px-0 md:container mx-auto grid grid-cols-1 md:grid-cols-2  gap-12 text-slate-800">
+        <div className="px-4 lg:px-0 lg:container mx-auto grid grid-cols-1 lg:grid-cols-2  gap-12 text-slate-800">
           {services?.map((service, index) => (
             <ServicesCard
               key={index}

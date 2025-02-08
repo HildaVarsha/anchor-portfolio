@@ -37,7 +37,7 @@ const ExpertiseItem = ({
 }) => (
   <div
     data-aos="fade-up"
-    className="flex flex-col md:flex-row items-center gap-4 md:gap-8"
+    className="flex flex-col lg:flex-row items-center gap-4 lg:gap-8"
   >
     <ImageServer
       loading="lazy"
@@ -45,13 +45,13 @@ const ExpertiseItem = ({
       alt={title}
       width={220}
       height={188}
-      className="md:w-44 md:h-44"
+      className="lg:w-44 lg:h-44"
     />
     <div>
-      <p data-aos="fade-up" className="font-semibold text-center md:text-start">
+      <p data-aos="fade-up" className="font-semibold text-center lg:text-start">
         {title}
       </p>
-      <p data-aos="fade-up" className="pt-3 text-center md:text-start">
+      <p data-aos="fade-up" className="pt-3 text-center lg:text-start">
         {description}
       </p>
     </div>
@@ -59,7 +59,7 @@ const ExpertiseItem = ({
 );
 
 const HomeOurExpertise = () => (
-  <div className="py-12 px-4 md:px-0 md:container mx-auto">
+  <div className="py-12 px-4 lg:px-0 lg:container mx-auto">
     <div data-aos="fade-up">
       <PageHeaderText label="Our Expertise" className="text-center" />
     </div>

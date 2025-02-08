@@ -13,15 +13,8 @@ import {
 } from "lucide-react";
 
 const Footer = () => {
-  const phoneNumbers = [
-    { label: "+44 7438 846089", href: "tel:+447438846089" },
-    { label: "+020 3490 9639", href: "tel:+02034909639" },
-  ];
+  const phoneNumbers = [{ label: "+020 3490 9639", href: "tel:+02034909639" }];
   const emails = [
-    {
-      label: "rafi@anchorinformatics.co.uk",
-      href: "mailto:rafi@anchorinformatics.co.uk",
-    },
     {
       label: "info@anchorinformatics.co.uk",
       href: "mailto:info@anchorinformatics.co.uk",
@@ -40,12 +33,12 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className="pt-12 px-4 md:px-0 md:container mx-auto">
+    <div className="pt-12 px-4 lg:px-0 lg:container mx-auto">
       <PageHeaderText
-        className="text-center text-xl md:text-5xl  md:max-w-5xl mx-auto"
+        className="text-center text-xl lg:text-5xl  lg:max-w-5xl mx-auto"
         label="A software development company specializing in scalable AI and data solutions that drive lasting impact."
       />
-      <div className="flex flex-col md:flex-row gap-4 md:gap-16 py-4">
+      <div className="flex flex-col lg:flex-row gap-4 lg:gap-16 py-4">
         <div className="flex items-center gap-4">
           <Image src={"/footer-phone.png"} alt="Phone" width={40} height={40} />
           <div className="flex flex-col gap-2">
@@ -54,14 +47,14 @@ const Footer = () => {
                 key={href}
                 href={href}
                 data-aos="fade-up"
-                className="text-xs md:text-sm text-white cursor-pointer"
+                className="text-xs lg:text-sm text-white cursor-pointer"
               >
                 {label}
               </Link>
             ))}
           </div>
         </div>
-        <div className="flex items-center gap-4 mt-8 md:mt-0">
+        <div className="flex items-center gap-4 mt-8 lg:mt-0">
           <Image src={"/footer-email.png"} alt="Phone" width={40} height={40} />
           <div className="flex flex-col gap-2">
             {emails?.map(({ label, href }) => (
@@ -69,7 +62,7 @@ const Footer = () => {
                 key={href}
                 href={href}
                 data-aos="fade-up"
-                className="text-xs md:text-sm text-white cursor-pointer"
+                className="text-xs lg:text-sm text-white cursor-pointer"
               >
                 {label}
               </Link>
@@ -83,7 +76,7 @@ const Footer = () => {
           {" "}
           Our Locations
         </p>
-        <div className="pt-4 flex flex-col md:flex-row justify-between gap-4 md:gap-8">
+        <div className="pt-4 flex flex-col lg:flex-row justify-between gap-4 lg:gap-8">
           <div className="w-full">
             <p className="font-semibold" data-aos="fade-up">
               London
@@ -119,7 +112,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-between w-full mt-8">
+      <div className="flex flex-col lg:flex-row justify-between w-full mt-8">
         <div>
           <div className="flex items-center gap-4">
             <Link
@@ -140,7 +133,7 @@ const Footer = () => {
             © 2025 Anchor Informatics Ltd. All rights reserved
           </p>
         </div>
-        <div className="flex items-center gap-4 mt-8 md:mt-0">
+        <div className="flex items-center gap-4 mt-8 lg:mt-0">
           <Link href={"/"}>
             <FacebookIcon className="w-6 h-6 text-lime-500" />
           </Link>
@@ -155,7 +148,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div data-aos="fade-up" className="mt-8 md:mt-32"></div>
+      <div data-aos="fade-up" className="mt-8 lg:mt-32"></div>
     </div>
   );
 };

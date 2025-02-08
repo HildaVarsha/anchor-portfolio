@@ -53,7 +53,7 @@ const HomeClients = () => {
   ];
   return (
     <div className="py-16 bg-white text-slate-800">
-      <div className="px-4 md:px-0 md:container mx-auto">
+      <div className="px-4 lg:px-0 lg:container mx-auto">
         <Marquee pauseOnHover className="[--duration:20s]">
           {clients?.map((item: any) => {
             return (

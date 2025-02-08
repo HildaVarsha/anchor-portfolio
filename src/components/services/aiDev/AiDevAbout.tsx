@@ -50,7 +50,7 @@ const ServiceCard = ({
 const AiDevAbout = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         <PageHeaderText label="Unleashing the Power of AI with Expert Solutions" />
         <p data-aos="fade-up">
           At Anchor, we offer a comprehensive suite of AI development services
@@ -60,7 +60,7 @@ const AiDevAbout = () => {
           and support you throughout the process.
         </p>
 
-        <div className="py-6 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+        <div className="py-6 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8">
           {services.map((service, index) => (
             <ServiceCard
               key={index}

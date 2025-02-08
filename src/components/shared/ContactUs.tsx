@@ -81,7 +81,7 @@ const ContactUs = () => {
       }}
       className="py-12"
     >
-      <div className="px-4 md:px-0 md:container mx-auto">
+      <div className="px-4 lg:px-0 lg:container mx-auto">
         <h1 className="text-4xl font-bold text-white mb-8" data-aos="fade-up">
           Contact Us
         </h1>
@@ -89,7 +89,7 @@ const ContactUs = () => {
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
             {/* Name and Phone */}
             <div
-              className="flex flex-col md:flex-row gap-4 md:gap-16"
+              className="flex flex-col lg:flex-row gap-4 lg:gap-16"
               data-aos="fade-up"
             >
               <FormField
@@ -122,7 +122,7 @@ const ContactUs = () => {
 
             {/* Email and Project Info */}
             <div
-              className="flex flex-col md:flex-row gap-4 md:gap-16"
+              className="flex flex-col lg:flex-row gap-4 lg:gap-16"
               data-aos="fade-up"
             >
               <FormField

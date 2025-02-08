@@ -12,7 +12,7 @@ const DotNetEngagement = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold container"
           data-aos="fade-up"
         >
           Choose a fitting
@@ -21,7 +21,7 @@ const DotNetEngagement = () => {
       </div>
       <div className="py-12  bg-lime-500">
         <p
-          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
           We carefully evaluate your requirements to recommend the ideal

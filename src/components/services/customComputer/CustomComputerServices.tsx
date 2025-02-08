@@ -12,14 +12,14 @@ const CustomComputerServices = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl font-bold lg:container mx-auto"
           data-aos="fade-up"
         >
           Why Anchor’s Informative
           <span className="text-lime-500">{""} computer vision services</span>
         </p>
       </div>
-      <div className="mt-12 p-4 md:p-12 md:container mx-auto text-slate-800 bg-amber-100 flex flex-col md:flex-row gap-4 md:gap-16">
+      <div className="mt-12 p-4 lg:p-12 lg:container mx-auto text-slate-800 bg-amber-100 flex flex-col lg:flex-row gap-4 lg:gap-16">
         <div>
           <p className="" data-aos="fade-up">
             <strong>Cross-industry experience.</strong> With over a decade of

@@ -4,7 +4,7 @@ import { PageHeaderText } from "../shared";
 const AboutWhyChooseUs = () => {
   return (
     <div className="bg-white py-24">
-      <div className="px-4 md:px-0 md:container mx-auto">
+      <div className="px-4 lg:px-0 lg:container mx-auto">
         <PageHeaderText
           label="Why Choose Us?"
           className="text-slate-800 text-center"

@@ -9,7 +9,7 @@ const PageHeaderText = ({
 }) => {
   return (
     <p
-      className={`text-2xl md:text-6xl font-semibold pb-6 z-10 ${className}`}
+      className={`text-2xl lg:text-6xl font-semibold pb-6 z-10 ${className}`}
       data-aos="fade-up"
     >
       {label}

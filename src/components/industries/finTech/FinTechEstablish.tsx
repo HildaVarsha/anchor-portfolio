@@ -86,7 +86,7 @@ const FinTechEstablish = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container">
+        <div className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold  lg:container">
           <p data-aos="fade-up">Established FinTech software development </p>
           <p className="text-lime-500" data-aos="fade-up">
             {" "}
@@ -96,7 +96,7 @@ const FinTechEstablish = () => {
       </div>
       <div className="py-12 bg-lime-500">
         <div
-          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
           Whether you aim to evolve your organization into a fully digital
@@ -104,9 +104,9 @@ const FinTechEstablish = () => {
           streamlined processes that deliver value right from the start.
         </div>
       </div>
-      <div className="px-4 md:px-0 md:container mx-auto py-16  text-slate-800">
+      <div className="px-4 lg:px-0 lg:container mx-auto py-16  text-slate-800">
         <Tabs defaultValue="Discovery" data-aos="fade-up">
-          <TabsList className="flex gap-8 w-72 md:w-full overflow-auto overflow-y-hidden">
+          <TabsList className="flex gap-8 w-72 lg:w-full overflow-auto overflow-y-hidden">
             {tabsData.map((tab) => (
               <TabsTrigger key={tab.value} value={tab.value} data-aos="fade-up">
                 {tab.title}
@@ -115,7 +115,7 @@ const FinTechEstablish = () => {
           </TabsList>
           {tabsData.map((tab) => (
             <TabsContent key={tab.value} value={tab.value} data-aos="fade-up">
-              <div className="py-8 flex flex-col md:flex-row justify-between gap-4 md:gap-12">
+              <div className="py-8 flex flex-col lg:flex-row justify-between gap-4 lg:gap-12">
                 <div className="w-full" data-aos="fade-up">
                   {tab.content.description}
                 </div>

@@ -7,10 +7,9 @@ export default async function handler(
 ) {
   if (req.method === "POST") {
     const { name, phone, email, projectInfo } = req.body;
-
     // Configure Nodemailer Transporter
     const transporter = nodemailer.createTransport({
-      host: "anchorinformatics.co.uk", // Replace with your SMTP host (e.g., mail.yourdomain.com)
+      host: "mail.anchorinformatics.co.uk", // Replace with your SMTP host (e.g., mail.yourdomain.com)
       port: 587, // SMTP port (use 465 for SSL or 587 for TLS)
       secure: false, // True for 465, false for other ports
       auth: {

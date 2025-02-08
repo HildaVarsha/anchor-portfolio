@@ -13,7 +13,7 @@ const LogisticsTransport = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl font-bold lg:container mx-auto"
           data-aos="fade-up"
         >
           Anchor: Top transportation & logistics
@@ -25,8 +25,8 @@ const LogisticsTransport = () => {
       </div>
 
       <div className="py-12 bg-white">
-        <div className="p-12  md:container mx-auto text-slate-800 bg-amber-100">
-          <div className="py-6 flex flex-col md:flex-row gap-4 md:gap-16">
+        <div className="p-12  lg:container mx-auto text-slate-800 bg-amber-100">
+          <div className="py-6 flex flex-col lg:flex-row gap-4 lg:gap-16">
             <div className="w-full">
               <div className="flex items-center gap-4">
                 <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />

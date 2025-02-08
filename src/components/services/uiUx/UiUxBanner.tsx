@@ -8,12 +8,12 @@ import Link from "next/link";
 const UiUxBanner = () => {
   return (
     <div className="h-screen bg-[#FEDB3B] relative text-slate-800">
-      <div className="px-4 md:px-0 md:container mx-auto flex flex-col justify-center h-full z-10">
+      <div className="px-4 lg:px-0 lg:container mx-auto flex flex-col justify-center h-full z-10">
         <PageHeaderText
           label="Comprehensive UI/UX design solutions"
-          className="w-full md:max-w-2xl"
+          className="w-full lg:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
+        <p className="w-full lg:max-w-2xl py-4 z-10" data-aos="fade-up">
           Anchor Informatics Ltd offers a full suite of UI/UX design services,
           transforming mobile apps, websites, dashboards, and cyber-physical
           systems into standout solutions that captivate users and drive
@@ -31,7 +31,7 @@ const UiUxBanner = () => {
         alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
-        className="absolute hidden  md:flex top-32 right-32"
+        className="absolute hidden  lg:flex top-32 right-32"
       />
     </div>
   );

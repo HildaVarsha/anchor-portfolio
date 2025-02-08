@@ -36,14 +36,14 @@ const collaborationSteps = [
 
 const HomeHowWeCollaborate = () => {
   return (
-    <section className="py-12 md:py-24">
-      <div className="px-4 md:px-0 md:container mx-auto">
+    <section className="py-12 lg:py-24">
+      <div className="px-4 lg:px-0 lg:container mx-auto">
         <PageHeaderText label="Our Collaborative Approach" />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 py-16">
           {collaborationSteps.map((step) => (
             <div
               key={step.id}
-              className="flex flex-col md:flex-row items-center gap-8"
+              className="flex flex-col lg:flex-row items-center gap-8"
               data-aos="fade-up"
             >
               <ImageServer
@@ -57,7 +57,7 @@ const HomeHowWeCollaborate = () => {
               />
               <div className="w-full">
                 <h3
-                  className="font-semibold text-2xl pb-4 text-center md:text-left"
+                  className="font-semibold text-2xl pb-4 text-center lg:text-left"
                   data-aos="fade-up"
                 >
                   {step.title}

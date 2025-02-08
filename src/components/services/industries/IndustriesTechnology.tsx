@@ -65,7 +65,7 @@ const industries = [
 const IndustriesTechnology = () => {
   return (
     <div className="bg-white">
-      <div className="px-4 md:px-0 md:container mx-auto py-16 text-slate-800 grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="px-4 lg:px-0 lg:container mx-auto py-16 text-slate-800 grid grid-cols-1 lg:grid-cols-3 gap-12">
         {industries.map((industry, index) => (
           <div key={index} data-aos="fade-up">
             <p className="font-semibold text-3xl pb-4" data-aos="fade-up">

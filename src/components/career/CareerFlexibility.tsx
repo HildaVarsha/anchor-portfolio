@@ -25,7 +25,7 @@ const CareerFlexibility = () => {
       {sections?.map((section, index) => (
         <div
           key={index}
-          className={`px-4 md:px-0 md:container mx-auto flex flex-col md:flex-row  gap-4 md:gap-12 justify-between ${
+          className={`px-4 lg:px-0 lg:container mx-auto flex flex-col lg:flex-row  gap-4 lg:gap-12 justify-between ${
             index > 0 ? "pt-12" : ""
           }`}
           data-aos="fade-up"

@@ -60,7 +60,7 @@ const services = [
 const HomeHowCanHelp = () => {
   return (
     <div className="bg-lime-500 py-12" data-aos="fade-up">
-      <div className="px-4 md:px-0 md:container mx-auto text-slate-900">
+      <div className="px-4 lg:px-0 lg:container mx-auto text-slate-900">
         <PageHeaderText
           label="How we can help you"
           className="text-slate-800"
@@ -72,10 +72,10 @@ const HomeHowCanHelp = () => {
             key={service.id}
             className={`${
               index === 0 ? "border-y" : "border-b"
-            } border-[#00000026] flex flex-col md:flex-row justify-between w-full py-4`}
+            } border-[#00000026] flex flex-col lg:flex-row justify-between w-full py-4`}
           >
             {/* Image with Animation */}
-            <div className="w-full mb-4 md:mb-0 image-draw-container">
+            <div className="w-full mb-4 lg:mb-0 image-draw-container">
               <div className="image-mask">
                 <ImageServer
                   loading="lazy"

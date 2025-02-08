@@ -4,7 +4,7 @@ import { PageHeaderText } from "../../shared";
 const IndustriesWeServe = () => {
   return (
     <div className="bg-white">
-      <div className="px-4 md:px-0 md:container mx-auto py-12 text-slate-800">
+      <div className="px-4 lg:px-0 lg:container mx-auto py-12 text-slate-800">
         <PageHeaderText label="Industries We Serve: Applications & Systems" />
         <p className="pt-4 text-lg" data-aos="fade-up">
           The Geospatial Revolution As technology evolves, the potential for

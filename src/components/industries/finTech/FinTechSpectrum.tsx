@@ -40,7 +40,7 @@ const FinTechSpectrum = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container">
+        <div className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold lg:container">
           <p data-aos="fade-up">A Full Spectrum of Financial Software</p>
           <p className="text-lime-500" data-aos="fade-up">
             Development Services
@@ -48,7 +48,7 @@ const FinTechSpectrum = () => {
         </div>
       </div>
       <div className="py-12 bg-lime-500">
-        <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
+        <div className="px-4 lg:px-0 lg:container mx-auto text-slate-800">
           <p data-aos="fade-up">
             We offer a comprehensive range of financial software development
             services, designed to help you unlock the full potential of your
@@ -62,7 +62,7 @@ const FinTechSpectrum = () => {
           </p>
         </div>
       </div>
-      <div className="px-4 md:px-0 md:container mx-auto py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 text-slate-800">
+      <div className="px-4 lg:px-0 lg:container mx-auto py-16 grid grid-cols-1 lg:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8 text-slate-800">
         {services?.map((service, index) => (
           <ServicesCard
             key={index}

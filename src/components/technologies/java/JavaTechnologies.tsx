@@ -88,13 +88,13 @@ const JavaTechnologies: React.FC = () => {
       >
         <div className="container mx-auto">
           <p
-            className="px-4 md:px-0 text-2xl md:text-5xl font-bold"
+            className="px-4 lg:px-0 text-2xl lg:text-5xl font-bold"
             data-aos="fade-up"
           >
             Technologies
           </p>
           <p
-            className="text-lime-500 px-4 md:px-0 text-2xl md:text-5xl font-bold"
+            className="text-lime-500 px-4 lg:px-0 text-2xl lg:text-5xl font-bold"
             data-aos="fade-up"
           >
             we use
@@ -104,7 +104,7 @@ const JavaTechnologies: React.FC = () => {
 
       {/* Technologies Section */}
       <div className="py-12 bg-white">
-        <div className="px-4 md:px-0 md:container mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-slate-800">
+        <div className="px-4 lg:px-0 lg:container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-12 text-slate-800">
           {technologyGroups.map((group, index) => (
             <TechnologyGroup
               key={index}

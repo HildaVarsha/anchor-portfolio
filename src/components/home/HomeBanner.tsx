@@ -24,18 +24,18 @@ const HomeBanner = () => {
       </video>
 
       {/* Content */}
-      <div className="relative md:container mx-auto text-white px-4 md:px-0 z-10 text-center">
+      <div className="relative lg:container mx-auto text-white px-4 lg:px-0 z-10 text-center">
         <p
           data-aos="fade-up"
-          className="text-3xl md:text-5xl font-bold text-lime-500"
+          className="text-3xl lg:text-5xl font-bold text-lime-500"
         >
           We Drive Digital
         </p>
-        <p data-aos="fade-up" className="text-3xl md:text-5xl font-bold py-4">
+        <p data-aos="fade-up" className="text-3xl lg:text-5xl font-bold py-4">
           Transformation, Globally.
         </p>
         <div
-          className="flex flex-col md:flex-row items-center gap-16 mt-12"
+          className="flex flex-col lg:flex-row items-center gap-16 mt-12"
           data-aos="fade-up"
         >
           <div className="flex items-center gap-2 font-semibold text-3xl w-full">

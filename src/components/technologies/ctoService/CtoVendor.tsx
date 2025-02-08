@@ -9,7 +9,7 @@ const CtoVendor = () => {
       <div className="py-12 bg-white">
         <div className="py-12 bg-amber-100 p-8 text-slate-800 container mx-auto">
           <PageHeaderText label="What makes ITRex a reliable CTO as a Service vendor?" />
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-12">
             <div data-aos="fade-up">
               <strong>We are experienced.</strong> With over 10 years of
               experience, we specialize in delivering innovative software

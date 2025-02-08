@@ -45,7 +45,7 @@ const LowCodeAtAnchor = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl font-bold lg:container mx-auto"
           data-aos="fade-up"
         >
           Why choose to collaborate with
@@ -53,8 +53,8 @@ const LowCodeAtAnchor = () => {
         </p>
       </div>
       <div className="bg-white pt-16 text-slate-800">
-        <div className="md:container mx-auto px-4">
-          <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <div className="lg:container mx-auto px-4">
+          <div className="py-6 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
             {services?.map((service, index) => (
               <ServiceCard
                 key={index}

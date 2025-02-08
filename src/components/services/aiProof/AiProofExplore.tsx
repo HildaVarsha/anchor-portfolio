@@ -46,7 +46,7 @@ const AiProofExplore = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold lg:container"
           data-aos="fade-up"
         >
           Explore our expertise in AI PoC development.
@@ -54,7 +54,7 @@ const AiProofExplore = () => {
       </div>
       <div className="py-12 bg-white text-slate-800">
         <p
-          className="pb-6 px-4 md:px-0 md:container mx-auto"
+          className="pb-6 px-4 lg:px-0 lg:container mx-auto"
           data-aos="fade-up"
         >
           Having embraced AI long before it became mainstream, Anchor has
@@ -63,8 +63,8 @@ const AiProofExplore = () => {
           during AI PoC development.
         </p>
 
-        <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
-          <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <div className="px-4 lg:px-0 lg:container mx-auto text-slate-800">
+          <div className="py-6 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
             {services.map((service, index) => (
               <ServicesCard
                 key={index}

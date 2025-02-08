@@ -27,7 +27,7 @@ const ctoServices = [
 const CtoServiceAbout = () => {
   return (
     <div className="bg-white text-slate-800">
-      <div className="px-4 md:px-0 md:container py-16 mx-auto">
+      <div className="px-4 lg:px-0 lg:container py-16 mx-auto">
         <PageHeaderText label="Flexible, high-level virtual CTO services tailored to your needs." />
         <p className="py-4 text-lg" data-aos="fade-up">
           We assist startups and growing SMEs with technical diligence through
@@ -36,7 +36,7 @@ const CtoServiceAbout = () => {
           leadership gap, or require ongoing support from a skilled virtual CTO,
           we provide it all while remaining highly responsive to your needs.
         </p>
-        <div className="pt-4 grid grid-cols-1 md:grid-cols-2 gap-12 mb-4">
+        <div className="pt-4 grid grid-cols-1 lg:grid-cols-2 gap-12 mb-4">
           {ctoServices?.map((service, index) => (
             <div key={index} data-aos="fade-up">
               <h3 className="font-semibold text-xl pb-4" data-aos="fade-up">

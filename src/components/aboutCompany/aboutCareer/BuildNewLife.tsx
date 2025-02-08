@@ -10,9 +10,9 @@ const BuildNewLife = () => {
   ];
   4;
   return (
-    <div className="bg-white md:py-16 text-slate-800">
-      <div className="px-4 md:container mx-auto">
-        <div className="flex flex-col md:flex-row gap-4 md:gap-16">
+    <div className="bg-white lg:py-16 text-slate-800">
+      <div className="px-4 lg:container mx-auto">
+        <div className="flex flex-col lg:flex-row gap-4 lg:gap-16">
           <p data-aos="fade-up">
             If you're interested, you can relocate to Poland, Georgia, or
             Armenia. We’ll support you and your family with legal matters,
@@ -20,7 +20,7 @@ const BuildNewLife = () => {
           </p>
           <PageHeaderText label="Build a new life in a new city" />
         </div>
-        <div className="flex flex-col md:flex-row gap-4 md:gap-16 pt-6">
+        <div className="flex flex-col lg:flex-row gap-4 lg:gap-16 pt-6">
           {images.map((src, index) => (
             <Image
               key={index}

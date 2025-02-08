@@ -6,7 +6,7 @@ import React from "react";
 const SuitableJob = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         <PageHeaderText
           label="Many say they want this"
           className="text-center"
@@ -16,7 +16,7 @@ const SuitableJob = () => {
           hear from you. Browse through our vacancies and see if there’s a role
           that fits you.
         </p>
-        <div className="pt-6 bg-slate-200 p-4 md:p-16 mt-8">
+        <div className="pt-6 bg-slate-200 p-4 lg:p-16 mt-8">
           <PageHeaderText
             label="Didn’t find a suitable job?"
             className="text-center"

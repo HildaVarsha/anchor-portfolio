@@ -50,8 +50,8 @@ const devopsProcess = [
 const DevopsProcess = () => {
   return (
     <div className="bg-white text-slate-800">
-      <div className="px-4 md:px-0 md:container py-16 mx-auto">
-        <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-12 mb-4">
+      <div className="px-4 lg:px-0 lg:container py-16 mx-auto">
+        <div className="pt-4 grid grid-cols-1 lg:grid-cols-3 gap-12 mb-4">
           {devopsProcess?.map((service, index) => (
             <div key={index} data-aos="fade-up">
               <h3 className="font-semibold text-xl pb-4" data-aos="fade-up">

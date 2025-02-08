@@ -53,27 +53,27 @@ const JavaEndToEndDev = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 md:container mx-auto">
+        <div className="px-4 lg:px-0 lg:container mx-auto">
           <p
-            className="text-2xl md:text-5xl md:w-[600px] font-bold "
+            className="text-2xl lg:text-5xl lg:w-[600px] font-bold "
             data-aos="fade-up"
           >
             End-to-end Java development services to{" "}
-            <span className="text-lime-500 text-2xl md:text-5xl  font-bold ">
+            <span className="text-lime-500 text-2xl lg:text-5xl  font-bold ">
               fulfill your needs.
             </span>
           </p>
         </div>
       </div>
       <div className="py-12 bg-white">
-        <div className="px-4 md:px-0 md:container mx-auto  text-slate-800">
+        <div className="px-4 lg:px-0 lg:container mx-auto  text-slate-800">
           <p className="pb-6" data-aos="fade-up">
             Unlock the full potential of your tech investment with our Java
             development company. We don’t just deliver clean code—we tackle your
             problems with fresh insights, adaptable Java skills, and an
             unwavering commitment to your success.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12 pt-6">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 pt-6">
             {endtoEndDev?.map((tech, index) => (
               <div key={index} data-aos="fade-up">
                 <p className="text-2xl font-semibold" data-aos="fade-up">

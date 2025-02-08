@@ -34,7 +34,7 @@ const softwareServices = [
 const SoftwareDevelopmentAbout = () => {
   return (
     <div className="bg-white text-slate-800">
-      <div className="px-4 md:px-0 md:container py-16 mx-auto">
+      <div className="px-4 lg:px-0 lg:container py-16 mx-auto">
         <PageHeaderText label="Our software development services create impactful solutions that  keep your business ahead." />
         <p className="py-4 text-lg" data-aos="fade-up">
           &quot;With over a decade of experience in delivering impactful graphic
@@ -44,7 +44,7 @@ const SoftwareDevelopmentAbout = () => {
           compelling, memorable visuals tailored to your needs. The Anchor
           Design team provides:&quot;
         </p>
-        <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="pt-4 grid grid-cols-1 lg:grid-cols-3 gap-12">
           {softwareServices.map((service, index) => (
             <div key={index} data-aos="fade-up">
               <h3 className="font-semibold text-xl pb-4" data-aos="fade-up">

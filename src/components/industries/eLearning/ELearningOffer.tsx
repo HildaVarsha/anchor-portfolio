@@ -13,22 +13,22 @@ const ELearningOffer = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="px-4 md:px-0 md:container mx-auto">
+        <div className="px-4 lg:px-0 lg:container mx-auto">
           <p
-            className="text-3xl md:text-5xl mx-auto font-bold container"
+            className="text-3xl lg:text-5xl mx-auto font-bold container"
             data-aos="fade-up"
           >
             Offering flexible
-            <span className="text-lime-500 text-3xl md:text-5xl mx-auto font-bold pl-2">
+            <span className="text-lime-500 text-3xl lg:text-5xl mx-auto font-bold pl-2">
               engagement models
             </span>
           </p>
         </div>
       </div>
       <div className="py-12 bg-white">
-        <div className="p-12  md:container mx-auto text-slate-800 bg-amber-100">
+        <div className="p-12  lg:container mx-auto text-slate-800 bg-amber-100">
           <PageHeaderText label="ITRex — retail software development company you can trust" />
-          <div className="py-6 flex flex-col md:flex-row gap-4 md:gap-16">
+          <div className="py-6 flex flex-col lg:flex-row gap-4 lg:gap-16">
             <div className="w-full">
               <div className="flex gap-4">
                 <CheckCircle className="w-20 h-20 pr-1" data-aos="fade-up" />

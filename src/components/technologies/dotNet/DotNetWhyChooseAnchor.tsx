@@ -12,7 +12,7 @@ const DotNetWhyChooseAnchor = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold container"
           data-aos="fade-up"
         >
           Why choose Anchor Informatics Ltd as your
@@ -20,7 +20,7 @@ const DotNetWhyChooseAnchor = () => {
         </p>
       </div>
       <div className="py-12  bg-white text-slate-800">
-        <div className="bg-amber-50 p-6 container mx-auto flex flex-col md:flex-row items-center gap-4 md:gap-12">
+        <div className="bg-amber-50 p-6 container mx-auto flex flex-col lg:flex-row items-center gap-4 lg:gap-12">
           <div className="w-full">
             <p data-aos="fade-up">
               Extensive experience. Our .NET developers have over 13 years of

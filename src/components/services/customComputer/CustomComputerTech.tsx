@@ -3,7 +3,7 @@ import React from "react";
 const CustomComputerTech = () => {
   return (
     <div className="bg-white pb-16 text-slate-800">
-      <div className="px-4 md:px-0 md:container mx-auto flex flex-col md:flex-row gap-4 md:gap-12">
+      <div className="px-4 lg:px-0 lg:container mx-auto flex flex-col lg:flex-row gap-4 lg:gap-12">
         <div className="w-full">
           <p className="font-semibold" data-aos="fade-up">
             Frameworks

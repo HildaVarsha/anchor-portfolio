@@ -47,7 +47,7 @@ const HomeLatestTechnology = () => {
       data-aos="fade-up"
       data-aos-easing="ease-in-sine"
     >
-      <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
+      <div className="px-4 lg:px-0 lg:container mx-auto text-slate-800">
         <div data-aos="fade-up">
           <PageHeaderText
             label={"Latest Technologies"}
@@ -62,7 +62,10 @@ const HomeLatestTechnology = () => {
         >
           <CarouselContent>
             {technologies?.map((tech, index) => (
-              <CarouselItem key={index} className="md:basis-1/1 lg:basis-1/3">
+              <CarouselItem
+                key={index}
+                className="basis-1/1 md:basis-1/2 lg:basis-1/3"
+              >
                 <div
                   data-aos-delay={(index + 1) * 200}
                   data-aos="fade-up"

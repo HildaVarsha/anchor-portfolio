@@ -4,7 +4,7 @@ import { PageHeaderText } from "../../shared";
 const IndustriesFuture = () => {
   return (
     <div className="bg-white">
-      <div className="px-4 md:px-0 md:container mx-auto py-16 text-slate-800">
+      <div className="px-4 lg:px-0 lg:container mx-auto py-16 text-slate-800">
         <PageHeaderText
           label="Let’s Create the Future Together"
           className="text-center"

@@ -10,7 +10,7 @@ interface SectionProps {
 
 const Section: React.FC<SectionProps> = ({ children, className, style }) => (
   <div className={`py-12 ${className || ""}`} style={style} data-aos="fade-up">
-    <div className="px-4 md:px-0 md:container mx-auto" data-aos="fade-up">
+    <div className="px-4 lg:px-0 lg:container mx-auto" data-aos="fade-up">
       {children}
     </div>
   </div>
@@ -29,7 +29,7 @@ const JavaEndToEndSolutions: React.FC = () => {
         }}
       >
         <p
-          className="text-2xl md:text-5xl mx-auto font-bold"
+          className="text-2xl lg:text-5xl mx-auto font-bold"
           data-aos="fade-up"
         >
           End-to-end Java solutions to{" "}
@@ -52,7 +52,7 @@ const JavaEndToEndSolutions: React.FC = () => {
 
       {/* Solutions Section */}
       <Section className="bg-white text-slate-800">
-        <div className="flex flex-col md:flex-row gap-4 p-8 md:gap-12 bg-amber-50">
+        <div className="flex flex-col lg:flex-row gap-4 p-8 lg:gap-12 bg-amber-50">
           <SolutionList
             items={[
               "Smart contracts",

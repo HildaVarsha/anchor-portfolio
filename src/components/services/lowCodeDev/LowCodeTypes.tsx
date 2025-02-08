@@ -29,7 +29,7 @@ const LowCodeTypes = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl font-bold lg:container mx-auto"
           data-aos="fade-up"
         >
           Types of low-code solutions
@@ -37,7 +37,7 @@ const LowCodeTypes = () => {
         </p>
       </div>
       <div className="bg-white pt-16 text-slate-800">
-        <div className="md:container mx-auto px-4">
+        <div className="lg:container mx-auto px-4">
           <p data-aos="fade-up">
             We leverage secure, efficient, and feature-rich low-code and no-code
             development solutions—complete with integrated backends,
@@ -45,7 +45,7 @@ const LowCodeTypes = () => {
             enterprise-grade software at a fraction of the cost of traditional
             custom development.
           </p>
-          <div className="pt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
+          <div className="pt-6 grid grid-cols-1 lg:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
             {services.map((service, index) => (
               <ServicesCard
                 key={index}

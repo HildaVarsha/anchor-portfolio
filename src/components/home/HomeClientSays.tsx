@@ -14,7 +14,7 @@ import { TESTIMONIALS } from "@/lib/constants/Testimonials";
 
 const HomeClientSays = () => {
   return (
-    <div className="px-8 md:px-0 md:container mx-auto py-12" data-aos="fade-up">
+    <div className="px-8 lg:px-0 lg:container mx-auto py-12" data-aos="fade-up">
       <Carousel className="w-full">
         <div
           data-aos="fade-up"
@@ -25,7 +25,7 @@ const HomeClientSays = () => {
         <CarouselContent className="pt-4">
           {TESTIMONIALS.map((item, index) => (
             <CarouselItem key={index}>
-              <div className="p-4 flex  flex-col md:flex-row items-center justify-between gap-12">
+              <div className="p-4 flex  flex-col lg:flex-row items-center justify-between gap-12">
                 <div
                   data-aos="fade-up"
                   className="flex items-center gap-6 w-full"
@@ -53,8 +53,8 @@ const HomeClientSays = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious data-aos="fade-up" className=" -left-1 md:-left-12" />
-        <CarouselNext data-aos="fade-up" className="right-1 md:-right-12" />
+        <CarouselPrevious data-aos="fade-up" className=" -left-1 lg:-left-12" />
+        <CarouselNext data-aos="fade-up" className="right-1 lg:-right-12" />
       </Carousel>
     </div>
   );

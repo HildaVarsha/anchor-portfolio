@@ -52,7 +52,7 @@ const services = [
 const CustomComputerAbout = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         <PageHeaderText label="Our computer vision services" />
         <p data-aos="fade-up">
           Whatever computer vision challenge you face, we're likely already
@@ -61,7 +61,7 @@ const CustomComputerAbout = () => {
           vision services deliver a rapid return on investment.
         </p>
 
-        <div className="py-6 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+        <div className="py-6 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8">
           {services.map((service, index) => (
             <ServicesCard
               key={index}

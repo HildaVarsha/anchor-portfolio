@@ -3,8 +3,8 @@ import React from "react";
 
 const SustainablePillers = () => {
   return (
-    <div className="bg-white py-8 md:pb-16 md:pt-1 text-slate-800">
-      <div className="md:container px-4 mx-auto">
+    <div className="bg-white py-8 lg:pb-16 lg:pt-1 text-slate-800">
+      <div className="lg:container px-4 mx-auto">
         <PageHeaderText label="Our Pillars" />
         <p className="py-4" data-aos="fade-up">
           At Anchor Informatics Ltd, we are dedicated to shaping a sustainable
@@ -32,7 +32,7 @@ const SustainablePillers = () => {
             delivering better results for us, our clients, and the world.
           </p>
 
-          <div className="md:pl-4 py-4">
+          <div className="lg:pl-4 py-4">
             <ul>
               <li data-aos="fade-up">
                 <strong>Gender equality -</strong> We&apos;re striving for a

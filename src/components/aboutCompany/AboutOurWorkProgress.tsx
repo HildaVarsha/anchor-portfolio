@@ -26,9 +26,9 @@ const workProgressData = [
 const AboutOurWorkProgress = () => {
   return (
     <div className="bg-lime-500 py-12">
-      <div className="px-4 md:px-0 md:container mx-auto">
+      <div className="px-4 lg:px-0 lg:container mx-auto">
         <PageHeaderText label="Our Work Process" className="text-slate-800" />
-        <div className="flex flex-col md:flex-row items-center justify-between pt-8 gap-16">
+        <div className="flex flex-col lg:flex-row items-center justify-between pt-8 gap-16">
           {workProgressData?.map(({ imgSrc, title, description }, index) => (
             <div
               key={index}

@@ -55,7 +55,7 @@ const NlpIndustry = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl font-bold lg:container mx-auto"
           data-aos="fade-up"
         >
           We create tailored
@@ -67,7 +67,7 @@ const NlpIndustry = () => {
       </div>
       <div className="py-12 bg-lime-500 ">
         <p
-          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
           We work closely with you to understand your business challenge and
@@ -75,12 +75,12 @@ const NlpIndustry = () => {
           efficient results.
         </p>
       </div>
-      <div className="mt-12 px-4 md:px-0 md:p-12 md:container mx-auto text-slate-800 bg-white flex flex-col gap-8">
+      <div className="mt-12 px-4 lg:px-0 lg:p-12 lg:container mx-auto text-slate-800 bg-white flex flex-col gap-8">
         {sections.map((section, index) => (
           <div
             key={index}
             data-aos="fade-up"
-            className="flex flex-col md:flex-row gap-4 md:gap-16 md:justify-between"
+            className="flex flex-col lg:flex-row gap-4 lg:gap-16 lg:justify-between"
           >
             <p className="font-semibold w-full" data-aos="fade-up">
               {section.title}

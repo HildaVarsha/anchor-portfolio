@@ -5,7 +5,7 @@ import React from "react";
 const Transaparency = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="px-4 md:container mx-auto flex flex-col md:flex-row gap-4 md:gap-16">
+      <div className="px-4 lg:container mx-auto flex flex-col lg:flex-row gap-4 lg:gap-16">
         <Image
           src={"/full-time-job.png"}
           alt="Full Time Job"

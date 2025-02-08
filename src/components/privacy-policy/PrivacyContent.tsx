@@ -44,11 +44,11 @@ const PrivacyContent: React.FC = () => {
         <div className="container mx-auto px-4 text-center">
           <h1
             data-aos="fade-up"
-            className="text-4xl md:text-6xl font-bold text-white"
+            className="text-4xl lg:text-6xl font-bold text-white"
           >
             Privacy Policy
           </h1>
-          <p data-aos="fade-up" className="mt-4 text-white text-lg md:text-xl">
+          <p data-aos="fade-up" className="mt-4 text-white text-lg lg:text-xl">
             Welcome to Anchor Informatics Ltd' Privacy Policy. Your privacy is
             at the heart of our business.
           </p>
@@ -56,10 +56,10 @@ const PrivacyContent: React.FC = () => {
       </div>
 
       {/* Table of Contents */}
-      <div className="container mx-auto px-4 py-8 md:py-16">
+      <div className="container mx-auto px-4 py-8 lg:py-16">
         <h2
           data-aos="fade-up"
-          className="text-2xl md:text-3xl font-semibold mb-4"
+          className="text-2xl lg:text-3xl font-semibold mb-4"
         >
           Contents
         </h2>
@@ -79,9 +79,9 @@ const PrivacyContent: React.FC = () => {
       </div>
 
       {/* Content Sections */}
-      <div className="container mx-auto px-4 py-8 md:py-16 space-y-12">
+      <div className="container mx-auto px-4 py-8 lg:py-16 space-y-12">
         <div id="purpose" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Purpose
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -93,7 +93,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="information" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             The Type of Information We Hold About You
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -104,7 +104,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="principles" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Data Protection Principles
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -115,7 +115,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="collection" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             How Do We Collect Personal Data From You?
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -126,7 +126,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="purposes" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Purposes for Which We May Use Your Personal Data
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -137,7 +137,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="marketing" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Marketing and Opting Out
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -147,7 +147,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="rights" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Your Rights in Connection with Your Personal Data
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -158,7 +158,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="sharing" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Who Will Your Personal Information Be Shared With?
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -169,7 +169,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="security" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Security of Your Personal Information
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -179,7 +179,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="transfers" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Where We Transfer Your Personal Information To
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -189,7 +189,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="retention" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             How Long Do We Keep Hold of Your Personal Information?
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -199,7 +199,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="analytics" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Google Analytics
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -210,7 +210,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="cookies" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Cookies
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -220,7 +220,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="accuracy" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Maintaining Data Accuracy
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -230,7 +230,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="links" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Links to Other Websites
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -241,7 +241,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="complaints" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             The Right to Complain
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -252,7 +252,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="changes" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Changes to Our Privacy Notice
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -262,7 +262,7 @@ const PrivacyContent: React.FC = () => {
         </div>
 
         <div id="contact" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Contacting Us
           </h3>
           <p data-aos="fade-up" className="text-lg">

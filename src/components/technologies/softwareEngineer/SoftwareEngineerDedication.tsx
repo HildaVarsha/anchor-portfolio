@@ -4,9 +4,9 @@ import React from "react";
 const SoftwareEngineerDedication = () => {
   return (
     <div className="bg-white text-slate-800">
-      <div className="px-4 md:px-0 md:container py-16 mx-auto">
+      <div className="px-4 lg:px-0 lg:container py-16 mx-auto">
         <Tabs defaultValue="projects" className="">
-          <TabsList className="flex gap-8 w-72 md:w-full overflow-auto overflow-y-hidden">
+          <TabsList className="flex gap-8 w-72 lg:w-full overflow-auto overflow-y-hidden">
             <TabsTrigger value="projects" data-aos="fade-up">
               Turnkey Projects
             </TabsTrigger>

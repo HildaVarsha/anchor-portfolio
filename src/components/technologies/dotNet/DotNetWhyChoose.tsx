@@ -6,7 +6,7 @@ import Link from "next/link";
 const DotNetWhyChoose = () => {
   return (
     <div className="py-16 bg-white">
-      <div className="px-4 md:px-0 md:container mx-auto flex flex-col md:flex-row gap-4 md:gap-12 text-slate-800">
+      <div className="px-4 lg:px-0 lg:container mx-auto flex flex-col lg:flex-row gap-4 lg:gap-12 text-slate-800">
         <div>
           <h3 className="font-semibold text-xl " data-aos="fade-up">
             Fixed price
@@ -40,7 +40,7 @@ const DotNetWhyChoose = () => {
         </div>
       </div>
       <Link href={"/contact-us"}>
-        <div className="flex items-center px-4 md:px-0 md:container mx-auto">
+        <div className="flex items-center px-4 lg:px-0 lg:container mx-auto">
           <Button className="mt-4" data-aos="fade-up">
             Hire .NET developers <ArrowRight />
           </Button>

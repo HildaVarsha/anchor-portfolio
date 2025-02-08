@@ -8,10 +8,10 @@ import Link from "next/link";
 const HostingBanner = () => {
   return (
     <div className="h-screen bg-[#02132B] relative">
-      <div className="px-4 md:px-0 md:container mx-auto flex flex-col justify-center h-full">
+      <div className="px-4 lg:px-0 lg:container mx-auto flex flex-col justify-center h-full">
         <PageHeaderText
           label="Hosting solutions tailored to elevate your online presence and meet your business needs."
-          className="w-full md:max-w-2xl"
+          className="w-full lg:max-w-2xl"
         />
         <p className="max-w-2xl py-4 z-10" data-aos="fade-up">
           &quot;Build a unique online presence and accelerate business growth
@@ -30,7 +30,7 @@ const HostingBanner = () => {
         alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
-        className="absolute md:flex top-32 right-32 animate-rotate"
+        className="absolute lg:flex top-32 right-32 animate-rotate"
       />
     </div>
   );

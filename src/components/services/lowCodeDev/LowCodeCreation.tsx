@@ -47,7 +47,7 @@ const LowCodeCreation = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl font-bold lg:container mx-auto"
           data-aos="fade-up"
         >
           How we create
@@ -58,14 +58,14 @@ const LowCodeCreation = () => {
         </p>
       </div>
       <div className="bg-white py-16 text-slate-800">
-        <div className="md:container mx-auto px-4">
+        <div className="lg:container mx-auto px-4">
           <p data-aos="fade-up">
             The Anchor Informatics Ltd team leverages our deep expertise in
             business analysis and software engineering to provide exceptional
             low-code development services to both innovative startups and
             established enterprises. Here’s how our collaboration process works:
           </p>
-          <div className="p-4 md:p-12 grid grid-cols-1 md:grid-cols-2  gap-4 md:gap-8 bg-blue-100 mt-12">
+          <div className="p-4 lg:p-12 grid grid-cols-1 lg:grid-cols-2  gap-4 lg:gap-8 bg-blue-100 mt-12">
             {services.map((service, index) => (
               <ServiceCard key={index} title={service.title} />
             ))}

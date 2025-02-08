@@ -42,7 +42,7 @@ const FinTechAbout = () => {
   ];
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         <PageHeaderText label="Powerful FinTech applications to transform financial services delivery, facet by facet" />
         <p data-aos="fade-up">
           Proficient in financial software development, we craft web and mobile
@@ -52,7 +52,7 @@ const FinTechAbout = () => {
           financial services more accessible, and guarantee top-tier security of
           financial data and operations:
         </p>
-        <div className="pt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
+        <div className="pt-16 grid grid-cols-1 lg:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
           {data?.map((category, index) => (
             <div key={index} data-aos="fade-up">
               <h1 className="font-semibold text-xl pb-8" data-aos="fade-up">

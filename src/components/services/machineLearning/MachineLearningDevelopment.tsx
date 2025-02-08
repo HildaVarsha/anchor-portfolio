@@ -61,7 +61,7 @@ const MachineLearningDevelopment = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl font-bold md:container mx-auto"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl font-bold lg:container mx-auto"
           data-aos="fade-up"
         >
           Our
@@ -73,7 +73,7 @@ const MachineLearningDevelopment = () => {
       </div>
       <div className="py-12 bg-lime-500">
         <p
-          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
           As a machine learning services provider with a team of over 230
@@ -81,7 +81,7 @@ const MachineLearningDevelopment = () => {
           leverage emerging ML opportunities to drive success for your business.
         </p>
       </div>
-      <div className="mt-12 px-4 md:px-0 md:p-12 md:container mx-auto text-slate-800 bg-white grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-16">
+      <div className="mt-12 px-4 lg:px-0 lg:p-12 lg:container mx-auto text-slate-800 bg-white grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-16">
         {sections.map((section, index) => (
           <div key={index} data-aos="fade-up">
             <h2 className="font-semibold text-lg" data-aos="fade-up">

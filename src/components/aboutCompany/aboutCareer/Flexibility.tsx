@@ -5,8 +5,8 @@ import Image from "next/image";
 const Flexibility = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4 ">
-        <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16">
+      <div className="lg:container mx-auto px-4 ">
+        <div className="flex flex-col lg:flex-row lg:justify-between gap-4 lg:gap-16">
           <div className="w-full">
             <PageHeaderText label="Flexibility and balance" />
             <p className="font-semibold" data-aos="fade-up">
@@ -32,7 +32,7 @@ const Flexibility = () => {
           data-aos="fade-up"
           className="w-full h-full object-cover py-12"
         />
-        <div className="flex flex-col md:flex-row gap-4 md:gap-16">
+        <div className="flex flex-col lg:flex-row gap-4 lg:gap-16">
           <PageHeaderText label="Opportunity and growth" className="w-full" />
           <div className="w-full">
             <p data-aos="fade-up">

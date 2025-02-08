@@ -43,7 +43,7 @@ const HomeLatestThinkings = () => {
 
   return (
     <div className="bg-white py-12" data-aos="fade-up">
-      <div className="px-4 md:px-0 md:container mx-auto text-slate-800">
+      <div className="px-4 lg:px-0 lg:container mx-auto text-slate-800">
         <div data-aos="fade-up">
           <PageHeaderText
             label={"Latest Thinkings"}
@@ -58,7 +58,10 @@ const HomeLatestThinkings = () => {
         >
           <CarouselContent>
             {technologies?.map((tech, index) => (
-              <CarouselItem key={index} className="md:basis-1/1 lg:basis-1/3">
+              <CarouselItem
+                key={index}
+                className="basis-1/1 md:basis-1/2 lg:basis-1/3"
+              >
                 <div data-aos="fade-up" className="p-1 w-full">
                   <div className="group">
                     <ImageServer

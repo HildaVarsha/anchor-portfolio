@@ -49,7 +49,7 @@ const AiProofAbout = () => {
   );
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         <PageHeaderText label="How We Can Support Your AI PoC Development" />
         <p data-aos="fade-up">
           As seasoned AI consultants with a strong background in business
@@ -59,7 +59,7 @@ const AiProofAbout = () => {
           stakeholders. To address these challenges, we employ our AI PoC (Proof
           of Concept) development process. Here's how we approach it:
         </p>
-        <div className="py-6 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+        <div className="py-6 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8">
           {services.map((service, index) => (
             <ServiceCard
               key={index}

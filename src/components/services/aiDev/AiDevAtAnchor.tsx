@@ -57,7 +57,7 @@ const AiDevAtAnchor = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold md:container"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold lg:container"
           data-aos="fade-up"
         >
           At Anchor Informatics Ltd, an AI Development
@@ -69,14 +69,14 @@ const AiDevAtAnchor = () => {
         </p>
       </div>
       <div className="py-12  bg-white">
-        <div className=" px-4 md:px-0 md:container mx-auto text-slate-800">
+        <div className=" px-4 lg:px-0 lg:container mx-auto text-slate-800">
           <p className="" data-aos="fade-up">
             Anchor Informatics Ltd is an AI development company with over a
             decade of experience. We enable you to leverage advanced AI tools
             and technologies to fuel exceptional growth.
           </p>
 
-          <div className="py-6 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+          <div className="py-6 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8">
             {services.map((service, index) => (
               <ServiceCard
                 key={index}

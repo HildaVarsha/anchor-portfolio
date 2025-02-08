@@ -42,7 +42,7 @@ const FacialRecognitionFaq = () => {
           backgroundPosition: "center",
         }}
       ></div>
-      <div className="px-4 md:px-0 md:container mx-auto py-12 text-slate-800">
+      <div className="px-4 lg:px-0 lg:container mx-auto py-12 text-slate-800">
         <Accordion type="single" collapsible className="w-full pb-6">
           {accordionItems.map(({ title, content }, index) => (
             <AccordionItem

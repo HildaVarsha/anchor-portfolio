@@ -33,7 +33,7 @@ const services = [
 const MediaAbout = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         <PageHeaderText
           label="Become a roaring success with our
 media and entertainment solutions company"
@@ -50,7 +50,7 @@ media and entertainment solutions company"
         <div className="py-6">
           {services?.map((service, index) => (
             <div
-              className="flex gap-4 md:gap-16 border-b border-slate-400 py-12"
+              className="flex gap-4 lg:gap-16 border-b border-slate-400 py-12"
               key={index}
               data-aos="fade-up"
             >

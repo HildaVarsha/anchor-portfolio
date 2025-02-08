@@ -5,7 +5,7 @@ import React from "react";
 const WhoShouldApply = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container px-4 mx-auto flex flex-col md:flex-row gap-4 md:gap-16">
+      <div className="lg:container px-4 mx-auto flex flex-col lg:flex-row gap-4 lg:gap-16">
         <div className="w-full">
           <PageHeaderText label="Who should apply" />
           <p className="font-semibold py-6">Look, this isn’t for everyone.</p>

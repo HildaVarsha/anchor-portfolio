@@ -29,7 +29,7 @@ const CtoTransform = () => {
         }}
       >
         <div
-          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold container"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold container"
           data-aos="fade-up"
         >
           <p data-aos="fade-up">See how CTO as a Service can</p>{" "}
@@ -51,7 +51,7 @@ const CtoTransform = () => {
           </p>
 
           {/* Service Options */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-12 mb-6">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-12 mb-6">
             <ServiceOption
               title="Reduced operational
 risks"

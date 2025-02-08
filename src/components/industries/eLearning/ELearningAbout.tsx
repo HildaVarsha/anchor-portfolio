@@ -28,7 +28,7 @@ const services = [
 const ELearningAbout = () => {
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4">
+      <div className="lg:container mx-auto px-4">
         <PageHeaderText label="We craft educational software for every need" />
         <p data-aos="fade-up">
           We assist clients in K-12, postsecondary, and corporate sectors to
@@ -38,7 +38,7 @@ const ELearningAbout = () => {
           features that propel online education to the next level.
         </p>
 
-        <div className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <div className="py-6 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
           {services.map((service, index) => (
             <ServicesCard
               key={index}

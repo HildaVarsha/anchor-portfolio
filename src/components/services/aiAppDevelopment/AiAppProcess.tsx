@@ -26,7 +26,7 @@ const AiAppProcess = () => {
 
   return (
     <div className="bg-white py-16 text-slate-800">
-      <div className="md:container mx-auto px-4 flex flex-col md:flex-row gap-4 md:gap-16">
+      <div className="lg:container mx-auto px-4 flex flex-col lg:flex-row gap-4 lg:gap-16">
         {processes.map((process, index) => (
           <div key={index} data-aos="fade-up">
             <p className="font-semibold text-lg text-blue-600">

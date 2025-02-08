@@ -64,8 +64,8 @@ const Nlpprocess = () => {
 
   return (
     <div className="py-16 bg-white text-slate-800">
-      <div className="px-4 md:px-0 md:container mx-auto flex flex-col md:flex-row gap-4 md:gap-16">
-        <div className="flex flex-row flex-wrap md:flex-col gap-4">
+      <div className="px-4 lg:px-0 lg:container mx-auto flex flex-col lg:flex-row gap-4 lg:gap-16">
+        <div className="flex flex-row flex-wrap lg:flex-col gap-4">
           {Object.keys(industryContent).map((industry) => (
             <button
               key={industry}

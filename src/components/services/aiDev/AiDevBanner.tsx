@@ -8,12 +8,12 @@ import Link from "next/link";
 const AiDevBanner = () => {
   return (
     <div className="h-screen bg-black relative">
-      <div className="px-4 md:px-0 md:container mx-auto flex flex-col justify-center h-full">
+      <div className="px-4 lg:px-0 lg:container mx-auto flex flex-col justify-center h-full">
         <PageHeaderText
           label="Introduction to AI Development Services"
-          className="w-full md:max-w-2xl"
+          className="w-full lg:max-w-2xl"
         />
-        <p className="w-full md:max-w-2xl py-4 z-10" data-aos="fade-up">
+        <p className="w-full lg:max-w-2xl py-4 z-10" data-aos="fade-up">
           At Anchor Informatics Ltd, our AI development services are crafted to
           support your in-house IT team by filling knowledge gaps, customizing
           off-the-shelf AI products and foundation models to suit your specific
@@ -31,7 +31,7 @@ const AiDevBanner = () => {
         alt="About Anchor Informatics Ltd"
         height={500}
         width={500}
-        className="absolute md:flex top-24 right-32"
+        className="absolute lg:flex top-24 right-32"
       />
     </div>
   );

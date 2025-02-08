@@ -13,7 +13,7 @@ const IndustriesUtilityEnergy = () => {
       />
       <div className="bg-lime-500 text-slate-800">
         <div
-          className="px-4 md:px-0 md:max-w-2xl mx-auto py-12"
+          className="px-4 lg:px-0 lg:max-w-2xl mx-auto py-12"
           data-aos="fade-up"
         >
           Digital transformation is at the heart of the future for energy and

@@ -10,9 +10,9 @@ const CareerBanner = () => {
       }}
       className="py-12 h-screen"
     >
-      <div className="px-4 md:px-0 md:container mx-auto h-full flex flex-col justify-center items-center gap-12">
+      <div className="px-4 lg:px-0 lg:container mx-auto h-full flex flex-col justify-center items-center gap-12">
         <p
-          className="text-2xl md:text-8xl font-semibold text-center"
+          className="text-2xl lg:text-8xl font-semibold text-center"
           data-aos="fade-up"
         >
           <span className="text-lime-500 ">

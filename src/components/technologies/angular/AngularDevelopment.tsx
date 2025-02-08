@@ -29,7 +29,7 @@ const AngularDevelopment = () => {
         }}
       >
         <p
-          className="px-4 md:px-0 text-2xl md:text-5xl mx-auto font-bold  md:container"
+          className="px-4 lg:px-0 text-2xl lg:text-5xl mx-auto font-bold  lg:container"
           data-aos="fade-up"
         >
           Our proven Angular development workflow –{" "}
@@ -38,7 +38,7 @@ const AngularDevelopment = () => {
       </div>
       <div className="py-12 bg-lime-500">
         <p
-          className="px-4 md:px-0 md:container mx-auto text-slate-800"
+          className="px-4 lg:px-0 lg:container mx-auto text-slate-800"
           data-aos="fade-up"
         >
           For an Angular application built with best coding practices, you need
@@ -49,7 +49,7 @@ const AngularDevelopment = () => {
       </div>
       <div className="py-12 bg-white">
         <div className="py-12 bg-blue-100 p-8 text-slate-800 container mx-auto">
-          <div className="flex flex-col md:flex-row gap-4 md:gap-12">
+          <div className="flex flex-col lg:flex-row gap-4 lg:gap-12">
             <RoleColumn
               roles={[
                 "We apply our deep knowledge of key Angular features like dependency injection, data binding, or routing",

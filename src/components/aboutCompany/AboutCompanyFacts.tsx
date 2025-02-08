@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutCompanyFacts = () => {
   return (
-    <div className="px-4 md:px-0 md:max-w-lg mx-auto py-24">
+    <div className="px-4 lg:px-0 lg:max-w-lg mx-auto py-24">
       <p
-        className="text-2xl md:text-5xl font-semibold pb-6 text-center"
+        className="text-2xl lg:text-5xl font-semibold pb-6 text-center"
         data-aos="fade-up"
       >
         <span className="text-lime-500">Key facts</span> about us

@@ -39,11 +39,11 @@ const TermsConditions: React.FC = () => {
         <div className="container mx-auto px-4 text-center">
           <h1
             data-aos="fade-up"
-            className="text-4xl md:text-6xl font-bold text-white"
+            className="text-4xl lg:text-6xl font-bold text-white"
           >
             Terms and Conditions
           </h1>
-          <p data-aos="fade-up" className="mt-4 text-white text-lg md:text-xl">
+          <p data-aos="fade-up" className="mt-4 text-white text-lg lg:text-xl">
             Welcome to Anchor Informatics Ltd. Please read these terms and
             conditions carefully before using our services.
           </p>
@@ -51,8 +51,8 @@ const TermsConditions: React.FC = () => {
       </div>
 
       {/* Table of Contents */}
-      <div className="container mx-auto px-4 py-8 md:py-16">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-4">Contents</h2>
+      <div className="container mx-auto px-4 py-8 lg:py-16">
+        <h2 className="text-2xl lg:text-3xl font-semibold mb-4">Contents</h2>
         <ul className="list-disc list-inside space-y-2 text-lg">
           {sections.map((section) => (
             <li key={section.id} data-aos="fade-up">
@@ -68,9 +68,9 @@ const TermsConditions: React.FC = () => {
       </div>
 
       {/* Content Sections */}
-      <div className="container mx-auto px-4 py-8 md:py-16 space-y-12">
+      <div className="container mx-auto px-4 py-8 lg:py-16 space-y-12">
         <div id="introduction" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Introduction
           </h3>
           <p className="text-lg" data-aos="fade-up">
@@ -81,7 +81,7 @@ const TermsConditions: React.FC = () => {
         </div>
 
         <div id="acceptance" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Acceptance of Terms
           </h3>
           <p className="text-lg" data-aos="fade-up">
@@ -92,7 +92,7 @@ const TermsConditions: React.FC = () => {
         </div>
 
         <div id="modifications" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Modifications to Terms
           </h3>
           <p className="text-lg" data-aos="fade-up">
@@ -103,7 +103,7 @@ const TermsConditions: React.FC = () => {
         </div>
 
         <div id="services" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Our Services
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -114,7 +114,7 @@ const TermsConditions: React.FC = () => {
         </div>
 
         <div id="user-obligations" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             User Obligations
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -124,7 +124,7 @@ const TermsConditions: React.FC = () => {
         </div>
 
         <div id="prohibited-activities" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Prohibited Activities
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -135,7 +135,7 @@ const TermsConditions: React.FC = () => {
         </div>
 
         <div id="intellectual-property" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Intellectual Property Rights
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -146,7 +146,7 @@ const TermsConditions: React.FC = () => {
         </div>
 
         <div id="third-party-links" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Third-Party Links
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -157,7 +157,7 @@ const TermsConditions: React.FC = () => {
         </div>
 
         <div id="disclaimer" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Disclaimer of Warranties
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -168,7 +168,7 @@ const TermsConditions: React.FC = () => {
         </div>
 
         <div id="liability" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Limitation of Liability
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -179,7 +179,7 @@ const TermsConditions: React.FC = () => {
         </div>
 
         <div id="indemnification" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Indemnification
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -190,7 +190,7 @@ const TermsConditions: React.FC = () => {
         </div>
 
         <div id="termination" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Termination
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -200,7 +200,7 @@ const TermsConditions: React.FC = () => {
         </div>
 
         <div id="governing-law" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Governing Law
           </h3>
           <p data-aos="fade-up" className="text-lg">
@@ -211,7 +211,7 @@ const TermsConditions: React.FC = () => {
         </div>
 
         <div id="contact" className="space-y-4">
-          <h3 data-aos="fade-up" className="text-xl md:text-2xl font-semibold">
+          <h3 data-aos="fade-up" className="text-xl lg:text-2xl font-semibold">
             Contact Information
           </h3>
           <p data-aos="fade-up" className="text-lg">
