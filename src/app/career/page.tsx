@@ -6,6 +6,7 @@ import {
   CareerEthicalEngineer,
   CareerFlexibility,
   CareerFullTimeJob,
+  CareerJobs,
   CareerJoinOurTeam,
   CareerLifeAtAnchor,
 } from "@/components/career";
@@ -34,6 +35,7 @@ const Career = () => {
       <CareerFullTimeJob />
       <CareerEthicalEngineer />
       <CareerFlexibility />
+      <CareerJobs />
       <CareerBuildNewLife />
     </div>
   );

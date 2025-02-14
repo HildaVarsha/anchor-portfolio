@@ -214,7 +214,7 @@ const TopNavbar = () => {
             pathname === "/career" ? "text-lime-500" : "hover:text-lime-500"
           }`}
         >
-          Career
+          Careers
         </Link>
         <Link href={"/contact-us"}>
           <Button variant={pathname === "/contact-us" ? "default" : "outline"}>
@@ -292,7 +292,7 @@ const TopNavbar = () => {
                 pathname === "/career" ? "text-lime-500" : "hover:text-lime-500"
               }`}
             >
-              Career
+              Careers
             </Link>
           </div>
 
