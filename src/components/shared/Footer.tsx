@@ -13,7 +13,9 @@ import {
 } from "lucide-react";
 
 const Footer = () => {
-  const phoneNumbers = [{ label: "+020 3490 9639", href: "tel:+02034909639" }];
+  const phoneNumbers = [
+    { label: "+44-20 3490 9639", href: "tel:+442034909639" },
+  ];
   const emails = [
     {
       label: "info@anchorinformatics.co.uk",
@@ -82,7 +84,7 @@ const Footer = () => {
               London
             </p>
             <p className="pt-2 text-sm" data-aos="fade-up">
-              {"292-294 Plashet Grove,London,England,E6 1DQ".replace(
+              {"292-294 Plashet Grove,London,England,E6 1DQ.".replace(
                 /,/g,
                 ", "
               )}
@@ -129,10 +131,14 @@ const Footer = () => {
             </Link>
           </div>
 
+          <p className="text-sm text-gray-500 pt-2">
+            Register Number - 12438002
+          </p>
           <p className="text-sm text-gray-500 pt-1">
             © 2025 Anchor Informatics Ltd. All rights reserved
           </p>
         </div>
+
         <div className="flex items-center gap-4 mt-8 lg:mt-0">
           <Link href={"/"}>
             <FacebookIcon className="w-6 h-6 text-lime-500" />
