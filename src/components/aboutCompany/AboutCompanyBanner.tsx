@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const AboutCompanyBanner = () => {
   return (
-    <div className="bg-amber-300 h-[600px] pt-24 relative">
+    <div className="bg-lime-300 h-[600px] pt-24 relative">
       <div className="px-4 lg:px-0 lg:container mx-auto text-slate-800 flex flex-col justify-center h-full">
         <div>
           <p className="text-3xl lg:text-5xl font-bold" data-aos="fade-up">
